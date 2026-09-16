@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "YYYY-MM-DD_vX.Y_alias",
+  "kind": "native-collection",
+  "bananeVersion": "X.Y.Z",
+  "mode": "Natif",
+  "createdAt": "YYYY-MM-DDTHH:MM:SS+02:00",
+  "sourceProjectAlias": "non-sensitive-alias",
+  "status": "raw-unqualified",
+  "files": [
+    {
+      "name": "archive.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 0,
+      "sha256": "",
+      "storage": {
+        "type": "github-release-asset",
+        "releaseTag": "",
+        "assetName": "archive.7z"
+      }
+    }
+  ],
+  "coverage": {
+    "parts": [],
+    "visitCount": null,
+    "cutCount": null,
+    "continuousSequences": []
+  },
+  "qualification": {
+    "lidarCompletenessChecked": false,
+    "segmentContinuityChecked": false,
+    "humanReferenceQualification": "not-reviewed",
+    "trainingUsable": false,
+    "offlineEvaluationUsable": false
+  },
+  "notes": []
+}
