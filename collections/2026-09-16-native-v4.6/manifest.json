@@ -18,8 +18,14 @@
     "storage": {
       "type": "github-release-asset",
       "releaseTag": "native-v4.6-2026-09-16",
+      "releaseId": 389800653,
+      "assetId": 567662835,
       "assetName": "banane-native-v4.6-2026-09-16.7z",
-      "uploaded": false
+      "assetSizeBytes": 34509008,
+      "githubDigest": "sha256:32e48aa79de988ab8bb6efc65d7038d4e27535e2a5f2486768438616f518bfc0",
+      "uploaded": true,
+      "digestVerified": true,
+      "releaseUrl": "https://github.com/StoryNow30/banane-data/releases/tag/native-v4.6-2026-09-16"
     }
   },
   "qualification": {
