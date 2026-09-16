@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "pair-arbitration-benchmark-v1",
+  "status": "frozen",
+  "createdBy": "Grok independent benchmark preparation",
+  "verifiedBy": "Astra",
+  "scope": {
+    "cuts": 110,
+    "develop": 93,
+    "noTuningHoldout": 17,
+    "candidateSpace": "seed x surface x alternative"
+  },
+  "benchmarkJson": {
+    "name": "benchmark.json",
+    "sizeBytes": 1397245,
+    "sha256": "3a700609dc264e2df8eae515ff9289a834c402023b4d80f222f32f60d0326ecf"
+  },
+  "sourceArchive": {
+    "name": "pair-arbitration-benchmark-v1.zip",
+    "sizeBytes": 132517,
+    "sha256": "90d9a83667dfba73207ee9e37a46718d86c8ef969c0d053509d7320dd08c291d"
+  },
+  "frozenCounts": {
+    "currentEngineCorrect": 30,
+    "wrongChoice": 38,
+    "abstainedButRecoverable": 36,
+    "notRecoverableWithCurrentCandidates": 6
+  },
+  "rules": [
+    "No regeneration or tuning of the frozen benchmark.",
+    "Human final is oracle/evaluation only, never a pre-correction runtime feature.",
+    "The no-tuning holdout is not a blind unseen final test because those cuts were previously inspected.",
+    "Scene units must not be called millimetres or physical gauge without independent calibration."
+  ]
+}
