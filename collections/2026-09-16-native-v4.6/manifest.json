@@ -3,12 +3,12 @@
   "kind": "native-collection",
   "bananeVersion": "4.6.0",
   "date": "2026-09-16",
-  "status": "raw-archive-registered",
+  "status": "ingested-structure-verified",
   "source": "ESV LiDAR native-mode field collection",
   "operatorNotes": {
     "representativeVariety": true,
     "containsDecorrelationCases": true,
-    "notes": "Collection terrain annoncée comme volontairement variée, avec de nombreux cas de décorrélation de scan et corrections humaines associées. Qualification détaillée à effectuer après ingestion."
+    "notes": "Collection terrain annoncée comme volontairement variée, avec de nombreux cas de décorrélation de scan et corrections humaines associées. Qualification humaine détaillée et replay candidats restent à effectuer."
   },
   "archive": {
     "preferredFileName": "banane-native-v4.6-2026-09-16.7z",
@@ -28,11 +28,28 @@
       "releaseUrl": "https://github.com/StoryNow30/banane-data/releases/tag/native-v4.6-2026-09-16"
     }
   },
+  "structuralAudit": {
+    "independentlyCrossChecked": true,
+    "jsonFiles": 18,
+    "sessions": 3,
+    "visits": 679,
+    "distinctCuts": 611,
+    "sessionsFinished": 3,
+    "commandSentByBananeCount": 0,
+    "serverConfirmedCount": 0,
+    "closureUsablePairs": 76,
+    "humanCandidateObserved": 525,
+    "humanReliableObservationAssociations": 519,
+    "humanTimingUncertain": 19,
+    "humanMultiIntent": 4,
+    "reviewedHumanReferences": 0,
+    "notes": "Compteurs structurels recoupés par analyses indépendantes. Les 519 associations humaines sont fiables au sens observationnel uniquement et ne sont pas promues en vérité d'entraînement. Les compteurs snapshot/capture/chunk appartiennent à des étages de qualification différents et ne doivent pas être fusionnés."
+  },
   "qualification": {
-    "ingested": false,
-    "segmentsChecked": false,
-    "continuityChecked": false,
-    "duplicateCheck": false,
+    "ingested": true,
+    "segmentsChecked": true,
+    "continuityChecked": true,
+    "duplicateCheck": true,
     "humanReferenceQualification": false,
     "candidateReplay": false,
     "trainingEligible": false
