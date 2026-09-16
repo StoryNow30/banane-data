@@ -3,7 +3,7 @@
   "kind": "native-collection",
   "bananeVersion": "4.6.0",
   "date": "2026-09-16",
-  "status": "ingested-structure-verified",
+  "status": "both-raw-archives-registered-and-structurally-audited",
   "source": "ESV LiDAR native-mode field collection",
   "operatorNotes": {
     "representativeVariety": true,
@@ -28,8 +28,36 @@
       "releaseUrl": "https://github.com/StoryNow30/banane-data/releases/tag/native-v4.6-2026-09-16"
     }
   },
+  "additionalArchives": [
+    {
+      "role": "final-daily-collection-raw",
+      "preferredFileName": "banane-native-v4.6-2026-09-16-final.7z",
+      "uploadedOriginalName": "collecte native 2.7z",
+      "sizeBytes": 56657500,
+      "sha256": "7cac220bd6e097f14ff1d39cbc431e7c6e918b819bdf521883bc33847ec12c66",
+      "storage": {
+        "type": "github-release-asset",
+        "releaseTag": "native-v4.6-2026-09-16",
+        "releaseId": 389800653,
+        "assetId": 568307664,
+        "assetName": "banane-native-v4.6-2026-09-16-final.7z",
+        "assetSizeBytes": 56657500,
+        "githubDigest": "sha256:7cac220bd6e097f14ff1d39cbc431e7c6e918b819bdf521883bc33847ec12c66",
+        "uploaded": true,
+        "digestVerified": true,
+        "releaseUrl": "https://github.com/StoryNow30/banane-data/releases/tag/native-v4.6-2026-09-16"
+      },
+      "qualification": {
+        "registered": true,
+        "structuralAudit": true,
+        "candidateReplay": false,
+        "trainingEligible": false
+      }
+    }
+  ],
   "structuralAudit": {
     "independentlyCrossChecked": true,
+    "scope": "original archive only",
     "jsonFiles": 18,
     "sessions": 3,
     "visits": 679,
@@ -43,7 +71,47 @@
     "humanTimingUncertain": 19,
     "humanMultiIntent": 4,
     "reviewedHumanReferences": 0,
-    "notes": "Compteurs structurels recoupés par analyses indépendantes. Les 519 associations humaines sont fiables au sens observationnel uniquement et ne sont pas promues en vérité d'entraînement. Les compteurs snapshot/capture/chunk appartiennent à des étages de qualification différents et ne doivent pas être fusionnés."
+    "notes": "Compteurs structurels recoupés par analyses indépendantes pour l'archive initiale uniquement. Les 519 associations humaines sont fiables au sens observationnel uniquement et ne sont pas promues en vérité d'entraînement."
+  },
+  "finalArchiveStructuralAudit": {
+    "scope": "final complementary archive only",
+    "jsonFiles": 33,
+    "nativeJsonFiles": 31,
+    "nonNativeSidecars": 2,
+    "sessions": 8,
+    "sessionsFinished": 8,
+    "visits": 1486,
+    "distinctExactTargets": 1413,
+    "serializedEvents": 36866,
+    "cloudObjectsUnion": 4252,
+    "lidarChunks": 2656,
+    "captureSummaries": 1596,
+    "compactRefsChecked": 1412988,
+    "invalidCompactRefs": 0,
+    "closureUsablePairs": 57,
+    "humanCandidateObserved": 1308,
+    "humanReliableObservationAssociations": 1269,
+    "humanTimingUncertain": 86,
+    "commandSentByBananeCount": 0,
+    "serverConfirmedCount": 0,
+    "trainingEligibleCount": 0,
+    "degradedSession": {
+      "sessionId": "0c58c033-f2e7-4aa5-ad8c-80b081a83932",
+      "droppedEvents": 65,
+      "queueDepthMax": 512,
+      "degradationPeak": "METADATA_ONLY",
+      "lastExplicitlyLosslessSnapshotVisits": 246,
+      "pairComparableAtLosslessSnapshot": 18,
+      "pairComparableFinal": 18
+    },
+    "notes": "Les exports sont structurellement cohérents et les objets LiDAR de chaque session se reconstruisent exactement par union des segments. Une session signale toutefois 65 événements perdus après le dernier snapshot explicitement sans perte ; sa tranche tardive doit être isolée dans toute analyse causale stricte. Les 1269 associations humaines restent observationnelles uniquement."
+  },
+  "combinedDaySummary": {
+    "sessions": 11,
+    "visits": 2165,
+    "distinctExactTargets": 2024,
+    "exactTargetOverlapBetweenArchives": 0,
+    "partCutOverlapIgnoringPageAndFrame": 1
   },
   "qualification": {
     "ingested": true,
@@ -52,7 +120,9 @@
     "duplicateCheck": true,
     "humanReferenceQualification": false,
     "candidateReplay": false,
-    "trainingEligible": false
+    "trainingEligible": false,
+    "finalArchiveRegistered": true,
+    "finalArchiveStructuralAudit": true
   },
   "rules": {
     "rawArchiveImmutable": true,
