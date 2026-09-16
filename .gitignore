@@ -1,0 +1,15 @@
+# Large raw collection archives should live in Releases or Git LFS, not ordinary Git.
+collections/**/*.7z
+collections/**/*.zip
+collections/**/*.tar
+collections/**/*.tar.gz
+collections/**/*.rar
+
+# Local extraction / scratch directories
+**/_extracted/
+**/_scratch/
+**/*.tmp
+
+# OS noise
+.DS_Store
+Thumbs.db
