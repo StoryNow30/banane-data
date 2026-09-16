@@ -6,7 +6,7 @@ Ce dépôt privé centralise les métadonnées des collectes et benchmarks Banan
 
 | ID | Version | Date | Type | Statut | Archive |
 |---|---|---|---|---|---|
-| `2026-09-16-native-v4.6` | Banane 4.6.0 | 2026-09-16 | Natif terrain | ingérée, structure/segments/continuité/doublons vérifiés ; qualification humaine et replay candidats en attente | Release `native-v4.6-2026-09-16` → `banane-native-v4.6-2026-09-16.7z` |
+| `2026-09-16-native-v4.6` | Banane 4.6.0 | 2026-09-16 | Natif terrain | archive initiale ingérée et auditée structurellement ; archive finale complémentaire enregistrée, audit structurel en attente ; qualification humaine et replay candidats en attente | Release `native-v4.6-2026-09-16` → `banane-native-v4.6-2026-09-16.7z` + `banane-native-v4.6-2026-09-16-final.7z` |
 
 ## Benchmarks
 
