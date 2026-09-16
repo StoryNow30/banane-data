@@ -1,0 +1,40 @@
+{
+  "id": "2026-09-16-native-v4.6",
+  "kind": "native-collection",
+  "bananeVersion": "4.6.0",
+  "date": "2026-09-16",
+  "status": "raw-archive-registered",
+  "source": "ESV LiDAR native-mode field collection",
+  "operatorNotes": {
+    "representativeVariety": true,
+    "containsDecorrelationCases": true,
+    "notes": "Collection terrain annoncée comme volontairement variée, avec de nombreux cas de décorrélation de scan et corrections humaines associées. Qualification détaillée à effectuer après ingestion."
+  },
+  "archive": {
+    "preferredFileName": "banane-native-v4.6-2026-09-16.7z",
+    "uploadedOriginalName": "collecte native banane 4.7z",
+    "sizeBytes": 34509008,
+    "sha256": "32e48aa79de988ab8bb6efc65d7038d4e27535e2a5f2486768438616f518bfc0",
+    "storage": {
+      "type": "github-release-asset",
+      "releaseTag": "native-v4.6-2026-09-16",
+      "assetName": "banane-native-v4.6-2026-09-16.7z",
+      "uploaded": false
+    }
+  },
+  "qualification": {
+    "ingested": false,
+    "segmentsChecked": false,
+    "continuityChecked": false,
+    "duplicateCheck": false,
+    "humanReferenceQualification": false,
+    "candidateReplay": false,
+    "trainingEligible": false
+  },
+  "rules": {
+    "rawArchiveImmutable": true,
+    "renameAllowedWithoutContentModification": true,
+    "humanFinalNotAutomaticallyTrainingTruth": true,
+    "sceneUnitsAreNotMillimetresWithoutCalibration": true
+  }
+}
