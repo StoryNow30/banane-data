@@ -1,20 +1,23 @@
-# Banane Data Registry
+# Banane Data Registry — Index
 
-Index central des jeux de données et collectes utilisés par le projet Banane.
+Ce dépôt privé centralise les métadonnées des collectes et benchmarks Banane. Les grosses archives restent hors Git classique et sont stockées comme assets de Release ou via Git LFS.
 
-## Collections terrain
+## Collectes terrain
 
-Aucune collection n'est encore enregistrée.
+| ID | Version | Date | Type | Statut | Archive |
+|---|---|---|---|---|---|
+| `2026-09-16-native-v4.6` | Banane 4.6.0 | 2026-09-16 | Natif terrain | brute enregistrée, qualification à faire | Release `native-v4.6-2026-09-16` → `banane-native-v4.6-2026-09-16.7z` |
 
-## Benchmarks gelés
+## Benchmarks
 
-- `pair-arbitration-benchmark-v1` — benchmark Pair Arbitration V1, 110 cuts, SHA-256 du `benchmark.json` : `3a700609dc264e2df8eae515ff9289a834c402023b4d80f222f32f60d0326ecf`.
+| ID | Contenu | Statut |
+|---|---|---|
+| `pair-arbitration-benchmark-v1` | 110 cuts, 93 develop + 17 no-tuning holdout | gelé / référence indépendante |
 
 ## Règles
 
-- Les données brutes sont immuables après enregistrement.
-- Chaque archive doit avoir un SHA-256 vérifié.
-- Les grosses archives ne sont pas commitées dans Git classique ; elles sont stockées comme assets de Release ou via LFS.
-- Les analyses, sous-corpus et dérivés sont séparés des données brutes.
-- Une réserve « no-tuning » ne doit pas être utilisée pour régler une politique.
-- Ne stocker ici que des données dont l'externalisation vers GitHub privé est autorisée.
+- Une archive brute est identifiée par son nom, sa taille et son SHA-256.
+- Ne jamais modifier une archive brute après enregistrement de son SHA-256.
+- Une transformation, fusion, extraction ou qualification produit un nouvel artefact avec son propre SHA-256.
+- Les grosses archives ne doivent pas être ajoutées comme blobs Git ordinaires.
+- Une correction humaine Natif doit être qualifiée avant tout usage comme vérité d'entraînement.
