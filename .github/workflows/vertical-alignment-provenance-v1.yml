@@ -9,6 +9,7 @@ on:
       - 'tools/run_vertical_alignment_provenance_v1.js'
       - 'tools/expand_oversize_cloud_shards.js'
       - 'tools/extract_vertical_alignment_boundary_v1.js'
+      - 'tools/classify_materialized_rsf_failures_v1.js'
 
 permissions:
   contents: read
@@ -66,21 +67,13 @@ jobs:
               subprocess.run(['python','banane-data/tools/reconstruct_materialized_json.py',str(idx),'-o',str(dest)],check=True)
           print(json.dumps({'sources':sources},ensure_ascii=False,indent=2))
           PY
-      - name: Replay exact RSF V1 failure-family method on materialized source exports
+      - name: Apply frozen RSF V1 failure taxonomy to the 63 materialized failure payloads
         run: |
-          node rsf-method/tools/running-surface-failure-lab.cjs \
-            --corpus historical-original reconstructed/historical \
-            --corpus final-complementary reconstructed/final \
-            --output rsf-materialized.json
-      - name: Assert minority mechanism reproduction
-        run: |
-          node - <<'NODE'
-          const x=require('./rsf-materialized.json');
-          const f=x.summary.failureFamilies;
-          if(x.summary.rails!==239 || x.summary.cohorts.failure!==63 || x.summary.cohorts.control!==176) throw Error(JSON.stringify(x.summary.cohorts));
-          if(f['aucun-support-nulle-part-sur-la-grille']!==56 || f['support-ailleurs-mais-perte-nettement-superieure']!==5 || f['raffinement-a-quitte-le-support']!==2) throw Error(JSON.stringify(f));
-          console.log(JSON.stringify(f));
-          NODE
+          node runner/tools/classify_materialized_rsf_failures_v1.js \
+            --root reconstructed \
+            --banane banane \
+            --rsf-method rsf-method \
+            --output rsf-failure-families-materialized.json
       - name: Extract full-session context around 0c58 visitIndex 245
         run: |
           node runner/tools/extract_vertical_alignment_boundary_v1.js \
@@ -96,6 +89,6 @@ jobs:
           name: vertical-alignment-provenance-v1-result
           path: |
             provenance-result.json
-            rsf-materialized.json
+            rsf-failure-families-materialized.json
             boundary-context.json
           if-no-files-found: error
