@@ -12,7 +12,6 @@ const BANANE=path.resolve(arg('--banane')||'../banane');
 const OUT=path.resolve(arg('--output')||'provenance-result.json');
 const DATA_COMMIT='d541686d3a98569125cdbdb261ef121c9f533d6a';
 const BASE_COMMIT='52d4f529557641dd34d1c2296722e937c48702d0';
-const FAILURE_REASON='Plan de roulement non estimable.';
 const C=require(path.join(BANANE,'vendor/capture-core.js'));
 const G=require(path.join(BANANE,'src/geometry.js'));
 const N=require(path.join(BANANE,'tools/native-replay.cjs'));
@@ -24,8 +23,6 @@ const finite=Number.isFinite;
 function loadJson(p){return JSON.parse(fs.readFileSync(p,'utf8'));}
 function canonical(v){if(Array.isArray(v))return'['+v.map(canonical).join(',')+']';if(v&&typeof v==='object')return'{'+Object.keys(v).sort().map(k=>JSON.stringify(k)+':'+canonical(v[k])).join(',')+'}';return JSON.stringify(v);}
 function stat(vals){return LAB.stats(vals.filter(finite));}
-function median(vals){return stat(vals).median;}
-function idKey(k){return `${k.sessionId}|${k.visitId}|${k.side}`;}
 function compactRef(r){return{sessionId:r.identity.sessionId,visitId:r.identity.visitId,visitIndex:r.identity.visitIndex,part:r.identity.part,cut:r.identity.cut,side:r.identity.side,cohort:r.identity.cohort};}
 function dist(a,b){return Math.hypot(a[0]-b[0],a[1]-b[1],a[2]-b[2]);}
 function dot(a,b){return a.reduce((s,x,i)=>s+x*b[i],0);}
@@ -60,20 +57,45 @@ function allIndices(){
   return out;
 }
 
+function loadNode(node){
+  if(!node)return null;
+  if(node.kind==='single-json')return loadJson(path.join(DATA,node.file.path));
+  if(node.kind==='array-shards'){
+    const out=[];
+    for(const s of node.shards||[]){
+      if(s?.oversizeItem)out.push(loadNode(s.node));
+      else out.push(...loadJson(path.join(DATA,s.path)));
+    }
+    if(out.length!==node.length)throw Error(`array length mismatch ${out.length} != ${node.length}`);
+    return out;
+  }
+  if(node.kind==='object-shards'){
+    const out={};
+    for(const s of node.shards||[])Object.assign(out,loadJson(path.join(DATA,s.path)));
+    for(const [k,v] of Object.entries(node.largeEntries||{}))out[k]=loadNode(v);
+    if(Object.keys(out).length!==node.keys)throw Error(`object key mismatch ${Object.keys(out).length} != ${node.keys}`);
+    return out;
+  }
+  if(node.kind==='scalar-text-parts'){
+    const text=(node.parts||[]).map(p=>fs.readFileSync(path.join(DATA,p.path),'utf8')).join('');
+    return JSON.parse(text);
+  }
+  throw Error(`unsupported materialized node ${node.kind}`);
+}
+
 function loadRootObject(entry){
   const rep=entry.idx.semanticRepresentation;
   if(rep.kind!=='object-shards')throw Error(`unsupported root ${rep.kind} ${entry.sourceName}`);
   const out={};
   for(const s of rep.shards)Object.assign(out,loadJson(path.join(DATA,s.path)));
+  for(const [k,node] of Object.entries(rep.largeEntries||{})){
+    if(k==='clouds')continue;
+    out[k]=loadNode(node);
+  }
   return out;
 }
 
-function buildIndexByArchiveName(entries){
-  const m=new Map();
-  for(const e of entries)m.set(`${e.archive}|${e.sourceName}`,e);
-  return m;
-}
-
+function buildIndexByArchiveName(entries){const m=new Map();for(const e of entries)m.set(`${e.archive}|${e.sourceName}`,e);return m;}
 function sourceBasename(s){return path.basename(String(s).replaceAll('\\','/'));}
 
 function locateVisitPayloads(registry,entries){
@@ -86,6 +108,7 @@ function locateVisitPayloads(registry,entries){
     let raw=rootCache.get(entry.indexPath);
     if(!raw){raw=loadRootObject(entry);rootCache.set(entry.indexPath,raw);}
     if(raw.session?.id!==cap.key.sessionId)throw Error(`session mismatch ${name}`);
+    if(!raw.dictionaries||!Array.isArray(raw.records))throw Error(`records/dictionaries missing after materialized load ${name}`);
     const deref=N.derefer(raw.dictionaries);
     const rec=raw.records.find(r=>r.visitId===cap.key.visitId);
     if(!rec)throw Error(`visit missing ${cap.key.visitId} in ${name}`);
@@ -96,7 +119,7 @@ function locateVisitPayloads(registry,entries){
     if(!ge||ge.status!=='comparable-candidate')throw Error(`eligibility mismatch ${cap.key.part}/${cap.key.cut}/${cap.key.side}`);
     const snap=snaps.find(s=>s.snapshotId===ge.snapshotId);
     if(!snap?.rail)throw Error(`snapshot missing ${ge.snapshotId}`);
-    partial.push({cap,entry,rawMeta:{segment:raw.segment??null,sessionMetrics:raw.session?.metrics??null},identity,ge,snap,chunkIds:[...(ge.chunkIds||[])]});
+    partial.push({cap,entry,identity,ge,snap,chunkIds:[...(ge.chunkIds||[])]});
   }
   return{partial,rootFiles:[...rootCache.keys()].sort()};
 }
@@ -142,10 +165,8 @@ function reconstructPayloads(partial,chunks){
       railInitialState:p.snap.rail,
       snapshot:{snapshotId:p.ge.snapshotId,criteriaVersion:p.ge.criteriaVersion??null},
       chunkRefs:[...p.chunkIds],chunks:cs,
-      provenance:{archive,corpus:p.cap.key.corpus,sourceFile:p.entry.sourceName,snapshotId:p.ge.snapshotId,captureId:p.ge.captureId??null,pointsSupplied:cs.reduce((n,c)=>n+c.points.length,0),materializedDataCommit:DATA_COMMIT,
-        chunkMaterializedSources:p.chunkIds.map(id=>({chunkId:id,occurrences:chunks.found[archive].get(id).occurrences}))}
+      provenance:{archive,corpus:p.cap.key.corpus,sourceFile:p.entry.sourceName,snapshotId:p.ge.snapshotId,captureId:p.ge.captureId??null,pointsSupplied:cs.reduce((n,c)=>n+c.points.length,0),materializedDataCommit:DATA_COMMIT,chunkMaterializedSources:p.chunkIds.map(id=>({chunkId:id,occurrences:chunks.found[archive].get(id).occurrences}))}
     };
-    /* integrity-only compatibility with sealed capsule hash; referenceStatus is never retained in analysis/output */
     const integritySnapshot={snapshotId:p.ge.snapshotId,criteriaVersion:p.ge.criteriaVersion??null,referenceStatus:p.ge.referenceStatus??null};
     const checkPayload={key:payload.key,target:payload.target,railInitialState:payload.railInitialState,snapshot:integritySnapshot,chunkRefs:payload.chunkRefs,chunks:payload.chunks};
     const h=CAP.shaOf(checkPayload),ok=h===p.cap.payloadSha256;
@@ -164,37 +185,34 @@ function traceRail(payload){
 }
 function augment(payload){
   const a=LAB.analyzeRail(payload),vp=visiblePoints(payload),tr=traceRail(payload);
-  const perChunkRaw=payload.chunks.map(c=>{const zs=[];for(let i=0;i<c.points.length;i++)if(c.visible?.[i]!==false)zs.push(c.points[i][2]);return{chunkId:c.chunkId,rawSceneZ:stat(zs)};});
   a.rawSceneZStatistics=stat(vp.map(p=>p[2]));
-  a.perChunkRawSceneZ=perChunkRaw;
+  a.perChunkRawSceneZ=payload.chunks.map(c=>{const zs=[];for(let i=0;i<c.points.length;i++)if(c.visible?.[i]!==false)zs.push(c.points[i][2]);return{chunkId:c.chunkId,rawSceneZ:stat(zs)};});
   a.engineTrace=tr;
   a.sourceProvenance.materializedDataCommit=DATA_COMMIT;
   a.sourceProvenance.materializedChunkSources=payload.provenance.chunkMaterializedSources;
-  delete a.sourceProvenance.explicitTimestamp;
   return a;
 }
 
 function addContexts(rails){
   const groups=new Map();
-  for(const r of rails){const k=`${r.identity.sessionId}|${r.identity.side}`;(groups.get(k)||groups.set(k,[]).get(k)).push(r);}
+  for(const r of rails){const k=`${r.identity.sessionId}|${r.identity.side}`;if(!groups.has(k))groups.set(k,[]);groups.get(k).push(r);}
+  const cmp=(a,b)=>({from:compactRef(a),to:compactRef(b),visitIndexDelta:b.identity.visitIndex-a.identity.visitIndex,profileOriginDisplacement:dist(a.profileOrigin,b.profileOrigin),axisOrientationDeltaRadians:{x:angle(a.profileAxes.x,b.profileAxes.x),y:angle(a.profileAxes.y,b.profileAxes.y),z:angle(a.profileAxes.z,b.profileAxes.z)},matrixMaxAbsDelta:matrixDiff(a.matrixAudit.providedProfileLocalToSceneRelative,b.matrixAudit.providedProfileLocalToSceneRelative),projectedCloudMedianDelta:(b.sceneProjectedCloudStatistics?.median??NaN)-(a.sceneProjectedCloudStatistics?.median??NaN),cloudContourMedianGapDelta:(b.cloudContourRelation?.medianDifference??NaN)-(a.cloudContourRelation?.medianDifference??NaN)});
   for(const xs of groups.values()){
     xs.sort((a,b)=>a.identity.visitIndex-b.identity.visitIndex||a.identity.cut-b.identity.cut);
     for(let i=0;i<xs.length;i++){
-      const cmp=(a,b)=>({from:compactRef(a),to:compactRef(b),visitIndexDelta:b.identity.visitIndex-a.identity.visitIndex,profileOriginDisplacement:dist(a.profileOrigin,b.profileOrigin),axisOrientationDeltaRadians:{x:angle(a.profileAxes.x,b.profileAxes.x),y:angle(a.profileAxes.y,b.profileAxes.y),z:angle(a.profileAxes.z,b.profileAxes.z)},matrixMaxAbsDelta:matrixDiff(a.matrixAudit.providedProfileLocalToSceneRelative,b.matrixAudit.providedProfileLocalToSceneRelative),projectedCloudMedianDelta:(b.sceneProjectedCloudStatistics?.median??NaN)-(a.sceneProjectedCloudStatistics?.median??NaN),cloudContourMedianGapDelta:(b.cloudContourRelation?.medianDifference??NaN)-(a.cloudContourRelation?.medianDifference??NaN)});
       xs[i].neighborContinuityContext={previous:i?cmp(xs[i-1],xs[i]):null,next:i+1<xs.length?cmp(xs[i],xs[i+1]):null,scope:'selected 239 rails only'};
       if(xs[i].identity.cohort==='failure'){
-        const controls=xs.filter(r=>r.identity.cohort==='control');
-        const nearest=controls.map(c=>({c,d:Math.abs(c.identity.visitIndex-xs[i].identity.visitIndex)})).sort((a,b)=>a.d-b.d)[0];
+        const nearest=xs.filter(r=>r.identity.cohort==='control').map(c=>({c,d:Math.abs(c.identity.visitIndex-xs[i].identity.visitIndex)})).sort((a,b)=>a.d-b.d)[0];
         xs[i].sameSessionSideControlContext=nearest?{visitIndexDistance:nearest.d,control:compactRef(nearest.c),comparison:cmp(nearest.c,xs[i])}:null;
       }
     }
   }
-  const byVisit=new Map();for(const r of rails){const k=`${r.identity.sessionId}|${r.identity.visitId}`;(byVisit.get(k)||byVisit.set(k,[]).get(k)).push(r);}
+  const byVisit=new Map();for(const r of rails){const k=`${r.identity.sessionId}|${r.identity.visitId}`;if(!byVisit.has(k))byVisit.set(k,[]);byVisit.get(k).push(r);}
   for(const xs of byVisit.values()){
     const l=xs.find(r=>r.identity.side==='left'),r=xs.find(r=>r.identity.side==='right');if(!l||!r)continue;
     const lset=new Set(l.sourceProvenance.chunkRefs),rset=new Set(r.sourceProvenance.chunkRefs),inter=[...lset].filter(x=>rset.has(x));
-    l.sameVisitOppositeSideContext={opposite:compactRef(r),sameFrameId:l.sourceProvenance.frameId===r.sourceProvenance.frameId,sameSnapshotId:l.sourceProvenance.snapshotId===r.sourceProvenance.snapshotId,chunkIntersection:inter,exactSameChunks:JSON.stringify(l.sourceProvenance.chunkRefs)===JSON.stringify(r.sourceProvenance.chunkRefs)};
-    r.sameVisitOppositeSideContext={opposite:compactRef(l),sameFrameId:l.sourceProvenance.frameId===r.sourceProvenance.frameId,sameSnapshotId:l.sourceProvenance.snapshotId===r.sourceProvenance.snapshotId,chunkIntersection:inter,exactSameChunks:JSON.stringify(l.sourceProvenance.chunkRefs)===JSON.stringify(r.sourceProvenance.chunkRefs)};
+    const base={sameFrameId:l.sourceProvenance.frameId===r.sourceProvenance.frameId,sameSnapshotId:l.sourceProvenance.snapshotId===r.sourceProvenance.snapshotId,chunkIntersection:inter,exactSameChunks:JSON.stringify(l.sourceProvenance.chunkRefs)===JSON.stringify(r.sourceProvenance.chunkRefs)};
+    l.sameVisitOppositeSideContext={opposite:compactRef(r),...base};r.sameVisitOppositeSideContext={opposite:compactRef(l),...base};
   }
 }
 
@@ -205,32 +223,16 @@ function summarize(rails){
     cohorts[cohort]={rails:xs.length,rawSceneZMedianAcrossRails:stat(xs.map(r=>r.rawSceneZStatistics.median)),sceneProjectedMedianAcrossRails:stat(xs.map(r=>r.sceneProjectedCloudStatistics?.median)),profileLocalZMedianAcrossRails:stat(xs.map(r=>r.profileLocalCloudStatistics?.median)),cloudContourGapAcrossRails:stat(xs.map(r=>r.cloudContourRelation?.medianDifference)),seedZAcrossRails:stat(xs.map(r=>r.engineTrace.seedZ)),coarseBestZAcrossRails:stat(xs.map(r=>r.engineTrace.coarseBestZ)),refinedBestZAcrossRails:stat(xs.map(r=>r.engineTrace.refinedBestZ)),topRowsAcrossRails:stat(xs.map(r=>r.engineTrace.topRows)),lossAcrossRails:stat(xs.map(r=>r.engineTrace.refinedBestLoss))};
   }
   const stage={};for(const r of rails)stage[r.firstObservedStage]=(stage[r.firstObservedStage]||0)+1;
-  const failures=rails.filter(r=>r.identity.cohort==='failure');
-  const controls=rails.filter(r=>r.identity.cohort==='control');
   const projPass=rails.filter(r=>r.projectionIndependentVsTransform?.passes).length;
   const chunkCounts={};for(const r of rails)chunkCounts[r.chunkComposition.chunkCount]=(chunkCounts[r.chunkComposition.chunkCount]||0)+1;
-  const sameVisitPairs=rails.filter(r=>r.sameVisitOppositeSideContext).length/2;
   const sessions={};for(const r of rails){const s=r.identity.sessionId;(sessions[s]??={failures:0,controls:0});sessions[s][r.identity.cohort==='failure'?'failures':'controls']++;}
-  const special={
-    clusterPart1Right5083_5276:rails.filter(r=>r.identity.part===1&&r.identity.side==='right'&&r.identity.cut>=5083&&r.identity.cut<=5276).map(r=>({identity:compactRef(r),projectedMedian:r.sceneProjectedCloudStatistics?.median,localMedian:r.profileLocalCloudStatistics?.median,gap:r.cloudContourRelation?.medianDifference,seedZ:r.engineTrace.seedZ,topRows:r.engineTrace.topRows,stage:r.firstObservedStage})),
-    session3876864f:rails.filter(r=>r.identity.sessionId.startsWith('3876864f')).map(r=>compactRef(r)),
-    sessionD9ccb:rails.filter(r=>r.identity.sessionId.startsWith('d9ccb')).map(r=>({identity:compactRef(r),gap:r.cloudContourRelation?.medianDifference,stage:r.firstObservedStage})),
-    session0c58Visit245Boundary:rails.filter(r=>r.identity.sessionId.startsWith('0c58c033')&&Math.abs(r.identity.visitIndex-245)<=8).map(r=>({identity:compactRef(r),gap:r.cloudContourRelation?.medianDifference,origin:r.profileOrigin,stage:r.firstObservedStage}))
-  };
-  return{rails:rails.length,projectionEquivalent:projPass,projectionNonEquivalent:rails.length-projPass,firstObservedStage:stage,cohorts,cohortMedianDifferences:{rawSceneZ:(cohorts.failure.rawSceneZMedianAcrossRails.median??NaN)-(cohorts.control.rawSceneZMedianAcrossRails.median??NaN),sceneProjection:(cohorts.failure.sceneProjectedMedianAcrossRails.median??NaN)-(cohorts.control.sceneProjectedMedianAcrossRails.median??NaN),profileLocalZ:(cohorts.failure.profileLocalZMedianAcrossRails.median??NaN)-(cohorts.control.profileLocalZMedianAcrossRails.median??NaN),cloudContourGap:(cohorts.failure.cloudContourGapAcrossRails.median??NaN)-(cohorts.control.cloudContourGapAcrossRails.median??NaN)},chunkCounts,sameVisitPairs,sessions,special};
+  const q2q3=rails.filter(r=>r.identity.cohort==='failure'&&r.engineTrace.topRows>=3).map(r=>({identity:compactRef(r),topRows:r.engineTrace.topRows,loss:r.engineTrace.refinedBestLoss,coarseBestZ:r.engineTrace.coarseBestZ,refinedBestZ:r.engineTrace.refinedBestZ,gap:r.cloudContourRelation?.medianDifference,stage:r.firstObservedStage}));
+  return{rails:rails.length,projectionEquivalent:projPass,projectionNonEquivalent:rails.length-projPass,firstObservedStage:stage,cohorts,cohortMedianDifferences:{rawSceneZ:(cohorts.failure.rawSceneZMedianAcrossRails.median??NaN)-(cohorts.control.rawSceneZMedianAcrossRails.median??NaN),sceneProjection:(cohorts.failure.sceneProjectedMedianAcrossRails.median??NaN)-(cohorts.control.sceneProjectedMedianAcrossRails.median??NaN),profileLocalZ:(cohorts.failure.profileLocalZMedianAcrossRails.median??NaN)-(cohorts.control.profileLocalZMedianAcrossRails.median??NaN),cloudContourGap:(cohorts.failure.cloudContourGapAcrossRails.median??NaN)-(cohorts.control.cloudContourGapAcrossRails.median??NaN)},chunkCounts,sameVisitPairs:rails.filter(r=>r.sameVisitOppositeSideContext).length/2,sessions,q2q3Failures:q2q3,special:{clusterPart1Right5083_5276:rails.filter(r=>r.identity.part===1&&r.identity.side==='right'&&r.identity.cut>=5083&&r.identity.cut<=5276).map(r=>({identity:compactRef(r),projectedMedian:r.sceneProjectedCloudStatistics?.median,localMedian:r.profileLocalCloudStatistics?.median,gap:r.cloudContourRelation?.medianDifference,seedZ:r.engineTrace.seedZ,topRows:r.engineTrace.topRows,stage:r.firstObservedStage})),session3876864f:rails.filter(r=>r.identity.sessionId.startsWith('3876864f')).map(r=>compactRef(r)),sessionD9ccb:rails.filter(r=>r.identity.sessionId.startsWith('d9ccb')).map(r=>({identity:compactRef(r),gap:r.cloudContourRelation?.medianDifference,stage:r.firstObservedStage})),session0c58Visit245Boundary:rails.filter(r=>r.identity.sessionId.startsWith('0c58c033')&&Math.abs(r.identity.visitIndex-245)<=8).map(r=>({identity:compactRef(r),gap:r.cloudContourRelation?.medianDifference,origin:r.profileOrigin,stage:r.firstObservedStage}))}};
 }
 
 function hypotheses(summary){
-  const transformEquivalent=summary.projectionEquivalent===summary.rails;
-  return{
-    A:{status:'COMPATIBLE',statement:'A difference may already exist in captured scene coordinates, but absolute scene Z is location-dependent; the decisive pre-transform observation is the cloud/profile scene-relative projection, not raw Z alone.'},
-    B:{status:'NON TESTABLE',statement:'The materialized dataset exposes reconstructed scene points and chunk boundaries but not the upstream reconstruction inputs/transform chain needed to decide whether reconstruction introduced the disagreement.'},
-    C:{status:transformEquivalent?'CONTREDIT':'COMPATIBLE',statement:transformEquivalent?'Independent scene-axis projection and sceneRelativeToProfileLocal Z agree within the predeclared numerical envelope on all rails; the implemented scene-to-profile transform does not introduce the observed relative vertical disagreement.':'At least one rail is not numerically equivalent, so transform introduction remains compatible for those rails.'},
-    D:{status:'COMPATIBLE',statement:'The disagreement is observable in the scene-relative relation between the cloud and profile pose; this is compatible with pose/cloud inconsistency but does not identify which side of the relation is causal.'},
-    E:{status:'NON TESTABLE',statement:'No explicit chunk acquisition, frame, and profile-pose timestamps are available to establish contemporaneity.'},
-    F:{status:transformEquivalent?'CONTREDIT':'COMPATIBLE',statement:transformEquivalent?'The cohort separation is observable before coarse/refined search, so it is not introduced only by the search engine.':'Pre-search localization is incomplete for some rails.'},
-    G:{status:'COMPATIBLE',statement:'Multiple upstream mechanisms can remain jointly compatible because LiDAR acquisition, pose generation, association timing, and upstream scene transforms are not separable with current provenance.'}
-  };
+  const eq=summary.projectionEquivalent===summary.rails;
+  return{A:{status:'COMPATIBLE',statement:'Raw scene Z is location-dependent; the pre-transform cloud/profile-relative projection is observable, but the data do not isolate the LiDAR coordinates alone as causal source.'},B:{status:'NON TESTABLE',statement:'Materialized data expose reconstructed scene points and chunk boundaries but not the upstream reconstruction inputs/transform chain.'},C:{status:eq?'CONTREDIT':'COMPATIBLE',statement:eq?'Independent scene-axis projection and transformed profile-local Z agree within the predeclared numerical envelope on all rails.':'Some rails are not numerically equivalent.'},D:{status:'COMPATIBLE',statement:'The disagreement is observable in the scene-relative relation between cloud and profile pose, compatible with pose/cloud inconsistency without identifying which is causal.'},E:{status:'NON TESTABLE',statement:'Explicit chunk acquisition, frame and profile-pose timestamps are absent.'},F:{status:eq?'CONTREDIT':'COMPATIBLE',statement:eq?'The cohort separation is observable before coarse/refined search; search cannot be its sole introduction point.':'Pre-search localization is incomplete for some rails.'},G:{status:'COMPATIBLE',statement:'Several upstream mechanisms remain jointly compatible because acquisition, pose, association timing and upstream transforms are not separable.'}};
 }
 
 (function main(){
@@ -242,8 +244,8 @@ function hypotheses(summary){
   const rec=reconstructPayloads(partial,chunks);
   const rails=rec.rows.map(augment);addContexts(rails);
   const summary=summarize(rails),hyp=hypotheses(summary);
-  const consulted={manifest:'manifest.json',rootObjectFiles:rootFiles.map(p=>path.relative(DATA,p)),cloudShardFiles:chunks.consulted,materializedSourceIndices:[...new Set(partial.map(p=>path.relative(DATA,p.entry.indexPath)))].sort(),neededChunkIds:{historical:[...chunks.neededByArchive.historical].sort(),final:[...chunks.neededByArchive.final].sort()}};
-  const result={format:'banane-vertical-alignment-provenance-v1-materialized-run',source:{repository:'StoryNow30/banane-data',commit:DATA_COMMIT,dataset:'datasets/native-v4.6-2026-09-16',manifestSha256:sha256(fs.readFileSync(path.join(DATA,'manifest.json'))),archiveAuthority:manifest.archives??manifest.sourceArchives??null},banane:{repository:'StoryNow30/banane',base:BASE_COMMIT,labBranch:'lab-vertical-alignment-provenance-v1'},population:{rails:239,failures:63,controls:176,registryRole:'identity/source locator only; all measured pose/chunk/point values re-read from materialized data'},integrity:{payloadParityMatches:rec.parity.filter(x=>x.match).length,payloadParityMismatches:rec.parity.filter(x=>!x.match).length,parity:rec.parity},consulted,summary,hypotheses:hyp,provenanceGap:{code:'PROVENANCE_GAP',missing:['explicit acquisition timestamp for each LiDAR chunk','explicit timestamp for frameId','explicit timestamp for snapshot/profile pose state','upstream sensor-to-scene transform chain and its timestamp/version','explicit association event tying profile pose state to LiDAR acquisition instant'],causalConsequence:'LiDAR acquisition, profile pose, temporal association, snapshot timing, and upstream scene transformation cannot be separated as causal source.'},rails};
+  const consulted={manifest:'manifest.json',rootObjectIndices:rootFiles.map(p=>path.relative(DATA,p)),cloudShardFiles:chunks.consulted,materializedSourceIndices:[...new Set(partial.map(p=>path.relative(DATA,p.entry.indexPath)))].sort(),neededChunkIds:{historical:[...chunks.neededByArchive.historical].sort(),final:[...chunks.neededByArchive.final].sort()}};
+  const result={format:'banane-vertical-alignment-provenance-v1-materialized-run',source:{repository:'StoryNow30/banane-data',commit:DATA_COMMIT,dataset:'datasets/native-v4.6-2026-09-16',manifestSha256:sha256(fs.readFileSync(path.join(DATA,'manifest.json'))),archiveAuthority:manifest.archives??manifest.sourceArchives??null},banane:{repository:'StoryNow30/banane',base:BASE_COMMIT,labBranch:'lab-vertical-alignment-provenance-v1'},population:{rails:239,failures:63,controls:176,registryRole:'identity/source locator only; all measured pose/chunk/point values re-read from materialized data'},integrity:{payloadParityMatches:rec.parity.filter(x=>x.match).length,payloadParityMismatches:rec.parity.filter(x=>!x.match).length,parity:rec.parity},consulted,summary,hypotheses:hyp,provenanceGap:{code:'PROVENANCE_GAP',missing:['explicit acquisition timestamp for each LiDAR chunk','explicit timestamp for frameId','explicit timestamp for snapshot/profile pose state','upstream sensor-to-scene transform chain and its timestamp/version','explicit association event tying profile pose state to LiDAR acquisition instant'],causalConsequence:'LiDAR acquisition, profile pose, temporal association, snapshot timing and upstream scene transformation cannot be separated as causal source.'},rails};
   result.deterministicSha256=sha256(Buffer.from(canonical(result),'utf8'));
   fs.writeFileSync(OUT,JSON.stringify(result,null,2)+'\n');
   console.log('MATERIALIZED_PROVENANCE_SUMMARY');console.log(JSON.stringify({integrity:result.integrity.payloadParityMatches,summary,hypotheses:hyp,deterministicSha256:result.deterministicSha256},null,2));
