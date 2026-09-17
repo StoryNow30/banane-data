@@ -1,0 +1,41 @@
+name: Vertical Provenance Cross-Repo Probe
+
+on:
+  push:
+    branches:
+      - lab/vertical-alignment-provenance-v1-probe
+    paths:
+      - '.github/workflows/vertical-provenance-probe.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout materialized data exact ref
+        uses: actions/checkout@v4
+        with:
+          ref: d541686d3a98569125cdbdb261ef121c9f533d6a
+          path: datarepo
+      - name: Verify data commit and manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git -C datarepo rev-parse HEAD)" = "d541686d3a98569125cdbdb261ef121c9f533d6a"
+          test -f datarepo/datasets/native-v4.6-2026-09-16/manifest.json
+          node -e "const m=require('./datarepo/datasets/native-v4.6-2026-09-16/manifest.json'); console.log(JSON.stringify({format:m.format,datasetId:m.datasetId,files:m.files.length}))"
+      - name: Probe read-only checkout of frozen Banane population registry
+        uses: actions/checkout@v4
+        with:
+          repository: StoryNow30/banane
+          ref: 52d4f529557641dd34d1c2296722e937c48702d0
+          path: banane
+          token: ${{ github.token }}
+      - name: Verify population registry
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git -C banane rev-parse HEAD)" = "52d4f529557641dd34d1c2296722e937c48702d0"
+          node -e "const m=require('./banane/data/capsules/rsf-v1/manifest.json'); console.log(JSON.stringify({expectedTotal:m.expectedTotal,failures:m.failures,controls:m.controls,identities:m.railIdentities.length}))"
