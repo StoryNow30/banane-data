@@ -1,0 +1,94 @@
+name: Materialize Native V4.6 dataset
+
+on:
+  push:
+    branches:
+      - infra/materialized-native-v46-v1
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/materialize-native-v46.yml'
+      - 'tools/materialize_release_dataset.py'
+      - 'tools/reconstruct_materialized_json.py'
+      - 'datasets/**'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    env:
+      TAG: native-v4.6-2026-09-16
+      HIST: banane-native-v4.6-2026-09-16.7z
+      FINAL: banane-native-v4.6-2026-09-16-final.7z
+      HIST_SHA: 32e48aa79de988ab8bb6efc65d7038d4e27535e2a5f2486768438616f518bfc0
+      FINAL_SHA: 7cac220bd6e097f14ff1d39cbc431e7c6e918b819bdf521883bc33847ec12c66
+      OUT: datasets/native-v4.6-2026-09-16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: infra/materialized-native-v46-v1
+          fetch-depth: 0
+
+      - name: Install 7zip
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full
+
+      - name: Download release archives
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p .dataset-work/downloads
+          gh release download "$TAG" \
+            --repo "$GITHUB_REPOSITORY" \
+            --pattern "$HIST" \
+            --pattern "$FINAL" \
+            --dir .dataset-work/downloads
+
+      - name: Verify immutable archive hashes
+        run: |
+          cd .dataset-work/downloads
+          printf '%s  %s\n' "$HIST_SHA" "$HIST" | sha256sum -c -
+          printf '%s  %s\n' "$FINAL_SHA" "$FINAL" | sha256sum -c -
+
+      - name: Extract archives independently
+        run: |
+          mkdir -p .dataset-work/historical .dataset-work/final
+          7z x -y ".dataset-work/downloads/$HIST" -o.dataset-work/historical
+          7z x -y ".dataset-work/downloads/$FINAL" -o.dataset-work/final
+
+      - name: Materialize agent-readable dataset
+        run: |
+          python tools/materialize_release_dataset.py \
+            --historical-dir .dataset-work/historical \
+            --final-dir .dataset-work/final \
+            --out "$OUT"
+
+      - name: Reject oversized Git blobs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          root = Path('datasets/native-v4.6-2026-09-16')
+          bad = [(p, p.stat().st_size) for p in root.rglob('*') if p.is_file() and p.stat().st_size > 8 * 1024 * 1024]
+          if bad:
+              for p, n in bad:
+                  print(f'oversized: {n} {p}')
+              raise SystemExit(1)
+          print('all materialized files <= 8 MiB')
+          PY
+
+      - name: Commit materialized dataset to research branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$OUT"
+          if git diff --cached --quiet; then
+            echo "No dataset changes to commit"
+            exit 0
+          fi
+          git commit -m "Materialize Native V4.6 release data [dataset-publish]"
+          git push origin HEAD:infra/materialized-native-v46-v1
