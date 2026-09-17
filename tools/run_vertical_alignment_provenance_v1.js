@@ -12,7 +12,6 @@ const BANANE=path.resolve(arg('--banane')||'../banane');
 const OUT=path.resolve(arg('--output')||'provenance-result.json');
 const DATA_COMMIT='d541686d3a98569125cdbdb261ef121c9f533d6a';
 const BASE_COMMIT='52d4f529557641dd34d1c2296722e937c48702d0';
-const C=require(path.join(BANANE,'vendor/capture-core.js'));
 const G=require(path.join(BANANE,'src/geometry.js'));
 const N=require(path.join(BANANE,'tools/native-replay.cjs'));
 const CAP=require(path.join(BANANE,'tools/banane-capsule.cjs'));
@@ -83,6 +82,37 @@ function loadNode(node){
   throw Error(`unsupported materialized node ${node.kind}`);
 }
 
+function nodeFiles(node,out=[]){
+  if(!node)return out;
+  if(node.kind==='single-json')out.push(node.file.path);
+  else if(node.kind==='array-shards')for(const s of node.shards||[]){if(s?.oversizeItem)nodeFiles(s.node,out);else out.push(s.path);}
+  else if(node.kind==='object-shards'){
+    for(const s of node.shards||[])out.push(s.path);
+    for(const child of Object.values(node.largeEntries||{}))nodeFiles(child,out);
+  }else if(node.kind==='scalar-text-parts')for(const p of node.parts||[])out.push(p.path);
+  return out;
+}
+
+function visitCloudItems(node,onItem,consulted){
+  if(!node)return;
+  if(node.kind==='array-shards'){
+    for(const s of node.shards||[]){
+      if(s?.oversizeItem){
+        const files=nodeFiles(s.node,[]);for(const f of files)consulted.add(f);
+        onItem(loadNode(s.node),files);
+      }else{
+        consulted.add(s.path);
+        const arr=loadJson(path.join(DATA,s.path));
+        for(const item of arr)onItem(item,[s.path]);
+      }
+    }
+    return;
+  }
+  const files=nodeFiles(node,[]);for(const f of files)consulted.add(f);
+  const value=loadNode(node);
+  if(Array.isArray(value))for(const item of value)onItem(item,files);else onItem(value,files);
+}
+
 function loadRootObject(entry){
   const rep=entry.idx.semanticRepresentation;
   if(rep.kind!=='object-shards')throw Error(`unsupported root ${rep.kind} ${entry.sourceName}`);
@@ -127,31 +157,28 @@ function locateVisitPayloads(registry,entries){
 function scanNeededChunks(partial,entries){
   const neededByArchive={historical:new Set(),final:new Set()};
   for(const p of partial)for(const id of p.chunkIds)neededByArchive[p.entry.archive].add(id);
-  const found={historical:new Map(),final:new Map()},consulted=[];
+  const found={historical:new Map(),final:new Map()},consulted=new Set();
   for(const archive of ['historical','final']){
     const need=neededByArchive[archive];
     for(const e of entries.filter(x=>x.archive===archive)){
       const node=e.idx.semanticRepresentation.largeEntries?.clouds;
       if(!node||!need.size)continue;
-      for(const shard of node.shards||[]){
-        const fp=path.join(DATA,shard.path); consulted.push(path.relative(DATA,fp));
-        const arr=loadJson(fp);
-        for(const c of arr){
-          if(!need.has(c.chunkId))continue;
-          const normalized={points:c.pointsSceneRelative,visible:c.visibleByClipBoxes??null};
-          const h=sha256(Buffer.from(canonical(normalized),'utf8'));
-          if(found[archive].has(c.chunkId)){
-            const prev=found[archive].get(c.chunkId);
-            if(prev.contentSha256!==h)throw Error(`non-identical duplicate chunk ${c.chunkId}`);
-            prev.occurrences.push({sourceName:e.sourceName,shard:path.relative(DATA,fp)});
-          }else found[archive].set(c.chunkId,{chunkId:c.chunkId,...normalized,contentSha256:h,occurrences:[{sourceName:e.sourceName,shard:path.relative(DATA,fp)}]});
-        }
-      }
+      visitCloudItems(node,(c,files)=>{
+        if(!c||!need.has(c.chunkId))return;
+        const normalized={points:c.pointsSceneRelative,visible:c.visibleByClipBoxes??null};
+        const h=sha256(Buffer.from(canonical(normalized),'utf8'));
+        const occurrence={sourceName:e.sourceName,materializedFiles:[...files]};
+        if(found[archive].has(c.chunkId)){
+          const prev=found[archive].get(c.chunkId);
+          if(prev.contentSha256!==h)throw Error(`non-identical duplicate chunk ${c.chunkId}`);
+          prev.occurrences.push(occurrence);
+        }else found[archive].set(c.chunkId,{chunkId:c.chunkId,...normalized,contentSha256:h,occurrences:[occurrence]});
+      },consulted);
     }
     const miss=[...need].filter(x=>!found[archive].has(x));
     if(miss.length)throw Error(`missing ${archive} chunks ${miss.slice(0,10).join(',')} (${miss.length})`);
   }
-  return{neededByArchive,found,consulted:[...new Set(consulted)].sort()};
+  return{neededByArchive,found,consulted:[...consulted].sort()};
 }
 
 function reconstructPayloads(partial,chunks){
