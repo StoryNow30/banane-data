@@ -15,7 +15,12 @@ jobs:
   analyze:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout materialized data
+      - name: Checkout runner branch
+        uses: actions/checkout@v4
+        with:
+          ref: lab-vertical-alignment-provenance-v1-runner
+          path: runner
+      - name: Checkout materialized data exact commit
         uses: actions/checkout@v4
         with:
           ref: d541686d3a98569125cdbdb261ef121c9f533d6a
@@ -31,7 +36,7 @@ jobs:
           node-version: '22'
       - name: Run materialized provenance analysis
         run: |
-          node banane-data/tools/run_vertical_alignment_provenance_v1.js \
+          node runner/tools/run_vertical_alignment_provenance_v1.js \
             --data banane-data/datasets/native-v4.6-2026-09-16 \
             --banane banane \
             --output provenance-result.json
