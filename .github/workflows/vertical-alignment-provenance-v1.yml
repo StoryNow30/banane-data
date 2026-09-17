@@ -8,6 +8,7 @@ on:
       - '.github/workflows/vertical-alignment-provenance-v1.yml'
       - 'tools/run_vertical_alignment_provenance_v1.js'
       - 'tools/expand_oversize_cloud_shards.js'
+      - 'tools/extract_vertical_alignment_boundary_v1.js'
 
 permissions:
   contents: read
@@ -32,6 +33,12 @@ jobs:
           repository: StoryNow30/banane
           ref: lab-vertical-alignment-provenance-v1
           path: banane
+      - name: Checkout frozen RSF V1 methodology only
+        uses: actions/checkout@v4
+        with:
+          repository: StoryNow30/banane
+          ref: 4005aa4569bd597d3b15be6bc35482a187f547a4
+          path: rsf-method
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -43,6 +50,34 @@ jobs:
             --data banane-data/datasets/native-v4.6-2026-09-16 \
             --banane banane \
             --output provenance-result.json
+      - name: Reconstruct only the nine source exports used by the 239 rails
+        run: |
+          python - <<'PY'
+          import json, pathlib, subprocess
+          result=json.load(open('provenance-result.json',encoding='utf-8'))
+          sources=sorted({(r['sourceProvenance']['archive'],r['sourceProvenance']['sourceFile']) for r in result['rails']})
+          assert len(sources)==9, sources
+          base=pathlib.Path('banane-data/datasets/native-v4.6-2026-09-16')
+          out=pathlib.Path('reconstructed')
+          for cohort,name in sources:
+              idx=base/cohort/name/'_index.json'
+              dest=out/cohort/name
+              dest.parent.mkdir(parents=True,exist_ok=True)
+              subprocess.run(['python','banane-data/tools/reconstruct_materialized_json.py',str(idx),'-o',str(dest)],check=True)
+          print(json.dumps({'sources':sources},ensure_ascii=False,indent=2))
+          PY
+      - name: Replay exact RSF V1 failure-family method on materialized source exports
+        run: |
+          node rsf-method/tools/running-surface-failure-lab.cjs \
+            --corpus historical reconstructed/historical \
+            --corpus final reconstructed/final \
+            --output rsf-materialized.json
+      - name: Extract full-session context around 0c58 visitIndex 245
+        run: |
+          node runner/tools/extract_vertical_alignment_boundary_v1.js \
+            --root reconstructed \
+            --banane banane \
+            --output boundary-context.json
       - name: Run lab tests
         working-directory: banane
         run: node --test tests/vertical-alignment-provenance-v1.test.cjs
@@ -50,5 +85,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: vertical-alignment-provenance-v1-result
-          path: provenance-result.json
+          path: |
+            provenance-result.json
+            rsf-materialized.json
+            boundary-context.json
           if-no-files-found: error
