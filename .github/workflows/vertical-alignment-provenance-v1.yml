@@ -9,7 +9,6 @@ on:
       - 'tools/run_vertical_alignment_provenance_v1.js'
       - 'tools/expand_oversize_cloud_shards.js'
       - 'tools/extract_vertical_alignment_boundary_v1.js'
-      - 'tools/classify_materialized_rsf_failures_v1.js'
 
 permissions:
   contents: read
@@ -34,16 +33,10 @@ jobs:
           repository: StoryNow30/banane
           ref: lab-vertical-alignment-provenance-v1
           path: banane
-      - name: Checkout frozen RSF V1 methodology only
-        uses: actions/checkout@v4
-        with:
-          repository: StoryNow30/banane
-          ref: 4005aa4569bd597d3b15be6bc35482a187f547a4
-          path: rsf-method
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Expand only oversize cloud items in runner workspace
+      - name: Expand only embedded cloud arrays in runner workspace
         run: node runner/tools/expand_oversize_cloud_shards.js --data banane-data/datasets/native-v4.6-2026-09-16
       - name: Run materialized provenance analysis
         run: |
@@ -67,13 +60,6 @@ jobs:
               subprocess.run(['python','banane-data/tools/reconstruct_materialized_json.py',str(idx),'-o',str(dest)],check=True)
           print(json.dumps({'sources':sources},ensure_ascii=False,indent=2))
           PY
-      - name: Apply frozen RSF V1 failure taxonomy to the 63 materialized failure payloads
-        run: |
-          node runner/tools/classify_materialized_rsf_failures_v1.js \
-            --root reconstructed \
-            --banane banane \
-            --rsf-method rsf-method \
-            --output rsf-failure-families-materialized.json
       - name: Extract full-session context around 0c58 visitIndex 245
         run: |
           node runner/tools/extract_vertical_alignment_boundary_v1.js \
@@ -89,6 +75,5 @@ jobs:
           name: vertical-alignment-provenance-v1-result
           path: |
             provenance-result.json
-            rsf-failure-families-materialized.json
             boundary-context.json
           if-no-files-found: error
