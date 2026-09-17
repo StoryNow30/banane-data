@@ -1,0 +1,2218 @@
+{
+  "format": "gcv1-replication-dataset-239-v1",
+  "source": {
+    "repo": "StoryNow30/banane-data",
+    "commit": "d541686d3a98569125cdbdb261ef121c9f533d6a",
+    "path": "datasets/native-v4.6-2026-09-16",
+    "private": true
+  },
+  "algorithmicCapsule": {
+    "repo": "StoryNow30/banane",
+    "branch": "infra-gcv1-replication-capsule-v1",
+    "head": "2366d483b643bf8415f3d8ecba35938ac4c1d02e",
+    "candidate": "0dbcb7a32825031c122a14ffc44e13dea629d785"
+  },
+  "populationLock": {
+    "n": 239,
+    "failures": 63,
+    "controls": 176
+  },
+  "selection": {
+    "method": "external-fs-trace of official run.cjs",
+    "ops": [
+      "readFileSync",
+      "existsSync"
+    ],
+    "runnerUnmodified": true
+  },
+  "layout": "datasets/native-v4.6-2026-09-16/",
+  "fileCount": 437,
+  "totalBytes": 1064696197,
+  "files": [
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-bilan-v4-2026-09-16T12-09-38-seg01.json/_index.json",
+      "bytes": 1291,
+      "sha256": "d3a00c71e20e95c7e2e508c5cfb7aba35d30f7d498012a4f85a40c42edba463e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-bilan-v4-2026-09-16T12-09-38-seg01.json/root-object-0000.json",
+      "bytes": 3068113,
+      "sha256": "dd6971ada5478e3f30aac204577fff7683a763b67c7af9a8b979e38d97bc66b0"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-bilan-v4-2026-09-16T12-09-38-seg01.json/root-object-0001.json",
+      "bytes": 3908726,
+      "sha256": "4b98b645727c2ea73343ec387fb15620e2aa87db47494d346033d21570dc39e1"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-journal-v4-1789560584630.json/_index.json",
+      "bytes": 1782,
+      "sha256": "ae866df8f8a30f92cd5e771080ca59de00d05a014e3aba96e7cb9bdfcc9dcdef"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-journal-v4-1789560584630.json/root-key-records/value-part-0000.json",
+      "bytes": 3983302,
+      "sha256": "25d9c9d498ac2942285600923e7f59f88eccd8f3862ad0ef7a8be1cded7fede8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-journal-v4-1789560584630.json/root-key-records/value-part-0001.json",
+      "bytes": 3947368,
+      "sha256": "9bb0f86ccc736a255ca1c9347e43563ffc0d9c3bb34faf6f730b28369e73214a"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-journal-v4-1789560584630.json/root-key-records/value-part-0002.json",
+      "bytes": 3204786,
+      "sha256": "53c38384442e7eb47e9bbb9a42885812b537572a5abd280b8c99789b2dc31e37"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-journal-v4-1789560584630.json/root-key-records/value-part-0003.json",
+      "bytes": 3927593,
+      "sha256": "44810934928b346dbf715723873c6990a4ce29b58d2959be2e579685617718ea"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-journal-v4-1789560584630.json/root-key-records/value-part-0004.json",
+      "bytes": 3475501,
+      "sha256": "8a0b76a2f5d2b5635d1c291b93505c89e18afb9156c21af748b67be44dee2b0a"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-journal-v4-1789560584630.json/root-key-records/value-part-0005.json",
+      "bytes": 2888558,
+      "sha256": "42bc1c7ddf96d340a9afb5138554a701b283a5104fd5562fe34560e308cc0050"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-journal-v4-1789560584630.json/root-object-0000.json",
+      "bytes": 3742044,
+      "sha256": "f2edf73545107e0aa0612b1b979253f7f238d40a63cd3edf77fa16a140983ccf"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-journal-v4-1789560584630.json/root-object-0001.json",
+      "bytes": 444,
+      "sha256": "debb2b635b5b13a869d8800bb5ab7b4607968a0f10a80383456e8c9bb7b12de6"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T10-48-32-seg01.json/_index.json",
+      "bytes": 1283,
+      "sha256": "8f7379e0fcbb38687144f3fde13bcf3a83553d973805c2cde964e32d4222b889"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T10-48-32-seg01.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4140441,
+      "sha256": "1326042c8ce739c3ad82dfaa9221284620650f4a1ba9a42ba9f3232d0c021024"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T10-48-32-seg01.json/root-key-clouds/value-part-0001.json",
+      "bytes": 1692743,
+      "sha256": "23c1aaad45ff7c55c4ddee32c4091bcc0b7a756b48770fc8765030009865a4e6"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T10-48-32-seg01.json/root-object-0000.json",
+      "bytes": 1824742,
+      "sha256": "b7aa88ce1476765a24ed917a558fed656af248220fbac386ff40886e54bd616f"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T10-48-32-seg01.json/root-object-0001.json",
+      "bytes": 3750747,
+      "sha256": "07b9a3f3783d65826a8cdd312550c496af9e76ece622377eab03ec036c6532d6"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T10-48-32-seg01.json/root-object-0002.json",
+      "bytes": 2987954,
+      "sha256": "64e9b62b0a734b8193a3cc40346e5d04bfff662649258f7f560574c4485596f4"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-06-49-seg01.json/_index.json",
+      "bytes": 838,
+      "sha256": "ab2503afdf7d10d15d3af60a24bbeb6b9a8a29fe8283686d4104d6f670694c5e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-06-49-seg01.json/root-object-0000.json",
+      "bytes": 3707248,
+      "sha256": "ac2e3d4aabfaf68800fdb28a278e993e78febbee88b4fc2a1d1a137a4678f573"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-06-49-seg01.json/root-object-0001.json",
+      "bytes": 3669132,
+      "sha256": "1be77e63e810e0c1677da0edbf3a23dbb0087638ece4a51ec63ec311cb92d8f8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-06-49-seg01.json/root-object-0002.json",
+      "bytes": 1906460,
+      "sha256": "256578b8d743ed6c304dc2ba13afd7d8baa3e0e010b5b456eba3c75ebd0a9989"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-44-58-auto-seg01.json/_index.json",
+      "bytes": 3141,
+      "sha256": "1010aa1fd0d12294de39888344de2184a38d370a8ebff81521d740d8c75279cb"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-44-58-auto-seg01.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4118407,
+      "sha256": "4db1165d9cda0af5c006cbed4d24d9944468a912720c9203ac15f1bb12df0a8a"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-44-58-auto-seg01.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4090622,
+      "sha256": "c12ee29ad5379ab6e217cad32f8ab815b2b735430a6e2552be3ced9f6e4ff135"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-44-58-auto-seg01.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4097587,
+      "sha256": "3592456e61cc432caf725ac8f4a54be557726bf2382bdc75b7028b921827f72d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-44-58-auto-seg01.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4150475,
+      "sha256": "37bf1ffe6da1eaaba7184fb0d88930a3ab91ff4bb4a4dde63659329818ffc935"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-44-58-auto-seg01.json/root-key-clouds/value-part-0004.json",
+      "bytes": 1077269,
+      "sha256": "ea1e46b87ca64676bb47e74bfda50af81b7e69a929906124192304b4f7bd3915"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-44-58-auto-seg01.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 1740192,
+      "sha256": "c560455683c784aaf4863eedb5d69f136c5511aa58c0ab1a6da0057fe0bc441b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-44-58-auto-seg01.json/root-object-0000.json",
+      "bytes": 95827,
+      "sha256": "3ff2d9474c17ed9e2e8721d0d82eef1b777b3894919196d8a7cd0c49dbca2781"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-44-58-auto-seg01.json/root-object-0001.json",
+      "bytes": 4098600,
+      "sha256": "bb9445dfba82bea8c7a0fcfa2c48845b5b88faa2f1d65411f66c9ad70c0e0cf3"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-44-58-auto-seg01.json/root-object-0002.json",
+      "bytes": 379,
+      "sha256": "f442acc7548b59aa3efcb4eb6deae8b2f2cacbb50fa24a4be424c9c3b5de29ae"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-50-20-seg01.json/_index.json",
+      "bytes": 2512,
+      "sha256": "f802bb08c3083e449f95e00437820a44877dced8083a3f03c81821e48b871a18"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-50-20-seg01.json/root-key-dictionaries/value-key-rails/value-part-0000.json",
+      "bytes": 4183042,
+      "sha256": "cd785ab79d9fb52fe1fcb6dfa67e7f70f8c3be93a0725028473a8591e25fc286"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-50-20-seg01.json/root-key-dictionaries/value-key-rails/value-part-0001.json",
+      "bytes": 1500590,
+      "sha256": "0e65ef60c1d3c3e73ce4baafd2687ea6845d5eb96b60142477443907fb5f839e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-50-20-seg01.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 2023233,
+      "sha256": "b6c25821f8f0d3199ee32302d39546b8f993d41b3a392f4e374db301b1277a4e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-50-20-seg01.json/root-key-records/value-part-0000.json",
+      "bytes": 4182390,
+      "sha256": "4baa62970f61da65d857866392c739e78ac6c0e36ec0023092fc03ab7407a84c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-50-20-seg01.json/root-key-records/value-part-0001.json",
+      "bytes": 552065,
+      "sha256": "0b86634bc9278b069ec64111ef998dd79696b7d9cb767f1cab6337bb58658e5f"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-50-20-seg01.json/root-object-0000.json",
+      "bytes": 115810,
+      "sha256": "9712d1a059b5640b7f4e78ad26020284a0474f355cb24b6f74fd188f05beb5f7"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T11-50-20-seg01.json/root-object-0001.json",
+      "bytes": 1405468,
+      "sha256": "d828634131a7b596f60f31ba25edc547570c1b8e0c7c7a5b7b4201b4f997a8d9"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-07-28-auto-seg01.json/_index.json",
+      "bytes": 1726,
+      "sha256": "68d58bc5d0a8b96e555129f4236e29a92dca06c5bb512e61c39c3227cdce286e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-07-28-auto-seg01.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4118857,
+      "sha256": "bfd9f3feeb34541e4046bd049ac0d1ccf75472f17375c3827e7a786d1c52a38c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-07-28-auto-seg01.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4103134,
+      "sha256": "2cde96a85189ba06025e07e6b7bf49d4ab90b175198154d532f7fa0671199ba2"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-07-28-auto-seg01.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4119333,
+      "sha256": "085bea4eccf505763668f5e3ff5999b9aeaa35ffb122639bf8ad1b719384364b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-07-28-auto-seg01.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4193538,
+      "sha256": "95c5563f92f9e649b2b43db8bef0030db4eaedeca0c773b14015b604e923d5ce"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-07-28-auto-seg01.json/root-key-clouds/value-part-0004.json",
+      "bytes": 1872777,
+      "sha256": "32f804ff17b35802f3fdbe5b68b0092856d4a33c96bdabb5e233c8830727e3db"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-07-28-auto-seg01.json/root-object-0000.json",
+      "bytes": 2417691,
+      "sha256": "7d11eb85bf4eb8052da2df4a3afb00bae96673ca98416704e81e3d8f5a2093d8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-07-28-auto-seg01.json/root-object-0001.json",
+      "bytes": 3069251,
+      "sha256": "9a4dc4253bf96c35fc28d2a02ccc0368bfdbf5149f61baea2ab6db09933dcac7"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-07-46-seg01.json/_index.json",
+      "bytes": 839,
+      "sha256": "d2e055131217b16c72d7c697c438f39ee4365b562fbebf3d7d344614c52649b0"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-07-46-seg01.json/root-object-0000.json",
+      "bytes": 2952895,
+      "sha256": "09f3224e1fe2bfd7e05d2473525ec0828df16d985175aa978b1c0b023296b16a"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-07-46-seg01.json/root-object-0001.json",
+      "bytes": 4059388,
+      "sha256": "08fad784546f9ef98d2adb4613a320daa8a9a1c6bf62eba77e01239d116fcebb"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-07-46-seg01.json/root-object-0002.json",
+      "bytes": 3831889,
+      "sha256": "747067823b10b3a54433223289c1cc9a1ac4acddc877e66f66af3f0053f846b8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-10-09-seg01.json",
+      "bytes": 2009358,
+      "sha256": "3d4dd1422fdf849cdcb40db7363cd4996939f077a9c6dc1b82eab1ad44be5c5e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-14-26-auto-seg01.json/_index.json",
+      "bytes": 2720,
+      "sha256": "96c0331ad79fd53b63751337487ea1884667d34ec6f4edb26212ead02064224f"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-14-26-auto-seg01.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4045764,
+      "sha256": "eecd47086bb975a77b41cd95a269dc623a071136bd50b8b41299ade30d94359d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-14-26-auto-seg01.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4174396,
+      "sha256": "0466686b05f08ed2b9491b217d5dd32e029786ef407d858e27e9e9bc60f3239e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-14-26-auto-seg01.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4118586,
+      "sha256": "93dfb021cd5742e20a20208db1b7bcf3154558a85d433d7be41b73208011a159"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-14-26-auto-seg01.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4191248,
+      "sha256": "c963933de65822b0e6e2d954f9c8727ea29eeb8f00e677e11a9ae83aeaf0fe98"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-14-26-auto-seg01.json/root-key-clouds/value-part-0004.json",
+      "bytes": 4145867,
+      "sha256": "9e2aac35de3704f80354076040a4ea8b8b24b54e6c0b63b4884e99c009ce9f6a"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-14-26-auto-seg01.json/root-key-clouds/value-part-0005.json",
+      "bytes": 4136425,
+      "sha256": "25a28c14486902e1bb086110789856b16ac2b55840529254361f44e50c239a28"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-14-26-auto-seg01.json/root-key-clouds/value-part-0006.json",
+      "bytes": 3279518,
+      "sha256": "84e2a3d7b60fffbc03002c79cd40a7cff2d676c95a1688a8dcc51648743e9de5"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-14-26-auto-seg01.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 312897,
+      "sha256": "83ed0406a3b64d8b501741e5530dbbc93be643517b1c4b465861157929fff5d1"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-14-26-auto-seg01.json/root-object-0000.json",
+      "bytes": 3809766,
+      "sha256": "dc0634a12ca8deaa05def425bc4a42d2cbed0c01583be236258f8dd153afd889"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-27-28-auto-seg02.json/_index.json",
+      "bytes": 3379,
+      "sha256": "b802846519719234e1c2aee74bbabd8cb6b5e3a30a93468366f0ce6de0e759c3"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-27-28-auto-seg02.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4164006,
+      "sha256": "09e270ce238d75bea9e840bed35880927b74f05c8ac0ab1ed4fba6d1f3e8e44e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-27-28-auto-seg02.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4149778,
+      "sha256": "930da40854f23d69166adc016ec3786b57b9242f56feaa23103b808c9a29a8ed"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-27-28-auto-seg02.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4093790,
+      "sha256": "6dec7e7fc41680e5ed4491d72ca3a16656ef884a892c54099c8e15deacf574b8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-27-28-auto-seg02.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4183691,
+      "sha256": "53300a6f312f3647216e97fa1ee47cc419e36a1baacb17cdf142d94983f2b869"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-27-28-auto-seg02.json/root-key-clouds/value-part-0004.json",
+      "bytes": 4067940,
+      "sha256": "772ca799bc9342807e804994f17f8635e39555a3e2b654ea9a29b6ef7d0cda7b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-27-28-auto-seg02.json/root-key-clouds/value-part-0005.json",
+      "bytes": 1236129,
+      "sha256": "2e925fe1d0414b0704a60ed5721b5ba8edc049a8ceec17a0cc789f08696ab40a"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-27-28-auto-seg02.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 789078,
+      "sha256": "5371e88b0b675ae7e795bc4559bdea771fb29d91ff11cc7b34673360538f3d91"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-27-28-auto-seg02.json/root-object-0000.json",
+      "bytes": 3508548,
+      "sha256": "5e821dea5391b6fa65cfdab10e70b123f568bb1fbdd277b79993bb4e74463aab"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-27-28-auto-seg02.json/root-object-0001.json",
+      "bytes": 380,
+      "sha256": "8bd81886ebecf1f0683cf4f0b2b1a8052d3a2372434ae6ba1dc194d86ef28e6b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg03.json/_index.json",
+      "bytes": 3881,
+      "sha256": "19f5cb0237d8126bcabf6423007e7132285941a3982d6118d100e91c950a6d6b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg03.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4148312,
+      "sha256": "d674c5ce9fc5973f1bedc902b77878c5bfd68647d26feb6cc186fd2a675f6eb5"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg03.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4182988,
+      "sha256": "3854ba31b58672439f2b2a3a3432c4214b7f0ec2f43374f86e13bb571b5c6bd7"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg03.json/root-key-clouds/value-part-0002.json",
+      "bytes": 2822268,
+      "sha256": "c96fb2aa3d10d0ed067d9def60edc9cd701d8b13c479c3f82cd9ea9e12a14837"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg03.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 1677234,
+      "sha256": "60f730e994f1ecf4bfbae997f16b18883bc5f01030fd15d0942ba2ca2e3ac7b2"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg03.json/root-key-records/value-part-0000.json",
+      "bytes": 4183213,
+      "sha256": "dd614b98b798550ee34affbb9089d05c16303b329e463588840af88816f04a20"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg03.json/root-key-records/value-part-0001.json",
+      "bytes": 1634350,
+      "sha256": "29ebc5e8f0006562d9be8ba7b9cf3f06d3cda51a36d747e2490bc5bc25237f80"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg03.json/root-object-0000.json",
+      "bytes": 216690,
+      "sha256": "ad9602b9907adff0f5514f334e704db40870fddf3dcc5f7e48792b4ea84a04ea"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg03.json/root-object-0001.json",
+      "bytes": 379,
+      "sha256": "aea5c497254715cc7fe4778e4a089631c161265ebd69cbd75e0c2615b5308e50"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg04.json/_index.json",
+      "bytes": 3682,
+      "sha256": "f197a5cc0300d107224e5eda6198a0c9df03a5dda2d6a27848d11b19435285db"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg04.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4181891,
+      "sha256": "96c5d986f90fed706516d00b16db9e50263860e1e15e101fa4b3c4b734b856e2"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg04.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4070635,
+      "sha256": "5d8df25d6e82c94b2a9235f61ff1b4bd1351bf7898770102d35015d1c69e2daa"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg04.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 1677234,
+      "sha256": "60f730e994f1ecf4bfbae997f16b18883bc5f01030fd15d0942ba2ca2e3ac7b2"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg04.json/root-key-records/value-part-0000.json",
+      "bytes": 4183213,
+      "sha256": "dd614b98b798550ee34affbb9089d05c16303b329e463588840af88816f04a20"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg04.json/root-key-records/value-part-0001.json",
+      "bytes": 1634350,
+      "sha256": "29ebc5e8f0006562d9be8ba7b9cf3f06d3cda51a36d747e2490bc5bc25237f80"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg04.json/root-object-0000.json",
+      "bytes": 216690,
+      "sha256": "ad9602b9907adff0f5514f334e704db40870fddf3dcc5f7e48792b4ea84a04ea"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-32-28-auto-seg04.json/root-object-0001.json",
+      "bytes": 380,
+      "sha256": "b146c6d16ba1379255d9c6705ba30362163165ce68c55a294d3da297ba8a9195"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg04.json/_index.json",
+      "bytes": 4052,
+      "sha256": "67339e1b84e8fe806b1d77319ac5d1870290d9efc18f5b5ea4ce07ecee688a50"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg04.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 3502326,
+      "sha256": "f4c5ef1d067dcffc90d04bc251fbc58d17f5b795ef3291bb4de9be5d90f33537"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg04.json/root-key-records/value-part-0000.json",
+      "bytes": 4185348,
+      "sha256": "d23498a191967c0347abee755c635023fcb5eae062a857e9889221963f306c56"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg04.json/root-key-records/value-part-0001.json",
+      "bytes": 4167972,
+      "sha256": "82d9e7226cb4e4dc7e7e3ed09119c59dfcb1e413df8515d121e3c3e7fa1665d3"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg04.json/root-key-records/value-part-0002.json",
+      "bytes": 1611782,
+      "sha256": "6d8d17c6cd65c49ffa7b7c09a75217028d94598e6d282ad2ef3f1290b4794008"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg04.json/root-object-0000.json",
+      "bytes": 368340,
+      "sha256": "3b09899b37b65457c60657df188e32407228632f6e0ee4bfd638741fd206ddb7"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg04.json/root-object-0001.json",
+      "bytes": 3289187,
+      "sha256": "9869e3d8c28c4f5e231fc522e43a78fdcc9218b90e22711a8fe03bc1e41361a9"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg05.json/_index.json",
+      "bytes": 4052,
+      "sha256": "d18639465a7ddac460dbd0d8cae74a714340aac4508b34cea0565bc5cfe4f285"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg05.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 3502326,
+      "sha256": "f4c5ef1d067dcffc90d04bc251fbc58d17f5b795ef3291bb4de9be5d90f33537"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg05.json/root-key-records/value-part-0000.json",
+      "bytes": 4185348,
+      "sha256": "d23498a191967c0347abee755c635023fcb5eae062a857e9889221963f306c56"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg05.json/root-key-records/value-part-0001.json",
+      "bytes": 4167972,
+      "sha256": "82d9e7226cb4e4dc7e7e3ed09119c59dfcb1e413df8515d121e3c3e7fa1665d3"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg05.json/root-key-records/value-part-0002.json",
+      "bytes": 1611782,
+      "sha256": "6d8d17c6cd65c49ffa7b7c09a75217028d94598e6d282ad2ef3f1290b4794008"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg05.json/root-object-0000.json",
+      "bytes": 368340,
+      "sha256": "3b09899b37b65457c60657df188e32407228632f6e0ee4bfd638741fd206ddb7"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg05.json/root-object-0001.json",
+      "bytes": 2898559,
+      "sha256": "42804e17e7600d742fd35d4d4097ad3ac06c653ba1ddf7a482272f01eb9de65e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg06.json/_index.json",
+      "bytes": 4052,
+      "sha256": "8ea08d06c7b52db28b05e86431cdbdec38deb12264e8d8426f05b61d586dbac7"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg06.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 3502326,
+      "sha256": "f4c5ef1d067dcffc90d04bc251fbc58d17f5b795ef3291bb4de9be5d90f33537"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg06.json/root-key-records/value-part-0000.json",
+      "bytes": 4185348,
+      "sha256": "d23498a191967c0347abee755c635023fcb5eae062a857e9889221963f306c56"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg06.json/root-key-records/value-part-0001.json",
+      "bytes": 4167972,
+      "sha256": "82d9e7226cb4e4dc7e7e3ed09119c59dfcb1e413df8515d121e3c3e7fa1665d3"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg06.json/root-key-records/value-part-0002.json",
+      "bytes": 1611782,
+      "sha256": "6d8d17c6cd65c49ffa7b7c09a75217028d94598e6d282ad2ef3f1290b4794008"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg06.json/root-object-0000.json",
+      "bytes": 368340,
+      "sha256": "3b09899b37b65457c60657df188e32407228632f6e0ee4bfd638741fd206ddb7"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg06.json/root-object-0001.json",
+      "bytes": 2355841,
+      "sha256": "fe348d6d0e7fafa2a4ea1527080e6069efcb2e374f35ebe32687d803adeac715"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg07.json/_index.json",
+      "bytes": 4052,
+      "sha256": "a5da48c3854975b92e5238ad69b001098a58c43d04434afc49d368c7d2b48f82"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg07.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 3502326,
+      "sha256": "f4c5ef1d067dcffc90d04bc251fbc58d17f5b795ef3291bb4de9be5d90f33537"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg07.json/root-key-records/value-part-0000.json",
+      "bytes": 4185348,
+      "sha256": "d23498a191967c0347abee755c635023fcb5eae062a857e9889221963f306c56"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg07.json/root-key-records/value-part-0001.json",
+      "bytes": 4167972,
+      "sha256": "82d9e7226cb4e4dc7e7e3ed09119c59dfcb1e413df8515d121e3c3e7fa1665d3"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg07.json/root-key-records/value-part-0002.json",
+      "bytes": 1611782,
+      "sha256": "6d8d17c6cd65c49ffa7b7c09a75217028d94598e6d282ad2ef3f1290b4794008"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg07.json/root-object-0000.json",
+      "bytes": 368340,
+      "sha256": "3b09899b37b65457c60657df188e32407228632f6e0ee4bfd638741fd206ddb7"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg07.json/root-object-0001.json",
+      "bytes": 2850268,
+      "sha256": "f2f2e8c3a400ad6b04939159180415964c34d7d99bf075d9f94c55e3ea190868"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg08.json/_index.json",
+      "bytes": 4052,
+      "sha256": "8f7345780753bca85e8acef34f226c2ba79d503bfe1312fbe20e98a3138a2b9d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg08.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 3502326,
+      "sha256": "f4c5ef1d067dcffc90d04bc251fbc58d17f5b795ef3291bb4de9be5d90f33537"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg08.json/root-key-records/value-part-0000.json",
+      "bytes": 4185348,
+      "sha256": "d23498a191967c0347abee755c635023fcb5eae062a857e9889221963f306c56"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg08.json/root-key-records/value-part-0001.json",
+      "bytes": 4167972,
+      "sha256": "82d9e7226cb4e4dc7e7e3ed09119c59dfcb1e413df8515d121e3c3e7fa1665d3"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg08.json/root-key-records/value-part-0002.json",
+      "bytes": 1611782,
+      "sha256": "6d8d17c6cd65c49ffa7b7c09a75217028d94598e6d282ad2ef3f1290b4794008"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg08.json/root-object-0000.json",
+      "bytes": 368340,
+      "sha256": "3b09899b37b65457c60657df188e32407228632f6e0ee4bfd638741fd206ddb7"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg08.json/root-object-0001.json",
+      "bytes": 2659723,
+      "sha256": "40eab3211c17bd8f8dee8cd7591a385e37598c9d3703aff06d4a3f3f63774771"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg09.json/_index.json",
+      "bytes": 4052,
+      "sha256": "2e81ee75899ecf8cff15b78fb86dce5d0bb657172d8d2c78c729993348bc95d7"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg09.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 3502326,
+      "sha256": "f4c5ef1d067dcffc90d04bc251fbc58d17f5b795ef3291bb4de9be5d90f33537"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg09.json/root-key-records/value-part-0000.json",
+      "bytes": 4185348,
+      "sha256": "d23498a191967c0347abee755c635023fcb5eae062a857e9889221963f306c56"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg09.json/root-key-records/value-part-0001.json",
+      "bytes": 4167972,
+      "sha256": "82d9e7226cb4e4dc7e7e3ed09119c59dfcb1e413df8515d121e3c3e7fa1665d3"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg09.json/root-key-records/value-part-0002.json",
+      "bytes": 1611782,
+      "sha256": "6d8d17c6cd65c49ffa7b7c09a75217028d94598e6d282ad2ef3f1290b4794008"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg09.json/root-object-0000.json",
+      "bytes": 368340,
+      "sha256": "3b09899b37b65457c60657df188e32407228632f6e0ee4bfd638741fd206ddb7"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-51-29-auto-seg09.json/root-object-0001.json",
+      "bytes": 4130138,
+      "sha256": "daab50cda4f931be19c3747b6beab9ddbaa48c5acc9a1df40832e5308411c01a"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/_index.json",
+      "bytes": 4857,
+      "sha256": "1bdae340356eb1c7db27199f050df137afd125db7584ab81df0de3b87df4b21b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/root-key-dictionaries/value-key-rails/value-part-0000.json",
+      "bytes": 4180392,
+      "sha256": "771120582a4ff12d233186d057a2bbfc71d9fc09679be0fcfe0eac033144bd25"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/root-key-dictionaries/value-key-rails/value-part-0001.json",
+      "bytes": 4160286,
+      "sha256": "68617a456f9e4e86319da11f60ff5b029a340d90237cbcf59c5cc2c7eb4da1b4"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/root-key-dictionaries/value-key-rails/value-part-0002.json",
+      "bytes": 4176430,
+      "sha256": "2fd40c3edfcb4ecd65d8c795a30bf54d15eb33879cf03d155d05aa0df516bf5f"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/root-key-dictionaries/value-key-rails/value-part-0003.json",
+      "bytes": 4170469,
+      "sha256": "335e3ed65040c515f8068ba2d6092454ffcc3e96cd9873ac2a56a0bb4070f994"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/root-key-dictionaries/value-key-rails/value-part-0004.json",
+      "bytes": 4174249,
+      "sha256": "440bfefd14c1764e276f1323de392b29fc3073e262440ac8efec6f5d354732a9"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/root-key-dictionaries/value-key-rails/value-part-0005.json",
+      "bytes": 4167881,
+      "sha256": "a066a8ee4852f1667882434bd225a28ab54085de634a85db4b8581e637de094e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/root-key-dictionaries/value-key-rails/value-part-0006.json",
+      "bytes": 1810960,
+      "sha256": "4948a9d53dbf3be9595cf943750984ff6e03cc9a9ea1a27e7d842e95f2770edc"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/root-key-dictionaries/value-key-views/value-part-0000.json",
+      "bytes": 4193853,
+      "sha256": "41a806f578676a05405e632d59c573d0fad4c4965c6a5dc39e1e8579d8344375"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/root-key-dictionaries/value-key-views/value-part-0001.json",
+      "bytes": 45113,
+      "sha256": "8022d7b7d06ae4361f9837562f604cbc23e18f1d317deeefe954fe87e47e3777"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 95075,
+      "sha256": "24988c388fd6ff7550cc3b995ac324e658ea824cbb3c8e8102e2a9286549164c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/root-key-records/value-part-0000.json",
+      "bytes": 4185251,
+      "sha256": "ac9ab07068dccdb9e0d59d61c4a4835a6b641a3cf9f69aa2899a1ae5ee7b61b9"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/root-key-records/value-part-0001.json",
+      "bytes": 4167934,
+      "sha256": "7a8c23341668d79a67150bb67daedf15d24a4ad4ac6b9bc1a03b976c7581aec8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/root-key-records/value-part-0002.json",
+      "bytes": 3623182,
+      "sha256": "3b214422f897f4b2130e0e77ba63115e55e4194ea2cd57896d9949cb81ca147d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/root-object-0000.json",
+      "bytes": 378013,
+      "sha256": "692b54e761f834e50e0d9a3c00e3738beb0cb919bdb855894cbf962c1aef0404"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg01.json/root-object-0001.json",
+      "bytes": 2408851,
+      "sha256": "34cd2ec6fe1f14e7bdfb4f1ca5390c3486ee2265ae3eaf90c31e1018dc013020"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg02.json/_index.json",
+      "bytes": 4857,
+      "sha256": "f3115c1ef9dc9ac168118d4a27f5c0eb0aa8d61cb15e51656999259f7f6e5e42"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg02.json/root-key-dictionaries/value-key-views/value-part-0000.json",
+      "bytes": 4193853,
+      "sha256": "41a806f578676a05405e632d59c573d0fad4c4965c6a5dc39e1e8579d8344375"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg02.json/root-key-dictionaries/value-key-views/value-part-0001.json",
+      "bytes": 45113,
+      "sha256": "8022d7b7d06ae4361f9837562f604cbc23e18f1d317deeefe954fe87e47e3777"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg02.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 95075,
+      "sha256": "24988c388fd6ff7550cc3b995ac324e658ea824cbb3c8e8102e2a9286549164c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg02.json/root-key-records/value-part-0000.json",
+      "bytes": 4185251,
+      "sha256": "ac9ab07068dccdb9e0d59d61c4a4835a6b641a3cf9f69aa2899a1ae5ee7b61b9"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg02.json/root-key-records/value-part-0001.json",
+      "bytes": 4167934,
+      "sha256": "7a8c23341668d79a67150bb67daedf15d24a4ad4ac6b9bc1a03b976c7581aec8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg02.json/root-key-records/value-part-0002.json",
+      "bytes": 3623182,
+      "sha256": "3b214422f897f4b2130e0e77ba63115e55e4194ea2cd57896d9949cb81ca147d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg02.json/root-object-0000.json",
+      "bytes": 378013,
+      "sha256": "692b54e761f834e50e0d9a3c00e3738beb0cb919bdb855894cbf962c1aef0404"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg02.json/root-object-0001.json",
+      "bytes": 2216319,
+      "sha256": "5a1fb16683505aa67de733c84b65d23b26b38d3d14451ba77c01f58452268f28"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg03.json/_index.json",
+      "bytes": 5296,
+      "sha256": "b8e486ae857487a63e6e1bec6d02a702f0ddddbbe03c79d5a42f14e50803d601"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg03.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4128564,
+      "sha256": "04d94c221aa7943f901e91ac63820a3eaa0da17efd661250fdea51ec40e4ad72"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg03.json/root-key-clouds/value-part-0001.json",
+      "bytes": 957596,
+      "sha256": "9fa3c06693a2c7c673262b8e780390f616ea2279f4c4aec2f84709dc373e511c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg03.json/root-key-dictionaries/value-key-views/value-part-0000.json",
+      "bytes": 4193853,
+      "sha256": "41a806f578676a05405e632d59c573d0fad4c4965c6a5dc39e1e8579d8344375"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg03.json/root-key-dictionaries/value-key-views/value-part-0001.json",
+      "bytes": 45113,
+      "sha256": "8022d7b7d06ae4361f9837562f604cbc23e18f1d317deeefe954fe87e47e3777"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg03.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 95075,
+      "sha256": "24988c388fd6ff7550cc3b995ac324e658ea824cbb3c8e8102e2a9286549164c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg03.json/root-key-records/value-part-0000.json",
+      "bytes": 4185251,
+      "sha256": "ac9ab07068dccdb9e0d59d61c4a4835a6b641a3cf9f69aa2899a1ae5ee7b61b9"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg03.json/root-key-records/value-part-0001.json",
+      "bytes": 4167934,
+      "sha256": "7a8c23341668d79a67150bb67daedf15d24a4ad4ac6b9bc1a03b976c7581aec8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg03.json/root-key-records/value-part-0002.json",
+      "bytes": 3623182,
+      "sha256": "3b214422f897f4b2130e0e77ba63115e55e4194ea2cd57896d9949cb81ca147d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg03.json/root-object-0000.json",
+      "bytes": 378013,
+      "sha256": "692b54e761f834e50e0d9a3c00e3738beb0cb919bdb855894cbf962c1aef0404"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T12-58-02-seg03.json/root-object-0001.json",
+      "bytes": 377,
+      "sha256": "13969837d08eaa6162affaee644e63f916bd6cccb9b85014b89892cfb7df28b6"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-03-33-auto-seg01.json/_index.json",
+      "bytes": 2033,
+      "sha256": "16d22da76038be1e42ab6f375d7e680f7cf0fa02b3e9fc812204c0b92bdc7456"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-03-33-auto-seg01.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4191860,
+      "sha256": "bafcf4b26076301ab1d50cb2c465053b7437160828ab1067cda2bb32d54953df"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-03-33-auto-seg01.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4086671,
+      "sha256": "001ca2ad8ecba329dd178cc04e439f3acc9fb7761b525c3f234ae78bad847ec0"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-03-33-auto-seg01.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4128335,
+      "sha256": "54e221d9d5fce899c0b62b5a13bee4ea2bef20929232ca47308ca63f655bc120"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-03-33-auto-seg01.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4126203,
+      "sha256": "03b25a190254ba164ba80a9654abb139e2009ce8d80d71a19801d8f9284dd6e0"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-03-33-auto-seg01.json/root-key-clouds/value-part-0004.json",
+      "bytes": 1699950,
+      "sha256": "500198b9f550306cdf9df9edcd2c5208458b85543bcba32109cc093fd0567add"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-03-33-auto-seg01.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 4139846,
+      "sha256": "0d702f1734785d338d7f103159b5fcba7562acb4ba0b9c3007eec63344258f29"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-03-33-auto-seg01.json/root-key-dictionaries/value-object-0001.json",
+      "bytes": 338372,
+      "sha256": "67ced4a311a2cdb00323d1f05f7b66bc0eae40fd822db6032a3d0d1d1d6a7913"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-03-33-auto-seg01.json/root-object-0000.json",
+      "bytes": 3663956,
+      "sha256": "9b8f1ba47d37652b52a93416c3bd56709057e574d602377bd4a971e4c5a94624"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-09-49-auto-seg02.json/_index.json",
+      "bytes": 2507,
+      "sha256": "fd1b06c0a18d4da05c0b33aa37f2ccc884ae941a9683610267d8a941cf75d7ae"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-09-49-auto-seg02.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4184489,
+      "sha256": "a69e6bbca9e3fb0feae3e4ec26bfefd4fdce9fc55d816c0e2aea3c57708be062"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-09-49-auto-seg02.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4139319,
+      "sha256": "c4eeb1ba256ad18c17fe7cdff4758fe5bd456107d2bc871323b51c72a7a77d90"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-09-49-auto-seg02.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4110076,
+      "sha256": "3369162bb1c29a8217eacb7839d6949ac9b418f904ac30026f95390f9bbffb8c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-09-49-auto-seg02.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4184936,
+      "sha256": "07215008f95be1d281a73ffa7e4b192351f4f0cddbb7f875c6a986c706026690"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-09-49-auto-seg02.json/root-key-clouds/value-part-0004.json",
+      "bytes": 1091416,
+      "sha256": "0363caaf423af9f81b462bd903c65f186d1c509444f271271a4dfa41b33c8a4f"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-09-49-auto-seg02.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 635820,
+      "sha256": "5ef0c3a41cdc180e2ed6b32f073bf7c0ed156f5e8301399cbc84b6547b477a4b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-09-49-auto-seg02.json/root-object-0000.json",
+      "bytes": 2867671,
+      "sha256": "faf0309f958a518f9552e6a5b42d6e572ea32ad1aeb1627e78bc6779bd20deaa"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-09-49-auto-seg02.json/root-object-0001.json",
+      "bytes": 4099567,
+      "sha256": "e6d290aa01d8fb767d21808daa4cc87699412b672c3b4f82922470203754e827"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-13-00-auto-seg03.json/_index.json",
+      "bytes": 3856,
+      "sha256": "c9aedca682caed9e823fcb21458f8aaf7936e52444997fcca50dbcb6cbe5ad26"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-13-00-auto-seg03.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4193682,
+      "sha256": "520c48632aefbb192c4d7473f2afbc6d8a3dc7a0f5c8b36c9ce9476ebe2e6eb5"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-13-00-auto-seg03.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4166829,
+      "sha256": "7cb0fe72d54b32c33ee47fb061f8d3ddb8393f1f1e34d071af6785de7e37829e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-13-00-auto-seg03.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4150980,
+      "sha256": "56a636419936a8d76b8bc89556bfe9a3f6a2ec2154ac1e5b4e9877844541250b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-13-00-auto-seg03.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4193507,
+      "sha256": "2cd884561e65168767a2f0fd0c0228d16a002701506c51f91057cd7aee180132"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-13-00-auto-seg03.json/root-key-clouds/value-part-0004.json",
+      "bytes": 313653,
+      "sha256": "0265754bcef17d06093e3b6b5d28a1945b62759e801763e8d0585fe67420f7b7"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-13-00-auto-seg03.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 1155743,
+      "sha256": "32e6a57d60b3900c1100ad048a19588bdd66ad92a7c525598c1f07bffdf89297"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-13-00-auto-seg03.json/root-key-records/value-part-0000.json",
+      "bytes": 4187036,
+      "sha256": "7492125e7949523718a3c1bcc0245eabd8b40941544cad1ebbd81ae197ce0636"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-13-00-auto-seg03.json/root-key-records/value-part-0001.json",
+      "bytes": 281910,
+      "sha256": "d6a72d00b33201c93e55bb7492d6f60916a3841727b0e608752f88737171f699"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-13-00-auto-seg03.json/root-object-0000.json",
+      "bytes": 179266,
+      "sha256": "709054f3b1488a1439baad740b3cb1ee82fbed7ea36da308b980000b6caf3157"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-13-00-auto-seg03.json/root-object-0001.json",
+      "bytes": 380,
+      "sha256": "0e809865cf314502f39c9eec606c0ba6b5fc0457371c5faa012aa433adba5443"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg04.json/_index.json",
+      "bytes": 3683,
+      "sha256": "18988aa815fbd806c06ddd886b6d45ca66b1119f068ffc82c7bbc4cd784473d9"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg04.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4111231,
+      "sha256": "642c8ffe6513c7eb092710e46ed657bf23f848b92841d6427afcb9b66add8f4f"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg04.json/root-key-clouds/value-part-0001.json",
+      "bytes": 1266924,
+      "sha256": "525e0a5d38c26773b75b22c7aa213f896db126b2e1ab4ef15b91aaad3ea8dacc"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg04.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 2061431,
+      "sha256": "51e32526000ffe51c54c764a3a685ca4bc9bfcb8196e9369f1fba7564ae4f314"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg04.json/root-key-records/value-part-0000.json",
+      "bytes": 4187063,
+      "sha256": "30f2349522f055b6ebda9cb0ae537b3bcfcd6d3888d32d27002362f5ab38929b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg04.json/root-key-records/value-part-0001.json",
+      "bytes": 2876994,
+      "sha256": "ca23cd7e539e1e41f4434535bfaa224a156b4d64520fa1c258902401a22ffbfe"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg04.json/root-object-0000.json",
+      "bytes": 268506,
+      "sha256": "8b4c1c7736d7ad4b33df6f2cc939aba81e990733806292fcd1600ffbefcddb5b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg04.json/root-object-0001.json",
+      "bytes": 378,
+      "sha256": "58d21a67dda14b850b38f7c1eadf958f8e4bb788176c3dc5661dddc948513349"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg05.json/_index.json",
+      "bytes": 3683,
+      "sha256": "b54d1a473521f1337ed1adfcec0f3084e044fb2c87ed920faa71b44567bd74d8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg05.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4161987,
+      "sha256": "6e3eb32fa6f9549620bb4d3ba8a15c2721448ef63bbae427b3f373670c5c40d1"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg05.json/root-key-clouds/value-part-0001.json",
+      "bytes": 1212096,
+      "sha256": "fc23dd47961eaf40928e65d42228c7a43f1eff47fbcaa67224cc99eccc371b2c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg05.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 2061431,
+      "sha256": "51e32526000ffe51c54c764a3a685ca4bc9bfcb8196e9369f1fba7564ae4f314"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg05.json/root-key-records/value-part-0000.json",
+      "bytes": 4187063,
+      "sha256": "30f2349522f055b6ebda9cb0ae537b3bcfcd6d3888d32d27002362f5ab38929b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg05.json/root-key-records/value-part-0001.json",
+      "bytes": 2876994,
+      "sha256": "ca23cd7e539e1e41f4434535bfaa224a156b4d64520fa1c258902401a22ffbfe"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg05.json/root-object-0000.json",
+      "bytes": 268506,
+      "sha256": "8b4c1c7736d7ad4b33df6f2cc939aba81e990733806292fcd1600ffbefcddb5b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg05.json/root-object-0001.json",
+      "bytes": 380,
+      "sha256": "cfd0eb343c995b87bdea723a3593f5a00a7f5df1ae1798a81ab6b0d1dc2621d8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg06.json/_index.json",
+      "bytes": 3683,
+      "sha256": "be8bfcbe3d91588e3eb51c64a1dbbde92115b41ba9970abc4559d2af5b2f4ddf"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg06.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4075680,
+      "sha256": "3bfec551eb867afc00180f0ac3e8c93e25d95cd2a4babdeba42c9635209ef833"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg06.json/root-key-clouds/value-part-0001.json",
+      "bytes": 1524325,
+      "sha256": "2b2b0d89f6808732a7ebda6334ab2d9511a65edc803c0af102302299cb6b81ad"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg06.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 2061431,
+      "sha256": "51e32526000ffe51c54c764a3a685ca4bc9bfcb8196e9369f1fba7564ae4f314"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg06.json/root-key-records/value-part-0000.json",
+      "bytes": 4187063,
+      "sha256": "30f2349522f055b6ebda9cb0ae537b3bcfcd6d3888d32d27002362f5ab38929b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg06.json/root-key-records/value-part-0001.json",
+      "bytes": 2876994,
+      "sha256": "ca23cd7e539e1e41f4434535bfaa224a156b4d64520fa1c258902401a22ffbfe"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg06.json/root-object-0000.json",
+      "bytes": 268506,
+      "sha256": "8b4c1c7736d7ad4b33df6f2cc939aba81e990733806292fcd1600ffbefcddb5b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-18-15-auto-seg06.json/root-object-0001.json",
+      "bytes": 380,
+      "sha256": "9b671e3bf5fb4ede7cb5f70e3f0e3ce612705b755f2c11fab08ef2a77a2d0c28"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg01.json/_index.json",
+      "bytes": 3962,
+      "sha256": "8145e64d7a93851181eb1c85ace749a2540bd1d5b00ab920cf0722a68db14e6b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg01.json/root-key-dictionaries/value-key-rails/value-part-0000.json",
+      "bytes": 4171981,
+      "sha256": "f2f3d8423d79a4733a03abdd1d02f2fe25e71a370e29916b9eecc55102c8ea33"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg01.json/root-key-dictionaries/value-key-rails/value-part-0001.json",
+      "bytes": 4187405,
+      "sha256": "cc568652653d5672a35c64d7eb54850b1520356234d7afb423a43ad7847125c5"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg01.json/root-key-dictionaries/value-key-rails/value-part-0002.json",
+      "bytes": 4192930,
+      "sha256": "7dd4f78c3b29c37e7a1ded93f31f9b2f12737365a6246bc528a906f0247e2a41"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg01.json/root-key-dictionaries/value-key-rails/value-part-0003.json",
+      "bytes": 4184751,
+      "sha256": "33cb0f1875be19b551bd47c279009e0a8b9403b343c8648002c38a0fdc4c2c3a"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg01.json/root-key-dictionaries/value-key-rails/value-part-0004.json",
+      "bytes": 4171452,
+      "sha256": "39a65ff31f5f20250a5375e80954423a8fa20d32642428de87e6e7dfe5d163b2"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg01.json/root-key-dictionaries/value-key-rails/value-part-0005.json",
+      "bytes": 2361398,
+      "sha256": "248a8acc8e3dca6c715d7fc0f720dcd14887d0e6cc2f32c1f67f293c2b0c890d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg01.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 3343772,
+      "sha256": "d58920a23a852c6a3eac315c8dd670dae9956752690a236b5612dc0d6abbfd90"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg01.json/root-key-records/value-part-0000.json",
+      "bytes": 4187003,
+      "sha256": "7a45eb4471e2b38c51c4081f6bbc46dc3b27c900b3562ab0fb8e9c719cb4913e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg01.json/root-key-records/value-part-0001.json",
+      "bytes": 4183638,
+      "sha256": "fc4b2de7a7473acb77451f862d9b4eebed13cb7a46bcbeb59411eeca9200706c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg01.json/root-key-records/value-part-0002.json",
+      "bytes": 1588678,
+      "sha256": "c891f1e6b327e929a54dd169bde62be3ec4bbacc7034bef9d703f543c87f97fe"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg01.json/root-object-0000.json",
+      "bytes": 334001,
+      "sha256": "403b130fdf8940b03e734b702248897aa7f4d5e83c49411fe339e08c0ec44501"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg01.json/root-object-0001.json",
+      "bytes": 2528915,
+      "sha256": "9804e2c42711da2ca62a9616500162560f202d9f0a2c868f3a215b7acee87a01"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg02.json/_index.json",
+      "bytes": 3962,
+      "sha256": "a6bec1a5c97221ffddce023510c824d9cd5838ba9cd1dce8265df6c9037d6cf7"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg02.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 3343772,
+      "sha256": "d58920a23a852c6a3eac315c8dd670dae9956752690a236b5612dc0d6abbfd90"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg02.json/root-key-records/value-part-0000.json",
+      "bytes": 4187003,
+      "sha256": "7a45eb4471e2b38c51c4081f6bbc46dc3b27c900b3562ab0fb8e9c719cb4913e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg02.json/root-key-records/value-part-0001.json",
+      "bytes": 4183638,
+      "sha256": "fc4b2de7a7473acb77451f862d9b4eebed13cb7a46bcbeb59411eeca9200706c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg02.json/root-key-records/value-part-0002.json",
+      "bytes": 1588678,
+      "sha256": "c891f1e6b327e929a54dd169bde62be3ec4bbacc7034bef9d703f543c87f97fe"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg02.json/root-object-0000.json",
+      "bytes": 334001,
+      "sha256": "403b130fdf8940b03e734b702248897aa7f4d5e83c49411fe339e08c0ec44501"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg02.json/root-object-0001.json",
+      "bytes": 2408857,
+      "sha256": "7dc9b0012397c692e0f199a4b2cf78183b5589a196f679483522173e7742a2b6"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg03.json/_index.json",
+      "bytes": 3962,
+      "sha256": "9a8cd83d4e05eb72b550bf67b3c30b00b0f9f59d4a013d16e11395f1f0fc1fd1"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg03.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 3343772,
+      "sha256": "d58920a23a852c6a3eac315c8dd670dae9956752690a236b5612dc0d6abbfd90"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg03.json/root-key-records/value-part-0000.json",
+      "bytes": 4187003,
+      "sha256": "7a45eb4471e2b38c51c4081f6bbc46dc3b27c900b3562ab0fb8e9c719cb4913e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg03.json/root-key-records/value-part-0001.json",
+      "bytes": 4183638,
+      "sha256": "fc4b2de7a7473acb77451f862d9b4eebed13cb7a46bcbeb59411eeca9200706c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg03.json/root-key-records/value-part-0002.json",
+      "bytes": 1588678,
+      "sha256": "c891f1e6b327e929a54dd169bde62be3ec4bbacc7034bef9d703f543c87f97fe"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg03.json/root-object-0000.json",
+      "bytes": 334001,
+      "sha256": "403b130fdf8940b03e734b702248897aa7f4d5e83c49411fe339e08c0ec44501"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg03.json/root-object-0001.json",
+      "bytes": 2995189,
+      "sha256": "3e063a1fe9bc65e8fa15b5f20249aeb977893bdd1e6342bbe7c6759b83518574"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg04.json/_index.json",
+      "bytes": 3962,
+      "sha256": "da3d9447ac5f69a527837438b048abdd557a502019d92a09bbfec2718c87b4ad"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg04.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 3343772,
+      "sha256": "d58920a23a852c6a3eac315c8dd670dae9956752690a236b5612dc0d6abbfd90"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg04.json/root-key-records/value-part-0000.json",
+      "bytes": 4187003,
+      "sha256": "7a45eb4471e2b38c51c4081f6bbc46dc3b27c900b3562ab0fb8e9c719cb4913e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg04.json/root-key-records/value-part-0001.json",
+      "bytes": 4183638,
+      "sha256": "fc4b2de7a7473acb77451f862d9b4eebed13cb7a46bcbeb59411eeca9200706c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg04.json/root-key-records/value-part-0002.json",
+      "bytes": 1588678,
+      "sha256": "c891f1e6b327e929a54dd169bde62be3ec4bbacc7034bef9d703f543c87f97fe"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg04.json/root-object-0000.json",
+      "bytes": 334001,
+      "sha256": "403b130fdf8940b03e734b702248897aa7f4d5e83c49411fe339e08c0ec44501"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-25-47-seg04.json/root-object-0001.json",
+      "bytes": 2838963,
+      "sha256": "75aada88ef39f3c07d29da6d3404789aa2cacb9dc5d7ec1f6ba659a5b6050a3d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-59-42-seg01.json/_index.json",
+      "bytes": 2700,
+      "sha256": "9f5debbce02058cad322beb3cabc2a4cd535bef7202544bcb52b7695a16bf330"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-59-42-seg01.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4172099,
+      "sha256": "e7c6b083e6ba7c2d32c937f05797699d721b601a21840458ed5124bcc6edd5e9"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-59-42-seg01.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4159475,
+      "sha256": "0a306c6184143f9f212581c8c484e3625457e627705f914d0374d68b04798826"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-59-42-seg01.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4163101,
+      "sha256": "f0d5c2595a25a6933d47c91bc984cba93ba70d4fc2ceeabd04dddfe3a150ac30"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-59-42-seg01.json/root-key-clouds/value-part-0003.json",
+      "bytes": 2401013,
+      "sha256": "9db8bc3eace5b2cab983a7e876119ff9a59367b1a88184039218b0c72875a0ef"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-59-42-seg01.json/root-key-dictionaries/value-key-rails/value-part-0000.json",
+      "bytes": 4193614,
+      "sha256": "f0c835f588807d78f77ea095a67ab5e2e33127f17af57509d3d5a6f6f6ba54c8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-59-42-seg01.json/root-key-dictionaries/value-key-rails/value-part-0001.json",
+      "bytes": 718492,
+      "sha256": "f3736fe97011f15e12b5826a0c9de51efe883091c4a9acb04ef47b92de5d825d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-59-42-seg01.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 1453571,
+      "sha256": "793b9c581c2d2e1d5669f9e3efb48907866d9cccc57f4d8f28db7eb55f3a8dec"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-59-42-seg01.json/root-object-0000.json",
+      "bytes": 3612598,
+      "sha256": "b6e1937a7bf0e03f24d3e8820d26796f3533bbbd7d9f338618ab533062b4a1c3"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/final/banane-native-v4-2026-09-16T13-59-42-seg01.json/root-object-0001.json",
+      "bytes": 380,
+      "sha256": "20108dab206b1a43d7a7145a27df9ff8661c6ff7a333516b6f028a05fe738a99"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-13-25-auto-seg01.json/_index.json",
+      "bytes": 2168,
+      "sha256": "ad75218c191726188f72f1b158988d656ad38fee7a4ea41ebb2aa450a1de97d0"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-13-25-auto-seg01.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4154087,
+      "sha256": "5180c56741139bc3d3ccd0193de7ad0195a0e8ab265bcf790cde0f38c375e053"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-13-25-auto-seg01.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4156528,
+      "sha256": "34be0f6da417c50de826e8092b772b5455f38b9e83965afb8e8ab2aa3d6572e0"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-13-25-auto-seg01.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4097011,
+      "sha256": "c766c7382eded4de1596743416718a7d8d6a8bdceedfe63ffeb0e97fc9cc271d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-13-25-auto-seg01.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4117667,
+      "sha256": "135ec16192c6ec28169216e2610b35c26789d9642db84b02ebe8af6c26d0ac28"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-13-25-auto-seg01.json/root-key-clouds/value-part-0004.json",
+      "bytes": 4125809,
+      "sha256": "4a42715e3361de7d6172f315d7df358d3711cc5e8dc263fcc6ebb67b77a6e45c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-13-25-auto-seg01.json/root-key-clouds/value-part-0005.json",
+      "bytes": 4133164,
+      "sha256": "e5e8edd8e25a45a30712cf89b9b18b7aed4af96cf7523710cfba1fc98376d8e8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-13-25-auto-seg01.json/root-key-clouds/value-part-0006.json",
+      "bytes": 220483,
+      "sha256": "743a5b84950e61ae0f32c32c1d3f6a3a544e0548c681bb005e8e109c78092cfe"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-13-25-auto-seg01.json/root-object-0000.json",
+      "bytes": 3264535,
+      "sha256": "fffcfa6a779b0334fe28fd703cac61aa6909433c32787e072f039e812d9005ba"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-13-25-auto-seg01.json/root-object-0001.json",
+      "bytes": 3170018,
+      "sha256": "dcceeda2e651037bcb6290b532a73f6d5fa2903e4aee04007c4e8dcec7854b27"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-14-59-auto-seg02.json/_index.json",
+      "bytes": 2557,
+      "sha256": "dacaa43ca7afb7f42e5813e6fe929acc3d95dbe40bbb236d04421584b19c913e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-14-59-auto-seg02.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4153922,
+      "sha256": "d312940a23ff783a37a347c7292e1262564c65694c24580ea2fd797f28a1036d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-14-59-auto-seg02.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4152454,
+      "sha256": "8272398330c24ed664a09f79515dc83a229a88cd1c028e35da6dfbf90608bee5"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-14-59-auto-seg02.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4179146,
+      "sha256": "b4a513135091474e9f7f5adf70b51eed7bd665a869987691c4bd766251803318"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-14-59-auto-seg02.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4166724,
+      "sha256": "d68fbc8241d6779745957b5e6f5b6b4198dddcdd5b8b2891f80b0ce642028388"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-14-59-auto-seg02.json/root-key-clouds/value-part-0004.json",
+      "bytes": 1982860,
+      "sha256": "790a5774fcb2778d0457e19054da9ff077df6b7641760d152ba17de29e3d88ec"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-14-59-auto-seg02.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 522898,
+      "sha256": "f981ded9b69c954c3ec54f974d2b95d92caeba86fa23138aab731c19f31e268b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-14-59-auto-seg02.json/root-object-0000.json",
+      "bytes": 2804746,
+      "sha256": "52c071c516199f3916042a887adcbfe4937035bf36c81cda9db54d0cdbb0e0cb"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-14-59-auto-seg02.json/root-object-0001.json",
+      "bytes": 3991355,
+      "sha256": "fc9d8d65b4519fb33fbe67ca10f7cc90e0bac86fe9fff21bda1135319977de0c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-18-00-auto-seg03.json/_index.json",
+      "bytes": 3019,
+      "sha256": "0c575df3301218aa19b82dbd39e4dad801a1e460220840e1670f7963610cbe74"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-18-00-auto-seg03.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4160421,
+      "sha256": "422fd1c13f8dc3769ac2c43eb94e1005cf5305edfa09f9a319cfd1e06f5e8cc5"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-18-00-auto-seg03.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4108214,
+      "sha256": "04213ecd574b09d2ebdf3e7c6c083a8191e47cf516188693448f7801457176e3"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-18-00-auto-seg03.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4161286,
+      "sha256": "6bd4556f1b2f97b8b39be80a595c1579c9e031edc5be8aeb8b112d4340dc76b0"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-18-00-auto-seg03.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4190521,
+      "sha256": "fe281c287eee65c14afcd0c48d00b39dd51ee47bc74f2dc2fce57b4a81ddd86d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-18-00-auto-seg03.json/root-key-clouds/value-part-0004.json",
+      "bytes": 2170620,
+      "sha256": "4408727d7b9e3be91ff4bed8f34efe935f752fda98081c0067553bdd97daabc0"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-18-00-auto-seg03.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 669674,
+      "sha256": "7fc530f94c81af304b14c133d1147a0059120925395a3441c5a2bf4edc307f8e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-18-00-auto-seg03.json/root-object-0000.json",
+      "bytes": 3777436,
+      "sha256": "e1522ba1548ec9a8e1f4e0e01c87141204d05165b7d2c582ba3007ec0fd2a7c2"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-18-00-auto-seg03.json/root-object-0001.json",
+      "bytes": 379,
+      "sha256": "98c414a31b91cae8b46fdbe8cd46a6369dcefb3951e37991dfb062fa39b2de7a"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-19-30-auto-seg04.json/_index.json",
+      "bytes": 3711,
+      "sha256": "cbadf7b85b4b63a1a7fb5d87a27337fdca7779885d0560016f10e6d3bf9dd28e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-19-30-auto-seg04.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4115890,
+      "sha256": "4cde3fac07ce2bd2ee957fae0ca09e3d80358ce1c63231a2b948cfd1b1d55798"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-19-30-auto-seg04.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4110915,
+      "sha256": "3fff5383c570b76ba5832b6d5b7b7f549b7d7f79d8ac04e24c145fbe3f096c13"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-19-30-auto-seg04.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4150776,
+      "sha256": "a8c815934b92bbc01b6e995208e13707b82169f50216dda8bb04b87b34962a09"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-19-30-auto-seg04.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4129697,
+      "sha256": "92d4ba547ae54e79a6ef412f92e15dd85c45757b320687da26021349f5d139a6"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-19-30-auto-seg04.json/root-key-clouds/value-part-0004.json",
+      "bytes": 3351175,
+      "sha256": "0a14c531a25dd5979bc4989cb4fcc39b8c083de5a852ef4addf70b431b75bf77"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-19-30-auto-seg04.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 836749,
+      "sha256": "ea00a0215066ebf84c54637d6ef8b5b2353fafcc73fcb2782ec053be1e325b13"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-19-30-auto-seg04.json/root-key-records/value-part-0000.json",
+      "bytes": 4154999,
+      "sha256": "15b9502f0c05d9cd7606df5da51c89977d38a3b654ad9a18ca128f2e8f6a1eb6"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-19-30-auto-seg04.json/root-key-records/value-part-0001.json",
+      "bytes": 330744,
+      "sha256": "f38a6af6719713275c27590baec6664b40a722346338f274625c3028a578782c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-19-30-auto-seg04.json/root-object-0000.json",
+      "bytes": 280674,
+      "sha256": "f91b28ecf644a5b114698967c81651862d75e771f32ce0883c9e8b4966581dda"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-19-30-auto-seg04.json/root-object-0001.json",
+      "bytes": 379,
+      "sha256": "b421fb9d60b61fb7220b5654d6f645d6fbbba46ecbfd78c2bef0708901c57cde"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-21-30-auto-seg05.json/_index.json",
+      "bytes": 3712,
+      "sha256": "51ddffac479a7869e3f2163e84de4792b6ac98b961ae27a2225f587ed9689e0a"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-21-30-auto-seg05.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4188933,
+      "sha256": "3436b9446f937e210efea00110a98f4f61994c81e257a737679472da412bcefd"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-21-30-auto-seg05.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4138348,
+      "sha256": "b0e10db674c891f1f6a2f6be0582106811ee11a785ff69967e5063543329849d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-21-30-auto-seg05.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4097698,
+      "sha256": "e9fe02c7bf8d801382b66bb2d0a0e959f91894d92baca7b1cc689c39e3bb4bee"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-21-30-auto-seg05.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4150871,
+      "sha256": "60bae186b27c707571697cc516a40f421d838aa17e35f86ce401d9f9bca41198"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-21-30-auto-seg05.json/root-key-clouds/value-part-0004.json",
+      "bytes": 2591371,
+      "sha256": "b317d45c8e45a5e37ae66e8d0d7a2fdf419034da66e99057aade84b949e83296"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-21-30-auto-seg05.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 997278,
+      "sha256": "39813702889a5145ddd79ddde407449d4656ae9db402642d0b03bb98148ceaeb"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-21-30-auto-seg05.json/root-key-records/value-part-0000.json",
+      "bytes": 4154865,
+      "sha256": "8509e28f10b8c9fec1dcc4700645b91a699a814cda7813e0d5e0fbc79464c66b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-21-30-auto-seg05.json/root-key-records/value-part-0001.json",
+      "bytes": 1225390,
+      "sha256": "29cceb4e9e07d58f437ffce033f6031fad71b297779e6317659405127a7f4f32"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-21-30-auto-seg05.json/root-object-0000.json",
+      "bytes": 287583,
+      "sha256": "53630d14a5d4d3614ba8f37a98aa5e2d631b9a60d7488ebf372384758d481175"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-21-30-auto-seg05.json/root-object-0001.json",
+      "bytes": 379,
+      "sha256": "31eb7500197d2511d5cea415d220782d7f5b4b72c5af099f15da8cfa77c5507d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-22-54-seg01.json/_index.json",
+      "bytes": 3257,
+      "sha256": "c68e0682898e2cc39874e053c30aa49a5cd0ab0f7ca07ee206d444d9cbcce56f"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-22-54-seg01.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4087262,
+      "sha256": "fdd6a2fae528220da488ef93fa30790922131e83ba563d9ca59782728a5dfcee"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-22-54-seg01.json/root-key-clouds/value-part-0001.json",
+      "bytes": 3479278,
+      "sha256": "0bcb3276ffbc6433a74526cd4b4df8ae248fe130157dedf9eb45b0723e33c17e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-22-54-seg01.json/root-key-dictionaries/value-key-rails/value-part-0000.json",
+      "bytes": 4180200,
+      "sha256": "032667f0bb6caf8ed8de184718df4d451f56893e4e36c35e68fed05e0e0bd402"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-22-54-seg01.json/root-key-dictionaries/value-key-rails/value-part-0001.json",
+      "bytes": 4186615,
+      "sha256": "f1da797761935222329c4df31a4869bfca11c582bfb4e01a5b01f9f8e1d03bf1"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-22-54-seg01.json/root-key-dictionaries/value-key-rails/value-part-0002.json",
+      "bytes": 4158713,
+      "sha256": "ac297274c847276040acecb7529110833fba5de0e4922375306a7c7790e9e2ae"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-22-54-seg01.json/root-key-dictionaries/value-key-rails/value-part-0003.json",
+      "bytes": 1324556,
+      "sha256": "e4c9d5734b7edab18d9639b008c31b7764c6f4747f3933c86098c87550b5285a"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-22-54-seg01.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 1080229,
+      "sha256": "0aefac6dc7017bc710d50a9bca6afa7a89256969942153dfa6a85222565fcacf"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-22-54-seg01.json/root-key-records/value-part-0000.json",
+      "bytes": 4154835,
+      "sha256": "e57e0bafb633847f042c349c24e289633164a33c80878ea2e6087710601825d3"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-22-54-seg01.json/root-key-records/value-part-0001.json",
+      "bytes": 1685966,
+      "sha256": "a3db743209bbf04862b788e5488dcaef0ffd9345ed6bf340fe67c12e2d5e13ad"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-22-54-seg01.json/root-object-0000.json",
+      "bytes": 319171,
+      "sha256": "98905bf3561f17207f5b98d521103b25eed2406f57a4064e1a5ab79ac5496e6d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-22-54-seg01.json/root-object-0001.json",
+      "bytes": 378,
+      "sha256": "585adece9f2764069f3fb84066081edf1173f75cc4af165e2e0f74bff35e471e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-41-46-auto-seg01.json/_index.json",
+      "bytes": 1761,
+      "sha256": "283a59ac7b5bdd11174ab9d251a927e6052ac0715b245397ad22b61ac819cfd2"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-41-46-auto-seg01.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4124054,
+      "sha256": "4d80d2b818732e33422a4bd29ba3e52efa8e09810800a390a436e0926c75fe23"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-41-46-auto-seg01.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4108811,
+      "sha256": "8d7558df56c79e7651ca9d80b4b7cf6980147165507089842b0f3ca3253dd1ae"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-41-46-auto-seg01.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4068738,
+      "sha256": "cc6f5def7927f31f8e353e6dbfe1403791fb903763f881bf68a058e9a3c39294"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-41-46-auto-seg01.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4112103,
+      "sha256": "47ea285792428ccdc616b5340b1a6dce56dbbff76d76ebedd937b8afe4081f86"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-41-46-auto-seg01.json/root-key-clouds/value-part-0004.json",
+      "bytes": 1534123,
+      "sha256": "312a2d4b91f30282aadb3815236956bf33cc54337e8c8877d623f9ad5c0d57ea"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-41-46-auto-seg01.json/root-object-0000.json",
+      "bytes": 2902567,
+      "sha256": "d8dacc95941593a13567a063a139784502f2ef5ee10d71f57a7f0f794db469f6"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-41-46-auto-seg01.json/root-object-0001.json",
+      "bytes": 3902701,
+      "sha256": "74b04b2071a865ecb438194d2acdef070673a54aa8ea4261c4cc3e5d8844cd72"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-43-42-auto-seg02.json/_index.json",
+      "bytes": 2556,
+      "sha256": "a087eda1f293572f498499635c8759c3eae90428c2c8243fef06e77eb6c41830"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-43-42-auto-seg02.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4092596,
+      "sha256": "f251cbab4461d5761404d48e9d233f8d3fe8c142f1bde661e08a69503a8c7d26"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-43-42-auto-seg02.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4151427,
+      "sha256": "f125fb8cc43dc111969b02fb2adbb781dde695276168f14bd382478ce5bd5baa"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-43-42-auto-seg02.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4185196,
+      "sha256": "7b6c94c2826493234f6fcc29255deb8b27ce6c31d5b1ee189951f52035fc3834"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-43-42-auto-seg02.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4101451,
+      "sha256": "1e38831b0c61d12fad9661cac4ec8e33a0939d82c4f16852aabcedab31902fad"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-43-42-auto-seg02.json/root-key-clouds/value-part-0004.json",
+      "bytes": 972862,
+      "sha256": "a326f039a66f0643f605b016d99df8473db64bf081a4c2c573cc546640fbbf03"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-43-42-auto-seg02.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 576612,
+      "sha256": "6e65a18d39a303b8a8b1464e38003b3025fb81ab771e8d3d6173022c87f6c399"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-43-42-auto-seg02.json/root-object-0000.json",
+      "bytes": 2604365,
+      "sha256": "250cff4ab1f478ff8e7dd924ed545312e692421e1b1977ea1d2f6431b648db49"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-43-42-auto-seg02.json/root-object-0001.json",
+      "bytes": 3699273,
+      "sha256": "ff36a7faa79f56d7a9b07f1a3fae317526b1298f664f1de0e30decf30c6ad9f6"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-47-11-auto-seg03.json/_index.json",
+      "bytes": 3245,
+      "sha256": "6054bc2a90c8f38b43f945670f26fc91011ee8d54dc1f5ddd1d750a6416f4a43"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-47-11-auto-seg03.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4156705,
+      "sha256": "635b2e49c38f007b6d303cedd7d332aeaecd020783aee4d7caa028ee9c7f0a60"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-47-11-auto-seg03.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4168914,
+      "sha256": "cd3806437a4be6ea14b8450e6e5c3391fe23f535c6ebcd4ed388a99585de21b9"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-47-11-auto-seg03.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4162352,
+      "sha256": "5c1e740f9d891d738fe22f4f037485d6091968b2f32da3dae3d31ecff83643f7"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-47-11-auto-seg03.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4131220,
+      "sha256": "91e4e8b563b71c74eb04455cb9b596a748be61b9ed353bd6b7e8bd556299d355"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-47-11-auto-seg03.json/root-key-clouds/value-part-0004.json",
+      "bytes": 1278070,
+      "sha256": "5d33b7e89d60512b2e7d945de92d3bebe6c7bb5a6078b6737e0aa1958cf5be61"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-47-11-auto-seg03.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 920275,
+      "sha256": "78511fe780eb5cb1c7113f98ec13b8dbc2ad41da274fb127b9eb419152c1e402"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-47-11-auto-seg03.json/root-object-0000.json",
+      "bytes": 4087886,
+      "sha256": "74c3b29cbcc5b11fd39232a2e83442918828b4404c6dc56a61460efc62e18ef9"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-47-11-auto-seg03.json/root-object-0001.json",
+      "bytes": 380,
+      "sha256": "73ed9aa465b55bda01d49b28835c9b846afb36535259af2021e793b5bb46f5d2"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg04.json/_index.json",
+      "bytes": 3960,
+      "sha256": "d7b20d97c5ff191b52c43b16259dc71df62ebac495f650de6dbe2e0d41a25c68"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg04.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4074496,
+      "sha256": "b5161801c7319697d64c5a832c631fffcfcb1e54e25b7f27cd4d58ba50a021cb"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg04.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4103969,
+      "sha256": "ba8ee0a4ee14e2aa5a8b1efe6f44ac79356a5044bced1a6dbf3c56709c45a975"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg04.json/root-key-clouds/value-part-0002.json",
+      "bytes": 3675697,
+      "sha256": "53b48a2a3f7ff85f854f0674b3144fb93e2064e8270a54122327e624d3ec3cb9"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg04.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 1536858,
+      "sha256": "6af268d212737de938977f3e7c4ba7b492a06bc81effe7545f365a80f8c1f7ff"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg04.json/root-key-records/value-part-0000.json",
+      "bytes": 4161987,
+      "sha256": "06ec7a6f570af9dd27cf419cba167669f86cb23e5b905178489ef81faa514114"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg04.json/root-key-records/value-part-0001.json",
+      "bytes": 1670688,
+      "sha256": "a603f55c8c4abbf63ee84dd2f5aec863eec0d02af7c861abda3ccb6e7886de0f"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg04.json/root-object-0000.json",
+      "bytes": 233978,
+      "sha256": "db41030aca62277d3c6377eb326c7c4e9a4f02596d502318f9b5ebcec03c9253"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg04.json/root-object-0001.json",
+      "bytes": 380,
+      "sha256": "6ef97544e79fdbbc7f17889cfb5dd0ec86398245e597cb8844e9f5b1c0df5e5d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg05.json/_index.json",
+      "bytes": 3755,
+      "sha256": "34e94566b1ef48beba929f191b13e15713f52ab9511ab94bd3725502e6f76cac"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg05.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4163571,
+      "sha256": "e21295575ad1ce6b4b03211ece047b24a7b51ea5f898f9bf88370f3d9f77130d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg05.json/root-key-clouds/value-part-0001.json",
+      "bytes": 1675084,
+      "sha256": "afec4aa909d80daa6281fbdd241276460ea5b5270984509e31adfb51eac18718"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg05.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 1536858,
+      "sha256": "6af268d212737de938977f3e7c4ba7b492a06bc81effe7545f365a80f8c1f7ff"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg05.json/root-key-records/value-part-0000.json",
+      "bytes": 4161987,
+      "sha256": "06ec7a6f570af9dd27cf419cba167669f86cb23e5b905178489ef81faa514114"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg05.json/root-key-records/value-part-0001.json",
+      "bytes": 1670688,
+      "sha256": "a603f55c8c4abbf63ee84dd2f5aec863eec0d02af7c861abda3ccb6e7886de0f"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg05.json/root-object-0000.json",
+      "bytes": 233978,
+      "sha256": "db41030aca62277d3c6377eb326c7c4e9a4f02596d502318f9b5ebcec03c9253"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-51-22-auto-seg05.json/root-object-0001.json",
+      "bytes": 378,
+      "sha256": "a04a3ec8c390c65639fb1ce27888e0223130ea8217b292c545a9c05327fc88af"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-53-50-seg01.json/_index.json",
+      "bytes": 3678,
+      "sha256": "8816dd05a024e5939c631a45023e25c85a18ff658d9c1e2294d0c38811d51211"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-53-50-seg01.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4166984,
+      "sha256": "666cea47c32f1fdcd03f4bb7044da3944e25388e846e2508b700fa4ac352831f"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-53-50-seg01.json/root-key-clouds/value-part-0001.json",
+      "bytes": 2498899,
+      "sha256": "feab62155cb158e24aa65cf69f59ed0ee1f3d2537e1ede6ded6af0f785469840"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-53-50-seg01.json/root-key-dictionaries/value-key-rails/value-part-0000.json",
+      "bytes": 4183225,
+      "sha256": "471ff374ce24d27f83c31887cc6a17638f21b2ab24e0dd3a44ee2156d88ea0c8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-53-50-seg01.json/root-key-dictionaries/value-key-rails/value-part-0001.json",
+      "bytes": 4192557,
+      "sha256": "93260642423e48fb943064c9f08fdd2722579e0ada0fc950ed21e836027fe017"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-53-50-seg01.json/root-key-dictionaries/value-key-rails/value-part-0002.json",
+      "bytes": 4176095,
+      "sha256": "ee76e5f1bcbc312991451a51ea8e81a628c0244ed6349d2e0cc2a2b2630971af"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-53-50-seg01.json/root-key-dictionaries/value-key-rails/value-part-0003.json",
+      "bytes": 4192892,
+      "sha256": "49ab41e16071d6202288d9ac5783e1c7b045ad7825c890ff01509a25303b1f87"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-53-50-seg01.json/root-key-dictionaries/value-key-rails/value-part-0004.json",
+      "bytes": 3115084,
+      "sha256": "c5b19fc1fddf4213a19630f05f3d845aebb99ceb516965f5a71d33c7dc3db5ca"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-53-50-seg01.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 1830928,
+      "sha256": "7f73f0bf38f423053e987b6251f4f169b4de52ecc8b8dcd865f480ee4fa7a442"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-53-50-seg01.json/root-key-records/value-part-0000.json",
+      "bytes": 4161931,
+      "sha256": "5c17bc93d971d8050f3d4adec51a3d80e05c213a9b4998cffe607d63bfa68d9c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-53-50-seg01.json/root-key-records/value-part-0001.json",
+      "bytes": 2536922,
+      "sha256": "df57f2cf5ff2eaa46012cfd6cd25a1ca50a37ce01138464265c16c8838f5633a"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-53-50-seg01.json/root-object-0000.json",
+      "bytes": 266125,
+      "sha256": "288646d5721f2e8dc4f1b4d0204d4ea2d03f120c28b18a9116fe0cc625ee2342"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T08-53-50-seg01.json/root-object-0001.json",
+      "bytes": 377,
+      "sha256": "28ab43d7dec387ef2d50ef8509ec023b3dd70910cc47df590527657d9ba544c8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-00-23-auto-seg01.json/_index.json",
+      "bytes": 2556,
+      "sha256": "f288c5a5812a9af43d3b5a1ad367d6ee8e29c8d49a4f1f605f03d3d962457723"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-00-23-auto-seg01.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4063247,
+      "sha256": "88d122d6cee1d61c2467d386943ba55c55445676f5f88871ac4014572b5fcd91"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-00-23-auto-seg01.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4140855,
+      "sha256": "8b7ff85314645e1f71aaeeb15363793974816f1efb27978c6848fffc49f65ed3"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-00-23-auto-seg01.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4159076,
+      "sha256": "1415a0365a8a04caba0b9a74f9ca213b6bc50a7d82a3b0558681ac6053474b36"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-00-23-auto-seg01.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4129256,
+      "sha256": "22e49ded36f5a94d7779b3cf8bd3a249e0bb8ff129b81b206c406b9cc76c34cd"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-00-23-auto-seg01.json/root-key-clouds/value-part-0004.json",
+      "bytes": 443891,
+      "sha256": "11d49c87a751d2346f3464d0e8cf5a2b7f8c28671c37650b6347b901b55936e9"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-00-23-auto-seg01.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 668295,
+      "sha256": "fd1edceb1d25aa37e74aa7b973b064158fde9ee862eda38d01f471c0b7b03b45"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-00-23-auto-seg01.json/root-object-0000.json",
+      "bytes": 2151918,
+      "sha256": "c52145ec25cef239d3e2004554bf02ed92e0046d04ba70d2d0a5a91949174f7f"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-00-23-auto-seg01.json/root-object-0001.json",
+      "bytes": 3670580,
+      "sha256": "570838ca1e52812937343be1a50e9636d710bfaef6678d0aea8c3eaa65d54b98"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-09-13-auto-seg02.json/_index.json",
+      "bytes": 4140,
+      "sha256": "0e82474fc1fa8d22bde8fdd62602af8ffc68e30d1e49263f4789501e33dc91a8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-09-13-auto-seg02.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4070582,
+      "sha256": "c5fd80eebc136db78fd80f2a1a4281ce8931708c84552f1b8a175e704346a62e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-09-13-auto-seg02.json/root-key-clouds/value-part-0001.json",
+      "bytes": 4161794,
+      "sha256": "91b243461d1ee87b58293f02a72140cc3e2c6cc1163786a8eec2247b44266616"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-09-13-auto-seg02.json/root-key-clouds/value-part-0002.json",
+      "bytes": 4162397,
+      "sha256": "22b43cd147c3c3ada0ef5ace7c175281f815ad5615a896769651788f14124c78"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-09-13-auto-seg02.json/root-key-clouds/value-part-0003.json",
+      "bytes": 4143085,
+      "sha256": "73d6323a05635ef8de193aa637bdf2d5158001384a71a6ac81385c922b8cc106"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-09-13-auto-seg02.json/root-key-clouds/value-part-0004.json",
+      "bytes": 276741,
+      "sha256": "9ae9d1f797232cf9926e3f1a050c541c0fc14c227f67673d588477619369cd7d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-09-13-auto-seg02.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 1690257,
+      "sha256": "f20a8f5e0717a4abbf12a59c72126c3b61c5be5a01bb0cbd65695a14c37a58c4"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-09-13-auto-seg02.json/root-key-records/value-part-0000.json",
+      "bytes": 4179223,
+      "sha256": "38761bdb68c1afc59e9697415f4df4331ba627b49619284aeb7e2862180ee46d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-09-13-auto-seg02.json/root-key-records/value-part-0001.json",
+      "bytes": 634890,
+      "sha256": "73311e4f1bc9a2ef197b5ee1e86a02f69ecb5a731fb6d91caed567dff526ea9e"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-09-13-auto-seg02.json/root-object-0000.json",
+      "bytes": 138233,
+      "sha256": "44df4829b0ce4c237814aaa85c492415df8f028550f3c3345d2c756e996ad337"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-09-13-auto-seg02.json/root-object-0001.json",
+      "bytes": 380,
+      "sha256": "0a5107c30d9bb1685392dad9c4662393bbd9a263c03d6147a09e6068eb837d55"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg03.json/_index.json",
+      "bytes": 3758,
+      "sha256": "60f8bf5df51b928f1de755af8440da820054716916a5a1ec9480885ab976bc42"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg03.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4130695,
+      "sha256": "4bcec8634ab384a6a6abc9579d354a77f5f0ecf221716bf6c35a5016ad525221"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg03.json/root-key-clouds/value-part-0001.json",
+      "bytes": 2557093,
+      "sha256": "6be859b849f9264175e264309efa952cfc691be7c6261fc34f918b941560626f"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg03.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 2320449,
+      "sha256": "cb1962a1e625225cd5f7a3a98d00494fee90e9fde11f82dfd2d39c8f108b6765"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg03.json/root-key-records/value-part-0000.json",
+      "bytes": 4179215,
+      "sha256": "889288a1d70f41620dfd769550ea6665234ad4136a4c7b441d6ee5c2bde5386d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg03.json/root-key-records/value-part-0001.json",
+      "bytes": 2515831,
+      "sha256": "efcc2a7a43ac03d25e9068b17f987b4e073d22705f8f30d29a79f61948e07820"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg03.json/root-object-0000.json",
+      "bytes": 205160,
+      "sha256": "776c41f066d84b3c9a6853f04ce8fd62e2612159470b22e23eeaafc007a032c8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg03.json/root-object-0001.json",
+      "bytes": 379,
+      "sha256": "47c08f9927f1d7b95b2e399ed270289fbcc4aaf10352ea3d979b2eff69d75667"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg04.json/_index.json",
+      "bytes": 3757,
+      "sha256": "2348190c898238277528a69a5ccc46efe74137b3096f2625d6c555ba403d3e53"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg04.json/root-key-clouds/value-part-0000.json",
+      "bytes": 4079367,
+      "sha256": "298403c06adee409ad72265b1a292cb768bcd068c1c41d722ee750cc586396e0"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg04.json/root-key-clouds/value-part-0001.json",
+      "bytes": 2623342,
+      "sha256": "bdf7fc1902953ec9706640a1cbc4536ccbbdd07c03dd247195038c822b8206c3"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg04.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 2320449,
+      "sha256": "cb1962a1e625225cd5f7a3a98d00494fee90e9fde11f82dfd2d39c8f108b6765"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg04.json/root-key-records/value-part-0000.json",
+      "bytes": 4179215,
+      "sha256": "889288a1d70f41620dfd769550ea6665234ad4136a4c7b441d6ee5c2bde5386d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg04.json/root-key-records/value-part-0001.json",
+      "bytes": 2515831,
+      "sha256": "efcc2a7a43ac03d25e9068b17f987b4e073d22705f8f30d29a79f61948e07820"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg04.json/root-object-0000.json",
+      "bytes": 205160,
+      "sha256": "776c41f066d84b3c9a6853f04ce8fd62e2612159470b22e23eeaafc007a032c8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg04.json/root-object-0001.json",
+      "bytes": 378,
+      "sha256": "801b96beead60d15ec18938a31bfa30837c823700b8c0d6b16dce775e15bb893"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg05.json/_index.json",
+      "bytes": 3297,
+      "sha256": "16a51c8293cf9ba41f8e2d8e3ae80bcadd8bb48088e804dba6b57c61517c19b3"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg05.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 2320449,
+      "sha256": "cb1962a1e625225cd5f7a3a98d00494fee90e9fde11f82dfd2d39c8f108b6765"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg05.json/root-key-records/value-part-0000.json",
+      "bytes": 4179215,
+      "sha256": "889288a1d70f41620dfd769550ea6665234ad4136a4c7b441d6ee5c2bde5386d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg05.json/root-key-records/value-part-0001.json",
+      "bytes": 2515831,
+      "sha256": "efcc2a7a43ac03d25e9068b17f987b4e073d22705f8f30d29a79f61948e07820"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg05.json/root-object-0000.json",
+      "bytes": 205160,
+      "sha256": "776c41f066d84b3c9a6853f04ce8fd62e2612159470b22e23eeaafc007a032c8"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-18-25-auto-seg05.json/root-object-0001.json",
+      "bytes": 3988837,
+      "sha256": "87e2deb99e55cb901076de00d5aa3089860bd6fb06681a0fcb2106b0628089aa"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-25-23-seg01.json/_index.json",
+      "bytes": 3423,
+      "sha256": "0dadee6217b17980514fd6f88f4d150ef2cff432e91fea18cb47c867986e7ba0"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-25-23-seg01.json/root-key-dictionaries/value-key-rails/value-part-0000.json",
+      "bytes": 4171909,
+      "sha256": "de427791b2ef89e6c5cb28eddf8241ba553613f4fe1db5ebf7dd5db517e13359"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-25-23-seg01.json/root-key-dictionaries/value-key-rails/value-part-0001.json",
+      "bytes": 4183743,
+      "sha256": "fcfbe86b3381a1b38197ae719867a477859506ceb3beb4ec491067266763dafb"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-25-23-seg01.json/root-key-dictionaries/value-key-rails/value-part-0002.json",
+      "bytes": 4178346,
+      "sha256": "cbf95e319cb36c59aa899abce2a322a35f34f698467ae230294f358202584aea"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-25-23-seg01.json/root-key-dictionaries/value-key-rails/value-part-0003.json",
+      "bytes": 4194163,
+      "sha256": "274e4d5ecbba82d0027ae85421759e3ace88207ef395bf0f83a27ec66b44b405"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-25-23-seg01.json/root-key-dictionaries/value-key-rails/value-part-0004.json",
+      "bytes": 1287355,
+      "sha256": "36d45cafea190dcde5601ed8390aea73bcc5156cbb455a45f8170abdb24bbda2"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-25-23-seg01.json/root-key-dictionaries/value-object-0000.json",
+      "bytes": 2353583,
+      "sha256": "5fefe647045b37416eac3348cbe81abf5bc7522dc4aabc3b82800db8d9addc3f"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-25-23-seg01.json/root-key-records/value-part-0000.json",
+      "bytes": 4179180,
+      "sha256": "5c8f804742f39fae56b75cff6e93272df5d7a3a59fa7f0b4918124e09f2c608b"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-25-23-seg01.json/root-key-records/value-part-0001.json",
+      "bytes": 2597997,
+      "sha256": "a4aabb09eeb932b2551f816cbf0638199a8f84369370dc2cd489fe5a95e5576c"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-25-23-seg01.json/root-object-0000.json",
+      "bytes": 225835,
+      "sha256": "ebe72744e809db7efcc6e385f260929da6b6103f2ffaa685c061cf965f9586a2"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/historical/banane-native-v4-2026-09-16T09-25-23-seg01.json/root-object-0001.json",
+      "bytes": 791998,
+      "sha256": "42a5ab7a5db3a3473831e7992eef620ac3acfe38fb7d736cd260e250404d4e5d"
+    },
+    {
+      "path": "datasets/native-v4.6-2026-09-16/manifest.json",
+      "bytes": 22509,
+      "sha256": "1f84dbd8f18eefd2181738dc2d19b26edf58a944f1017816f45f2fc36c926a27"
+    }
+  ]
+}
