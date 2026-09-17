@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/vertical-alignment-provenance-v1.yml'
       - 'tools/run_vertical_alignment_provenance_v1.js'
+      - 'tools/expand_oversize_cloud_shards.js'
 
 permissions:
   contents: read
@@ -34,6 +35,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Expand only oversize cloud items in runner workspace
+        run: node runner/tools/expand_oversize_cloud_shards.js --data banane-data/datasets/native-v4.6-2026-09-16
       - name: Run materialized provenance analysis
         run: |
           node runner/tools/run_vertical_alignment_provenance_v1.js \
