@@ -1,0 +1,46 @@
+name: Vertical Alignment Provenance V1 transient runner
+
+on:
+  push:
+    branches:
+      - lab-vertical-alignment-provenance-v1-runner
+    paths:
+      - '.github/workflows/vertical-alignment-provenance-v1.yml'
+      - 'tools/run_vertical_alignment_provenance_v1.js'
+
+permissions:
+  contents: read
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout materialized data
+        uses: actions/checkout@v4
+        with:
+          ref: d541686d3a98569125cdbdb261ef121c9f533d6a
+          path: banane-data
+      - name: Checkout Banane lab
+        uses: actions/checkout@v4
+        with:
+          repository: StoryNow30/banane
+          ref: lab-vertical-alignment-provenance-v1
+          path: banane
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run materialized provenance analysis
+        run: |
+          node banane-data/tools/run_vertical_alignment_provenance_v1.js \
+            --data banane-data/datasets/native-v4.6-2026-09-16 \
+            --banane banane \
+            --output provenance-result.json
+      - name: Run lab tests
+        working-directory: banane
+        run: node --test tests/vertical-alignment-provenance-v1.test.cjs
+      - name: Upload analysis
+        uses: actions/upload-artifact@v4
+        with:
+          name: vertical-alignment-provenance-v1-result
+          path: provenance-result.json
+          if-no-files-found: error
