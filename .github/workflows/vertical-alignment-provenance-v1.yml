@@ -69,9 +69,18 @@ jobs:
       - name: Replay exact RSF V1 failure-family method on materialized source exports
         run: |
           node rsf-method/tools/running-surface-failure-lab.cjs \
-            --corpus historical reconstructed/historical \
-            --corpus final reconstructed/final \
+            --corpus historical-original reconstructed/historical \
+            --corpus final-complementary reconstructed/final \
             --output rsf-materialized.json
+      - name: Assert minority mechanism reproduction
+        run: |
+          node - <<'NODE'
+          const x=require('./rsf-materialized.json');
+          const f=x.summary.failureFamilies;
+          if(x.summary.rails!==239 || x.summary.cohorts.failure!==63 || x.summary.cohorts.control!==176) throw Error(JSON.stringify(x.summary.cohorts));
+          if(f['aucun-support-nulle-part-sur-la-grille']!==56 || f['support-ailleurs-mais-perte-nettement-superieure']!==5 || f['raffinement-a-quitte-le-support']!==2) throw Error(JSON.stringify(f));
+          console.log(JSON.stringify(f));
+          NODE
       - name: Extract full-session context around 0c58 visitIndex 245
         run: |
           node runner/tools/extract_vertical_alignment_boundary_v1.js \
