@@ -1,0 +1,64 @@
+name: GCV1 runtime shadow parity239
+
+on:
+  push:
+    branches:
+      - audit/gcv1-runtime-shadow-parity-v1
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  parity239:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout frozen private data transfer
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Rebuild and verify frozen data capsule
+        shell: bash
+        run: |
+          set -euo pipefail
+          P="transfer/gcv1-replication-dataset-239-v1/GCV1_REPLICATION_DATASET_239_V1.7z"
+          cat "${P}.001" "${P}.002" "${P}.003" > /tmp/GCV1_REPLICATION_DATASET_239_V1.7z
+          echo "ae7a79ac5392e8a6a8289db4652b8bedd628cdce6002ba35b0ba1ce623e05d35  /tmp/GCV1_REPLICATION_DATASET_239_V1.7z" | sha256sum -c -
+          mkdir -p /tmp/gcv1-data
+          7z x -y /tmp/GCV1_REPLICATION_DATASET_239_V1.7z -o/tmp/gcv1-data >/dev/null
+          DATASET="$(find /tmp/gcv1-data -type d -name native-v4.6-2026-09-16 -print -quit)"
+          test -n "$DATASET"
+          echo "DATASET=$DATASET" >> "$GITHUB_ENV"
+
+      - name: Checkout exact public integration and exact scientific capsule
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --quiet --depth 1 --branch integration/gcv1-runtime-shadow-v1 https://github.com/StoryNow30/banane.git /tmp/banane-shadow
+          git -C /tmp/banane-shadow fetch --quiet --depth 1 origin 2ab54af30d08177035ee6688bd47ccf115f62808
+          git -C /tmp/banane-shadow checkout --quiet 2ab54af30d08177035ee6688bd47ccf115f62808
+          test "$(git -C /tmp/banane-shadow rev-parse HEAD)" = "2ab54af30d08177035ee6688bd47ccf115f62808"
+          git clone --quiet --depth 1 --branch infra-gcv1-replication-capsule-v1 https://github.com/StoryNow30/banane.git /tmp/banane-capsule
+          test "$(git -C /tmp/banane-capsule rev-parse HEAD)" = "2366d483b643bf8415f3d8ecba35938ac4c1d02e"
+
+      - name: Run 239 rail-by-rail parity gate
+        shell: bash
+        run: |
+          set -euo pipefail
+          node /tmp/banane-shadow/tools/gcv1-shadow-parity239.cjs \
+            --dataset "$DATASET" \
+            --capsule /tmp/banane-capsule \
+            --out "$GITHUB_WORKSPACE/gcv1-runtime-shadow-parity239.json"
+
+      - name: Upload parity artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gcv1-runtime-shadow-parity239
+          path: gcv1-runtime-shadow-parity239.json
+          if-no-files-found: error
