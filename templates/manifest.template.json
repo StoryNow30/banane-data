@@ -14,9 +14,8 @@
       "sizeBytes": 0,
       "sha256": "",
       "storage": {
-        "type": "github-release-asset",
-        "releaseTag": "",
-        "assetName": "archive.7z"
+        "type": "git",
+        "path": "collections/YYYY-MM-DD_vX.Y.Z_alias/raw/archive.7z"
       }
     }
   ],

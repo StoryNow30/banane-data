@@ -1,6 +1,6 @@
 # Banane Data Registry — Index
 
-Ce dépôt privé centralise les métadonnées des collectes et benchmarks Banane. Les grosses archives restent hors Git classique et sont stockées comme assets de Release ou via Git LFS.
+Ce dépôt public centralise les collectes et benchmarks Banane. Depuis le 23/09/2026, les exports bruts sont déposés compressés (`.7z`) directement dans Git, dans le dossier `raw/` de leur collecte ; la collecte du 16/09 reste en asset de Release.
 
 ## Collectes terrain
 
