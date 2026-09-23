@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "2026-09-23_v4.7.7_",
+  "kind": "native-collection",
+  "bananeVersion": "4.7.7",
+  "modes": [
+    "Natif"
+  ],
+  "date": "2026-09-23",
+  "createdAt": "2026-09-23T14:11:03+02:00",
+  "status": "ingested-analysed",
+  "files": [
+    {
+      "path": "collections/2026-09-23_v4.7.7_/session nativ/banane-native-v4-2026-09-23T12-15-34-auto-seg03.7z",
+      "name": "banane-native-v4-2026-09-23T12-15-34-auto-seg03.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 8708051,
+      "sha256": "99015acb91f37d35791f8f7af1993730145a04b8392ccccfad1e64b3f853d2bd",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangé)"
+      },
+      "sessions": [
+        "natif-p24"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-23T12-15-34-auto-seg03.json",
+          "uncompressedBytes": 37589366,
+          "session": "natif-p24"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T12-13-33-auto-seg02.json",
+          "uncompressedBytes": 29930145,
+          "session": "natif-p24"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T12-11-03-auto-seg01.json",
+          "uncompressedBytes": 24435109,
+          "session": "natif-p24"
+        }
+      ]
+    },
+    {
+      "path": "collections/2026-09-23_v4.7.7_/session nativ/banane-native-v4-2026-09-23T12-21-02-seg01.7z",
+      "name": "banane-native-v4-2026-09-23T12-21-02-seg01.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 16643707,
+      "sha256": "85db5ed7692239e738404073691e67ce7f4f92fd3795e12e9fbc2ab2ae36c8ab",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangé)"
+      },
+      "sessions": [
+        "natif-p24"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-23T12-21-02-seg01.json",
+          "uncompressedBytes": 38790792,
+          "session": "natif-p24"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T12-20-24-auto-seg06.json",
+          "uncompressedBytes": 41751766,
+          "session": "natif-p24"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T12-20-24-auto-seg05.json",
+          "uncompressedBytes": 46054138,
+          "session": "natif-p24"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T12-18-04-auto-seg04.json",
+          "uncompressedBytes": 43984400,
+          "session": "natif-p24"
+        }
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "id": "natif-p24",
+      "nativeSessionId": "d8cb68af-355d-45d6-89a1-0d8b51e1ddb3",
+      "mode": "Natif",
+      "part": 24,
+      "visits": 210,
+      "distinctCuts": 176,
+      "cutRange": [
+        764,
+        8457
+      ],
+      "series": 20,
+      "clouds": 2037,
+      "missingClouds": 0,
+      "notes": "Première collecte 4.7.7 : observation « continuité » (calculée, consignée, jamais appliquée). 20 séries de 3 à 27 cuts, chacune commencée avant sa zone. Segments auto seg01–06 et export final seg01."
+    }
+  ],
+  "coverage": {
+    "parts": [
+      24
+    ],
+    "visitCount": 210,
+    "continuousSequences": [
+      "p24 : 20 séries entre 764 et 8457"
+    ]
+  },
+  "qualification": {
+    "lidarCompletenessChecked": true,
+    "segmentContinuityChecked": true,
+    "duplicateCheck": true,
+    "humanReferenceQualification": "not-reviewed",
+    "trainingUsable": false,
+    "offlineEvaluationUsable": true
+  },
+  "analysis": {
+    "repository": "StoryNow30/banane",
+    "branch": "claude/banane-48-cahier",
+    "reports": [
+      "audit/continuity-observer-2026-09-23-p24.json",
+      "audit/continuity-parity-2026-09-23-p24.json",
+      "BANANE_4.8_CAHIER.md (amendement n°8)"
+    ]
+  },
+  "notes": [
+    "Parité : les 176 blocs continuityObservation sont reproduits à l'identique hors ligne.",
+    "Références humaines : oracle hors ligne uniquement, non qualifiées comme vérité d'entraînement."
+  ]
+}
