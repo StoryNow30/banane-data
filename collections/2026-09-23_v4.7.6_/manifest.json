@@ -1,0 +1,499 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "2026-09-23_v4.7.6_",
+  "kind": "pilot-and-native-collection",
+  "bananeVersion": "4.7.6",
+  "modes": [
+    "Pilote",
+    "Natif"
+  ],
+  "date": "2026-09-23",
+  "createdAt": "2026-09-23T08:49:45+02:00",
+  "status": "ingested-analysed",
+  "files": [
+    {
+      "path": "collections/2026-09-23_v4.7.6_/pilote + corr/banane-gcv1-corpus-2026-09-23T06-49-45-seg01.7z",
+      "name": "banane-gcv1-corpus-2026-09-23T06-49-45-seg01.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 22073013,
+      "sha256": "71b7796f48a85b22305bcc9aae8837a167cde24222ea3af68e83ac30c5bcc841",
+      "storage": {
+        "type": "git",
+        "branch": "main",
+        "addedByCommit": "02fbb58"
+      },
+      "sessions": [
+        "pilote-p19",
+        "relecture-pilote-p19"
+      ],
+      "entries": [
+        {
+          "name": "banane-gcv1-corpus-2026-09-23T06-49-45-seg01.json",
+          "uncompressedBytes": 31981723,
+          "session": "pilote-p19"
+        },
+        {
+          "name": "banane-gcv1-diagnostic-1790146183684.json",
+          "uncompressedBytes": 441522,
+          "session": "pilote-p19"
+        },
+        {
+          "name": "banane-bilan-v4-2026-09-23T06-49-39-seg01.json",
+          "uncompressedBytes": 33424579,
+          "session": "pilote-p19"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T06-57-38-seg01.json",
+          "uncompressedBytes": 45369983,
+          "session": "relecture-pilote-p19"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T06-56-02-auto-seg02.json",
+          "uncompressedBytes": 48166831,
+          "session": "relecture-pilote-p19"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T06-53-20-auto-seg01.json",
+          "uncompressedBytes": 26123961,
+          "session": "relecture-pilote-p19"
+        },
+        {
+          "name": "banane-journal-v4-1790146186710.json",
+          "uncompressedBytes": 1890451,
+          "session": "pilote-p19"
+        }
+      ]
+    },
+    {
+      "path": "collections/2026-09-23_v4.7.6_/session nativ/banane-native-v4-2026-09-23T07-05-03-auto-seg01.7z",
+      "name": "banane-native-v4-2026-09-23T07-05-03-auto-seg01.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 19976876,
+      "sha256": "2bc6b82e614913fcba89688ef329c7b3c55c9d26a46db7d56ea4a39311af1045",
+      "storage": {
+        "type": "git",
+        "branch": "main",
+        "addedByCommit": "02fbb58"
+      },
+      "sessions": [
+        "natif-long-p20"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-23T07-05-03-auto-seg01.json",
+          "uncompressedBytes": 28517486,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-11-06-auto-seg04.json",
+          "uncompressedBytes": 46076787,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-09-05-auto-seg04.json",
+          "uncompressedBytes": 28063858,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-09-05-auto-seg03.json",
+          "uncompressedBytes": 46059626,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-07-05-auto-seg02.json",
+          "uncompressedBytes": 42099285,
+          "session": "natif-long-p20"
+        }
+      ]
+    },
+    {
+      "path": "collections/2026-09-23_v4.7.6_/session nativ/banane-native-v4-2026-09-23T07-14-08-auto-seg06.7z",
+      "name": "banane-native-v4-2026-09-23T07-14-08-auto-seg06.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 21980127,
+      "sha256": "efedce2cdd7c2b9bb66567486385f044729b4a58519e3f457fc564e2574b57d8",
+      "storage": {
+        "type": "git",
+        "branch": "main",
+        "addedByCommit": "02fbb58"
+      },
+      "sessions": [
+        "natif-long-p20"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-23T07-14-08-auto-seg06.json",
+          "uncompressedBytes": 46111893,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-14-08-auto-seg05.json",
+          "uncompressedBytes": 46044059,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-11-06-auto-seg05.json",
+          "uncompressedBytes": 34505727,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-14-08-auto-seg08.json",
+          "uncompressedBytes": 43506178,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-14-08-auto-seg07.json",
+          "uncompressedBytes": 46039369,
+          "session": "natif-long-p20"
+        }
+      ]
+    },
+    {
+      "path": "collections/2026-09-23_v4.7.6_/session nativ/banane-native-v4-2026-09-23T07-17-08-auto-seg06.7z",
+      "name": "banane-native-v4-2026-09-23T07-17-08-auto-seg06.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 25595571,
+      "sha256": "9bb50ad43201f09f236466013db5880ddbe6262c3df0039f8413d88b2bf76820",
+      "storage": {
+        "type": "git",
+        "branch": "main",
+        "addedByCommit": "02fbb58"
+      },
+      "sessions": [
+        "natif-long-p20"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-23T07-17-08-auto-seg06.json",
+          "uncompressedBytes": 49857667,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-17-08-auto-seg10.json",
+          "uncompressedBytes": 50307490,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-17-08-auto-seg09.json",
+          "uncompressedBytes": 49421456,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-17-08-auto-seg08.json",
+          "uncompressedBytes": 50333569,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-17-08-auto-seg07.json",
+          "uncompressedBytes": 49266258,
+          "session": "natif-long-p20"
+        }
+      ]
+    },
+    {
+      "path": "collections/2026-09-23_v4.7.6_/session nativ/banane-native-v4-2026-09-23T07-17-08-auto-seg11.7z",
+      "name": "banane-native-v4-2026-09-23T07-17-08-auto-seg11.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 27928311,
+      "sha256": "fc518c2e9c087bc47bf88abaaa8a39ca250c00f8743275af03e8fb18dbfdd85b",
+      "storage": {
+        "type": "git",
+        "branch": "main",
+        "addedByCommit": "02fbb58"
+      },
+      "sessions": [
+        "natif-long-p20"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-23T07-17-08-auto-seg11.json",
+          "uncompressedBytes": 49774624,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-19-23-auto-seg09.json",
+          "uncompressedBytes": 56565059,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-19-23-auto-seg08.json",
+          "uncompressedBytes": 56314512,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-19-23-auto-seg07.json",
+          "uncompressedBytes": 56914429,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-17-08-auto-seg12.json",
+          "uncompressedBytes": 52470862,
+          "session": "natif-long-p20"
+        }
+      ]
+    },
+    {
+      "path": "collections/2026-09-23_v4.7.6_/session nativ/banane-native-v4-2026-09-23T07-19-23-auto-seg10.7z",
+      "name": "banane-native-v4-2026-09-23T07-19-23-auto-seg10.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 30603153,
+      "sha256": "380405e5caf5c454537441962940d46b4c8eaf73de8a353d1109b88c240355c5",
+      "storage": {
+        "type": "git",
+        "branch": "main",
+        "addedByCommit": "02fbb58"
+      },
+      "sessions": [
+        "natif-long-p20"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-23T07-19-23-auto-seg10.json",
+          "uncompressedBytes": 56473603,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-20-59-auto-seg10.json",
+          "uncompressedBytes": 59397425,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-20-59-auto-seg09.json",
+          "uncompressedBytes": 61626360,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-20-59-auto-seg08.json",
+          "uncompressedBytes": 61829236,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-19-23-auto-seg11.json",
+          "uncompressedBytes": 59236171,
+          "session": "natif-long-p20"
+        }
+      ]
+    },
+    {
+      "path": "collections/2026-09-23_v4.7.6_/session nativ/banane-native-v4-2026-09-23T07-20-59-auto-seg11.7z",
+      "name": "banane-native-v4-2026-09-23T07-20-59-auto-seg11.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 33027712,
+      "sha256": "5891e036a5fc4e07126672ded92cc56f2d1160d1a775da9bf1985d07ee25b307",
+      "storage": {
+        "type": "git",
+        "branch": "main",
+        "addedByCommit": "02fbb58"
+      },
+      "sessions": [
+        "natif-long-p20"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-23T07-20-59-auto-seg11.json",
+          "uncompressedBytes": 59175260,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-22-39-auto-seg11.json",
+          "uncompressedBytes": 67051286,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-22-39-auto-seg10.json",
+          "uncompressedBytes": 67066839,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-22-39-auto-seg09.json",
+          "uncompressedBytes": 67283417,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-20-59-auto-seg12.json",
+          "uncompressedBytes": 61605982,
+          "session": "natif-long-p20"
+        }
+      ]
+    },
+    {
+      "path": "collections/2026-09-23_v4.7.6_/session nativ/banane-native-v4-2026-09-23T07-22-39-auto-seg12.7z",
+      "name": "banane-native-v4-2026-09-23T07-22-39-auto-seg12.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 35712086,
+      "sha256": "ee8be35445dcf77a5a90132b1a77f1baefc7c9ff67fc4513b481a36d64396bda",
+      "storage": {
+        "type": "git",
+        "branch": "main",
+        "addedByCommit": "02fbb58"
+      },
+      "sessions": [
+        "natif-long-p20"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-23T07-22-39-auto-seg12.json",
+          "uncompressedBytes": 66800225,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-23-34-seg03.json",
+          "uncompressedBytes": 70704395,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-23-34-seg02.json",
+          "uncompressedBytes": 70147812,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-23-34-seg01.json",
+          "uncompressedBytes": 69553786,
+          "session": "natif-long-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-22-39-auto-seg13.json",
+          "uncompressedBytes": 69493096,
+          "session": "natif-long-p20"
+        }
+      ]
+    },
+    {
+      "path": "collections/2026-09-23_v4.7.6_/session nativ/banane-native-v4-2026-09-23T07-48-09-auto-seg02.7z",
+      "name": "banane-native-v4-2026-09-23T07-48-09-auto-seg02.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 7149211,
+      "sha256": "fec43f97e58eb030e0fed6b44d79847d84196852c9342bc977b1ea5a20ea9085",
+      "storage": {
+        "type": "git",
+        "branch": "main",
+        "addedByCommit": "02fbb58"
+      },
+      "sessions": [
+        "natif-court-p20"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-23T07-48-09-auto-seg02.json",
+          "uncompressedBytes": 28637662,
+          "session": "natif-court-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-46-34-auto-seg01.json",
+          "uncompressedBytes": 23575008,
+          "session": "natif-court-p20"
+        },
+        {
+          "name": "banane-native-v4-2026-09-23T07-48-43-seg01.json",
+          "uncompressedBytes": 17455831,
+          "session": "natif-court-p20"
+        }
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "id": "pilote-p19",
+      "mode": "Pilote",
+      "part": 19,
+      "cuts": 29,
+      "firstCut": 9019,
+      "exports": [
+        "banane-gcv1-corpus-2026-09-23T06-49-45-seg01.json",
+        "banane-bilan-v4-2026-09-23T06-49-39-seg01.json",
+        "banane-gcv1-diagnostic-1790146183684.json",
+        "banane-journal-v4-1790146186710.json"
+      ],
+      "notes": "Pilote 4.7.6 sur la partie 19 : 15 cuts appliqués, 14 différés ; rejeu hors ligne identique sur les 29 décisions."
+    },
+    {
+      "id": "relecture-pilote-p19",
+      "mode": "Natif",
+      "part": 19,
+      "visits": 174,
+      "distinctCuts": 170,
+      "cutRange": [
+        9019,
+        9408
+      ],
+      "clouds": 1103,
+      "missingClouds": 0,
+      "notes": "Relecture Natif du lot Pilote, prolongée sur la partie 19."
+    },
+    {
+      "id": "natif-long-p20",
+      "mode": "Natif",
+      "part": 20,
+      "visits": 343,
+      "distinctCuts": 312,
+      "cutRange": [
+        107,
+        995
+      ],
+      "clouds": 3046,
+      "missingClouds": 0,
+      "notes": "Segments auto 07-05-03 à 07-22-39 et export final 07-23-34 (seg01–03). Chevauchement 126–140 avec la collecte du 22/09."
+    },
+    {
+      "id": "natif-court-p20",
+      "mode": "Natif",
+      "part": 20,
+      "visits": 56,
+      "distinctCuts": 56,
+      "cutRange": [
+        1099,
+        1154
+      ],
+      "clouds": 575,
+      "missingClouds": 0,
+      "notes": "Segments auto 07-46-34 et 07-48-09, export final 07-48-43."
+    }
+  ],
+  "coverage": {
+    "parts": [
+      19,
+      20
+    ],
+    "visitCount": 573,
+    "pilotCuts": 29,
+    "continuousSequences": [
+      "p19 9019–9408",
+      "p20 107–995",
+      "p20 1099–1154"
+    ]
+  },
+  "operatorExclusions": [
+    {
+      "cut": 9033,
+      "part": 19,
+      "reason": "Exclu du bilan à la demande de l'opérateur (23/09)."
+    },
+    {
+      "cut": 9241,
+      "part": 19,
+      "reason": "Exclu du bilan à la demande de l'opérateur (23/09) : information impossible à déduire des données."
+    }
+  ],
+  "qualification": {
+    "lidarCompletenessChecked": true,
+    "segmentContinuityChecked": true,
+    "duplicateCheck": true,
+    "humanReferenceQualification": "not-reviewed",
+    "trainingUsable": false,
+    "offlineEvaluationUsable": true
+  },
+  "analysis": {
+    "repository": "StoryNow30/banane",
+    "branch": "claude/banane-48-cahier",
+    "commit": "8324e08",
+    "reports": [
+      "audit/brain-audit-2026-09-23.json",
+      "audit/continuity-guard-2026-09-23.json",
+      "BANANE_4.8_CAHIER.md (amendement n°6)"
+    ]
+  },
+  "notes": [
+    "Chaque archive regroupe plusieurs exports JSON ; les segments auto répètent les métadonnées de session, la fusion se fait par tools/merge-segments.cjs du dépôt banane.",
+    "Les références humaines servent d'oracle hors ligne ; elles ne sont pas qualifiées comme vérité d'entraînement."
+  ]
+}
