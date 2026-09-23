@@ -7,7 +7,11 @@ sous-dossiers :
 - `pilote + corr/` — un lot **Pilote** sur la partie 19 (29 cuts), suivi de sa
   **relecture Natif** (174 visites, cuts 9019–9408) ;
 - `session nativ/` — deux sessions **Natif** sur la partie 20 : une longue
-  (343 visites, cuts 107–995) et une courte (56 visites, cuts 1099–1154).
+  (343 visites, cuts 107–995) et une courte (56 visites, cuts 1099–1154) ;
+- `natif p22 logique operateur/` — un court export **Natif** sur la partie 22
+  (cuts 1196–1205), transmis par la conversation et compressé par Claude :
+  l'opérateur y place chaque champignon en s'aidant de l'écartement des cuts
+  précédents (voir plus bas).
 
 Chaque `.7z` regroupe plusieurs exports JSON (segments auto et export final) ;
 le détail, les tailles et les SHA-256 sont dans `manifest.json`.
@@ -43,6 +47,24 @@ Détail : cahier 4.8, amendement n°6 ; `audit/brain-audit-2026-09-23.json` ;
 - **Natif longue rejouée par le moteur 4.7.6** : 8 cuts appliqués faux sur 118
   jugés, dont 6 décalages communs des deux rails (117–273 mm) dans une zone en
   courbe où la pose ESV est à 100–260 mm de la pose humaine.
+
+## Logique opérateur (partie 22)
+
+Zone où chaque rail a un second champignon à 8–16 cm (contre-rail ou appareil
+de voie). La pose ESV de départ est un gabarit à 1 500 mm, à 156–272 mm des
+rails. L'opérateur pose le rail gauche puis le rail droit (deux clics, 5 à 6 s
+par cut) ; le second clic tombe à un écartement proche du cut précédent. Au cut
+1203, un premier clic à 1 321 mm (−120 mm par rapport au voisin) révèle le
+mauvais champignon : l'opérateur essaie les autres et retient 1 437,8 mm
+(voisin : 1 441,2). Le réglage fin suit ensuite les points (1205 : 1 440 →
+1 426 mm). Fin de session : retours 1204 → 1203 → 1202 → 1203 → 1204 → 1205 pour
+vérifier la continuité.
+
+Mesure hors ligne (dépôt `banane`, amendement n°7) : partir de la droite des
+deux cuts précédents validés au lieu de la pose ESV fait passer le moteur de 0 à
+4 cuts justes sur cette partie ; sur les 284 cuts jugés du 23/09, de 161 justes
+et 11 faux à 192 justes et 3 faux. Les 9 cuts faux de la courbe de la partie 20
+deviennent justes.
 
 ## Qualification
 

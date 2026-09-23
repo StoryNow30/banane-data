@@ -389,6 +389,29 @@
           "session": "natif-court-p20"
         }
       ]
+    },
+    {
+      "path": "collections/2026-09-23_v4.7.6_/natif p22 logique operateur/banane-native-v4-2026-09-23T09-39-36-seg01.7z",
+      "name": "banane-native-v4-2026-09-23T09-39-36-seg01.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 1295202,
+      "sha256": "f4b24c421dd0775901f2133f64970321e10c10c4fcebd5dbd07847b86da3097e",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload, compressed by Claude (LZMA2)"
+      },
+      "sessions": [
+        "natif-p22-logique"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-23T09-39-36-seg01.json",
+          "uncompressedBytes": 17669706,
+          "sha256": "1574ec458f74b0558584fc89c5574a6f62a4c382ae82b12235b12410edda8282",
+          "session": "natif-p22-logique"
+        }
+      ]
     }
   ],
   "sessions": [
@@ -447,19 +470,35 @@
       "clouds": 575,
       "missingClouds": 0,
       "notes": "Segments auto 07-46-34 et 07-48-09, export final 07-48-43."
+    },
+    {
+      "id": "natif-p22-logique",
+      "mode": "Natif",
+      "part": 22,
+      "shape": "U50",
+      "visits": 16,
+      "distinctCuts": 10,
+      "cutRange": [
+        1196,
+        1205
+      ],
+      "clouds": 165,
+      "notes": "Export manuel compact (v3). L'opérateur place chaque champignon en s'aidant de l'écartement des cuts précédents, dans une zone où chaque rail a un second champignon voisin (contre-rail / appareil de voie). Pose ESV de départ à 1 500 mm, à 156–272 mm des rails ; visites de retour 1204→1203→1202→1203→1204→1205 pour vérifier la continuité."
     }
   ],
   "coverage": {
     "parts": [
       19,
-      20
+      20,
+      22
     ],
-    "visitCount": 573,
+    "visitCount": 589,
     "pilotCuts": 29,
     "continuousSequences": [
       "p19 9019–9408",
       "p20 107–995",
-      "p20 1099–1154"
+      "p20 1099–1154",
+      "p22 1196–1205"
     ]
   },
   "operatorExclusions": [
@@ -489,7 +528,8 @@
     "reports": [
       "audit/brain-audit-2026-09-23.json",
       "audit/continuity-guard-2026-09-23.json",
-      "BANANE_4.8_CAHIER.md (amendement n°6)"
+      "BANANE_4.8_CAHIER.md (amendement n°6)",
+      "audit/continuity-seed-2026-09-23.json (amendement n°7)"
     ]
   },
   "notes": [
