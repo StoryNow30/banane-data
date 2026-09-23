@@ -60,11 +60,14 @@ mauvais champignon : l'opérateur essaie les autres et retient 1 437,8 mm
 1 426 mm). Fin de session : retours 1204 → 1203 → 1202 → 1203 → 1204 → 1205 pour
 vérifier la continuité.
 
-Mesure hors ligne (dépôt `banane`, amendement n°7) : partir de la droite des
-deux cuts précédents validés au lieu de la pose ESV fait passer le moteur de 0 à
-4 cuts justes sur cette partie ; sur les 284 cuts jugés du 23/09, de 161 justes
-et 11 faux à 192 justes et 3 faux. Les 9 cuts faux de la courbe de la partie 20
-deviennent justes.
+Mesure hors ligne (dépôt `banane`, amendement n°7, §7.8 — chiffres corrigés
+après une relecture indépendante ; la première version, « 161/11 → 192/3 » et
+« les 9 faux de la courbe deviennent justes », était fausse) : partir de la
+droite des deux derniers cuts validés au lieu de la pose ESV fait passer le
+moteur de 0 à 4 cuts justes sur cette partie, avec 2 erreurs marginales (11,3
+et 11,5 mm) ; sur les 252 cuts jugés du 23/09, de 118 justes et 6 faux à 141
+justes et 3 faux. Les 5 cuts faux de la courbe de la partie 20 deviennent
+justes.
 
 ## Qualification
 
