@@ -1,9 +1,5 @@
-# Large raw collection archives should live in Releases or Git LFS, not ordinary Git.
-collections/**/*.7z
-collections/**/*.zip
-collections/**/*.tar
-collections/**/*.tar.gz
-collections/**/*.rar
+# Depuis le 23/09/2026, les exports bruts sont déposés compressés (.7z) dans
+# collections/<id>/raw/, directement dans Git.
 
 # Local extraction / scratch directories
 **/_extracted/
