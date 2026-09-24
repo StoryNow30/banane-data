@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "2026-09-24_v4.7.9_",
+  "kind": "pilot-collection",
+  "bananeVersion": "4.7.9",
+  "modes": [
+    "Pilote"
+  ],
+  "date": "2026-09-24",
+  "createdAt": "2026-09-24T10:40:00+02:00",
+  "status": "ingested-awaiting-relecture",
+  "files": [
+    {
+      "path": "collections/2026-09-24_v4.7.9_/pilote p31 fin/banane-pilote-p31-fin-2026-09-24T08-25.7z",
+      "name": "banane-pilote-p31-fin-2026-09-24T08-25.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 27190541,
+      "sha256": "f38a211fd66cfa93c825817c8afab2098e8706eeddad1af05ad597590f97affd",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangé)"
+      },
+      "sessions": [
+        "pilote-p31-fin"
+      ],
+      "entries": [
+        {
+          "name": "banane-bilan-v4-2026-09-24T08-25-13-seg01.json",
+          "uncompressedBytes": 103098712,
+          "sha256": "b2290d2eb464b3ef0df81cd30fc68c990bf9b01559aa7eea3dbd1c3a71f5ff24",
+          "session": "pilote-p31-fin"
+        },
+        {
+          "name": "banane-gcv1-corpus-2026-09-24T08-25-54-seg01.json",
+          "uncompressedBytes": 100893799,
+          "sha256": "f77719e701104ad4090cbddb1a0f6e29a229c77526102d30b721bd88d71a7799",
+          "session": "pilote-p31-fin"
+        },
+        {
+          "name": "banane-gcv1-diagnostic-1790238352438.json",
+          "uncompressedBytes": 1234021,
+          "sha256": "f689561ab2a837ae394263c670f52fdd0c14de21a41670a5a6d5f7f991ad8293",
+          "session": "pilote-p31-fin"
+        }
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "id": "pilote-p31-fin",
+      "mode": "Pilote",
+      "part": 31,
+      "batchId": "a112f939-dfdd-4d49-a260-469f1409d96d",
+      "state": "STOPPED",
+      "cutRange": [
+        5062,
+        9230
+      ],
+      "distinctCuts": 78,
+      "notes": "Lot Pilote 4.7.9, suite de la partie 31 ; fin difficile (nuage saccadé). Pas de journal : le bilan en tient lieu. Interrupteur « cerveau de placement » éteint : sans effet, le moteur GCV1 décide les 78 cuts."
+    }
+  ],
+  "coverage": {
+    "parts": [
+      31
+    ]
+  },
+  "qualification": {
+    "lidarCompletenessChecked": false,
+    "humanReferenceQualification": "awaiting-relecture"
+  }
+}
