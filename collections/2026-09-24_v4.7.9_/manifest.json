@@ -44,6 +44,29 @@
           "session": "pilote-p31-fin"
         }
       ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.9_/pilote p31 fin/banane-journal-v4-1790239609979.7z",
+      "name": "banane-journal-v4-1790239609979.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 213709,
+      "sha256": "bc639ac2846190e6aa20344d3e156343e6a60ea6b8c2bef5450b71c8001edfb9",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload, livré après l'archive (JSON de l'opérateur, compressé en 7z par Claude, contenu inchangé)"
+      },
+      "sessions": [
+        "pilote-p31-fin"
+      ],
+      "entries": [
+        {
+          "name": "banane-journal-v4-1790239609979.json",
+          "uncompressedBytes": 4506228,
+          "sha256": "a30999d089228efa6a27a5ed01a3aa5c1201f3c69d37bdc4513106cf75b26388",
+          "session": "pilote-p31-fin"
+        }
+      ]
     }
   ],
   "sessions": [
@@ -58,7 +81,7 @@
         9230
       ],
       "distinctCuts": 78,
-      "notes": "Lot Pilote 4.7.9, suite de la partie 31 ; fin difficile (nuage saccadé). Pas de journal : le bilan en tient lieu. Interrupteur « cerveau de placement » éteint : sans effet, le moteur GCV1 décide les 78 cuts."
+      "notes": "Lot Pilote 4.7.9, suite de la partie 31 ; fin difficile (nuage saccadé). Journal livré à part, après l'archive : même lot (a112f939…), 47 cuts traités et 30 différés, cohérent avec le bilan ; résultats identiques. Interrupteur « cerveau de placement » éteint : sans effet, le moteur GCV1 décide les 78 cuts."
     }
   ],
   "coverage": {

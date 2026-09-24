@@ -1,7 +1,10 @@
 # Collecte du 24/09/2026 — Banane 4.7.9, lot Pilote, fin de la partie 31
 
-Archive de l'opérateur, inchangée : corpus LiDAR, diagnostic GCV1, bilan du lot
-(le journal n'a pas été exporté ; le bilan en tient lieu). Lot 5062 → 9230,
+Archive de l'opérateur, inchangée : corpus LiDAR, diagnostic GCV1, bilan du lot.
+Le journal, oublié dans l'archive, a été livré à part
+(`banane-journal-v4-1790239609979.7z`, JSON compressé, contenu inchangé) : même
+lot `a112f939…`, 47 cuts traités et 30 différés, cohérent avec le bilan ; les
+chiffres ci-dessous sont identiques avec l'un ou l'autre. Lot 5062 → 9230,
 arrêté ; fin difficile, nuage saccadé. L'interrupteur « cerveau de placement »
 était éteint : sans effet sur un lot Pilote GCV1 (les 78 décisions sont du
 moteur GCV1).
