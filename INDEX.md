@@ -11,7 +11,7 @@ Ce dépôt public centralise les collectes et benchmarks Banane. Depuis le 23/09
 | `2026-09-23_v4.7.7_` | Banane 4.7.7 | 2026-09-23 | Natif p24 (observation continuité) | ingérée, continuité vérifiée (0 nuage manquant), parité 176/176, analysée (amendement n°8) | Git, 2 archives `.7z` (25 Mo) — voir `manifest.json` |
 | `2026-09-24_v4.7.7_` | Banane 4.7.7 | 2026-09-24 | Natif p30, partie neuve (observation continuité) | ingérée, 0 nuage manquant, analysée : décision sur le lot 81,9 % des cuts distincts, 0 faux | Git, 1 archive `.7z` (7,6 Mo) — voir `manifest.json` |
 | `2026-09-24_v4.7.8_` | Banane 4.7.8 | 2026-09-24 | Natif p30 (contrôle) ; **Pilote p31** (51 cuts) et sa **relecture** | ingérée, jugée : Pilote 35/51, décision sur le lot 43/51 (0 faux / 17 jugés), + appuis validés 44/51 (0 / 18) | Git, 3 archives `.7z` — voir `manifest.json` |
-| `2026-09-24_v4.7.10_` | Banane 4.7.10 | 2026-09-24 | **Pilote p33** (décision sur le lot appliquée) | ingérée ; 20 cuts traités, 0 différé, arrêt au cut 8089 (KI-051) ; relecture à venir | Git, 1 archive `.7z` — voir `manifest.json` |
+| `2026-09-24_v4.7.10_` | Banane 4.7.10 | 2026-09-24 | **Pilote p33**, 2 lots (décision sur le lot appliquée) | ingérée ; lot 1 : 20 traités, arrêt 8089 (KI-051) ; lot 2 : 65/83, 18 différés (vue d'ESV) ; relecture à venir | Git, 3 archives `.7z` — voir `manifest.json` |
 | `2026-09-24_v4.7.9_` | Banane 4.7.9 | 2026-09-24 | **Pilote p31, fin** (78 cuts, nuage saccadé) + relecture Natif | analysée ; Pilote 47/78, 0 faux / 45 ; décision sur le lot 72/78, **1 faux / 69** (7026) | Git, 4 archives `.7z` (lot, journal, relecture) — voir `manifest.json` |
 
 ## Benchmarks

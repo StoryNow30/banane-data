@@ -50,6 +50,76 @@
           "session": "pilote-p33"
         }
       ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.10_/pilote p33 lot 2/banane-gcv1-corpus-2026-09-24T10-31-16-seg01.7z",
+      "name": "banane-gcv1-corpus-2026-09-24T10-31-16-seg01.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 18680399,
+      "sha256": "fc216790bb79e367876cea1ec84507162a3e4a78a7690a36dd2d1554c4cd316d",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangés)"
+      },
+      "sessions": [
+        "pilote-p33-lot2"
+      ],
+      "entries": [
+        {
+          "name": "banane-gcv1-corpus-2026-09-24T10-31-16-seg01.json",
+          "uncompressedBytes": 65713871,
+          "sha256": "1db83a7279f81bff3a32d448220631a515c15996194aa7e4e021cb769b5c700e",
+          "session": "pilote-p33-lot2"
+        },
+        {
+          "name": "banane-journal-v4-1790245879008.json",
+          "uncompressedBytes": 5350578,
+          "sha256": "6b287722d5d662df65e8974dfac982f34cac80decf77268d5bb8cac86f0f6d62",
+          "session": "pilote-p33-lot2"
+        },
+        {
+          "name": "banane-gcv1-corpus-2026-09-24T10-31-16-seg02.json",
+          "uncompressedBytes": 77246789,
+          "sha256": "0b242811b3a15fdadb7463bdeeb8ccaebe90448dfbf57304e35ebe7e85d4a040",
+          "session": "pilote-p33-lot2"
+        }
+      ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.10_/pilote p33 lot 2/banane-gcv1-diagnostic-1790245874388.7z",
+      "name": "banane-gcv1-diagnostic-1790245874388.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 18683134,
+      "sha256": "1c6166cce145f687800bb74f7e4004a73e3562b31471c5dc0fe598c9d90504e4",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangés)"
+      },
+      "sessions": [
+        "pilote-p33-lot2"
+      ],
+      "entries": [
+        {
+          "name": "banane-gcv1-diagnostic-1790245874388.json",
+          "uncompressedBytes": 1693275,
+          "sha256": "20a43bbe8bd9e1c3f8c0fac94fd0e2bdcf476293c836a9334e073023b6f05928",
+          "session": "pilote-p33-lot2"
+        },
+        {
+          "name": "banane-bilan-v4-2026-09-24T10-30-53-seg02.json",
+          "uncompressedBytes": 79893827,
+          "sha256": "d033f70496974aa9096f9a9ff42345bbc80f101c9f95560c80d640b412a3eae3",
+          "session": "pilote-p33-lot2"
+        },
+        {
+          "name": "banane-bilan-v4-2026-09-24T10-30-53-seg01.json",
+          "uncompressedBytes": 67716337,
+          "sha256": "d6d2c2f406789cef9a332ac8be91fa1e3b0088a7c59eb827f547caa12eea8f74",
+          "session": "pilote-p33-lot2"
+        }
+      ]
     }
   ],
   "sessions": [
@@ -68,6 +138,22 @@
       "deferred": 0,
       "stoppedOn": 8089,
       "notes": "Premier lot 4.7.10 (décision sur le lot appliquée). 20 cuts traités (8065-8088), 0 différé ; 8087 et 8088 placés par reprise depuis la voie. Arrêt au cut 8089 : cible du rail gauche à 21 cm de la pose ESV, hors de la vue (KI-051), clic refusé avant toute commande, aucun rail déplacé. Un premier lot d'un cut (8064, lot 358dc198) figure aussi dans le journal."
+    },
+    {
+      "id": "pilote-p33-lot2",
+      "mode": "Pilote",
+      "part": 33,
+      "batchId": "e496f766-380e-4779-9aeb-dade9b90e6f5",
+      "state": "ERROR",
+      "lotDecision": "apply",
+      "cutRange": [
+        8090,
+        9249
+      ],
+      "processed": 65,
+      "deferred": 18,
+      "stoppedOn": 9201,
+      "notes": "Second lot 4.7.10, suite de la partie 33. 83 cuts distincts : 65 appliqués (78,3 %), dont 6 par la décision sur le lot (3 reprises depuis la voie, 3 choix, tous à deux appuis) ; 18 différés (13 par le moteur, 5 refus d'écartement), dont 8090-8099 hors de portée de la vue d'ESV (KI-051, D-043) et 8101, 8103 retirés par la garde de continuité. Arrêt au cut 9201 : caméra déplacée pendant la capture (opérateur). Parité rejeu/terrain 83/83. Le corpus et le bilan sont en deux segments ; le journal fait foi."
     }
   ],
   "coverage": {
