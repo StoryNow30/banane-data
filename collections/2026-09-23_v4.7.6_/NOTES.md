@@ -41,7 +41,9 @@ Détail : cahier 4.8, amendement n°6 ; `audit/brain-audit-2026-09-23.json` ;
   latéral médian 2,8 → 1,3 mm, vertical 3,1 → 0,7 mm, biais d'écartement
   +4,9 → −0,2 mm (session longue) ; aucun cut rendu faux.
 - **Pilote, partie 19** : 15 cuts appliqués sur 29 (52 %), 14 différés dont 12
-  avec une pose ESV de départ à 20–47 mm de la pose humaine. Rejeu identique
+  où la pose ESV de départ met le rail le plus décalé à 33–47 mm de la pose
+  humaine, l'autre à 0–34 mm (corrigé le 24/09 : « 20–47 mm » mêlait les deux
+  rails). Rejeu identique
   sur les 29 décisions. Cut **9047 suspect** (écartement 1 453,8 mm contre
   1 434,6 mm pour ses voisins), non relu.
 - **Natif longue rejouée par le moteur 4.7.6** : 8 cuts appliqués faux sur 118
