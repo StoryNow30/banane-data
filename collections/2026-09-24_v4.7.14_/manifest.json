@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "2026-09-24_v4.7.14_",
+  "kind": "pilot-collection",
+  "bananeVersion": "4.7.14",
+  "modes": [
+    "Pilote",
+    "Natif"
+  ],
+  "date": "2026-09-24",
+  "createdAt": "2026-09-24T16:30:00+02:00",
+  "status": "analysed",
+  "reassembly": {
+    "command": "cat LOT_A_QUESTIONNER.7z.part001 LOT_A_QUESTIONNER.7z.part002 > LOT_A_QUESTIONNER.7z",
+    "archiveSha256": "635f12e9c7f676f4ee06bf40d512f6e07c641195a0203324251ef38ff7e22ca5",
+    "archiveBytes": 44253220,
+    "folder": "LOT A QUESTIONNER",
+    "entries": [
+      {
+        "name": "Capture d'écran 2026-09-24 154943.png",
+        "uncompressedBytes": 2123489,
+        "sha256": "1735baa9698ff142cff9f9c5f055494f3efe9343c2e645de0f5acda5a6b98d9b",
+        "session": "capture ESV, cut 112"
+      },
+      {
+        "name": "banane-bilan-v4-2026-09-24T13-31-20-seg01.json",
+        "uncompressedBytes": 1900085,
+        "sha256": "43b35f4ed56ad6d1717522ef6ceebf13a7810db4ff7f2efd70587e837d9d9e6f",
+        "session": "pilote-p2"
+      },
+      {
+        "name": "banane-bilan-v4-2026-09-24T13-49-17-seg01.json",
+        "uncompressedBytes": 70705860,
+        "sha256": "512ea9e73895c3a71d35238410e7499daada2ed00bcbe19b104171f223d121c8",
+        "session": "pilote-p2"
+      },
+      {
+        "name": "banane-bilan-v4-2026-09-24T13-49-17-seg02.json",
+        "uncompressedBytes": 80907250,
+        "sha256": "394373ed404eff2a766d6ad62a2655dd0b41f0fb95dfa2413de5b1c1185dc66b",
+        "session": "pilote-p2"
+      },
+      {
+        "name": "banane-gcv1-corpus-2026-09-24T13-50-17-seg01.json",
+        "uncompressedBytes": 69315829,
+        "sha256": "43f7ab4d4a48b908bd2e7636dc2e62f86b4aba30e8aea87e3b70c86aa807fb6b",
+        "session": "pilote-p2"
+      },
+      {
+        "name": "banane-gcv1-corpus-2026-09-24T13-50-17-seg02.json",
+        "uncompressedBytes": 76135708,
+        "sha256": "d4d1f0e1bd1f539eb67b3e6805a7c039c339d2643b830a53bb8ba4968f2446b9",
+        "session": "pilote-p2"
+      },
+      {
+        "name": "banane-gcv1-diagnostic-1790257814682.json",
+        "uncompressedBytes": 1650861,
+        "sha256": "72c6688839350bff77353af444816ff0b219b94acf72f533020d12251f59e2ef",
+        "session": "pilote-p2"
+      },
+      {
+        "name": "banane-journal-v4-1790257823263.json",
+        "uncompressedBytes": 5121704,
+        "sha256": "a242478eaec3c4f86f175c4466d45185d5f1acbab9636db6638c016cccf685b0",
+        "session": "pilote-p2"
+      },
+      {
+        "name": "banane-native-v4-2026-09-24T13-58-06-seg01.json",
+        "uncompressedBytes": 25448584,
+        "sha256": "0f01a6117a7f2f458f3e760571fe7187c55f56c865d301e8459c205ed634abf6",
+        "session": "relecture-ciblee-p2"
+      }
+    ]
+  },
+  "sessions": {
+    "pilote-p2": {
+      "part": 2,
+      "lots": [
+        {
+          "id": "a7ade20f",
+          "cuts": "20–23",
+          "end": "erreur de capture (caméra déplacée) au cut 24"
+        },
+        {
+          "id": "76d1c303",
+          "cuts": "24–85",
+          "end": "erreur de capture (vue non recentrée) au cut 86"
+        },
+        {
+          "id": "dfe095a5",
+          "cuts": "86–138",
+          "end": "pause par l'opérateur au cut 138"
+        }
+      ]
+    },
+    "relecture-ciblee-p2": {
+      "part": 2,
+      "visits": 34,
+      "zone": "cuts 110–138",
+      "decision": "D-048"
+    }
+  },
+  "analysis": "banane : audit/cas-decalage-esv-p2-2026-09-24.md"
+}

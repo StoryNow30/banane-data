@@ -13,4 +13,4 @@ dans `manifest.json`. Contenu : journal, diagnostic GCV1, bilan et corpus LiDAR
 
 Garde de paire jamais déclenchée ; aucun cas de KI-053 (les 3 cuts hors de la
 vue n'avaient pas été retirés par la garde). Aucune erreur ; lot arrêté par
-l'opérateur au cut 8954. Parité rejeu/terrain 233/233. Relecture à venir.
+l'opérateur au cut 8954. Parité rejeu/terrain 233/233. Pas de relecture : non enregistrée par l'opérateur (D-048).
