@@ -4,11 +4,12 @@
   "kind": "pilot-collection",
   "bananeVersion": "4.7.11",
   "modes": [
-    "Pilote"
+    "Pilote",
+    "Natif"
   ],
   "date": "2026-09-24",
   "createdAt": "2026-09-24T14:00:00+02:00",
-  "status": "ingested-awaiting-relecture",
+  "status": "ingested-analysed",
   "files": [
     {
       "path": "collections/2026-09-24_v4.7.11_/pilote p34/banane-pilote-p34-2026-09-24T11-37.7z",
@@ -50,6 +51,205 @@
           "session": "pilote-p34"
         }
       ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.11_/relecture p34/banane-native-v4-2026-09-24T12-02-38-auto-seg04.7z",
+      "name": "banane-native-v4-2026-09-24T12-02-38-auto-seg04.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 17782161,
+      "sha256": "22b84a80c2b60c580c8fc6f1c5ef64fa3ff15c5421147bbda643dec616a2533a",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangés)"
+      },
+      "sessions": [
+        "relecture-p34"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-24T12-02-38-auto-seg04.json",
+          "uncompressedBytes": 46967493,
+          "sha256": "bd12e06ade9d46aee964f3a98b8829848f76d0a4b534cbbe258b156aecdf97c5",
+          "session": "relecture-p34"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T11-59-43-auto-seg03.json",
+          "uncompressedBytes": 47075518,
+          "sha256": "63ead291b2cf2b9a88f7a806f67aca678a13e688e64d36cac4bdb0ab22e9ff19",
+          "session": "relecture-p34"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T11-56-12-auto-seg02.json",
+          "uncompressedBytes": 35478848,
+          "sha256": "7bfa210390ad27e8e49d6adfac351d5807b187e350efe535bcc78aaa8254aaf1",
+          "session": "relecture-p34"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T11-50-32-auto-seg01.json",
+          "uncompressedBytes": 25442264,
+          "sha256": "0741ad9a7684f9b0057f4b83c2fe7c05e6adeaa834490376f5091dc1bc77d02c",
+          "session": "relecture-p34"
+        }
+      ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.11_/relecture p34/banane-native-v4-2026-09-24T12-02-38-auto-seg08.7z",
+      "name": "banane-native-v4-2026-09-24T12-02-38-auto-seg08.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 22349011,
+      "sha256": "e44ebfc49488049e12c4cca4d6b7e0bb8fcb32bb035bf68d12bfed1145545b3f",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangés)"
+      },
+      "sessions": [
+        "relecture-p34"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-24T12-02-38-auto-seg08.json",
+          "uncompressedBytes": 46716097,
+          "sha256": "eb1a686de22694f3b1dc6c9d8ba0c019434614fa9f37b0f83b15ca53bb111cc6",
+          "session": "relecture-p34"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T12-02-38-auto-seg07.json",
+          "uncompressedBytes": 46649071,
+          "sha256": "97637c6333e9d298e51f0b48738136d1d66b326296b0f00fe80342024cacb417",
+          "session": "relecture-p34"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T12-02-38-auto-seg06.json",
+          "uncompressedBytes": 46986003,
+          "sha256": "f926948bb8e1d41fd7c7b9fc89f01107a99079f730bf3168db99b0585a757035",
+          "session": "relecture-p34"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T12-02-38-auto-seg05.json",
+          "uncompressedBytes": 46727763,
+          "sha256": "332c8f80ffea44f38b1bf4a39c45c02de80d42f5f55e82ae3480423b3b271cd6",
+          "session": "relecture-p34"
+        }
+      ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.11_/relecture p34/banane-native-v4-2026-09-24T12-02-38-auto-seg12.7z",
+      "name": "banane-native-v4-2026-09-24T12-02-38-auto-seg12.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 22382940,
+      "sha256": "09a372c5e900c0a84e615e3b7b81bbe8e31c31d4af4dfcd0ec4d821207c8dc3a",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangés)"
+      },
+      "sessions": [
+        "relecture-p34"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-24T12-02-38-auto-seg12.json",
+          "uncompressedBytes": 47734061,
+          "sha256": "e64f3854c47274d00177adf188bc3b3b70425c384e054f99de08a13e53b07463",
+          "session": "relecture-p34"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T12-02-38-auto-seg11.json",
+          "uncompressedBytes": 46613117,
+          "sha256": "cf7fa986a46f086822965cb698cf739005e5fda2c975d13ba460362297c4c777",
+          "session": "relecture-p34"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T12-02-38-auto-seg10.json",
+          "uncompressedBytes": 46600796,
+          "sha256": "5a1f935594cd0de3f2974d9bf4196cfecafd165a2c7841b9de05535e60dba580",
+          "session": "relecture-p34"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T12-02-38-auto-seg09.json",
+          "uncompressedBytes": 46456362,
+          "sha256": "28ee3a9e78361c42f08e6bdee75d8d83c27848e3cff656712f1a606b494ea9d6",
+          "session": "relecture-p34"
+        }
+      ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.11_/relecture p34/banane-native-v4-2026-09-24T12-05-48-seg04.7z",
+      "name": "banane-native-v4-2026-09-24T12-05-48-seg04.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 26917805,
+      "sha256": "e1252c68c6ffa5bd35c2732fdf6a980e9aecb084de5aa06c2dd51ade4b010252",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangés)"
+      },
+      "sessions": [
+        "relecture-p34"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-24T12-05-48-seg04.json",
+          "uncompressedBytes": 57379005,
+          "sha256": "18f5aeec1b8e03064d86acb63cc60d81b30f8f28272f8039733473c020a7377c",
+          "session": "relecture-p34"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T12-05-48-seg03.json",
+          "uncompressedBytes": 57376960,
+          "sha256": "5444d7efee7cc7e0b789c156283b2855f4bd72d5c4d414e3856d1ac3cf3a6f5f",
+          "session": "relecture-p34"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T12-05-48-seg02.json",
+          "uncompressedBytes": 57404409,
+          "sha256": "5a02e0254bcccc890e6cacfd0381f3821274bc385b6a563e6c981d60fc4ad64a",
+          "session": "relecture-p34"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T12-05-48-seg01.json",
+          "uncompressedBytes": 57227719,
+          "sha256": "89a84b011fedb82a0fc52298cf7f22f9b227e0fd2dd0611718949ed60a22a261",
+          "session": "relecture-p34"
+        }
+      ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.11_/relecture p34/banane-native-v4-2026-09-24T12-05-48-seg05.7z",
+      "name": "banane-native-v4-2026-09-24T12-05-48-seg05.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 20080665,
+      "sha256": "5cb838aecb0cd834e2e2891c864271b012ac227b1250e81b6660a2648afd50a5",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangés)"
+      },
+      "sessions": [
+        "relecture-p34"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-24T12-05-48-seg05.json",
+          "uncompressedBytes": 57091318,
+          "sha256": "6a3a10272ed9153321abae3ec1a5e04a0c89b28857c85c5d07031be40fca5e0d",
+          "session": "relecture-p34"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T12-05-48-seg07.json",
+          "uncompressedBytes": 57272984,
+          "sha256": "d2c312481c0407fa3400aa10b7674332e1fdbb07e8d8988335b2206d535ea0f9",
+          "session": "relecture-p34"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T12-05-48-seg06.json",
+          "uncompressedBytes": 57192086,
+          "sha256": "8b697dcdb602d01a482897774415063d566c667cb043d0685f9ecadbc2918328",
+          "session": "relecture-p34"
+        }
+      ]
     }
   ],
   "sessions": [
@@ -68,6 +268,16 @@
       "deferred": 23,
       "stoppedOn": 6143,
       "notes": "Premier lot 4.7.11 (annoncé 4.7.12 par l'opérateur ; l'export dit 4.7.11), partie 34 jamais vue. 96 cuts distincts : 73 appliqués (76 %), dont 15 par la décision sur le lot (12 choix, 3 reprises) ; 23 différés (19 + 4 refus d'écartement) ; aucune cible hors de la vue, aucune erreur ; arrêté par l'opérateur. Parité 96/96 avec les règles 4.7.11 ; avec la garde de paire 4.7.12, 1834 serait différé (1835 et 1837 décidés autrement)."
+    },
+    {
+      "id": "relecture-p34",
+      "mode": "Natif",
+      "part": 34,
+      "bananeVersion": "4.7.11",
+      "segments": 19,
+      "visits": 369,
+      "missingClouds": 0,
+      "notes": "Relecture Natif du lot Pilote de la partie 34, voisins compris. Jugement D-040 : 71 cuts appliqués jugés sur 73 (10 validés, 61 acceptés sans retouche)."
     }
   ],
   "coverage": {
@@ -77,6 +287,25 @@
   },
   "qualification": {
     "lidarCompletenessChecked": false,
-    "humanReferenceQualification": "awaiting-relecture"
+    "humanReferenceQualification": "relecture-natif-D-040",
+    "lotJudgement": {
+      "pilot": {
+        "applied": 73,
+        "distinctCuts": 96,
+        "judged": 71,
+        "wrong": 1,
+        "wrongCuts": [
+          1834
+        ]
+      },
+      "lotCommanded": {
+        "judged": 14,
+        "wrong": 0
+      },
+      "withPairGuard4712": {
+        "judged": 71,
+        "wrong": 0
+      }
+    }
   }
 }
