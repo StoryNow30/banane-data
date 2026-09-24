@@ -4,11 +4,12 @@
   "kind": "pilot-collection",
   "bananeVersion": "4.7.9",
   "modes": [
-    "Pilote"
+    "Pilote",
+    "Natif"
   ],
   "date": "2026-09-24",
   "createdAt": "2026-09-24T10:40:00+02:00",
-  "status": "ingested-awaiting-relecture",
+  "status": "ingested-analysed",
   "files": [
     {
       "path": "collections/2026-09-24_v4.7.9_/pilote p31 fin/banane-pilote-p31-fin-2026-09-24T08-25.7z",
@@ -67,6 +68,100 @@
           "session": "pilote-p31-fin"
         }
       ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.9_/relecture p31 fin/banane-native-v4-2026-09-24T08-57-32-auto-seg02.7z",
+      "name": "banane-native-v4-2026-09-24T08-57-32-auto-seg02.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 15111243,
+      "sha256": "c6d3070386f60d0b3275e887eaa4406a5f3ff6b85de6261b4c0d393e804f31b4",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangé)"
+      },
+      "sessions": [
+        "relecture-p31-fin"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-24T08-57-32-auto-seg02.json",
+          "uncompressedBytes": 33107153,
+          "sha256": "73021a38630a645dcfe3d1cc5fae06faad6e4eec615cd86b35384b4a1331a23d",
+          "session": "relecture-p31-fin"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T08-54-11-auto-seg01.json",
+          "uncompressedBytes": 24885695,
+          "sha256": "58698b4c01d3c3b92a68c503a589c83a74a98f7a16efe03637d5a964eae0e06f",
+          "session": "relecture-p31-fin"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T09-04-27-auto-seg04.json",
+          "uncompressedBytes": 46573533,
+          "sha256": "77fe383c3c7bb023a194fc342e5e42c465247c1fa1a1d43695bd001424007744",
+          "session": "relecture-p31-fin"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T09-00-57-auto-seg03.json",
+          "uncompressedBytes": 39775659,
+          "sha256": "3bbe8616897fd1d57ab07eb27fdfc7d99149f8a42ea57701402a7314b14c62db",
+          "session": "relecture-p31-fin"
+        }
+      ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.9_/relecture p31 fin/banane-native-v4-2026-09-24T09-06-28-auto-seg05.7z",
+      "name": "banane-native-v4-2026-09-24T09-06-28-auto-seg05.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 30116054,
+      "sha256": "e847e1141100f99be5c9f72488dea5a068f824605aa3db806156b5ed9aacb110",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangé)"
+      },
+      "sessions": [
+        "relecture-p31-fin"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-24T09-06-28-auto-seg05.json",
+          "uncompressedBytes": 46055342,
+          "sha256": "75d0fa9306e9fce8f7bd3313ee0d02dfe2fd8d96eabc92eb31f4a5c4ef547bdb",
+          "session": "relecture-p31-fin"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T09-08-40-seg01.json",
+          "uncompressedBytes": 43159956,
+          "sha256": "a24380677f76048362465cd8c695459adc9e0654a53fd5b322eebca9b25db909",
+          "session": "relecture-p31-fin"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T09-08-13-auto-seg08.json",
+          "uncompressedBytes": 47034251,
+          "sha256": "8ebd019e08604a820fd014fe50ef92dc25416ddd7e81dc733181f780f3c9b457",
+          "session": "relecture-p31-fin"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T09-08-13-auto-seg07.json",
+          "uncompressedBytes": 46048933,
+          "sha256": "e5686da625a509797c688ece9f8b0fe4dbd8511b1ae094175fea5032993ec2cd",
+          "session": "relecture-p31-fin"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T09-08-13-auto-seg06.json",
+          "uncompressedBytes": 46082813,
+          "sha256": "4066d901ce685cc42d512318486ba64e10dc48a180ed66d89fdffbc4187e6591",
+          "session": "relecture-p31-fin"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T09-06-28-auto-seg06.json",
+          "uncompressedBytes": 41012745,
+          "sha256": "8c5875e7da6739d4c299eaf64d55c3baec86ac4764ed2ce92706d996cd053e19",
+          "session": "relecture-p31-fin"
+        }
+      ]
     }
   ],
   "sessions": [
@@ -82,6 +177,23 @@
       ],
       "distinctCuts": 78,
       "notes": "Lot Pilote 4.7.9, suite de la partie 31 ; fin difficile (nuage saccadé). Journal livré à part, après l'archive : même lot (a112f939…), 47 cuts traités et 30 différés, cohérent avec le bilan ; résultats identiques. Interrupteur « cerveau de placement » éteint : sans effet, le moteur GCV1 décide les 78 cuts."
+    },
+    {
+      "id": "relecture-p31-fin",
+      "mode": "Natif",
+      "part": 31,
+      "bananeVersion": "4.7.9",
+      "segments": 10,
+      "visits": 236,
+      "distinctCuts": 234,
+      "validatedCuts": 122,
+      "clouds": 1968,
+      "missingClouds": 0,
+      "cutRange": [
+        5062,
+        8887
+      ],
+      "notes": "Relecture Natif 4.7.9 du lot Pilote de la fin de la partie 31, voisins compris. Jugement D-040 : visite d'au moins 0,5 s sans correction ni validation = pose acceptée."
     }
   ],
   "coverage": {
@@ -91,6 +203,22 @@
   },
   "qualification": {
     "lidarCompletenessChecked": false,
-    "humanReferenceQualification": "awaiting-relecture"
+    "humanReferenceQualification": "relecture-natif-D-040",
+    "lotJudgement": {
+      "pilot": {
+        "applied": 47,
+        "distinctCuts": 78,
+        "judged": 45,
+        "wrong": 0
+      },
+      "lotDecision": {
+        "applied": 72,
+        "judged": 69,
+        "wrong": 1,
+        "wrongCuts": [
+          7026
+        ]
+      }
+    }
   }
 }
