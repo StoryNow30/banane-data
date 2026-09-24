@@ -4,7 +4,8 @@
   "kind": "native-collection",
   "bananeVersion": "4.7.8",
   "modes": [
-    "Natif"
+    "Natif",
+    "Pilote"
   ],
   "date": "2026-09-24",
   "createdAt": "2026-09-24T09:50:00+02:00",
@@ -32,6 +33,58 @@
           "session": "natif-p30-478"
         }
       ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.8_/pilote p31/banane-pilote-p31-2026-09-24T07-45.7z",
+      "name": "banane-pilote-p31-2026-09-24T07-45.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 13457488,
+      "sha256": "4d54812812aed58aa85f32c27061ccceab26b82da31f89e85c38a57de5e211f7",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangé)"
+      },
+      "sessions": [
+        "pilote-p31"
+      ],
+      "entries": [
+        {
+          "name": "banane-bilan-v4-2026-09-24T07-44-40-seg01.json",
+          "uncompressedBytes": 53380301,
+          "sha256": "dc19f5ec7ee818124658445b83a48dcf581068fc168b025a6692c4639632c644",
+          "role": "bilan-lot",
+          "session": "pilote-p31"
+        },
+        {
+          "name": "banane-gcv1-corpus-2026-09-24T07-45-12-seg01.json",
+          "uncompressedBytes": 45782701,
+          "sha256": "96544f24760a85b039a03e98e171c394be9f3d24dabc435dfc92ad966cfdaad9",
+          "role": "corpus-gcv1-lidar",
+          "session": "pilote-p31"
+        },
+        {
+          "name": "banane-gcv1-diagnostic-1790235910953.json",
+          "uncompressedBytes": 786131,
+          "sha256": "d98418a396bf7e6e54d64cedf3d0a3476f4e54eddfa7239537a53ed0d9922816",
+          "role": "diagnostic-gcv1",
+          "session": "pilote-p31"
+        },
+        {
+          "name": "banane-journal-v4-1790235916329.json",
+          "uncompressedBytes": 10052590,
+          "sha256": "abfc5ea6be354396ca3ea1cd85aa715bfe9c41e71de579bf55bfa375e1035cff",
+          "role": "journal-pilote",
+          "session": "pilote-p31"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T07-37-24-seg01.json",
+          "uncompressedBytes": 5972050,
+          "sha256": "67d6223aa585ed1985b83acf0627b33e5d971659acb7e27a17f02dd2542713bf",
+          "role": "natif-controle-installation",
+          "session": "natif-p30-478"
+        }
+      ]
     }
   ],
   "sessions": [
@@ -49,11 +102,21 @@
       "clouds": 86,
       "missingClouds": 0,
       "notes": "Première session Natif 4.7.8 (contrôle d'installation) : 10 cuts, 9 validations, observation « continuité » active."
+    },
+    {
+      "id": "pilote-p31",
+      "mode": "Pilote",
+      "part": 31,
+      "batchId": "0663dcdc-7478-4f6f-9eb4-818a8f285bd2",
+      "state": "STOPPED",
+      "distinctCuts": 51,
+      "notes": "Premier lot Pilote 4.7.8 (décision sur le lot en observation). Arrêté à la main sur 5061 : nuage ESV non chargé sur plusieurs cuts (défaut d'ESV, KI-049). La relecture Natif suit, dans une collecte à part."
     }
   ],
   "coverage": {
     "parts": [
-      30
+      30,
+      31
     ],
     "visitCount": 12
   },
