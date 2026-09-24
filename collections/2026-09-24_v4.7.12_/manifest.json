@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "2026-09-24_v4.7.12_",
+  "kind": "pilot-collection",
+  "bananeVersion": "4.7.12",
+  "modes": [
+    "Pilote"
+  ],
+  "date": "2026-09-24",
+  "createdAt": "2026-09-24T15:30:00+02:00",
+  "status": "ingested-awaiting-relecture",
+  "reassembly": {
+    "command": "cat monfichier.zip.part001 … part006 > monfichier.zip",
+    "zipSha256": "efb63c8d8d00642d01a7df71b6694f72e6c5236797bf6cebce6a643462653d07",
+    "zipBytes": 152900250,
+    "entries": [
+      {
+        "name": "banane-bilan-v4-2026-09-24T12-50-46-seg01.json",
+        "uncompressedBytes": 67757003,
+        "sha256": "397d6eb38d5d9fa27434bcba5db21892c8f88eaa699e6d08f11643929803ba78",
+        "session": "pilote-p35"
+      },
+      {
+        "name": "banane-bilan-v4-2026-09-24T12-50-46-seg02.json",
+        "uncompressedBytes": 65222396,
+        "sha256": "98c68a501840d3cdbb4d6a1b5563761b202766ca35db89f6a8e462d6c6a68330",
+        "session": "pilote-p35"
+      },
+      {
+        "name": "banane-bilan-v4-2026-09-24T12-50-46-seg03.json",
+        "uncompressedBytes": 67064496,
+        "sha256": "cf360b3bc513143bd9b57f6ce65dae2ec85e7e5daf55e2a2502b9b1bf3998967",
+        "session": "pilote-p35"
+      },
+      {
+        "name": "banane-bilan-v4-2026-09-24T12-50-46-seg04.json",
+        "uncompressedBytes": 123090771,
+        "sha256": "5c797f843c7a2c9335db263dfcbd0b7361f0391ade660a78e17639e42ae9cf2a",
+        "session": "pilote-p35"
+      },
+      {
+        "name": "banane-gcv1-corpus-2026-09-24T12-51-04-seg01.json",
+        "uncompressedBytes": 61414009,
+        "sha256": "363ff5a1ef6cb7c6d0fe6c6c98ef2a26018c89a12da5ae08ac02de2f4d75878a",
+        "session": "pilote-p35"
+      },
+      {
+        "name": "banane-gcv1-corpus-2026-09-24T12-51-04-seg02.json",
+        "uncompressedBytes": 64986525,
+        "sha256": "8a91e8267d6028bd9c94840d8c78f62ed459a4bb23a340998681702982bdb6f3",
+        "session": "pilote-p35"
+      },
+      {
+        "name": "banane-gcv1-corpus-2026-09-24T12-51-04-seg03.json",
+        "uncompressedBytes": 65115097,
+        "sha256": "18b68e5f8d893a45c0ce21adfc93dfdae89c7a5ac577033f1ffbe2ee9ae30d58",
+        "session": "pilote-p35"
+      },
+      {
+        "name": "banane-gcv1-corpus-2026-09-24T12-51-04-seg04.json",
+        "uncompressedBytes": 113010196,
+        "sha256": "3bb83f63aa0fbc401c3f9b620a830ea50ca031e3a0e90f54ef9677beafd7e03f",
+        "session": "pilote-p35"
+      },
+      {
+        "name": "banane-gcv1-diagnostic-1790254260245.json",
+        "uncompressedBytes": 3830910,
+        "sha256": "34da21fc919bf503d1822f1d56c9edd58de14b7ba3a39dc9dda32011fd9c8713",
+        "session": "pilote-p35"
+      },
+      {
+        "name": "banane-journal-v4-1790254271581.json",
+        "uncompressedBytes": 11331741,
+        "sha256": "456acc1ffa0f062082494fa794354a958a8c678bf334389c65db4c0416632781",
+        "session": "pilote-p35"
+      }
+    ],
+    "note": "Archive complète > 100 Mo (limite GitHub par fichier) : les six morceaux sont versés tels que livrés."
+  },
+  "files": [
+    {
+      "path": "collections/2026-09-24_v4.7.12_/pilote p35/monfichier.zip.part001",
+      "name": "monfichier.zip.part001",
+      "role": "raw-export-archive-part",
+      "sizeBytes": 28311552,
+      "sha256": "a03e10a94be279066ac4cac091f19ac8c50c32995c0357a920b7cd494a351a25",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (zip découpé par l'opérateur, morceaux inchangés)"
+      },
+      "sessions": [
+        "pilote-p35"
+      ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.12_/pilote p35/monfichier.zip.part002",
+      "name": "monfichier.zip.part002",
+      "role": "raw-export-archive-part",
+      "sizeBytes": 28311552,
+      "sha256": "c1b3b5d0060f2789ddcb4ab471f486e048eb5400e9c143f57e79fea7ed61d3a2",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (zip découpé par l'opérateur, morceaux inchangés)"
+      },
+      "sessions": [
+        "pilote-p35"
+      ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.12_/pilote p35/monfichier.zip.part003",
+      "name": "monfichier.zip.part003",
+      "role": "raw-export-archive-part",
+      "sizeBytes": 28311552,
+      "sha256": "2c64593cf898ecc1f717359b269e171791e66a02ada6e4f12cc1e7bb83fe7481",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (zip découpé par l'opérateur, morceaux inchangés)"
+      },
+      "sessions": [
+        "pilote-p35"
+      ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.12_/pilote p35/monfichier.zip.part004",
+      "name": "monfichier.zip.part004",
+      "role": "raw-export-archive-part",
+      "sizeBytes": 28311552,
+      "sha256": "238505f9427da2b3bdeb5a24a80a43e34d1697baaa4e08673960fc9baaaae81b",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (zip découpé par l'opérateur, morceaux inchangés)"
+      },
+      "sessions": [
+        "pilote-p35"
+      ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.12_/pilote p35/monfichier.zip.part005",
+      "name": "monfichier.zip.part005",
+      "role": "raw-export-archive-part",
+      "sizeBytes": 28311552,
+      "sha256": "66579121029df371c8801bfc2d227821644e20afc52421ee00f2d8d8abaad0ee",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (zip découpé par l'opérateur, morceaux inchangés)"
+      },
+      "sessions": [
+        "pilote-p35"
+      ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.12_/pilote p35/monfichier.zip.part006",
+      "name": "monfichier.zip.part006",
+      "role": "raw-export-archive-part",
+      "sizeBytes": 11342490,
+      "sha256": "36398d256391c7b95d92be4fa95208395cce4ee0d61292dada1108867de8e8a1",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (zip découpé par l'opérateur, morceaux inchangés)"
+      },
+      "sessions": [
+        "pilote-p35"
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "id": "pilote-p35",
+      "mode": "Pilote",
+      "part": 35,
+      "batchId": "15e75c6d-1294-4be6-8760-b4e4739108d1",
+      "state": "STOPPED",
+      "lotDecision": "apply",
+      "cutRange": [
+        1,
+        9198
+      ],
+      "processed": 203,
+      "deferred": 30,
+      "stoppedOn": 8954,
+      "notes": "Premier lot 4.7.12, partie 35 jamais vue. 233 cuts distincts : 203 appliqués (87,1 %), dont 32 par la décision sur le lot (28 choix, 4 reprises) ; 30 différés (21 moteur, 8 refus d'écartement, 1 sans entrée), dont 3 hors de la vue d'ESV (8951-8953, sans retrait par la garde : pas de cas KI-053). Garde de paire jamais déclenchée. Aucune erreur ; arrêté par l'opérateur. Parité rejeu/terrain 233/233."
+    }
+  ],
+  "coverage": {
+    "parts": [
+      35
+    ]
+  },
+  "qualification": {
+    "lidarCompletenessChecked": false,
+    "humanReferenceQualification": "awaiting-relecture"
+  }
+}
