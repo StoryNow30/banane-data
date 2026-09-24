@@ -24,3 +24,20 @@ Paires refusées par l'écartement : 5 ; appliquées hors contrat : 0. Justesse
 non mesurée avant la relecture. La décision sur le lot consignée par la 4.7.8
 diffère du rejeu sur 6 cuts sur 50 : défaut KI-048 (choix par la voie privé de
 sa grille dans l'extension), corrigé ensuite ; le rejeu fait foi.
+
+## Relecture Natif du lot (`relecture p31/`)
+
+183 visites, 171 cuts de la partie 31 (voisins ±5 compris), 79 validations,
+1 709 nuages tous présents. Jugement (`tools/acceptance-report.cjs
+--decision-par-rejeu`, relevé `audit/acceptance-p31-2026-09-24.json` du dépôt
+banane) :
+
+| | Cuts | Jugés | Faux |
+|---|---|---|---|
+| Pilote, appliqués | 35 / 51 | 9 (26 traversés sans Maj+Espace) | 0 |
+| Décision sur le lot | 43 / 51 | 17 | 0 — les 8 cuts gagnés tous justes, 0,8 à 4,2 mm |
+| + voisins déjà validés, garde de cohérence | 44 / 51 | 18 | 0 |
+
+Hors les 5 cuts sans nuage ESV et le cut d'arrêt : 35, 43 et 44 cuts sur 45.
+Erreur des rails appliqués jugés : latéral 1,1 / 5,6 mm, vertical 0,4 / 2,7 mm
+(médiane / p90), P2 non mesuré.

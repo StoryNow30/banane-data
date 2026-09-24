@@ -85,6 +85,53 @@
           "session": "natif-p30-478"
         }
       ]
+    },
+    {
+      "path": "collections/2026-09-24_v4.7.8_/relecture p31/banane-native-v4-2026-09-24T08-11-38-relecture-p31.7z",
+      "name": "banane-native-v4-2026-09-24T08-11-38-relecture-p31.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 18378348,
+      "sha256": "26c667cbeda8f29110ceb9e246eb3129c02697dca42a91b10b5391d7d5439952",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangé)"
+      },
+      "sessions": [
+        "relecture-p31"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-24T08-01-23-auto-seg01.json",
+          "uncompressedBytes": 25066009,
+          "sha256": "6b98d1bf0ec25333c053c98ff3853429a20e878286bd447123494424059dea3f",
+          "session": "relecture-p31"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T08-04-59-auto-seg02.json",
+          "uncompressedBytes": 32233787,
+          "sha256": "890adefda682e58bcfcc3fd86ddd2bd21e5414b44b19202de81a608e03a2d2f2",
+          "session": "relecture-p31"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T08-07-54-auto-seg03.json",
+          "uncompressedBytes": 39963222,
+          "sha256": "f2b6efa76fbe0acfd4c8de86e554ec7ef7f06748920857868b619b464f14c906",
+          "session": "relecture-p31"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T08-11-38-auto-seg04.json",
+          "uncompressedBytes": 46078488,
+          "sha256": "2bdafca5194fc296738151c95870e847dd6ff0eec25a1a61c2af2e0b90decb04",
+          "session": "relecture-p31"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T08-11-38-auto-seg05.json",
+          "uncompressedBytes": 36328288,
+          "sha256": "997cb4aab2468a4a19c48a5f656326cc0c614d43673c39ae0ddf2acd85fb706c",
+          "session": "relecture-p31"
+        }
+      ]
     }
   ],
   "sessions": [
@@ -111,6 +158,17 @@
       "state": "STOPPED",
       "distinctCuts": 51,
       "notes": "Premier lot Pilote 4.7.8 (décision sur le lot en observation). Arrêté à la main sur 5061 : nuage ESV non chargé sur plusieurs cuts (défaut d'ESV, KI-049). La relecture Natif suit, dans une collecte à part."
+    },
+    {
+      "id": "relecture-p31",
+      "mode": "Natif",
+      "part": 31,
+      "visits": 183,
+      "distinctCuts": 171,
+      "validateIntents": 79,
+      "clouds": 1709,
+      "missingClouds": 0,
+      "notes": "Relecture Natif 4.7.8 du lot Pilote p31, voisins ±5 compris. 25 cuts du lot validés (Maj+Espace) ; 26 cuts appliqués traversés sans Maj+Espace (Z/D), donc non jugeables aux règles strictes."
     }
   ],
   "coverage": {

@@ -10,7 +10,7 @@ Ce dépôt public centralise les collectes et benchmarks Banane. Depuis le 23/09
 | `2026-09-23_v4.7.6_` | Banane 4.7.6 | 2026-09-23 | Pilote p19 + relecture Natif ; Natif p20 (2 sessions) ; Natif p22 (logique opérateur) | ingérée, continuité vérifiée (0 nuage manquant), analysée (banane `8324e08`, amendement n°6) ; cuts 9033 et 9241 exclus par l'opérateur | Git, 10 archives `.7z` (225 Mo) — voir `manifest.json` |
 | `2026-09-23_v4.7.7_` | Banane 4.7.7 | 2026-09-23 | Natif p24 (observation continuité) | ingérée, continuité vérifiée (0 nuage manquant), parité 176/176, analysée (amendement n°8) | Git, 2 archives `.7z` (25 Mo) — voir `manifest.json` |
 | `2026-09-24_v4.7.7_` | Banane 4.7.7 | 2026-09-24 | Natif p30, partie neuve (observation continuité) | ingérée, 0 nuage manquant, analysée : décision sur le lot 81,9 % des cuts distincts, 0 faux | Git, 1 archive `.7z` (7,6 Mo) — voir `manifest.json` |
-| `2026-09-24_v4.7.8_` | Banane 4.7.8 | 2026-09-24 | Natif p30 (contrôle, 10 cuts) ; **Pilote p31** (51 cuts, arrêté : nuage ESV) | ingérée ; Pilote 35/51, décision sur le lot 43/51 (rejeu, KI-048) ; relecture à venir | Git, 2 archives `.7z` — voir `manifest.json` |
+| `2026-09-24_v4.7.8_` | Banane 4.7.8 | 2026-09-24 | Natif p30 (contrôle) ; **Pilote p31** (51 cuts) et sa **relecture** | ingérée, jugée : Pilote 35/51, décision sur le lot 43/51 (0 faux / 17 jugés), + appuis validés 44/51 (0 / 18) | Git, 3 archives `.7z` — voir `manifest.json` |
 
 ## Benchmarks
 
