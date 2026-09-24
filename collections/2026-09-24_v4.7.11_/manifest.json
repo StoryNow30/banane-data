@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "2026-09-24_v4.7.11_",
+  "kind": "pilot-collection",
+  "bananeVersion": "4.7.11",
+  "modes": [
+    "Pilote"
+  ],
+  "date": "2026-09-24",
+  "createdAt": "2026-09-24T14:00:00+02:00",
+  "status": "ingested-awaiting-relecture",
+  "files": [
+    {
+      "path": "collections/2026-09-24_v4.7.11_/pilote p34/banane-pilote-p34-2026-09-24T11-37.7z",
+      "name": "banane-pilote-p34-2026-09-24T11-37.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 20370855,
+      "sha256": "acade18ad661f055b45709a39b330f4b8f9cbce2c9f27099a51a530d6f301cd6",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangé ; renommé)"
+      },
+      "sessions": [
+        "pilote-p34"
+      ],
+      "entries": [
+        {
+          "name": "banane-gcv1-diagnostic-1790249841453.json",
+          "uncompressedBytes": 1553863,
+          "sha256": "b09c1d0ef91f70685d7668b2e428a4a6db0a0785fbeaa4831e7ebcf4e9303a2e",
+          "session": "pilote-p34"
+        },
+        {
+          "name": "banane-bilan-v4-2026-09-24T11-37-12-seg01.json",
+          "uncompressedBytes": 78444544,
+          "sha256": "44818441bbfd24b036a432e071587addea83fdc17916c97fb95809c04bee3240",
+          "session": "pilote-p34"
+        },
+        {
+          "name": "banane-journal-v4-1790250106117.json",
+          "uncompressedBytes": 5133874,
+          "sha256": "5e008998ba0e77fb642c94c72a0186f12cc3c08df4aeb1c054da1485b7ccf2f8",
+          "session": "pilote-p34"
+        },
+        {
+          "name": "banane-gcv1-corpus-2026-09-24T11-37-23-seg01.json",
+          "uncompressedBytes": 76149240,
+          "sha256": "58c3ff18cf15484cca72fca2e4b4fb5cd99b5a354f62d1cea73dd71834ffa111",
+          "session": "pilote-p34"
+        }
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "id": "pilote-p34",
+      "mode": "Pilote",
+      "part": 34,
+      "batchId": "a6e27f7c-1681-48b6-b397-ada8710dc55a",
+      "state": "STOPPED",
+      "lotDecision": "apply",
+      "cutRange": [
+        1831,
+        9286
+      ],
+      "processed": 73,
+      "deferred": 23,
+      "stoppedOn": 6143,
+      "notes": "Premier lot 4.7.11 (annoncé 4.7.12 par l'opérateur ; l'export dit 4.7.11), partie 34 jamais vue. 96 cuts distincts : 73 appliqués (76 %), dont 15 par la décision sur le lot (12 choix, 3 reprises) ; 23 différés (19 + 4 refus d'écartement) ; aucune cible hors de la vue, aucune erreur ; arrêté par l'opérateur. Parité 96/96 avec les règles 4.7.11 ; avec la garde de paire 4.7.12, 1834 serait différé (1835 et 1837 décidés autrement)."
+    }
+  ],
+  "coverage": {
+    "parts": [
+      34
+    ]
+  },
+  "qualification": {
+    "lidarCompletenessChecked": false,
+    "humanReferenceQualification": "awaiting-relecture"
+  }
+}
