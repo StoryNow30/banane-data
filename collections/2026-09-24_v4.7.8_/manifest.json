@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "2026-09-24_v4.7.8_",
+  "kind": "native-collection",
+  "bananeVersion": "4.7.8",
+  "modes": [
+    "Natif"
+  ],
+  "date": "2026-09-24",
+  "createdAt": "2026-09-24T09:50:00+02:00",
+  "status": "ingested-analysed",
+  "files": [
+    {
+      "path": "collections/2026-09-24_v4.7.8_/session nativ/banane-native-v4-2026-09-24T07-37-24-p30.7z",
+      "name": "banane-native-v4-2026-09-24T07-37-24-p30.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 591920,
+      "sha256": "f05bb6dcbab6bda85f346941e6733d273eb2c2c0e7296dd3e0219e665451dad6",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (JSON de l'opérateur, compressés en 7z par Claude, contenu inchangé)"
+      },
+      "sessions": [
+        "natif-p30-478"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-24T07-37-24-seg01.json",
+          "uncompressedBytes": 5972050,
+          "sha256": "67d6223aa585ed1985b83acf0627b33e5d971659acb7e27a17f02dd2542713bf",
+          "session": "natif-p30-478"
+        }
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "id": "natif-p30-478",
+      "nativeSessionId": "1cc1d5c5-5403-4d6a-bcba-f467eddb753a",
+      "mode": "Natif",
+      "part": 30,
+      "visits": 12,
+      "distinctCuts": 10,
+      "cutRange": [
+        9163,
+        9172
+      ],
+      "clouds": 86,
+      "missingClouds": 0,
+      "notes": "Première session Natif 4.7.8 (contrôle d'installation) : 10 cuts, 9 validations, observation « continuité » active."
+    }
+  ],
+  "coverage": {
+    "parts": [
+      30
+    ],
+    "visitCount": 12
+  },
+  "qualification": {
+    "lidarCompletenessChecked": true,
+    "segmentContinuityChecked": true,
+    "duplicateCheck": true,
+    "humanReferenceQualification": "not-reviewed"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "2026-09-24_v4.7.7_",
+  "kind": "native-collection",
+  "bananeVersion": "4.7.7",
+  "modes": [
+    "Natif"
+  ],
+  "date": "2026-09-24",
+  "createdAt": "2026-09-24T09:50:00+02:00",
+  "status": "ingested-analysed",
+  "files": [
+    {
+      "path": "collections/2026-09-24_v4.7.7_/session nativ/banane-native-v4-2026-09-24T07-23-05-p30.7z",
+      "name": "banane-native-v4-2026-09-24T07-23-05-p30.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 7614578,
+      "sha256": "823075ca23ab89a176b5fad13d0c86ee94c4ad3efd527d1bf58646a9231a8fb2",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (JSON de l'opérateur, compressés en 7z par Claude, contenu inchangé)"
+      },
+      "sessions": [
+        "natif-p30"
+      ],
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-24T07-23-05-auto-seg01.json",
+          "uncompressedBytes": 24167063,
+          "sha256": "b2d039c0c3cbf5501e53052fb7086dfaeb1563bfe741671a6515e9deea1027ca",
+          "session": "natif-p30"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T07-27-36-auto-seg02.json",
+          "uncompressedBytes": 30203582,
+          "sha256": "e8b2ccddf132c686358154aee7c7cb398108b2b9498c9a10b2d7c063fbe50e5b",
+          "session": "natif-p30"
+        },
+        {
+          "name": "banane-native-v4-2026-09-24T07-31-48-seg01.json",
+          "uncompressedBytes": 25105134,
+          "sha256": "6a07b39a79afa294ddfd840b44d41582475986d067867f45db4da16bd6e52502",
+          "session": "natif-p30"
+        }
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "id": "natif-p30",
+      "nativeSessionId": "e77e894e-a3f6-4a72-b530-103e100b22b3",
+      "mode": "Natif",
+      "part": 30,
+      "visits": 91,
+      "distinctCuts": 83,
+      "cutRange": [
+        2473,
+        8755
+      ],
+      "clouds": 1064,
+      "missingClouds": 0,
+      "notes": "Collecte 4.7.7 sur une partie jamais vue : observation « continuité » (calculée, consignée, jamais appliquée). Segments auto seg01–02 et export final seg01."
+    }
+  ],
+  "coverage": {
+    "parts": [
+      30
+    ],
+    "visitCount": 91
+  },
+  "qualification": {
+    "lidarCompletenessChecked": true,
+    "segmentContinuityChecked": true,
+    "duplicateCheck": true,
+    "humanReferenceQualification": "not-reviewed"
+  }
+}
