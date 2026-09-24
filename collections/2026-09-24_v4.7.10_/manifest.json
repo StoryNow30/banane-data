@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "2026-09-24_v4.7.10_",
+  "kind": "pilot-collection",
+  "bananeVersion": "4.7.10",
+  "modes": [
+    "Pilote"
+  ],
+  "date": "2026-09-24",
+  "createdAt": "2026-09-24T12:30:00+02:00",
+  "status": "ingested-awaiting-relecture",
+  "files": [
+    {
+      "path": "collections/2026-09-24_v4.7.10_/pilote p33/banane-pilote-p33-2026-09-24T10-16.7z",
+      "name": "banane-pilote-p33-2026-09-24T10-16.7z",
+      "role": "raw-export-archive",
+      "sizeBytes": 8203919,
+      "sha256": "7dbb292280672bf3696ed2ce43e17930043a0ae931d0d0c07c480153f203c3a0",
+      "storage": {
+        "type": "git",
+        "branch": "claude/banane-47-gate-audit-vaktr1",
+        "deliveredBy": "chat upload (7z de l'opérateur, inchangé ; renommé)"
+      },
+      "sessions": [
+        "pilote-p33"
+      ],
+      "entries": [
+        {
+          "name": "banane-journal-v4-1790244984978.json",
+          "uncompressedBytes": 1128759,
+          "sha256": "161e68e792d69143ce6ec421d8d8605b800fb4cccce957913747c524a7a00c22",
+          "session": "pilote-p33"
+        },
+        {
+          "name": "banane-gcv1-corpus-2026-09-24T10-16-21-seg01.json",
+          "uncompressedBytes": 32203933,
+          "sha256": "db82785af56b5492e424be07bf67d56420af149bdc96383a5a04f038d212d7e6",
+          "session": "pilote-p33"
+        },
+        {
+          "name": "banane-gcv1-diagnostic-1790244979452.json",
+          "uncompressedBytes": 355698,
+          "sha256": "54ed6a53f0172cb360048491bf72b65434a19ee79700701b204b0c3a3ca90f71",
+          "session": "pilote-p33"
+        },
+        {
+          "name": "banane-bilan-v4-2026-09-24T10-16-12-seg01.json",
+          "uncompressedBytes": 32676812,
+          "sha256": "60978c8fea7d841038628319a3018e5f912e2a4fd9bf3c739e6e8642b18c3f3f",
+          "session": "pilote-p33"
+        }
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "id": "pilote-p33",
+      "mode": "Pilote",
+      "part": 33,
+      "batchId": "a106ec4c-a739-4201-9977-1b3c350c12ab",
+      "state": "ERROR",
+      "lotDecision": "apply",
+      "cutRange": [
+        8065,
+        9249
+      ],
+      "processed": 20,
+      "deferred": 0,
+      "stoppedOn": 8089,
+      "notes": "Premier lot 4.7.10 (décision sur le lot appliquée). 20 cuts traités (8065-8088), 0 différé ; 8087 et 8088 placés par reprise depuis la voie. Arrêt au cut 8089 : cible du rail gauche à 21 cm de la pose ESV, hors de la vue (KI-051), clic refusé avant toute commande, aucun rail déplacé. Un premier lot d'un cut (8064, lot 358dc198) figure aussi dans le journal."
+    }
+  ],
+  "coverage": {
+    "parts": [
+      33
+    ]
+  },
+  "qualification": {
+    "lidarCompletenessChecked": false,
+    "humanReferenceQualification": "awaiting-relecture"
+  }
+}
