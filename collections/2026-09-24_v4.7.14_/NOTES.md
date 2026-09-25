@@ -19,4 +19,8 @@ sans appui, écartement 1431 mm admissible) et différé 115–126.
 
 Rejoué avec les règles de la 4.7.15 et la vue d'ESV : 114 est retiré par la
 garde de continuité (199,9 mm de la voie) et différé ; 115 et 116 sont placés
-(1,5 et 2,6 mm). Analyse : banane, `audit/cas-decalage-esv-p2-2026-09-24.md`.
+(1,5 et 2,6 mm).
+
+**Correction du 24/09 (4.7.18, KI-057)** : ce rejeu retenait comme appuis 113
+et 114, dont les cibles sont hors de la vue ; avec la règle « appui = cut
+posé », 115 et 116 sont différés. Le faux de 207,6 mm reste évité. Analyse : banane, `audit/cas-decalage-esv-p2-2026-09-24.md`.

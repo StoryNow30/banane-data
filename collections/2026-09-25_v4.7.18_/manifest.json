@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "2026-09-25_v4.7.18_",
+  "kind": "pilot-collection",
+  "bananeVersion": "4.7.18",
+  "modes": [
+    "Pilote"
+  ],
+  "date": "2026-09-25",
+  "createdAt": "2026-09-25T08:31:00+02:00",
+  "status": "analysed",
+  "reassembly": {
+    "command": "unzip 'pilote p2 reliquat/lot-p2-4.7.18.zip'",
+    "archiveSha256": "efd6f2f107e98198c147744782bb490b053fb90dc2417b5991fbd831dc5b89d4",
+    "archiveBytes": 15905807,
+    "entries": [
+      {"name": "banane-bilan-v4-2026-09-25T06-30-56-seg01.json", "uncompressedBytes": 30644833, "sha256": "0337d596a82ce5eebda277eb76f9137188b8d3d9e1ec7cf50c2bb52a746e4545", "session": "pilote-p2-reliquat"},
+      {"name": "banane-gcv1-corpus-2026-09-25T06-31-53-seg01.json", "uncompressedBytes": 29610295, "sha256": "2c23edba986cb4b94d33cb5f72722528712c4501538b433ae5b41e40224c3986", "session": "pilote-p2-reliquat"},
+      {"name": "banane-gcv1-diagnostic-1790317912109.json", "uncompressedBytes": 464932, "sha256": "eb27310f57542175f66128741adfb1221cd0d82d417e04c5c9d23661abdc481f", "session": "pilote-p2-reliquat"},
+      {"name": "banane-journal-v4-1790317925585.json", "uncompressedBytes": 1950272, "sha256": "2c6f27220888435b12e1444542174bff7a7c772792d8fab90f605559a9a17e6b", "session": "pilote-p2-reliquat"}
+    ]
+  },
+  "lots": [
+    {"session": "pilote-p2-reliquat", "part": 2, "scope": {"start": 768, "end": 8099}, "lotDecision": "apply", "state": "STOPPED", "distinctCuts": 30, "applied": 16, "deferred": 11, "gaugeRejected": 3, "relecture": "aucune"}
+  ]
+}
