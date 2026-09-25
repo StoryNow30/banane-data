@@ -1,0 +1,13 @@
+const A=require(require('path').resolve(process.env.BANANE||'.')+'/tools/acceptance-report.cjs'),fs=require('fs');
+const lot=A.loadLot(process.argv[2],'x');
+const obs=lot.diagnostic.observations.filter(o=>o.identity.part===9);
+const base={pairGuard:true,chainMm:15,gaugeGuardMm:20,minTop:5,anchorRule:'placed'};
+const run=o=>new Map(A.replayLot(obs,lot.corpus,{validatedKeys:new Set(),mode:'apply',options:{...base,...o}}).map(x=>[x.observationEventId,x.decision]));
+const R8=run({crossing:false,framed:false}),R9=run({crossing:true,framed:true});
+const st=d=>!d?'none':(['first-pass','window','choice','crossing'].includes(d.stage)?d.stage:'deferred:'+(d.reason||d.stage));
+const rows=obs.slice().sort((a,b)=>a.timestamp.localeCompare(b.timestamp)).map(o=>({cut:o.identity.cut,t:o.timestamp,O:st(o.lotObservation),r8:st(R8.get(o.observationEventId)),r9:st(R9.get(o.observationEventId)),pn:R9.get(o.observationEventId)?.levelCrossing||null,cmd:o.lotObservation?.command?.action||null}));
+let par=rows.filter(r=>r.O!==r.r8);console.log('visites',rows.length,'distincts',new Set(rows.map(r=>r.cut)).size,'parité O/r18 écarts',par.length,par.map(r=>r.cut+':'+r.O+'>'+r.r8).join(' '));
+const cnt=k=>{const c={};for(const r of rows){c[r[k]]=(c[r[k]]||0)+1;}return c;};
+console.log('O',JSON.stringify(cnt('O')));console.log('r9',JSON.stringify(cnt('r9')));
+const ch=rows.filter(r=>r.O!==r.r9);console.log('O!=r9',ch.length,ch.map(r=>r.cut+':'+r.O.replace('deferred:','d:')+'>'+r.r9.replace('deferred:','d:')).join(' '));
+fs.writeFileSync(process.argv[3],JSON.stringify(rows));
