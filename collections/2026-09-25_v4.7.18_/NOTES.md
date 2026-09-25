@@ -37,3 +37,12 @@ posé). Analyse : banane, `audit/lot-4718-p2-2026-09-25.md`.
 (15,2 mm) et 773 (13,2 mm). 1194 juste à 0 mm. Le bord de l'ornière est à 1 à
 6 mm de la pose validée sur les cuts différés 768–771 et à 5 mm sur 772 droit.
 1195, différé par la garde d'écartement voisin, aurait été juste (4,8 mm).
+
+**Natif, passage à niveau 7801–7806** (`natif p2 passage a niveau 7801/`) : la
+méthode de l'opérateur. Il ouvre 2 à 3 cuts avant (7798–7800) et après
+(7807–7809), déjà validés, sans y toucher : ce sont ses repères. Puis il valide
+les 6 cuts du passage à niveau. Ses poses tombent à 7 mm au plus du bord de
+l'ornière (11 rails sur 12) et à 6,4 mm au plus d'une courbe tracée par les
+3 cuts d'avant et les 3 d'après ; une voie prolongée depuis les seuls cuts
+d'avant dérive jusqu'à 20–32 mm en fin de passage.
+

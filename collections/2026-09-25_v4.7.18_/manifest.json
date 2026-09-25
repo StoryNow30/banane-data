@@ -80,5 +80,17 @@
         "sha256": "b959dc05ca5afbc792fca2f3f442acab49bea88c6acbc907c659a07ad9d82ccd"
       }
     ]
+  },
+  "natifPassageANiveau": {
+    "archive": "natif p2 passage a niveau 7801/natif-p2-7798-7809.zip",
+    "archiveSha256": "02d7f1dbccb1f7219660410e38b458ca0c2374e11226e52fe25d864414a7ca80",
+    "entries": [
+      {
+        "name": "banane-native-v4-2026-09-25T06-55-23-seg01.json",
+        "uncompressedBytes": 5614521,
+        "sha256": "39a31449442deabbc6edefb3725b8347735e4720e090f2683eb8655f150f9f91"
+      }
+    ],
+    "content": "Natif, partie 2 : 7798–7800 et 7807–7809 ouverts sans action (cuts déjà validés, repères), 7801–7806 validés (passage à niveau)"
   }
 }
