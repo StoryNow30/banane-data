@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "2026-09-25_v4.7.19_",
+  "kind": "pilot-collection",
+  "bananeVersion": "4.7.19",
+  "extensionPackage": {
+    "name": "banane-v4.7.19-test.zip",
+    "sha256": "c2430279ab0295828674231b7fc15eb40a2e951ed48459004053a46a1c0a1d65"
+  },
+  "modes": [
+    "Pilote"
+  ],
+  "date": "2026-09-25",
+  "createdAt": "2026-09-25T13:02:34+02:00",
+  "status": "analysed (sans relecture)",
+  "lots": [
+    {
+      "session": "pilote-p9-differes",
+      "batchId": "ccbcb19f-6b24-417f-85d7-64d7d94ed1ce",
+      "part": 9,
+      "scope": {
+        "start": 638,
+        "end": 8819
+      },
+      "lotDecision": "apply",
+      "unresolvedPolicy": "defer",
+      "lotReprise": null,
+      "state": "STOPPED (arrêt de l'opérateur au cut 8542, « Export interrompu »)",
+      "window": "2026-09-25T11:02:34Z – 11:16:11Z",
+      "distinctCuts": 85,
+      "applied": 14,
+      "deferred": 53,
+      "gaugeRejected": 18,
+      "exports": "journal, bilan, diagnostic, corpus (un segment chacun)",
+      "relecture": "aucune pour l'instant",
+      "note": "Lot ordinaire (pas « Reprise des différés ») sur les cuts laissés par le lot 4.7.18 de la partie 9 (collection 2026-09-25_v4.7.18_, pilote p9 long) ; nouvelle page ESV, frameId 6f62b95a…"
+    }
+  ],
+  "piloteP9": {
+    "archives": [
+      {
+        "archive": "pilote p9 differes/lot-p9-4.7.19-bilan.7z",
+        "archiveSha256": "37eb0211f7d9dca41192dac27335b95c4cba418511a3b750a1e94d596296e679",
+        "archiveBytes": 13970931,
+        "command": "python3 -c \"import py7zr;py7zr.SevenZipFile('lot-p9-4.7.19-bilan.7z').extractall('.')\"",
+        "entries": [
+          {
+            "name": "banane-bilan-v4-2026-09-25T11-16-14-seg01.json",
+            "uncompressedBytes": 105034283,
+            "sha256": "0ee90b4799891510e78b855c1a55d1303a667e84c2269fcb65baccc206a4b6b5",
+            "session": "pilote-p9-differes"
+          },
+          {
+            "name": "banane-gcv1-diagnostic-1790334988434.json",
+            "uncompressedBytes": 1236922,
+            "sha256": "0812c9f022b02b09d5ea06bf7b74b88819b8db0d6f5a841cc73de3897a56d90c",
+            "session": "pilote-p9-differes"
+          }
+        ]
+      },
+      {
+        "archive": "pilote p9 differes/lot-p9-4.7.19-corpus.7z",
+        "archiveSha256": "568b3fd70aecc73d711787fc2c4bcdb542beb3c4d31a8563fbaa109f98679518",
+        "archiveBytes": 14043202,
+        "command": "python3 -c \"import py7zr;py7zr.SevenZipFile('lot-p9-4.7.19-corpus.7z').extractall('.')\"",
+        "entries": [
+          {
+            "name": "banane-gcv1-corpus-2026-09-25T11-16-30-seg01.json",
+            "uncompressedBytes": 102383874,
+            "sha256": "91cd5896b132f4b8f3c607124482d5125d14cc3b54967212e2de46db57b5071a",
+            "session": "pilote-p9-differes"
+          },
+          {
+            "name": "banane-journal-v4-1790334998253.json",
+            "uncompressedBytes": 4702338,
+            "sha256": "446976c2f586e4473657cb4b9d38973ce42c48acbe819dbe1a062cec4bff6ad7",
+            "session": "pilote-p9-differes"
+          }
+        ]
+      }
+    ]
+  }
+}
