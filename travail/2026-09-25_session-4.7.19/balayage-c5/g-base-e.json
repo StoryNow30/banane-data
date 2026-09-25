@@ -1,0 +1,1112 @@
+{
+ "format": "banane-choice-anchor-study-v1",
+ "wrongMm": 10,
+ "pairGuard": true,
+ "options": {},
+ "byStageAndAnchors": {
+  "natif": {},
+  "pilote": {
+   "first-pass · 0 appui": {
+    "decisions": 4,
+    "judged": 2,
+    "wrong": 1,
+    "wrongCuts": [
+     "pilote-p2-4.7.14:137 (10.23 mm)"
+    ]
+   },
+   "first-pass · 1 appui": {
+    "decisions": 4,
+    "judged": 2,
+    "wrong": 0,
+    "wrongCuts": []
+   },
+   "first-pass · 2 appuis": {
+    "decisions": 14,
+    "judged": 4,
+    "wrong": 0,
+    "wrongCuts": []
+   },
+   "window · 2 appuis": {
+    "decisions": 12,
+    "judged": 11,
+    "wrong": 0,
+    "wrongCuts": []
+   }
+  },
+  "tout": {
+   "first-pass · 0 appui": {
+    "decisions": 4,
+    "judged": 2,
+    "wrong": 1,
+    "wrongCuts": [
+     "pilote-p2-4.7.14:137 (10.23 mm)"
+    ]
+   },
+   "first-pass · 1 appui": {
+    "decisions": 4,
+    "judged": 2,
+    "wrong": 0,
+    "wrongCuts": []
+   },
+   "first-pass · 2 appuis": {
+    "decisions": 14,
+    "judged": 4,
+    "wrong": 0,
+    "wrongCuts": []
+   },
+   "window · 2 appuis": {
+    "decisions": 12,
+    "judged": 11,
+    "wrong": 0,
+    "wrongCuts": []
+   }
+  }
+ },
+ "rules": {
+  "natif": {
+   "actuelle": {
+    "applied": 0,
+    "judged": 0,
+    "wrong": 0,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   },
+   "choix : 2 appuis au moins": {
+    "applied": 0,
+    "judged": 0,
+    "wrong": 0,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   },
+   "choix : à 10 mm de la prédiction au plus": {
+    "applied": 0,
+    "judged": 0,
+    "wrong": 0,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   }
+  },
+  "pilote": {
+   "actuelle": {
+    "applied": 34,
+    "judged": 19,
+    "wrong": 1,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   },
+   "choix : 2 appuis au moins": {
+    "applied": 34,
+    "judged": 19,
+    "wrong": 1,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   },
+   "choix : à 10 mm de la prédiction au plus": {
+    "applied": 34,
+    "judged": 19,
+    "wrong": 1,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   }
+  },
+  "tout": {
+   "actuelle": {
+    "applied": 34,
+    "judged": 19,
+    "wrong": 1,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   },
+   "choix : 2 appuis au moins": {
+    "applied": 34,
+    "judged": 19,
+    "wrong": 1,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   },
+   "choix : à 10 mm de la prédiction au plus": {
+    "applied": 34,
+    "judged": 19,
+    "wrong": 1,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   }
+  }
+ },
+ "rows": [
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 86,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false,
+   "errors": null,
+   "worstMm": null,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 87,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    86
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false,
+   "errors": null,
+   "worstMm": null,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 88,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    87,
+    86
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.4,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false,
+   "errors": null,
+   "worstMm": null,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 89,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    88,
+    87
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.7,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false,
+   "errors": null,
+   "worstMm": null,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 90,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    89,
+    88
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false,
+   "errors": null,
+   "worstMm": null,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 91,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    90,
+    89
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 8.7,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false,
+   "errors": null,
+   "worstMm": null,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 102,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false,
+   "errors": null,
+   "worstMm": null,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 103,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    102
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.8,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false,
+   "errors": null,
+   "worstMm": null,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 104,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    103,
+    102
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false,
+   "errors": null,
+   "worstMm": null,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 105,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    104,
+    103
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 9.9,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false,
+   "errors": null,
+   "worstMm": null,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 106,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    105,
+    104
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 6.6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false,
+   "errors": null,
+   "worstMm": null,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 107,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    106,
+    105
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 5,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false,
+   "errors": null,
+   "worstMm": null,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 108,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    107,
+    106
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 9.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false,
+   "errors": null,
+   "worstMm": null,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 109,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    108,
+    107
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 4.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false,
+   "errors": null,
+   "worstMm": null,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 110,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    109,
+    108
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 5.7,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.31,
+     "verticalMm": -0.17
+    },
+    "right": {
+     "lateralMm": -0.19,
+     "verticalMm": -0.44
+    }
+   },
+   "worstMm": 0.44,
+   "wrong": false,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 111,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    110,
+    109
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 12,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.55,
+     "verticalMm": -0.29
+    },
+    "right": {
+     "lateralMm": -0.43,
+     "verticalMm": -0.52
+    }
+   },
+   "worstMm": 0.55,
+   "wrong": false,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 112,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    111,
+    110
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 9.4,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.23,
+     "verticalMm": -0.11
+    },
+    "right": {
+     "lateralMm": 4.49,
+     "verticalMm": -0.37
+    }
+   },
+   "worstMm": 4.49,
+   "wrong": false,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 113,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    112,
+    111
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 6.8,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false,
+   "errors": null,
+   "worstMm": null,
+   "pilot": "deferred"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 114,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    113,
+    112
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 8.1,
+   "guardMm": 199.9,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.32,
+     "verticalMm": -1.47
+    },
+    "right": {
+     "lateralMm": -0.29,
+     "verticalMm": -0.36
+    }
+   },
+   "worstMm": 1.47,
+   "wrong": false,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 115,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    114,
+    113
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 6.2,
+   "guardMm": 176.9,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.57,
+     "verticalMm": -1.45
+    },
+    "right": {
+     "lateralMm": 0.01,
+     "verticalMm": 0.48
+    }
+   },
+   "worstMm": 1.45,
+   "wrong": false,
+   "pilot": "deferred"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 116,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    115,
+    114
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 7.9,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.56,
+     "verticalMm": -2.59
+    },
+    "right": {
+     "lateralMm": 0.6,
+     "verticalMm": 0.17
+    }
+   },
+   "worstMm": 2.59,
+   "wrong": false,
+   "pilot": "gauge-rejected"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 117,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    116,
+    115
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 12.2,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 2.68,
+     "verticalMm": -0.53
+    },
+    "right": {
+     "lateralMm": 3.78,
+     "verticalMm": 0.43
+    }
+   },
+   "worstMm": 3.78,
+   "wrong": false,
+   "pilot": "gauge-rejected"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 118,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    117,
+    116
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 7.8,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 2.84,
+     "verticalMm": -1.32
+    },
+    "right": {
+     "lateralMm": 7.09,
+     "verticalMm": -0.96
+    }
+   },
+   "worstMm": 7.09,
+   "wrong": false,
+   "pilot": "gauge-rejected"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 119,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    118,
+    117
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 4.4,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.12,
+     "verticalMm": 0.11
+    },
+    "right": {
+     "lateralMm": 8.16,
+     "verticalMm": 0.64
+    }
+   },
+   "worstMm": 8.16,
+   "wrong": false,
+   "pilot": "deferred"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 120,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    119,
+    118
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 5.9,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.46,
+     "verticalMm": -1.43
+    },
+    "right": {
+     "lateralMm": 1.61,
+     "verticalMm": -0.71
+    }
+   },
+   "worstMm": 1.61,
+   "wrong": false,
+   "pilot": "gauge-rejected"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 121,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    120,
+    119
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 21.3,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": true,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -2.68,
+     "verticalMm": -0.62
+    },
+    "right": {
+     "lateralMm": 2.09,
+     "verticalMm": -2.37
+    }
+   },
+   "worstMm": 2.68,
+   "wrong": false,
+   "pilot": "deferred"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 127,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.34,
+     "verticalMm": -0.51
+    },
+    "right": {
+     "lateralMm": -0.04,
+     "verticalMm": -0.43
+    }
+   },
+   "worstMm": 0.51,
+   "wrong": false,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 128,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    127
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 19.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.21,
+     "verticalMm": -0.42
+    },
+    "right": {
+     "lateralMm": -0.51,
+     "verticalMm": -0.49
+    }
+   },
+   "worstMm": 0.51,
+   "wrong": false,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 129,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    128,
+    127
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 7.5,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.5,
+     "verticalMm": -0.3
+    },
+    "right": {
+     "lateralMm": -0.35,
+     "verticalMm": -0.45
+    }
+   },
+   "worstMm": 0.5,
+   "wrong": false,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 130,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    129,
+    128
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 4.6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.02,
+     "verticalMm": -0.37
+    },
+    "right": {
+     "lateralMm": 0.01,
+     "verticalMm": -0.5
+    }
+   },
+   "worstMm": 0.5,
+   "wrong": false,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 131,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    130,
+    129
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.36,
+     "verticalMm": -0.24
+    },
+    "right": {
+     "lateralMm": -0.05,
+     "verticalMm": -0.14
+    }
+   },
+   "worstMm": 0.36,
+   "wrong": false,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 133,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    131,
+    130
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 27.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.45,
+     "verticalMm": -0.1
+    },
+    "right": {
+     "lateralMm": -0.06,
+     "verticalMm": -0.28
+    }
+   },
+   "worstMm": 0.45,
+   "wrong": false,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 137,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 10.23,
+     "verticalMm": -5.79
+    },
+    "right": {
+     "lateralMm": -0.18,
+     "verticalMm": -0.11
+    }
+   },
+   "worstMm": 10.23,
+   "wrong": true,
+   "pilot": "applied"
+  },
+  {
+   "source": "pilote-p2-4.7.14",
+   "kind": "pilote",
+   "cut": 138,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    137
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 13.4,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -3.21,
+     "verticalMm": 0.28
+    },
+    "right": {
+     "lateralMm": -1.33,
+     "verticalMm": 1.16
+    }
+   },
+   "worstMm": 3.21,
+   "wrong": false,
+   "pilot": "other"
+  }
+ ]
+}

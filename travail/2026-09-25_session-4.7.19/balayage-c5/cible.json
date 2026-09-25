@@ -1,0 +1,177 @@
+{
+ "format": "banane-cursor-sweep-v1",
+ "wrongMm": 10,
+ "base": "g-base",
+ "configs": {
+  "g-base": {
+   "natif": {
+    "applied": 450,
+    "judged": 295,
+    "right": 292,
+    "wrong": 3,
+    "wrongCuts": [
+     "natif-long-p20:398 (159.9 mm)",
+     "natif-long-p20:402 (273 mm)",
+     "natif-long-p20:983 (15 mm)"
+    ]
+   },
+   "pilote": {
+    "applied": 240,
+    "judged": 217,
+    "right": 215,
+    "wrong": 2,
+    "wrongCuts": [
+     "pilote-p31-fin-4.7.9:7026 (20.12 mm)",
+     "pilote-p2-4.7.14:137 (10.23 mm)"
+    ]
+   },
+   "all": {
+    "applied": 690,
+    "judged": 512,
+    "right": 507,
+    "wrong": 5,
+    "wrongCuts": [
+     "natif-long-p20:398 (159.9 mm)",
+     "natif-long-p20:402 (273 mm)",
+     "natif-long-p20:983 (15 mm)",
+     "pilote-p31-fin-4.7.9:7026 (20.12 mm)",
+     "pilote-p2-4.7.14:137 (10.23 mm)"
+    ]
+   },
+   "stages": {
+    "first-pass": 554,
+    "window": 61,
+    "choice": 75
+   }
+  },
+  "cible": {
+   "natif": {
+    "applied": 450,
+    "judged": 295,
+    "right": 292,
+    "wrong": 3,
+    "wrongCuts": [
+     "natif-long-p20:398 (159.9 mm)",
+     "natif-long-p20:402 (273 mm)",
+     "natif-long-p20:983 (15 mm)"
+    ]
+   },
+   "pilote": {
+    "applied": 240,
+    "judged": 217,
+    "right": 215,
+    "wrong": 2,
+    "wrongCuts": [
+     "pilote-p31-fin-4.7.9:7026 (20.12 mm)",
+     "pilote-p2-4.7.14:137 (10.23 mm)"
+    ]
+   },
+   "all": {
+    "applied": 690,
+    "judged": 512,
+    "right": 507,
+    "wrong": 5,
+    "wrongCuts": [
+     "natif-long-p20:398 (159.9 mm)",
+     "natif-long-p20:402 (273 mm)",
+     "natif-long-p20:983 (15 mm)",
+     "pilote-p31-fin-4.7.9:7026 (20.12 mm)",
+     "pilote-p2-4.7.14:137 (10.23 mm)"
+    ]
+   },
+   "stages": {
+    "first-pass": 554,
+    "window": 61,
+    "choice": 75
+   },
+   "delta": {
+    "applied": 0,
+    "right": 0,
+    "wrong": 0
+   },
+   "gained": [],
+   "lost": [],
+   "changed": []
+  },
+  "g20": {
+   "natif": {
+    "applied": 452,
+    "judged": 297,
+    "right": 294,
+    "wrong": 3,
+    "wrongCuts": [
+     "natif-long-p20:398 (159.9 mm)",
+     "natif-long-p20:402 (273 mm)",
+     "natif-long-p20:983 (15 mm)"
+    ]
+   },
+   "pilote": {
+    "applied": 239,
+    "judged": 216,
+    "right": 215,
+    "wrong": 1,
+    "wrongCuts": [
+     "pilote-p2-4.7.14:137 (10.23 mm)"
+    ]
+   },
+   "all": {
+    "applied": 691,
+    "judged": 513,
+    "right": 509,
+    "wrong": 4,
+    "wrongCuts": [
+     "natif-long-p20:398 (159.9 mm)",
+     "natif-long-p20:402 (273 mm)",
+     "natif-long-p20:983 (15 mm)",
+     "pilote-p2-4.7.14:137 (10.23 mm)"
+    ]
+   },
+   "stages": {
+    "first-pass": 553,
+    "window": 62,
+    "choice": 76
+   },
+   "delta": {
+    "applied": 1,
+    "right": 2,
+    "wrong": -1
+   },
+   "gained": [
+    {
+     "cut": "relecture-p19:9048",
+     "stage": "window",
+     "verdict": "juste",
+     "worstMm": 1.4
+    },
+    {
+     "cut": "relecture-p19:9049",
+     "stage": "choice",
+     "verdict": "juste",
+     "worstMm": 1.3
+    }
+   ],
+   "lost": [
+    {
+     "cut": "pilote-p31-fin-4.7.9:7026",
+     "stage": "choice",
+     "verdict": "faux",
+     "worstMm": 20.12
+    }
+   ],
+   "changed": [
+    {
+     "cut": "relecture-p19:9047",
+     "stage": "first-pass → window",
+     "worstMm": null,
+     "verdict": "non jugé"
+    },
+    {
+     "cut": "pilote-p31-fin-4.7.9:8856",
+     "stage": "window → choice",
+     "worstMm": null,
+     "verdict": "non jugé"
+    }
+   ]
+  }
+ }
+}

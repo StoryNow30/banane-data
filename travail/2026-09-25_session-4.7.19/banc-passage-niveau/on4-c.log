@@ -1,0 +1,38 @@
+lot pilote-p34-4.7.11 134 s
+
+natif
+
+pilote
+  choice · 1 appui           13 décidés · 0 faux / 11 jugés 
+  choice · 2 appuis           7 décidés · 0 faux / 7 jugés 
+  crossing · 0 appui          5 décidés · 1 faux / 4 jugés pilote-p34-4.7.11:4551 (10.48 mm)
+  first-pass · 0 appui       27 décidés · 0 faux / 26 jugés 
+  first-pass · 1 appui       11 décidés · 0 faux / 11 jugés 
+  first-pass · 2 appuis      19 décidés · 0 faux / 19 jugés 
+  window · 1 appui            1 décidés · 0 faux / 1 jugés 
+  window · 2 appuis           1 décidés · 0 faux / 1 jugés 
+
+tout
+  choice · 1 appui           13 décidés · 0 faux / 11 jugés 
+  choice · 2 appuis           7 décidés · 0 faux / 7 jugés 
+  crossing · 0 appui          5 décidés · 1 faux / 4 jugés pilote-p34-4.7.11:4551 (10.48 mm)
+  first-pass · 0 appui       27 décidés · 0 faux / 26 jugés 
+  first-pass · 1 appui       11 décidés · 0 faux / 11 jugés 
+  first-pass · 2 appuis      19 décidés · 0 faux / 19 jugés 
+  window · 1 appui            1 décidés · 0 faux / 1 jugés 
+  window · 2 appuis           1 décidés · 0 faux / 1 jugés 
+
+règles, natif
+  actuelle                                   0 appliqués · 0 faux / 0 jugés · écartés 0 (justes 0, faux 0, non jugés 0)
+  choix : 2 appuis au moins                  0 appliqués · 0 faux / 0 jugés · écartés 0 (justes 0, faux 0, non jugés 0)
+  choix : à 10 mm de la prédiction au plus   0 appliqués · 0 faux / 0 jugés · écartés 0 (justes 0, faux 0, non jugés 0)
+
+règles, pilote
+  actuelle                                   84 appliqués · 1 faux / 80 jugés · écartés 0 (justes 0, faux 0, non jugés 0)
+  choix : 2 appuis au moins                  71 appliqués · 1 faux / 69 jugés · écartés 13 (justes 11, faux 0, non jugés 2)
+  choix : à 10 mm de la prédiction au plus   84 appliqués · 1 faux / 80 jugés · écartés 0 (justes 0, faux 0, non jugés 0)
+
+règles, tout
+  actuelle                                   84 appliqués · 1 faux / 80 jugés · écartés 0 (justes 0, faux 0, non jugés 0)
+  choix : 2 appuis au moins                  71 appliqués · 1 faux / 69 jugés · écartés 13 (justes 11, faux 0, non jugés 2)
+  choix : à 10 mm de la prédiction au plus   84 appliqués · 1 faux / 80 jugés · écartés 0 (justes 0, faux 0, non jugés 0)

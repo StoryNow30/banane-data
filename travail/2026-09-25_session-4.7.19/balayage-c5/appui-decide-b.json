@@ -1,0 +1,4998 @@
+{
+ "format": "banane-choice-anchor-study-v1",
+ "wrongMm": 10,
+ "pairGuard": true,
+ "options": {
+  "anchorRule": "decided"
+ },
+ "byStageAndAnchors": {
+  "natif": {
+   "first-pass · 0 appui": {
+    "decisions": 23,
+    "judged": 14,
+    "wrong": 2,
+    "wrongCuts": [
+     "natif-long-p20:398 (159.9 mm)",
+     "natif-long-p20:402 (273 mm)"
+    ]
+   },
+   "first-pass · 1 appui": {
+    "decisions": 31,
+    "judged": 20,
+    "wrong": 0,
+    "wrongCuts": []
+   },
+   "first-pass · 2 appuis": {
+    "decisions": 93,
+    "judged": 56,
+    "wrong": 1,
+    "wrongCuts": [
+     "natif-long-p20:983 (15 mm)"
+    ]
+   },
+   "window · 2 appuis": {
+    "decisions": 7,
+    "judged": 5,
+    "wrong": 0,
+    "wrongCuts": []
+   },
+   "choice · 2 appuis": {
+    "decisions": 14,
+    "judged": 12,
+    "wrong": 0,
+    "wrongCuts": []
+   },
+   "choice · 1 appui": {
+    "decisions": 4,
+    "judged": 3,
+    "wrong": 0,
+    "wrongCuts": []
+   },
+   "window · 1 appui": {
+    "decisions": 3,
+    "judged": 3,
+    "wrong": 0,
+    "wrongCuts": []
+   }
+  },
+  "pilote": {},
+  "tout": {
+   "first-pass · 0 appui": {
+    "decisions": 23,
+    "judged": 14,
+    "wrong": 2,
+    "wrongCuts": [
+     "natif-long-p20:398 (159.9 mm)",
+     "natif-long-p20:402 (273 mm)"
+    ]
+   },
+   "first-pass · 1 appui": {
+    "decisions": 31,
+    "judged": 20,
+    "wrong": 0,
+    "wrongCuts": []
+   },
+   "first-pass · 2 appuis": {
+    "decisions": 93,
+    "judged": 56,
+    "wrong": 1,
+    "wrongCuts": [
+     "natif-long-p20:983 (15 mm)"
+    ]
+   },
+   "window · 2 appuis": {
+    "decisions": 7,
+    "judged": 5,
+    "wrong": 0,
+    "wrongCuts": []
+   },
+   "choice · 2 appuis": {
+    "decisions": 14,
+    "judged": 12,
+    "wrong": 0,
+    "wrongCuts": []
+   },
+   "choice · 1 appui": {
+    "decisions": 4,
+    "judged": 3,
+    "wrong": 0,
+    "wrongCuts": []
+   },
+   "window · 1 appui": {
+    "decisions": 3,
+    "judged": 3,
+    "wrong": 0,
+    "wrongCuts": []
+   }
+  }
+ },
+ "rules": {
+  "natif": {
+   "actuelle": {
+    "applied": 175,
+    "judged": 113,
+    "wrong": 3,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   },
+   "choix : 2 appuis au moins": {
+    "applied": 171,
+    "judged": 110,
+    "wrong": 3,
+    "removed": 4,
+    "removedJudgedRight": [
+     "natif-long-p20:160",
+     "natif-long-p20:436",
+     "natif-long-p20:452"
+    ],
+    "removedWrong": [],
+    "removedUnjudged": [
+     "natif-long-p20:173"
+    ]
+   },
+   "choix : à 10 mm de la prédiction au plus": {
+    "applied": 175,
+    "judged": 113,
+    "wrong": 3,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   }
+  },
+  "pilote": {
+   "actuelle": {
+    "applied": 0,
+    "judged": 0,
+    "wrong": 0,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   },
+   "choix : 2 appuis au moins": {
+    "applied": 0,
+    "judged": 0,
+    "wrong": 0,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   },
+   "choix : à 10 mm de la prédiction au plus": {
+    "applied": 0,
+    "judged": 0,
+    "wrong": 0,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   }
+  },
+  "tout": {
+   "actuelle": {
+    "applied": 175,
+    "judged": 113,
+    "wrong": 3,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   },
+   "choix : 2 appuis au moins": {
+    "applied": 171,
+    "judged": 110,
+    "wrong": 3,
+    "removed": 4,
+    "removedJudgedRight": [
+     "natif-long-p20:160",
+     "natif-long-p20:436",
+     "natif-long-p20:452"
+    ],
+    "removedWrong": [],
+    "removedUnjudged": [
+     "natif-long-p20:173"
+    ]
+   },
+   "choix : à 10 mm de la prédiction au plus": {
+    "applied": 175,
+    "judged": 113,
+    "wrong": 3,
+    "removed": 0,
+    "removedJudgedRight": [],
+    "removedWrong": [],
+    "removedUnjudged": []
+   }
+  }
+ },
+ "rows": [
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 107,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 108,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    107
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 109,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    108,
+    107
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 4.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.4,
+     "verticalMm": -0.5
+    },
+    "right": {
+     "lateralMm": 3.3,
+     "verticalMm": 0.8
+    }
+   },
+   "worstMm": 3.3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 110,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    109,
+    108
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 5.8,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.9,
+     "verticalMm": 3
+    },
+    "right": {
+     "lateralMm": 2,
+     "verticalMm": 1.7
+    }
+   },
+   "worstMm": 3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 112,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    110,
+    109
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 113,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    112,
+    110
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 4.7,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 2.1,
+     "verticalMm": 2.1
+    },
+    "right": {
+     "lateralMm": 0.3,
+     "verticalMm": 1.6
+    }
+   },
+   "worstMm": 2.1,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 114,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    113,
+    112
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.2,
+     "verticalMm": 0.4
+    },
+    "right": {
+     "lateralMm": 1.2,
+     "verticalMm": -0.7
+    }
+   },
+   "worstMm": 1.2,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 115,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    114,
+    113
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.9,
+     "verticalMm": -1.4
+    },
+    "right": {
+     "lateralMm": -0.1,
+     "verticalMm": -2.4
+    }
+   },
+   "worstMm": 2.4,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 116,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    115,
+    114
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -2.4,
+     "verticalMm": -0.3
+    },
+    "right": {
+     "lateralMm": -0.1,
+     "verticalMm": -1.7
+    }
+   },
+   "worstMm": 2.4,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 117,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    116,
+    115
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.3,
+     "verticalMm": -1.1
+    },
+    "right": {
+     "lateralMm": 0.6,
+     "verticalMm": -1.4
+    }
+   },
+   "worstMm": 1.4,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 118,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    117,
+    116
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 4.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1.6,
+     "verticalMm": -1
+    },
+    "right": {
+     "lateralMm": -0.2,
+     "verticalMm": -0.9
+    }
+   },
+   "worstMm": 1.6,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 119,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    118,
+    117
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.9,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.4,
+     "verticalMm": 2.9
+    },
+    "right": {
+     "lateralMm": -0.2,
+     "verticalMm": 0.4
+    }
+   },
+   "worstMm": 2.9,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 120,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    119,
+    118
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.9,
+     "verticalMm": 0.6
+    },
+    "right": {
+     "lateralMm": -0.8,
+     "verticalMm": -0.5
+    }
+   },
+   "worstMm": 0.9,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 121,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    120,
+    119
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 4.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.9,
+     "verticalMm": -0.6
+    },
+    "right": {
+     "lateralMm": -1,
+     "verticalMm": -1.5
+    }
+   },
+   "worstMm": 1.5,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 122,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    121,
+    120
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 1.9,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.7,
+     "verticalMm": 0.2
+    },
+    "right": {
+     "lateralMm": -1.8,
+     "verticalMm": -0.5
+    }
+   },
+   "worstMm": 1.8,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 124,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    122,
+    121
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 4.1,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -2.4,
+     "verticalMm": -0.3
+    },
+    "right": {
+     "lateralMm": -0.1,
+     "verticalMm": 2.4
+    }
+   },
+   "worstMm": 2.4,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 125,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    124,
+    122
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 5.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.2,
+     "verticalMm": -0.7
+    },
+    "right": {
+     "lateralMm": -0.2,
+     "verticalMm": 0.5
+    }
+   },
+   "worstMm": 0.7,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 129,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 130,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    129
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.4,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 131,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    130,
+    129
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 0.8,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 132,
+   "stage": "choice",
+   "anchors": 2,
+   "anchorsUsed": [
+    131,
+    130
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 5.8,
+   "chosenSides": [
+    "right"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1435.2,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 134,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    131
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 5.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 135,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    134
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 6.9,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 136,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    135,
+    134
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 5.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 137,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    136,
+    135
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 3.9,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 141,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -2.3,
+     "verticalMm": -0.3
+    },
+    "right": {
+     "lateralMm": -0.5,
+     "verticalMm": -0.8
+    }
+   },
+   "worstMm": 2.3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 142,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    141
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 4.5,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -2.3,
+     "verticalMm": -0.4
+    },
+    "right": {
+     "lateralMm": -0.8,
+     "verticalMm": 1.1
+    }
+   },
+   "worstMm": 2.3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 143,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    142,
+    141
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 2,
+     "verticalMm": -0.9
+    },
+    "right": {
+     "lateralMm": 0.5,
+     "verticalMm": 1
+    }
+   },
+   "worstMm": 2,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 145,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    143,
+    142
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.4,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 146,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    145,
+    143
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 147,
+   "stage": "choice",
+   "anchors": 2,
+   "anchorsUsed": [
+    146,
+    145
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 2,
+   "chosenSides": [
+    "left"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1439.2,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 4.8,
+     "verticalMm": 0.8
+    },
+    "right": {
+     "lateralMm": -3.1,
+     "verticalMm": -0.5
+    }
+   },
+   "worstMm": 4.8,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 148,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    146,
+    145
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 10.2,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -2.3,
+     "verticalMm": -1.8
+    },
+    "right": {
+     "lateralMm": 5.1,
+     "verticalMm": 0.6
+    }
+   },
+   "worstMm": 5.1,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 149,
+   "stage": "choice",
+   "anchors": 2,
+   "anchorsUsed": [
+    148,
+    146
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 8,
+   "chosenSides": [
+    "left"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1427.5,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -6.3,
+     "verticalMm": -0.8
+    },
+    "right": {
+     "lateralMm": 0,
+     "verticalMm": 0.1
+    }
+   },
+   "worstMm": 6.3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 150,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    148
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 10.7,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1.6,
+     "verticalMm": -1.1
+    },
+    "right": {
+     "lateralMm": -1.2,
+     "verticalMm": 0.4
+    }
+   },
+   "worstMm": 1.6,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 151,
+   "stage": "choice",
+   "anchors": 2,
+   "anchorsUsed": [
+    150,
+    148
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 2,
+   "chosenSides": [
+    "right"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1437.2,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -2.9,
+     "verticalMm": -0.1
+    },
+    "right": {
+     "lateralMm": -2.5,
+     "verticalMm": 1.1
+    }
+   },
+   "worstMm": 2.9,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 153,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    150
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 6.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.4,
+     "verticalMm": 0.2
+    },
+    "right": {
+     "lateralMm": 0,
+     "verticalMm": 0.9
+    }
+   },
+   "worstMm": 0.9,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 154,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    153
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -3.4,
+     "verticalMm": -8
+    },
+    "right": {
+     "lateralMm": 3.6,
+     "verticalMm": -0.3
+    }
+   },
+   "worstMm": 8,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 155,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    154,
+    153
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 4.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 2.5,
+     "verticalMm": 0.5
+    },
+    "right": {
+     "lateralMm": 2.6,
+     "verticalMm": -3.7
+    }
+   },
+   "worstMm": 3.7,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 156,
+   "stage": "choice",
+   "anchors": 2,
+   "anchorsUsed": [
+    155,
+    154
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 1,
+   "chosenSides": [
+    "left"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1435,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -2.9,
+     "verticalMm": -1.5
+    },
+    "right": {
+     "lateralMm": 2.1,
+     "verticalMm": 1.1
+    }
+   },
+   "worstMm": 2.9,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 157,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    155,
+    154
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 6.7,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -2.1,
+     "verticalMm": 0.3
+    },
+    "right": {
+     "lateralMm": -0.4,
+     "verticalMm": -2.1
+    }
+   },
+   "worstMm": 2.1,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 160,
+   "stage": "choice",
+   "anchors": 1,
+   "anchorsUsed": [
+    157
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 10,
+   "chosenSides": [
+    "right"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1429.8,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1.6,
+     "verticalMm": 0.9
+    },
+    "right": {
+     "lateralMm": 0.8,
+     "verticalMm": -1.2
+    }
+   },
+   "worstMm": 1.6,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 163,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.5,
+     "verticalMm": 0.1
+    },
+    "right": {
+     "lateralMm": 2.5,
+     "verticalMm": -1.3
+    }
+   },
+   "worstMm": 2.5,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 164,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    163
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 9.5,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 165,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    164,
+    163
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 8.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 166,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    165,
+    164
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 4.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 167,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    166,
+    165
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.7,
+     "verticalMm": 0.1
+    },
+    "right": {
+     "lateralMm": -0.4,
+     "verticalMm": 1.2
+    }
+   },
+   "worstMm": 1.7,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 172,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 173,
+   "stage": "choice",
+   "anchors": 1,
+   "anchorsUsed": [
+    172
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 2,
+   "chosenSides": [
+    "left"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1439.5,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 174,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    172
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 4.8,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 175,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    174,
+    172
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.8,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.1,
+     "verticalMm": -1.4
+    },
+    "right": {
+     "lateralMm": 2.6,
+     "verticalMm": 0.9
+    }
+   },
+   "worstMm": 2.6,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 176,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    175,
+    174
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 5.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 177,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    176,
+    175
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.7,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 178,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    177,
+    176
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 0.4,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.8,
+     "verticalMm": -1.1
+    },
+    "right": {
+     "lateralMm": 0.8,
+     "verticalMm": -1
+    }
+   },
+   "worstMm": 1.8,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 218,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 2.2,
+     "verticalMm": -2.7
+    },
+    "right": {
+     "lateralMm": 3.1,
+     "verticalMm": 0.6
+    }
+   },
+   "worstMm": 3.1,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 222,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 224,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    222
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.9,
+     "verticalMm": 0.3
+    },
+    "right": {
+     "lateralMm": 1.2,
+     "verticalMm": 0.3
+    }
+   },
+   "worstMm": 1.9,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 225,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    224,
+    222
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 0.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.5,
+     "verticalMm": -0.1
+    },
+    "right": {
+     "lateralMm": 1.2,
+     "verticalMm": -1.4
+    }
+   },
+   "worstMm": 1.5,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 226,
+   "stage": "choice",
+   "anchors": 2,
+   "anchorsUsed": [
+    225,
+    224
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 1,
+   "chosenSides": [
+    "right"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1436.5,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.2,
+     "verticalMm": 0.6
+    },
+    "right": {
+     "lateralMm": -2.8,
+     "verticalMm": -1.5
+    }
+   },
+   "worstMm": 2.8,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 227,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    225,
+    224
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.5,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 228,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    227,
+    225
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 0.5,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 229,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    228,
+    227
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 0.7,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.8,
+     "verticalMm": -0.5
+    },
+    "right": {
+     "lateralMm": 1.4,
+     "verticalMm": -0.2
+    }
+   },
+   "worstMm": 1.8,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 230,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    229,
+    228
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 231,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    230,
+    229
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.6,
+     "verticalMm": 0.5
+    },
+    "right": {
+     "lateralMm": 0.7,
+     "verticalMm": -1.5
+    }
+   },
+   "worstMm": 1.5,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 232,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    231,
+    230
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 233,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    232,
+    231
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.8,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 234,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    233,
+    232
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 0.5,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.8,
+     "verticalMm": -2.9
+    },
+    "right": {
+     "lateralMm": -1.3,
+     "verticalMm": 0.2
+    }
+   },
+   "worstMm": 2.9,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 235,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    234,
+    233
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 0.6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 236,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    235,
+    234
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.3,
+     "verticalMm": 0.1
+    },
+    "right": {
+     "lateralMm": -2.6,
+     "verticalMm": -0.1
+    }
+   },
+   "worstMm": 2.6,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 237,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    236,
+    235
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.8,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 238,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    237,
+    236
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 239,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    238,
+    237
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.7,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 240,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    239,
+    238
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.4,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 243,
+   "stage": "window",
+   "anchors": 1,
+   "anchorsUsed": [
+    240
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 1.7,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.6,
+     "verticalMm": -3
+    },
+    "right": {
+     "lateralMm": 0.2,
+     "verticalMm": 0.4
+    }
+   },
+   "worstMm": 3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 244,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    243
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 245,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    244,
+    243
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 246,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    245,
+    244
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 247,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    246,
+    245
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 248,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    247,
+    246
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.8,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.2,
+     "verticalMm": -0.2
+    },
+    "right": {
+     "lateralMm": 1.9,
+     "verticalMm": 1.8
+    }
+   },
+   "worstMm": 1.9,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 249,
+   "stage": "choice",
+   "anchors": 2,
+   "anchorsUsed": [
+    248,
+    247
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 1.5,
+   "chosenSides": [
+    "right"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1435.9,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 250,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    248,
+    247
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 251,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    250,
+    248
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 0.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 252,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    251,
+    250
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 0.6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 253,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    252,
+    251
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 389,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.8,
+     "verticalMm": 0.3
+    },
+    "right": {
+     "lateralMm": -2.3,
+     "verticalMm": 0
+    }
+   },
+   "worstMm": 2.3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 391,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    389
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 4.5,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1.4,
+     "verticalMm": 0
+    },
+    "right": {
+     "lateralMm": -0.9,
+     "verticalMm": 0.1
+    }
+   },
+   "worstMm": 1.4,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 392,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    391,
+    389
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.4,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1.6,
+     "verticalMm": 1.2
+    },
+    "right": {
+     "lateralMm": 0.1,
+     "verticalMm": 0.5
+    }
+   },
+   "worstMm": 1.6,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 393,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    392,
+    391
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 5.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.5,
+     "verticalMm": -0.6
+    },
+    "right": {
+     "lateralMm": 2.9,
+     "verticalMm": -1.3
+    }
+   },
+   "worstMm": 2.9,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 398,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 130.5,
+     "verticalMm": -5.6
+    },
+    "right": {
+     "lateralMm": 159.9,
+     "verticalMm": 6.9
+    }
+   },
+   "worstMm": 159.9,
+   "wrong": true
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 402,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 262.2,
+     "verticalMm": -14.6
+    },
+    "right": {
+     "lateralMm": 273,
+     "verticalMm": 13.8
+    }
+   },
+   "worstMm": 273,
+   "wrong": true
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 417,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 4.5,
+     "verticalMm": -0.2
+    },
+    "right": {
+     "lateralMm": -2.6,
+     "verticalMm": -2
+    }
+   },
+   "worstMm": 4.5,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 418,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    417
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 29.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 419,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    418,
+    417
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 9.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -4.3,
+     "verticalMm": 1.3
+    },
+    "right": {
+     "lateralMm": 0.3,
+     "verticalMm": 0.6
+    }
+   },
+   "worstMm": 4.3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 420,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    419,
+    418
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 1.3,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0,
+     "verticalMm": -1
+    },
+    "right": {
+     "lateralMm": 3.5,
+     "verticalMm": 2
+    }
+   },
+   "worstMm": 3.5,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 421,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    420,
+    419
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.9,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.8,
+     "verticalMm": -1.2
+    },
+    "right": {
+     "lateralMm": 2.3,
+     "verticalMm": 0.7
+    }
+   },
+   "worstMm": 2.3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 422,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    421,
+    420
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1,
+     "verticalMm": 0.4
+    },
+    "right": {
+     "lateralMm": -0.9,
+     "verticalMm": -1.3
+    }
+   },
+   "worstMm": 1.3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 423,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    422,
+    421
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 9.8,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.4,
+     "verticalMm": -1.3
+    },
+    "right": {
+     "lateralMm": 1.9,
+     "verticalMm": -0.1
+    }
+   },
+   "worstMm": 1.9,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 425,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    423,
+    422
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 8.6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.6,
+     "verticalMm": -0.3
+    },
+    "right": {
+     "lateralMm": 2.3,
+     "verticalMm": 1.5
+    }
+   },
+   "worstMm": 2.3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 426,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    425,
+    423
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.9,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 2,
+     "verticalMm": -1.8
+    },
+    "right": {
+     "lateralMm": 1.2,
+     "verticalMm": 1.1
+    }
+   },
+   "worstMm": 2,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 431,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.1,
+     "verticalMm": 0.6
+    },
+    "right": {
+     "lateralMm": 0.1,
+     "verticalMm": -1.9
+    }
+   },
+   "worstMm": 1.9,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 432,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    431
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.1,
+     "verticalMm": -1.2
+    },
+    "right": {
+     "lateralMm": 2,
+     "verticalMm": 0.1
+    }
+   },
+   "worstMm": 2,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 433,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    432,
+    431
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 0.8,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 434,
+   "stage": "choice",
+   "anchors": 2,
+   "anchorsUsed": [
+    433,
+    432
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 7,
+   "chosenSides": [
+    "right"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1443.9,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.7,
+     "verticalMm": -2.3
+    },
+    "right": {
+     "lateralMm": -7.2,
+     "verticalMm": 1.6
+    }
+   },
+   "worstMm": 7.2,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 436,
+   "stage": "choice",
+   "anchors": 1,
+   "anchorsUsed": [
+    433
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 10,
+   "chosenSides": [
+    "right"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1433,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1.9,
+     "verticalMm": 0
+    },
+    "right": {
+     "lateralMm": -0.3,
+     "verticalMm": 1.7
+    }
+   },
+   "worstMm": 1.9,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 440,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.7,
+     "verticalMm": 0.3
+    },
+    "right": {
+     "lateralMm": 5.8,
+     "verticalMm": 1.6
+    }
+   },
+   "worstMm": 5.8,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 442,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    440
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 14.6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.6,
+     "verticalMm": -0.7
+    },
+    "right": {
+     "lateralMm": 1.4,
+     "verticalMm": 0.3
+    }
+   },
+   "worstMm": 1.4,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 443,
+   "stage": "choice",
+   "anchors": 2,
+   "anchorsUsed": [
+    442,
+    440
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 4.1,
+   "chosenSides": [
+    "left"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1434.1,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.5,
+     "verticalMm": -1.2
+    },
+    "right": {
+     "lateralMm": 5.5,
+     "verticalMm": 1.5
+    }
+   },
+   "worstMm": 5.5,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 450,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 452,
+   "stage": "choice",
+   "anchors": 1,
+   "anchorsUsed": [
+    450
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 4,
+   "chosenSides": [
+    "right"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1439.5,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.8,
+     "verticalMm": 0.3
+    },
+    "right": {
+     "lateralMm": 0,
+     "verticalMm": 0.3
+    }
+   },
+   "worstMm": 0.8,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 453,
+   "stage": "window",
+   "anchors": 1,
+   "anchorsUsed": [
+    450
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 12.2,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1.6,
+     "verticalMm": -0.1
+    },
+    "right": {
+     "lateralMm": 0.6,
+     "verticalMm": 2.3
+    }
+   },
+   "worstMm": 2.3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 454,
+   "stage": "window",
+   "anchors": 1,
+   "anchorsUsed": [
+    453
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 1.1,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1.5,
+     "verticalMm": -0.2
+    },
+    "right": {
+     "lateralMm": -0.4,
+     "verticalMm": 1.3
+    }
+   },
+   "worstMm": 1.5,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 456,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    454,
+    453
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 7.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1.4,
+     "verticalMm": 0
+    },
+    "right": {
+     "lateralMm": -0.9,
+     "verticalMm": 0.5
+    }
+   },
+   "worstMm": 1.4,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 457,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    456,
+    454
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.4,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 460,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    457
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 11.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 2.1,
+     "verticalMm": 1.6
+    },
+    "right": {
+     "lateralMm": 1.7,
+     "verticalMm": -2.3
+    }
+   },
+   "worstMm": 2.3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 461,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    460
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.9,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 2,
+     "verticalMm": 0.3
+    },
+    "right": {
+     "lateralMm": 0.7,
+     "verticalMm": 0.4
+    }
+   },
+   "worstMm": 2,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 463,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    461,
+    460
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 6.7,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -3.1,
+     "verticalMm": 0.1
+    },
+    "right": {
+     "lateralMm": -0.9,
+     "verticalMm": -0.2
+    }
+   },
+   "worstMm": 3.1,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 465,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    463
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 5.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 4,
+     "verticalMm": -7
+    },
+    "right": {
+     "lateralMm": 0.2,
+     "verticalMm": 0.5
+    }
+   },
+   "worstMm": 7,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 466,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    465,
+    463
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.8,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 467,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    466,
+    465
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 4,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.6,
+     "verticalMm": -1.3
+    },
+    "right": {
+     "lateralMm": 0.9,
+     "verticalMm": 0.4
+    }
+   },
+   "worstMm": 1.6,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 471,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 472,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    471
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.5,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.1,
+     "verticalMm": 2.5
+    },
+    "right": {
+     "lateralMm": 1.9,
+     "verticalMm": -2.6
+    }
+   },
+   "worstMm": 2.6,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 474,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    472,
+    471
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 6.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1.5,
+     "verticalMm": -1
+    },
+    "right": {
+     "lateralMm": 0.4,
+     "verticalMm": -4
+    }
+   },
+   "worstMm": 4,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 475,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    474,
+    472
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 3.2,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 476,
+   "stage": "choice",
+   "anchors": 2,
+   "anchorsUsed": [
+    475,
+    474
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 4,
+   "chosenSides": [
+    "left"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1438.2,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1.5,
+     "verticalMm": -1.1
+    },
+    "right": {
+     "lateralMm": 1.5,
+     "verticalMm": -0.3
+    }
+   },
+   "worstMm": 1.5,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 484,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.3,
+     "verticalMm": 1.8
+    },
+    "right": {
+     "lateralMm": -0.4,
+     "verticalMm": 1.5
+    }
+   },
+   "worstMm": 1.8,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 485,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    484
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 4.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 486,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    485,
+    484
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -3.7,
+     "verticalMm": -0.1
+    },
+    "right": {
+     "lateralMm": 1.9,
+     "verticalMm": -1.9
+    }
+   },
+   "worstMm": 3.7,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 488,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    486,
+    485
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.9,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -3.4,
+     "verticalMm": -1.2
+    },
+    "right": {
+     "lateralMm": -1.1,
+     "verticalMm": 0.7
+    }
+   },
+   "worstMm": 3.4,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 489,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    488,
+    486
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 526,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 490,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    489,
+    488
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.5,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 491,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    490,
+    489
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.7,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 492,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    491,
+    490
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.8,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.4,
+     "verticalMm": 0
+    },
+    "right": {
+     "lateralMm": 4.1,
+     "verticalMm": 0.7
+    }
+   },
+   "worstMm": 4.1,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 493,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    492,
+    491
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 5.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1.3,
+     "verticalMm": -0.5
+    },
+    "right": {
+     "lateralMm": -1.4,
+     "verticalMm": 0.3
+    }
+   },
+   "worstMm": 1.4,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 494,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    493,
+    492
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.8,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.2,
+     "verticalMm": -0.2
+    },
+    "right": {
+     "lateralMm": -1.1,
+     "verticalMm": -0.7
+    }
+   },
+   "worstMm": 1.2,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 496,
+   "stage": "choice",
+   "anchors": 2,
+   "anchorsUsed": [
+    494,
+    493
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 2,
+   "chosenSides": [
+    "right"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1436.4,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.7,
+     "verticalMm": -1.2
+    },
+    "right": {
+     "lateralMm": 0.8,
+     "verticalMm": -1.2
+    }
+   },
+   "worstMm": 1.2,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 525,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    526
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.4,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.7,
+     "verticalMm": -1.8
+    },
+    "right": {
+     "lateralMm": -0.2,
+     "verticalMm": -0.9
+    }
+   },
+   "worstMm": 1.8,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 528,
+   "stage": "choice",
+   "anchors": 2,
+   "anchorsUsed": [
+    526,
+    525
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 2,
+   "chosenSides": [
+    "right"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1429.6,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.2,
+     "verticalMm": 0.2
+    },
+    "right": {
+     "lateralMm": 3.9,
+     "verticalMm": -3.7
+    }
+   },
+   "worstMm": 3.9,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 529,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    526
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 20.6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1.8,
+     "verticalMm": -0.7
+    },
+    "right": {
+     "lateralMm": 0.2,
+     "verticalMm": 0.6
+    }
+   },
+   "worstMm": 1.8,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 530,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    529
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 5.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.5,
+     "verticalMm": 0.5
+    },
+    "right": {
+     "lateralMm": 0.7,
+     "verticalMm": 0.2
+    }
+   },
+   "worstMm": 0.7,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 531,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    530,
+    529
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 6.5,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 532,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    531,
+    530
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.5,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 813,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.4,
+     "verticalMm": 1.1
+    },
+    "right": {
+     "lateralMm": 0.3,
+     "verticalMm": -0.2
+    }
+   },
+   "worstMm": 1.4,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 889,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 892,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    889
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 6.5,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.8,
+     "verticalMm": 4.1
+    },
+    "right": {
+     "lateralMm": 1,
+     "verticalMm": -1.6
+    }
+   },
+   "worstMm": 4.1,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 893,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    892
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 0.8,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.3,
+     "verticalMm": -0.9
+    },
+    "right": {
+     "lateralMm": 1.6,
+     "verticalMm": 0.5
+    }
+   },
+   "worstMm": 1.6,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 949,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.1,
+     "verticalMm": 1.3
+    },
+    "right": {
+     "lateralMm": -0.3,
+     "verticalMm": -0.8
+    }
+   },
+   "worstMm": 1.3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 950,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    949
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.1,
+     "verticalMm": 0.6
+    },
+    "right": {
+     "lateralMm": -0.9,
+     "verticalMm": 0.1
+    }
+   },
+   "worstMm": 0.9,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 951,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    950,
+    949
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 952,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    951,
+    950
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 953,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    952,
+    951
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 954,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    953,
+    952
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 0.4,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.9,
+     "verticalMm": 3.6
+    },
+    "right": {
+     "lateralMm": 0.6,
+     "verticalMm": 1.5
+    }
+   },
+   "worstMm": 3.6,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 955,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    954,
+    953
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.5,
+     "verticalMm": 2
+    },
+    "right": {
+     "lateralMm": 1.7,
+     "verticalMm": 4.5
+    }
+   },
+   "worstMm": 4.5,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 957,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    955,
+    954
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.5,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.8,
+     "verticalMm": -0.7
+    },
+    "right": {
+     "lateralMm": 1.7,
+     "verticalMm": -0.2
+    }
+   },
+   "worstMm": 1.8,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 958,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    957,
+    955
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.7,
+     "verticalMm": 0.4
+    },
+    "right": {
+     "lateralMm": 1.4,
+     "verticalMm": -2.2
+    }
+   },
+   "worstMm": 2.2,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 959,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    958,
+    957
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.9,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -4.8,
+     "verticalMm": -1.5
+    },
+    "right": {
+     "lateralMm": 1.3,
+     "verticalMm": -1.6
+    }
+   },
+   "worstMm": 4.8,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 961,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    959,
+    958
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 6.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -3.4,
+     "verticalMm": 0.4
+    },
+    "right": {
+     "lateralMm": 3.2,
+     "verticalMm": -0.3
+    }
+   },
+   "worstMm": 3.4,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 962,
+   "stage": "choice",
+   "anchors": 2,
+   "anchorsUsed": [
+    961,
+    959
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 7.1,
+   "chosenSides": [
+    "left",
+    "right"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1437.7,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -2,
+     "verticalMm": 1.2
+    },
+    "right": {
+     "lateralMm": 0.5,
+     "verticalMm": -0.9
+    }
+   },
+   "worstMm": 2,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 967,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -4.2,
+     "verticalMm": -0.1
+    },
+    "right": {
+     "lateralMm": 0.7,
+     "verticalMm": -0.2
+    }
+   },
+   "worstMm": 4.2,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 968,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    967
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.7,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -3.2,
+     "verticalMm": -0.2
+    },
+    "right": {
+     "lateralMm": -1,
+     "verticalMm": -0.2
+    }
+   },
+   "worstMm": 3.2,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 969,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    968,
+    967
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0,
+     "verticalMm": -0.6
+    },
+    "right": {
+     "lateralMm": 0.8,
+     "verticalMm": 1.5
+    }
+   },
+   "worstMm": 1.5,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 970,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    969,
+    968
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.4,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 0.5,
+     "verticalMm": 1.2
+    },
+    "right": {
+     "lateralMm": -1.7,
+     "verticalMm": 0.3
+    }
+   },
+   "worstMm": 1.7,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 971,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    970,
+    969
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.3,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1.7,
+     "verticalMm": 0.5
+    },
+    "right": {
+     "lateralMm": -2,
+     "verticalMm": 0.8
+    }
+   },
+   "worstMm": 2,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 972,
+   "stage": "choice",
+   "anchors": 2,
+   "anchorsUsed": [
+    971,
+    970
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": 2,
+   "chosenSides": [
+    "right"
+   ],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": 1428.5,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -3.5,
+     "verticalMm": 1.4
+    },
+    "right": {
+     "lateralMm": 3.2,
+     "verticalMm": -1.6
+    }
+   },
+   "worstMm": 3.5,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 973,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    971,
+    970
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.5,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 2.4,
+     "verticalMm": 3.1
+    },
+    "right": {
+     "lateralMm": -0.7,
+     "verticalMm": 1.1
+    }
+   },
+   "worstMm": 3.1,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 974,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    973,
+    971
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.9,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -2.1,
+     "verticalMm": -1.1
+    },
+    "right": {
+     "lateralMm": -1.4,
+     "verticalMm": -0.1
+    }
+   },
+   "worstMm": 2.1,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 975,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    974,
+    973
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 2.2,
+     "verticalMm": 2.1
+    },
+    "right": {
+     "lateralMm": 1,
+     "verticalMm": 1
+    }
+   },
+   "worstMm": 2.2,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 981,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.1,
+     "verticalMm": 0.2
+    },
+    "right": {
+     "lateralMm": 3,
+     "verticalMm": 0
+    }
+   },
+   "worstMm": 3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 982,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    981
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.9,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 983,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    982,
+    981
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 3.9,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -15,
+     "verticalMm": -0.1
+    },
+    "right": {
+     "lateralMm": -0.6,
+     "verticalMm": -1.6
+    }
+   },
+   "worstMm": 15,
+   "wrong": true
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 984,
+   "stage": "window",
+   "anchors": 2,
+   "anchorsUsed": [
+    983,
+    982
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": 0.9,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -0.3,
+     "verticalMm": 0.3
+    },
+    "right": {
+     "lateralMm": -1.2,
+     "verticalMm": -1
+    }
+   },
+   "worstMm": 1.2,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 985,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    984,
+    983
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2.4,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": -1.2,
+     "verticalMm": 0.1
+    },
+    "right": {
+     "lateralMm": -1.6,
+     "verticalMm": -3.1
+    }
+   },
+   "worstMm": 3.1,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 986,
+   "stage": "first-pass",
+   "anchors": 2,
+   "anchorsUsed": [
+    985,
+    984
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 2,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 2,
+     "verticalMm": 1.2
+    },
+    "right": {
+     "lateralMm": 0.9,
+     "verticalMm": -2.7
+    }
+   },
+   "worstMm": 2.7,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 989,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    986
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 7.1,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": true,
+   "errors": {
+    "left": {
+     "lateralMm": 1.2,
+     "verticalMm": 1.3
+    },
+    "right": {
+     "lateralMm": 0.3,
+     "verticalMm": -0.8
+    }
+   },
+   "worstMm": 1.3,
+   "wrong": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 990,
+   "stage": "first-pass",
+   "anchors": 1,
+   "anchorsUsed": [
+    989
+   ],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": 1.6,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  },
+  {
+   "source": "natif-long-p20",
+   "kind": "natif",
+   "cut": 995,
+   "stage": "first-pass",
+   "anchors": 0,
+   "anchorsUsed": [],
+   "gaugeJumpMm": null,
+   "byGaugeGuard": false,
+   "chosenMaxFromPredictionMm": null,
+   "chosenSides": [],
+   "fromPredictionMm": null,
+   "guardMm": null,
+   "gaugeMm": null,
+   "pairFlag": false,
+   "judged": false
+  }
+ ]
+}

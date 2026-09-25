@@ -1,0 +1,21 @@
+{
+ "decided": {
+  "decides": 446,
+  "commandables": 436,
+  "justes": 209,
+  "faux": 1,
+  "nonJuges": 226
+ },
+ "placed": {
+  "decides": 438,
+  "commandables": 434,
+  "justes": 207,
+  "faux": 1,
+  "nonJuges": 226
+ },
+ "perdus": [
+  "pilote-p2-4.7.14:115",
+  "pilote-p2-4.7.14:116"
+ ],
+ "gagnes": []
+}

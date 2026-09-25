@@ -1,0 +1,264 @@
+{
+ "format": "banane-cursor-sweep-v1",
+ "wrongMm": 10,
+ "base": "base",
+ "configs": {
+  "base": {
+   "natif": {
+    "applied": 448,
+    "judged": 293,
+    "right": 290,
+    "wrong": 3,
+    "wrongCuts": [
+     "natif-long-p20:398 (159.9 mm)",
+     "natif-long-p20:402 (273 mm)",
+     "natif-long-p20:983 (15 mm)"
+    ]
+   },
+   "pilote": {
+    "applied": 204,
+    "judged": 196,
+    "right": 195,
+    "wrong": 1,
+    "wrongCuts": [
+     "pilote-p31-fin-4.7.9:7026 (20.12 mm)"
+    ]
+   },
+   "all": {
+    "applied": 652,
+    "judged": 489,
+    "right": 485,
+    "wrong": 4,
+    "wrongCuts": [
+     "natif-long-p20:398 (159.9 mm)",
+     "natif-long-p20:402 (273 mm)",
+     "natif-long-p20:983 (15 mm)",
+     "pilote-p31-fin-4.7.9:7026 (20.12 mm)"
+    ]
+   },
+   "stages": {
+    "first-pass": 532,
+    "window": 48,
+    "choice": 72
+   }
+  },
+  "chainMm15": {
+   "natif": {
+    "applied": 450,
+    "judged": 295,
+    "right": 292,
+    "wrong": 3,
+    "wrongCuts": [
+     "natif-long-p20:398 (159.9 mm)",
+     "natif-long-p20:402 (273 mm)",
+     "natif-long-p20:983 (15 mm)"
+    ]
+   },
+   "pilote": {
+    "applied": 206,
+    "judged": 198,
+    "right": 197,
+    "wrong": 1,
+    "wrongCuts": [
+     "pilote-p31-fin-4.7.9:7026 (20.12 mm)"
+    ]
+   },
+   "all": {
+    "applied": 656,
+    "judged": 493,
+    "right": 489,
+    "wrong": 4,
+    "wrongCuts": [
+     "natif-long-p20:398 (159.9 mm)",
+     "natif-long-p20:402 (273 mm)",
+     "natif-long-p20:983 (15 mm)",
+     "pilote-p31-fin-4.7.9:7026 (20.12 mm)"
+    ]
+   },
+   "stages": {
+    "first-pass": 532,
+    "window": 49,
+    "choice": 75
+   },
+   "delta": {
+    "applied": 4,
+    "right": 4,
+    "wrong": 0
+   },
+   "gained": [
+    {
+     "cut": "natif-p24:2563",
+     "stage": "choice",
+     "verdict": "juste",
+     "worstMm": 6
+    },
+    {
+     "cut": "natif-long-p20:454",
+     "stage": "window",
+     "verdict": "juste",
+     "worstMm": 1.5
+    },
+    {
+     "cut": "pilote-p31-fin-4.7.9:8819",
+     "stage": "window",
+     "verdict": "juste",
+     "worstMm": 1.17
+    },
+    {
+     "cut": "pilote-p31-fin-4.7.9:8820",
+     "stage": "window",
+     "verdict": "juste",
+     "worstMm": 2.7
+    }
+   ],
+   "lost": [],
+   "changed": [
+    {
+     "cut": "natif-p22:1199",
+     "stage": "window → choice",
+     "worstMm": [
+      3.2,
+      2.5
+     ],
+     "verdict": "juste"
+    },
+    {
+     "cut": "natif-p22:1201",
+     "stage": "window → window",
+     "worstMm": [
+      3.1,
+      5
+     ],
+     "verdict": "juste"
+    },
+    {
+     "cut": "natif-p24:773",
+     "stage": "window → window",
+     "worstMm": [
+      7.6,
+      6.5
+     ],
+     "verdict": "juste"
+    },
+    {
+     "cut": "natif-p24:2562",
+     "stage": "choice → choice",
+     "worstMm": [
+      0.9,
+      2.1
+     ],
+     "verdict": "juste"
+    },
+    {
+     "cut": "natif-long-p20:149",
+     "stage": "window → choice",
+     "worstMm": [
+      6.3,
+      6.3
+     ],
+     "verdict": "juste"
+    }
+   ]
+  },
+  "chainMm20": {
+   "natif": {
+    "applied": 450,
+    "judged": 295,
+    "right": 292,
+    "wrong": 3,
+    "wrongCuts": [
+     "natif-long-p20:398 (159.9 mm)",
+     "natif-long-p20:402 (273 mm)",
+     "natif-long-p20:983 (15 mm)"
+    ]
+   },
+   "pilote": {
+    "applied": 206,
+    "judged": 198,
+    "right": 197,
+    "wrong": 1,
+    "wrongCuts": [
+     "pilote-p31-fin-4.7.9:7026 (20.12 mm)"
+    ]
+   },
+   "all": {
+    "applied": 656,
+    "judged": 493,
+    "right": 489,
+    "wrong": 4,
+    "wrongCuts": [
+     "natif-long-p20:398 (159.9 mm)",
+     "natif-long-p20:402 (273 mm)",
+     "natif-long-p20:983 (15 mm)",
+     "pilote-p31-fin-4.7.9:7026 (20.12 mm)"
+    ]
+   },
+   "stages": {
+    "first-pass": 532,
+    "window": 50,
+    "choice": 74
+   },
+   "delta": {
+    "applied": 4,
+    "right": 4,
+    "wrong": 0
+   },
+   "gained": [
+    {
+     "cut": "natif-p24:2563",
+     "stage": "choice",
+     "verdict": "juste",
+     "worstMm": 6
+    },
+    {
+     "cut": "natif-long-p20:454",
+     "stage": "window",
+     "verdict": "juste",
+     "worstMm": 1.5
+    },
+    {
+     "cut": "pilote-p31-fin-4.7.9:8819",
+     "stage": "window",
+     "verdict": "juste",
+     "worstMm": 1.17
+    },
+    {
+     "cut": "pilote-p31-fin-4.7.9:8820",
+     "stage": "window",
+     "verdict": "juste",
+     "worstMm": 2.7
+    }
+   ],
+   "lost": [],
+   "changed": [
+    {
+     "cut": "natif-p24:773",
+     "stage": "window → window",
+     "worstMm": [
+      7.6,
+      6.5
+     ],
+     "verdict": "juste"
+    },
+    {
+     "cut": "natif-p24:2562",
+     "stage": "choice → choice",
+     "worstMm": [
+      0.9,
+      2.1
+     ],
+     "verdict": "juste"
+    },
+    {
+     "cut": "natif-long-p20:149",
+     "stage": "window → choice",
+     "worstMm": [
+      6.3,
+      6.3
+     ],
+     "verdict": "juste"
+    }
+   ]
+  }
+ }
+}
