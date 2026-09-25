@@ -4,7 +4,8 @@ Premier lot de la 4.7.18 sur le terrain (l'opérateur passe directement de la
 4.7.14 à la 4.7.18). Lot Pilote de la partie 2, bornes 768–8099, arrêté par
 l'opérateur après 30 cuts (3 minutes). Pas de relecture. Archive :
 `pilote p2 reliquat/lot-p2-4.7.18.zip` (journal, diagnostic GCV1, bilan,
-corpus LiDAR), SHA-256 dans `manifest.json`.
+corpus LiDAR), SHA-256 dans `manifest.json`. Relecture Natif (3 segments,
+115 visites) : `relecture p2 reliquat/relecture-p2-4.7.18.7z`.
 
 **Le lot ne visite que le reliquat.** Le Pilote passe au « prochain cut non
 validé » : la partie 2 étant déjà presque entièrement validée, il saute de
@@ -30,3 +31,9 @@ la 4.7.14 l'aurait différé.
 
 Rejeu : parité 30/30 avec les règles du lot (`lot-decision-v5`, appui = cut
 posé). Analyse : banane, `audit/lot-4718-p2-2026-09-25.md`.
+
+**Relecture** : 12 appliqués jugés sur 16 (75 %, sous le seuil de 80 % : C4 non
+évaluable) ; **2 faux, tous deux au passage à niveau, rail droit** : 772
+(15,2 mm) et 773 (13,2 mm). 1194 juste à 0 mm. Le bord de l'ornière est à 1 à
+6 mm de la pose validée sur les cuts différés 768–771 et à 5 mm sur 772 droit.
+1195, différé par la garde d'écartement voisin, aurait été juste (4,8 mm).

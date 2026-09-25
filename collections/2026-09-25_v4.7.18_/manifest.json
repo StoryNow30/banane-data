@@ -4,7 +4,8 @@
   "kind": "pilot-collection",
   "bananeVersion": "4.7.18",
   "modes": [
-    "Pilote"
+    "Pilote",
+    "Natif"
   ],
   "date": "2026-09-25",
   "createdAt": "2026-09-25T08:31:00+02:00",
@@ -14,13 +15,70 @@
     "archiveSha256": "efd6f2f107e98198c147744782bb490b053fb90dc2417b5991fbd831dc5b89d4",
     "archiveBytes": 15905807,
     "entries": [
-      {"name": "banane-bilan-v4-2026-09-25T06-30-56-seg01.json", "uncompressedBytes": 30644833, "sha256": "0337d596a82ce5eebda277eb76f9137188b8d3d9e1ec7cf50c2bb52a746e4545", "session": "pilote-p2-reliquat"},
-      {"name": "banane-gcv1-corpus-2026-09-25T06-31-53-seg01.json", "uncompressedBytes": 29610295, "sha256": "2c23edba986cb4b94d33cb5f72722528712c4501538b433ae5b41e40224c3986", "session": "pilote-p2-reliquat"},
-      {"name": "banane-gcv1-diagnostic-1790317912109.json", "uncompressedBytes": 464932, "sha256": "eb27310f57542175f66128741adfb1221cd0d82d417e04c5c9d23661abdc481f", "session": "pilote-p2-reliquat"},
-      {"name": "banane-journal-v4-1790317925585.json", "uncompressedBytes": 1950272, "sha256": "2c6f27220888435b12e1444542174bff7a7c772792d8fab90f605559a9a17e6b", "session": "pilote-p2-reliquat"}
+      {
+        "name": "banane-bilan-v4-2026-09-25T06-30-56-seg01.json",
+        "uncompressedBytes": 30644833,
+        "sha256": "0337d596a82ce5eebda277eb76f9137188b8d3d9e1ec7cf50c2bb52a746e4545",
+        "session": "pilote-p2-reliquat"
+      },
+      {
+        "name": "banane-gcv1-corpus-2026-09-25T06-31-53-seg01.json",
+        "uncompressedBytes": 29610295,
+        "sha256": "2c23edba986cb4b94d33cb5f72722528712c4501538b433ae5b41e40224c3986",
+        "session": "pilote-p2-reliquat"
+      },
+      {
+        "name": "banane-gcv1-diagnostic-1790317912109.json",
+        "uncompressedBytes": 464932,
+        "sha256": "eb27310f57542175f66128741adfb1221cd0d82d417e04c5c9d23661abdc481f",
+        "session": "pilote-p2-reliquat"
+      },
+      {
+        "name": "banane-journal-v4-1790317925585.json",
+        "uncompressedBytes": 1950272,
+        "sha256": "2c6f27220888435b12e1444542174bff7a7c772792d8fab90f605559a9a17e6b",
+        "session": "pilote-p2-reliquat"
+      }
     ]
   },
   "lots": [
-    {"session": "pilote-p2-reliquat", "part": 2, "scope": {"start": 768, "end": 8099}, "lotDecision": "apply", "state": "STOPPED", "distinctCuts": 30, "applied": 16, "deferred": 11, "gaugeRejected": 3, "relecture": "aucune"}
-  ]
+    {
+      "session": "pilote-p2-reliquat",
+      "part": 2,
+      "scope": {
+        "start": 768,
+        "end": 8099
+      },
+      "lotDecision": "apply",
+      "state": "STOPPED",
+      "distinctCuts": 30,
+      "applied": 16,
+      "deferred": 11,
+      "gaugeRejected": 3,
+      "relecture": "Natif, 115 visites, 12 appliqués jugés sur 16"
+    }
+  ],
+  "relecture": {
+    "archive": "relecture p2 reliquat/relecture-p2-4.7.18.7z",
+    "archiveSha256": "e6b03148a915e10a4473fb33fad42462e36c947f16caafadce270403dfc191c5",
+    "archiveBytes": 9610447,
+    "command": "python3 -c \"import py7zr;py7zr.SevenZipFile('relecture-p2-4.7.18.7z').extractall('.')\"",
+    "entries": [
+      {
+        "name": "banane-native-v4-2026-09-25T06-40-20-auto-seg01.json",
+        "uncompressedBytes": 26330241,
+        "sha256": "bd2313e165120278a83b65e9e2aae60d4ca555309db84a82a2e906ebc8c84942"
+      },
+      {
+        "name": "banane-native-v4-2026-09-25T06-44-21-auto-seg02.json",
+        "uncompressedBytes": 32521592,
+        "sha256": "95f91604daa2b0ebd5c2b74f1af0ede1d45abe4f545ca5818936fb4d53195a0d"
+      },
+      {
+        "name": "banane-native-v4-2026-09-25T06-45-52-seg01.json",
+        "uncompressedBytes": 29456045,
+        "sha256": "b959dc05ca5afbc792fca2f3f442acab49bea88c6acbc907c659a07ad9d82ccd"
+      }
+    ]
+  }
 }
