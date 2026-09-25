@@ -9,7 +9,7 @@
   ],
   "date": "2026-09-25",
   "createdAt": "2026-09-25T08:31:00+02:00",
-  "status": "analysed",
+  "status": "analysed (p9 sans relecture)",
   "reassembly": {
     "command": "unzip 'pilote p2 reliquat/lot-p2-4.7.18.zip'",
     "archiveSha256": "efd6f2f107e98198c147744782bb490b053fb90dc2417b5991fbd831dc5b89d4",
@@ -72,6 +72,24 @@
       "gaugeRejected": 9,
       "exports": "diagnostic et corpus seulement (journal et bilan non exportés, KI-059)",
       "relecture": "Natif, 5 segments, 48 appliqués jugés sur 49, 0 faux"
+    },
+    {
+      "session": "pilote-p9-long",
+      "part": 9,
+      "scope": {
+        "start": 0,
+        "end": 8539
+      },
+      "lotDecision": "apply",
+      "state": "inconnu (journal et bilan non exportés)",
+      "distinctCuts": 346,
+      "applied": 262,
+      "deferred": 57,
+      "gaugeRejected": 26,
+      "other": 1,
+      "window": "2026-09-25T08:20:55Z – 09:47:10Z",
+      "exports": "diagnostic (session entière : parties 2, 3 et 9) et corpus en 9 segments ; ni journal ni bilan",
+      "relecture": "aucune pour l'instant"
     }
   ],
   "relecture": {
@@ -173,5 +191,94 @@
         "session": "relecture-p3-long"
       }
     ]
+  },
+  "piloteP9": {
+    "archives": [
+      {
+        "archive": "pilote p9 long/lot-p9-4.7.18-1.7z",
+        "archiveSha256": "aad352a3e1db320b9bc5d49b7b72e5639b622f7f344494140d7d643e299db789",
+        "archiveBytes": 23642375,
+        "command": "python3 -c \"import py7zr;py7zr.SevenZipFile('lot-p9-4.7.18-1.7z').extractall('.')\"",
+        "entries": [
+          {
+            "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg01.json",
+            "uncompressedBytes": 59983975,
+            "sha256": "2b50dbb4d34d71f953e102d490088e8a11f48c62eb6856920bca834552f595a6",
+            "session": "pilote-p9-long"
+          },
+          {
+            "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg02.json",
+            "uncompressedBytes": 60960665,
+            "sha256": "9af6fa55b3d3ba0b26143b7de0dbdaead4b0690ff35fc78690dfb1fec566f5c3",
+            "session": "pilote-p9-long"
+          },
+          {
+            "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg03.json",
+            "uncompressedBytes": 59603115,
+            "sha256": "9f1ec7ba155a508ca39972fdba333694826433fe7abe16d75330fa04ce575911",
+            "session": "pilote-p9-long"
+          },
+          {
+            "name": "banane-gcv1-diagnostic-1790329682407.json",
+            "uncompressedBytes": 7371081,
+            "sha256": "e958a04fb207238e837789a562270d2350accd554ce29aee4f703750f1edf7e0",
+            "session": "pilote-p9-long"
+          }
+        ]
+      },
+      {
+        "archive": "pilote p9 long/lot-p9-4.7.18-2.7z",
+        "archiveSha256": "189905613df8d01723a20296013c68d10d80430926bea44e7c1812e5d15ce8bb",
+        "archiveBytes": 24643229,
+        "command": "python3 -c \"import py7zr;py7zr.SevenZipFile('lot-p9-4.7.18-2.7z').extractall('.')\"",
+        "entries": [
+          {
+            "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg04.json",
+            "uncompressedBytes": 65371398,
+            "sha256": "f26226a2c2ca45ce5f20ab676955aedd28b281ba6da267aab69336bd5e700a8c",
+            "session": "pilote-p9-long"
+          },
+          {
+            "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg05.json",
+            "uncompressedBytes": 63924610,
+            "sha256": "0f04d4cd1e2066c905251ace0d742f9a965530cd54cf4adca5c12247138d5cfc",
+            "session": "pilote-p9-long"
+          },
+          {
+            "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg06.json",
+            "uncompressedBytes": 61596496,
+            "sha256": "473ba615a3db942e5261b5f65b29fc1dcef38112c7c4b146dc5c20f4975f0b8c",
+            "session": "pilote-p9-long"
+          }
+        ]
+      },
+      {
+        "archive": "pilote p9 long/lot-p9-4.7.18-3.7z",
+        "archiveSha256": "1f3b648e3ee7731a0bbfd15ee941d053568547b54c5768afe21b53d7f455173e",
+        "archiveBytes": 27919552,
+        "command": "python3 -c \"import py7zr;py7zr.SevenZipFile('lot-p9-4.7.18-3.7z').extractall('.')\"",
+        "entries": [
+          {
+            "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg07.json",
+            "uncompressedBytes": 62628000,
+            "sha256": "aec520ac137ab6158bb90905f62da7c8c6448626ce758ab982415760199caf8f",
+            "session": "pilote-p9-long"
+          },
+          {
+            "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg08.json",
+            "uncompressedBytes": 59899611,
+            "sha256": "b7f702a3e7d65a50ade50c20f2b6df4901921532792f3be888b54af200c686cf",
+            "session": "pilote-p9-long"
+          },
+          {
+            "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg09.json",
+            "uncompressedBytes": 90675026,
+            "sha256": "9ed832415c47f7f57d3ee9b8b38a4cdb2aa83c4e2aff36545f4c83bb3eeafbc8",
+            "session": "pilote-p9-long"
+          }
+        ]
+      }
+    ],
+    "content": "Pilote 4.7.18, partie 9, lot long 0–8539 (346 cuts). Le diagnostic porte aussi les observations des lots p2 et p3 de la même session (batchId distincts)."
   }
 }

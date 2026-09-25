@@ -68,3 +68,25 @@ décisions. Passages à niveau : 4273–4282 (2 différés, 8 appliqués justes)
 5377–5384 (8 différés, sans appui). Au rejeu 4.7.19 (ornière en dernier
 recours), 5377–5384 est décidé en entier. Analyse : banane,
 `audit/lot-4718-p3-2026-09-25.md` et `audit/passage-niveau-lecteur-2026-09-25.md`.
+
+## Lot « long », partie 9 (4.7.18)
+
+**Lot** : Pilote, partie 9, cuts 0–8539, « appliquer ». 08:20–09:47, 346 cuts
+en 71 suites (4,9 cuts par suite, la plus longue : 91). Exportés : diagnostic
+(session entière, parties 2, 3 et 9) et corpus en 9 segments, répartis dans
+trois archives (`pilote p9 long/`). Ni journal ni bilan. Pas encore de
+relecture.
+
+| 346 cuts distincts | |
+|---|---|
+| Appliqués | 262 (75,7 %) |
+| Différés | 57 |
+| Refusés par l'écartement | 26 ; aucune paire hors contrat appliquée |
+| Décision sur le lot | 220 premiers passages, 37 reprises, 9 choix ; 80 différés |
+
+Parité terrain / rejeu hors ligne (règles 4.7.18, mode « appliquer ») :
+346/346. Rejeu 4.7.19 : +12 décidés, passages à niveau 3968–3975, 4890 et
+8472–8474. Fin du lot 8504–8539 (36 cuts) non posée : la pose de départ d'ESV
+s'écarte du rail gauche (176 mm à 8496, 206 mm à 8506), la reprise tombe hors
+de la vue (KI-051, D-043), la voie se perd. Analyse : banane,
+`audit/lot-4718-p9-2026-09-25.md`.
