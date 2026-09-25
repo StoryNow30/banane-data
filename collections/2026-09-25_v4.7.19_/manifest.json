@@ -34,6 +34,26 @@
       "exports": "journal, bilan, diagnostic, corpus (un segment chacun)",
       "relecture": "aucune pour l'instant",
       "note": "Lot ordinaire (pas « Reprise des différés ») sur les cuts laissés par le lot 4.7.18 de la partie 9 (collection 2026-09-25_v4.7.18_, pilote p9 long) ; nouvelle page ESV, frameId 6f62b95a…"
+    },
+    {
+      "session": "pilote-p6-reliquat",
+      "batchId": "13d9845f-4b9b-48e7-9cf6-9ed98524191d",
+      "part": 6,
+      "scope": {
+        "start": 526,
+        "end": 8131
+      },
+      "lotDecision": "apply",
+      "unresolvedPolicy": "defer",
+      "lotReprise": null,
+      "state": "STOPPED (adaptateur ESV sans réponse après le passage au cut 8131, dernier cut du lot ; KI-061)",
+      "window": "2026-09-25T12:05:41Z – 12:48:57Z",
+      "distinctCuts": 125,
+      "applied": 73,
+      "deferred": 52,
+      "gaugeRejected": 0,
+      "exports": "journal, diagnostic, corpus (4 segments), bilan (4 segments ; le segment 2 ne se relit pas seul, KI-060)",
+      "relecture": "aucune (décision de l'opérateur)"
     }
   ],
   "piloteP9": {
@@ -79,5 +99,94 @@
         ]
       }
     ]
+  },
+  "piloteP6": {
+    "archives": [
+      {
+        "archive": "pilote p6 reliquat/lot-p6-4.7.19-1.7z",
+        "archiveSha256": "7245cfb029bd86f05df360109e6812297f60b3383b13f515ea2f9f220073b3d6",
+        "archiveBytes": 22013770,
+        "command": "python3 -c \"import py7zr;py7zr.SevenZipFile('lot-p6-4.7.19-1.7z').extractall('.')\"",
+        "entries": [
+          {
+            "name": "banane-bilan-v4-2026-09-25T12-58-49-seg04.json",
+            "uncompressedBytes": 69107370,
+            "sha256": "c6b92cfacc48f6d312d55670dfd07b2f6eff34f48a6e9656fb42d8dc6496e61c",
+            "session": "pilote-p6-reliquat"
+          },
+          {
+            "name": "banane-gcv1-corpus-2026-09-25T12-59-15-seg01.json",
+            "uncompressedBytes": 45592796,
+            "sha256": "8b0cf6ade656dae0a21b772979e9c5d73ac3eedcb8c167d5ce8803251ef4fe8a",
+            "session": "pilote-p6-reliquat"
+          },
+          {
+            "name": "banane-gcv1-corpus-2026-09-25T12-59-15-seg02.json",
+            "uncompressedBytes": 49842069,
+            "sha256": "620054df341360f48be76ee0cf0a79385e86d185b101be01c7458b31028f8bde",
+            "session": "pilote-p6-reliquat"
+          },
+          {
+            "name": "banane-gcv1-diagnostic-1790341152315.json",
+            "uncompressedBytes": 3165890,
+            "sha256": "ba6bb25291afb576f4d16e0458db0dce43aac51fe903abd82eeba7406e9ecb20",
+            "session": "pilote-p6-reliquat"
+          }
+        ]
+      },
+      {
+        "archive": "pilote p6 reliquat/lot-p6-4.7.19-2.7z",
+        "archiveSha256": "10f40baf63c99f5b395114266e9f0a14ba1a14171df373620777da4252574219",
+        "archiveBytes": 20624823,
+        "command": "python3 -c \"import py7zr;py7zr.SevenZipFile('lot-p6-4.7.19-2.7z').extractall('.')\"",
+        "entries": [
+          {
+            "name": "banane-bilan-v4-2026-09-25T12-58-49-seg01.json",
+            "uncompressedBytes": 54803576,
+            "sha256": "f8b954d4b08ba21ba9d1d8ddb8ae4fe1c5f20f4a143212f921a63f61c6b45ee7",
+            "session": "pilote-p6-reliquat"
+          },
+          {
+            "name": "banane-bilan-v4-2026-09-25T12-58-49-seg02.json",
+            "uncompressedBytes": 52853802,
+            "sha256": "4c03005121e2f296049bb3865039285ff4a39957ba27ca1705dcb7b6a74b1d5e",
+            "session": "pilote-p6-reliquat"
+          },
+          {
+            "name": "banane-bilan-v4-2026-09-25T12-58-49-seg03.json",
+            "uncompressedBytes": 53607080,
+            "sha256": "e5c705d2bbed8b19a1c2fe770b6a507b39edf24b3d883bd254a5eddefc23e81a",
+            "session": "pilote-p6-reliquat"
+          }
+        ]
+      },
+      {
+        "archive": "pilote p6 reliquat/lot-p6-4.7.19-3.7z",
+        "archiveSha256": "33a27b75a5b7a3d2798927471c0d8f203745437143150fda480b6dcabd5ffb9f",
+        "archiveBytes": 16043917,
+        "command": "python3 -c \"import py7zr;py7zr.SevenZipFile('lot-p6-4.7.19-3.7z').extractall('.')\"",
+        "entries": [
+          {
+            "name": "banane-gcv1-corpus-2026-09-25T12-59-15-seg03.json",
+            "uncompressedBytes": 49746813,
+            "sha256": "91d8be5f590d7c2b36af339ae685f5e88666bca78307dc065aaf0d4d44688b90",
+            "session": "pilote-p6-reliquat"
+          },
+          {
+            "name": "banane-gcv1-corpus-2026-09-25T12-59-15-seg04.json",
+            "uncompressedBytes": 65189843,
+            "sha256": "a3db8cdfecd3de692cc53d689d3aca067020352e23e741ba461f32bd12752cc0",
+            "session": "pilote-p6-reliquat"
+          },
+          {
+            "name": "banane-journal-v4-1790341165611.json",
+            "uncompressedBytes": 9884173,
+            "sha256": "d8330ff0cc3535b24b558a4f2e0479a0802d2b50e374ee7fad93355e92386ca7",
+            "session": "pilote-p6-reliquat"
+          }
+        ]
+      }
+    ],
+    "content": "Pilote 4.7.19, partie 6, reliquat 526–8131 (125 cuts). Le bilan et le diagnostic couvrent toute la session (lots de la partie 9 de 11:02 compris)."
   }
 }
