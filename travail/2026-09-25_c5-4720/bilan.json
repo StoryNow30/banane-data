@@ -1,0 +1,148 @@
+{
+ "base": {
+  "natif": {
+   "decided": 192,
+   "judged": 149,
+   "wrong": 0,
+   "wrongCuts": []
+  },
+  "pilote": {
+   "decided": 307,
+   "judged": 273,
+   "wrong": 3,
+   "wrongCuts": [
+    "pilote-p34-4.7.11:4551 10.48",
+    "pilote-p2-4.7.18:772 14.86",
+    "pilote-p2-4.7.18:773 13.22"
+   ]
+  }
+ },
+ "gaugeGap5": {
+  "natif": {
+   "decided": 192,
+   "judged": 149,
+   "wrong": 0,
+   "wrongCuts": []
+  },
+  "pilote": {
+   "decided": 307,
+   "judged": 273,
+   "wrong": 3,
+   "wrongCuts": [
+    "pilote-p34-4.7.11:4551 10.48",
+    "pilote-p2-4.7.18:772 14.86",
+    "pilote-p2-4.7.18:773 13.22"
+   ]
+  },
+  "gained": [],
+  "lost": [],
+  "changed": []
+ },
+ "gaugeGap15": {
+  "natif": {
+   "decided": 192,
+   "judged": 149,
+   "wrong": 0,
+   "wrongCuts": []
+  },
+  "pilote": {
+   "decided": 307,
+   "judged": 273,
+   "wrong": 3,
+   "wrongCuts": [
+    "pilote-p34-4.7.11:4551 10.48",
+    "pilote-p2-4.7.18:772 14.86",
+    "pilote-p2-4.7.18:773 13.22"
+   ]
+  },
+  "gained": [],
+  "lost": [],
+  "changed": []
+ },
+ "gaugeCount2": {
+  "natif": {
+   "decided": 192,
+   "judged": 149,
+   "wrong": 0,
+   "wrongCuts": []
+  },
+  "pilote": {
+   "decided": 307,
+   "judged": 273,
+   "wrong": 3,
+   "wrongCuts": [
+    "pilote-p34-4.7.11:4551 10.48",
+    "pilote-p2-4.7.18:772 14.86",
+    "pilote-p2-4.7.18:773 13.22"
+   ]
+  },
+  "gained": [],
+  "lost": [],
+  "changed": []
+ },
+ "gaugeCount5": {
+  "natif": {
+   "decided": 192,
+   "judged": 149,
+   "wrong": 0,
+   "wrongCuts": []
+  },
+  "pilote": {
+   "decided": 307,
+   "judged": 273,
+   "wrong": 3,
+   "wrongCuts": [
+    "pilote-p34-4.7.11:4551 10.48",
+    "pilote-p2-4.7.18:772 14.86",
+    "pilote-p2-4.7.18:773 13.22"
+   ]
+  },
+  "gained": [],
+  "lost": [],
+  "changed": []
+ },
+ "crossingVoieMm5": {
+  "natif": {
+   "decided": 192,
+   "judged": 149,
+   "wrong": 0,
+   "wrongCuts": []
+  },
+  "pilote": {
+   "decided": 307,
+   "judged": 273,
+   "wrong": 3,
+   "wrongCuts": [
+    "pilote-p34-4.7.11:4551 10.48",
+    "pilote-p2-4.7.18:772 14.86",
+    "pilote-p2-4.7.18:773 13.22"
+   ]
+  },
+  "gained": [],
+  "lost": [],
+  "changed": []
+ },
+ "crossingVoieMm15": {
+  "natif": {
+   "decided": 192,
+   "judged": 149,
+   "wrong": 0,
+   "wrongCuts": []
+  },
+  "pilote": {
+   "decided": 308,
+   "judged": 274,
+   "wrong": 3,
+   "wrongCuts": [
+    "pilote-p34-4.7.11:4551 10.48",
+    "pilote-p2-4.7.18:772 14.86",
+    "pilote-p2-4.7.18:773 13.22"
+   ]
+  },
+  "gained": [
+   "pilote-p31-fin-4.7.9:7026 juste"
+  ],
+  "lost": [],
+  "changed": []
+ }
+}
