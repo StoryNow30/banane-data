@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "benchmarkId": "partie-9-2026-09-25",
+  "kind": "part-reference",
+  "part": 9,
+  "role": "validation (partie jamais utilisée pour régler au 25/09/2026)",
+  "lots": [
+    {
+      "dir": "lot-4718",
+      "version": "4.7.18",
+      "batchId": "09d3c4f0-52c4-4245-959f-b180165ce951",
+      "cuts": "0–8539",
+      "distinctCuts": 346,
+      "applied": 262,
+      "exports": "diagnostic + corpus (9 segments), ni journal ni bilan"
+    },
+    {
+      "dir": "lot-4719",
+      "version": "4.7.19",
+      "batchId": "ccbcb19f-6b24-417f-85d7-64d7d94ed1ce",
+      "cuts": "638–8541",
+      "distinctCuts": 85,
+      "applied": 14,
+      "exports": "journal, bilan, diagnostic, corpus"
+    }
+  ],
+  "relecture": "à venir (Natif, opérateur)",
+  "archives": [
+    {
+      "collection": "2026-09-25_v4.7.18_",
+      "path": "collections/2026-09-25_v4.7.18_/pilote p9 long/lot-p9-4.7.18-1.7z",
+      "sha256": "aad352a3e1db320b9bc5d49b7b72e5639b622f7f344494140d7d643e299db789",
+      "bytes": 23642375,
+      "extractTo": "lot-4718",
+      "entries": [
+        {
+          "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg01.json",
+          "uncompressedBytes": 59983975,
+          "sha256": "2b50dbb4d34d71f953e102d490088e8a11f48c62eb6856920bca834552f595a6"
+        },
+        {
+          "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg02.json",
+          "uncompressedBytes": 60960665,
+          "sha256": "9af6fa55b3d3ba0b26143b7de0dbdaead4b0690ff35fc78690dfb1fec566f5c3"
+        },
+        {
+          "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg03.json",
+          "uncompressedBytes": 59603115,
+          "sha256": "9f1ec7ba155a508ca39972fdba333694826433fe7abe16d75330fa04ce575911"
+        },
+        {
+          "name": "banane-gcv1-diagnostic-1790329682407.json",
+          "uncompressedBytes": 7371081,
+          "sha256": "e958a04fb207238e837789a562270d2350accd554ce29aee4f703750f1edf7e0"
+        }
+      ]
+    },
+    {
+      "collection": "2026-09-25_v4.7.18_",
+      "path": "collections/2026-09-25_v4.7.18_/pilote p9 long/lot-p9-4.7.18-2.7z",
+      "sha256": "189905613df8d01723a20296013c68d10d80430926bea44e7c1812e5d15ce8bb",
+      "bytes": 24643229,
+      "extractTo": "lot-4718",
+      "entries": [
+        {
+          "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg04.json",
+          "uncompressedBytes": 65371398,
+          "sha256": "f26226a2c2ca45ce5f20ab676955aedd28b281ba6da267aab69336bd5e700a8c"
+        },
+        {
+          "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg05.json",
+          "uncompressedBytes": 63924610,
+          "sha256": "0f04d4cd1e2066c905251ace0d742f9a965530cd54cf4adca5c12247138d5cfc"
+        },
+        {
+          "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg06.json",
+          "uncompressedBytes": 61596496,
+          "sha256": "473ba615a3db942e5261b5f65b29fc1dcef38112c7c4b146dc5c20f4975f0b8c"
+        }
+      ]
+    },
+    {
+      "collection": "2026-09-25_v4.7.18_",
+      "path": "collections/2026-09-25_v4.7.18_/pilote p9 long/lot-p9-4.7.18-3.7z",
+      "sha256": "1f3b648e3ee7731a0bbfd15ee941d053568547b54c5768afe21b53d7f455173e",
+      "bytes": 27919552,
+      "extractTo": "lot-4718",
+      "entries": [
+        {
+          "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg07.json",
+          "uncompressedBytes": 62628000,
+          "sha256": "aec520ac137ab6158bb90905f62da7c8c6448626ce758ab982415760199caf8f"
+        },
+        {
+          "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg08.json",
+          "uncompressedBytes": 59899611,
+          "sha256": "b7f702a3e7d65a50ade50c20f2b6df4901921532792f3be888b54af200c686cf"
+        },
+        {
+          "name": "banane-gcv1-corpus-2026-09-25T09-48-24-seg09.json",
+          "uncompressedBytes": 90675026,
+          "sha256": "9ed832415c47f7f57d3ee9b8b38a4cdb2aa83c4e2aff36545f4c83bb3eeafbc8"
+        }
+      ]
+    },
+    {
+      "collection": "2026-09-25_v4.7.19_",
+      "path": "collections/2026-09-25_v4.7.19_/pilote p9 differes/lot-p9-4.7.19-bilan.7z",
+      "sha256": "37eb0211f7d9dca41192dac27335b95c4cba418511a3b750a1e94d596296e679",
+      "bytes": 13970931,
+      "extractTo": "lot-4719",
+      "entries": [
+        {
+          "name": "banane-bilan-v4-2026-09-25T11-16-14-seg01.json",
+          "uncompressedBytes": 105034283,
+          "sha256": "0ee90b4799891510e78b855c1a55d1303a667e84c2269fcb65baccc206a4b6b5"
+        },
+        {
+          "name": "banane-gcv1-diagnostic-1790334988434.json",
+          "uncompressedBytes": 1236922,
+          "sha256": "0812c9f022b02b09d5ea06bf7b74b88819b8db0d6f5a841cc73de3897a56d90c"
+        }
+      ]
+    },
+    {
+      "collection": "2026-09-25_v4.7.19_",
+      "path": "collections/2026-09-25_v4.7.19_/pilote p9 differes/lot-p9-4.7.19-corpus.7z",
+      "sha256": "568b3fd70aecc73d711787fc2c4bcdb542beb3c4d31a8563fbaa109f98679518",
+      "bytes": 14043202,
+      "extractTo": "lot-4719",
+      "entries": [
+        {
+          "name": "banane-gcv1-corpus-2026-09-25T11-16-30-seg01.json",
+          "uncompressedBytes": 102383874,
+          "sha256": "91cd5896b132f4b8f3c607124482d5125d14cc3b54967212e2de46db57b5071a"
+        },
+        {
+          "name": "banane-journal-v4-1790334998253.json",
+          "uncompressedBytes": 4702338,
+          "sha256": "446976c2f586e4473657cb4b9d38973ce42c48acbe819dbe1a062cec4bff6ad7"
+        }
+      ]
+    }
+  ],
+  "totalArchiveBytes": 104219289,
+  "extract": "python3 benchmarks/partie-9-2026-09-25/extraire.py DOSSIER"
+}

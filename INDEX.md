@@ -24,6 +24,7 @@ Ce dépôt public centralise les collectes et benchmarks Banane. Depuis le 23/09
 | ID | Contenu | Statut |
 |---|---|---|
 | `pair-arbitration-benchmark-v1` | 110 cuts, 93 develop + 17 no-tuning holdout | gelé / référence indépendante |
+| `partie-9-2026-09-25` | Partie 9 : lots Pilote 4.7.18 (346 cuts) et 4.7.19 (85 cuts), 5 archives des collectes du 25/09, extraction contrôlée (`extraire.py`) | référence ; **partie de validation** (jamais réglée) ; relecture à venir |
 
 ## Règles
 
