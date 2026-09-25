@@ -56,6 +56,22 @@
       "deferred": 11,
       "gaugeRejected": 3,
       "relecture": "Natif, 115 visites, 12 appliqués jugés sur 16"
+    },
+    {
+      "session": "pilote-p3-long",
+      "part": 3,
+      "scope": {
+        "start": 0,
+        "end": 8209
+      },
+      "lotDecision": "apply",
+      "state": "PAUSED_ADAPTER_UNRESPONSIVE (KI-059, après le cut 7654)",
+      "distinctCuts": 82,
+      "applied": 49,
+      "deferred": 24,
+      "gaugeRejected": 9,
+      "exports": "diagnostic et corpus seulement (journal et bilan non exportés, KI-059)",
+      "relecture": "Natif, 5 segments, 48 appliqués jugés sur 49, 0 faux"
     }
   ],
   "relecture": {
@@ -92,5 +108,70 @@
       }
     ],
     "content": "Natif, partie 2 : 7798–7800 et 7807–7809 ouverts sans action (cuts déjà validés, repères), 7801–7806 validés (passage à niveau)"
+  },
+  "piloteP3": {
+    "archive": "pilote p3 long/lot-p3-4.7.18.7z",
+    "archiveSha256": "8046c6cb7f59f9ea5d6b12950a1c6cbc80c2296ffe2eed665d1f43efc3bc49ef",
+    "archiveBytes": 13733877,
+    "command": "python3 -c \"import py7zr;py7zr.SevenZipFile('lot-p3-4.7.18.7z').extractall('.')\"",
+    "entries": [
+      {
+        "name": "banane-gcv1-corpus-2026-09-25T07-10-29-seg01.json",
+        "uncompressedBytes": 45873162,
+        "sha256": "66020a156cc86977b055298d08bacd491db129a60af7df224dd7b4b4d04fe68f",
+        "session": "pilote-p3-long"
+      },
+      {
+        "name": "banane-gcv1-corpus-2026-09-25T07-10-29-seg02.json",
+        "uncompressedBytes": 54934783,
+        "sha256": "c307118e4b1ccfbab9a08264f9a110c44668e84af3956fe0aa539c6413933cc3",
+        "session": "pilote-p3-long"
+      },
+      {
+        "name": "banane-gcv1-diagnostic-1790320226315.json",
+        "uncompressedBytes": 1763559,
+        "sha256": "b0a9f6ccd07b744f102f1f7254f868de2a332bc807100e470d02e736921d5a98",
+        "session": "pilote-p3-long"
+      }
+    ],
+    "note": "Le diagnostic et le corpus portent aussi les 30 cuts du lot de la partie 2 (même session du service worker)."
+  },
+  "relectureP3": {
+    "archive": "relecture p3 long/relecture-p3-4.7.18.7z",
+    "archiveSha256": "785bef7d001adf2d0b7dae7eb38c18059f3226df9cf9627bb7194d9eb26c61af",
+    "archiveBytes": 22831545,
+    "command": "python3 -c \"import py7zr;py7zr.SevenZipFile('relecture-p3-4.7.18.7z').extractall('.')\"",
+    "entries": [
+      {
+        "name": "banane-native-v4-2026-09-25T07-24-12-auto-seg01.json",
+        "uncompressedBytes": 25808741,
+        "sha256": "28e26ed94d3c766a08228cc544c4b4ed1d41775221040e527920d26ceb2ff7ad",
+        "session": "relecture-p3-long"
+      },
+      {
+        "name": "banane-native-v4-2026-09-25T07-29-32-auto-seg02.json",
+        "uncompressedBytes": 36469603,
+        "sha256": "45f5953de757c3cb38715bba2e30bf3b388c48c7e41e7898ef78fe65456669bd",
+        "session": "relecture-p3-long"
+      },
+      {
+        "name": "banane-native-v4-2026-09-25T07-34-33-auto-seg03.json",
+        "uncompressedBytes": 47311128,
+        "sha256": "4fba603d4245fb8969e41ed4940ea79e20b017d55122ca39d2d2b9d1c4750d13",
+        "session": "relecture-p3-long"
+      },
+      {
+        "name": "banane-native-v4-2026-09-25T07-36-58-seg01.json",
+        "uncompressedBytes": 46107173,
+        "sha256": "48940fe087016871041b1e67fd2bc01905b058d26f813babf8298616a103e50e",
+        "session": "relecture-p3-long"
+      },
+      {
+        "name": "banane-native-v4-2026-09-25T07-36-58-seg02.json",
+        "uncompressedBytes": 41059350,
+        "sha256": "82adfde0d8b5610d3624021ce4608751cafe812cd45220ffa6b8a6c8d8d4e8b9",
+        "session": "relecture-p3-long"
+      }
+    ]
   }
 }

@@ -46,3 +46,25 @@ l'ornière (11 rails sur 12) et à 6,4 mm au plus d'une courbe tracée par les
 3 cuts d'avant et les 3 d'après ; une voie prolongée depuis les seuls cuts
 d'avant dérive jusqu'à 20–32 mm en fin de passage.
 
+
+## Lot « long », partie 3 (4.7.18)
+
+**Lot** : Pilote, partie 3, bornes 0–8209, « appliquer », « différer ».
+06:59–07:09, 82 cuts en 47 suites (reliquat, 1,7 cut par suite). **Arrêté par
+un défaut** après le cut 7654 : ESV passe au cut 8209, « Adaptateur sans
+réponse » et « Message exceeded maximum allowed size of 64MiB » (KI-059,
+corrigé en 4.7.19). Exportés : diagnostic et corpus (`pilote p3 long/`), pas
+le journal ni le bilan. Relecture Natif : `relecture p3 long/` (5 segments).
+
+| 82 cuts distincts | |
+|---|---|
+| Appliqués | 49 (59,8 %) : 42 premiers passages, 2 reprises, 5 choix |
+| Différés | 24 (23 sans appui, 1 garde de paire) |
+| Refusés par l'écartement | 9 |
+| Relecture | 48 appliqués jugés sur 49, **0 faux** ; C2 latéral p90 4,1 mm |
+
+Rejoué avec les règles de la 4.7.12, de la 4.7.14 et de la 4.7.18 : mêmes
+décisions. Passages à niveau : 4273–4282 (2 différés, 8 appliqués justes) et
+5377–5384 (8 différés, sans appui). Au rejeu 4.7.19 (ornière en dernier
+recours), 5377–5384 est décidé en entier. Analyse : banane,
+`audit/lot-4718-p3-2026-09-25.md` et `audit/passage-niveau-lecteur-2026-09-25.md`.
