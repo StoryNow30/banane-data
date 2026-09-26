@@ -18,8 +18,26 @@ archive de l'opérateur telle quelle.
 | Sans point LiDAR | 2 (8142, 8143) ; dernier cut 8144 laissé à l'opérateur |
 
 Parité terrain / rejeu : 106/106. 7852–7861 : 10 différés d'affilée (paires
-trop étroites, sans appui). Pas encore de relecture. Analyse : banane,
+trop étroites, sans appui). Analyse : banane,
 `audit/lot-4720-p12-2026-09-26.md`.
+
+## Relecture Natif de la partie 12 (4.7.21, 26/09 19:42–19:52)
+
+`relecture p12/relecture-p12-4.7.21.7z` (archive de l'opérateur, deux exports :
+vidage automatique de 19:48 et export final de 19:52). Repère vérifié 106/106.
+**84 appliqués sur 84 jugés** (79 acceptés sans retouche, 5 retouchés),
+**2 faux** : 7738 (choix à un appui, 13,5 mm vertical) et 7743 (premier
+passage à 27,7 mm de la voie, 22,2 mm latéral). Premier lot de validation
+complet et entièrement jugé de la 4.8. Analyse : banane,
+`audit/relecture-p12-2026-09-26.md`.
+
+Rôle : **validation** (mesure consignée le 26/09), puis réglage pour la 4.8.5
+(rotation réglage / validation, D-057).
+
+Pour rejouer (dans banane) :
+
+    node --max-old-space-size=13000 tools/acceptance-report.cjs \
+      --lot DOSSIER_LOT=pilote-p12-4.7.20 --relecture DOSSIER_RELECTURE
 
 Un second lot 4.7.20 (partie 11, 556–8146, arrêté au cut 712) n'est pas encore
 exporté.
