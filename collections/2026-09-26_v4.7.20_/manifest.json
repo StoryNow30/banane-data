@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "2026-09-26_v4.7.20_",
+  "kind": "pilot-collection",
+  "bananeVersion": "4.7.20",
+  "extensionPackage": {
+    "name": "banane-v4.7.20-test.zip",
+    "sha256": "b3a679da5c9a1479203eb14204eb09d3137772cbebab8379c996d40a3572f4cb"
+  },
+  "modes": [
+    "Pilote"
+  ],
+  "date": "2026-09-26",
+  "status": "analysée, sans relecture",
+  "lots": [
+    {
+      "session": "pilote-p12",
+      "batchId": "670758b4-a7ae-441f-8693-89061653c315",
+      "part": 12,
+      "scope": {
+        "start": 1,
+        "end": 8144
+      },
+      "lotDecision": "apply",
+      "unresolvedPolicy": "defer",
+      "state": "STOPPED à sa borne (stoppedAtEnd 8144, rail non résolu, laissé sans commande) : premier lot mené à sa borne",
+      "window": "2026-09-26T06:13:48Z – 06:28:31Z",
+      "distinctCuts": 106,
+      "applied": 84,
+      "deferred": 11,
+      "gaugeRejected": 8,
+      "noInput": 2,
+      "exports": "journal, bilan (2 segments), diagnostic, corpus (2 segments)",
+      "relecture": "à venir",
+      "note": "Partie neuve (jamais réglée) : lot de validation une fois relu. Parité terrain / rejeu 106/106."
+    }
+  ],
+  "piloteP12": {
+    "archives": [
+      {
+        "archive": "pilote p12/lot-p12-4.7.20.7z",
+        "archiveSha256": "27bcb3c20f6fe61a7f16ec115d156ac4e1e9768c5e9a7f27e368145fb9b3400e",
+        "archiveBytes": 27841101,
+        "command": "python3 -c \"import py7zr;py7zr.SevenZipFile('lot-p12-4.7.20.7z').extractall('.')\"",
+        "entries": [
+          {
+            "name": "LOT de la v4.7.20/banane-bilan-v4-2026-09-26T06-32-24-seg01.json",
+            "uncompressedBytes": 48276019,
+            "sha256": "ae420e2d5178fe29791fe3e48146223b07c52a912726830f49525ce6d12e06ef",
+            "session": "pilote-p12"
+          },
+          {
+            "name": "LOT de la v4.7.20/banane-bilan-v4-2026-09-26T06-32-24-seg02.json",
+            "uncompressedBytes": 58923245,
+            "sha256": "10b87ee326c68cc10158c1623182ecb6b3a988e9360af1db9eeed85a25b0f47f",
+            "session": "pilote-p12"
+          },
+          {
+            "name": "LOT de la v4.7.20/banane-gcv1-corpus-2026-09-26T06-32-38-seg01.json",
+            "uncompressedBytes": 46919090,
+            "sha256": "71e8ffd248bbc3f7ad67e51a7d93170b25597cc43b1a914ece30490efa83390f",
+            "session": "pilote-p12"
+          },
+          {
+            "name": "LOT de la v4.7.20/banane-gcv1-corpus-2026-09-26T06-32-38-seg02.json",
+            "uncompressedBytes": 56269712,
+            "sha256": "70cc1c9af19eb4cb1ca7501cb0fc763bde217cbb8e2325ecfceef684546ae6e5",
+            "session": "pilote-p12"
+          },
+          {
+            "name": "LOT de la v4.7.20/banane-gcv1-diagnostic-1790404355861.json",
+            "uncompressedBytes": 1730391,
+            "sha256": "dd060495cd3f65e1e0602f1bfd33280ce55a7bf3eb33d3ed18fd7d0ef341f507",
+            "session": "pilote-p12"
+          },
+          {
+            "name": "LOT de la v4.7.20/banane-journal-v4-1790404362008.json",
+            "uncompressedBytes": 4534073,
+            "sha256": "8c4287c3c8fd1289125dacd32889f4e6e8ecd523725f125e15ee058245b177b3",
+            "session": "pilote-p12"
+          }
+        ]
+      }
+    ],
+    "content": "Archive de l'opérateur telle quelle (dossier « LOT de la v4.7.20 »)."
+  }
+}
