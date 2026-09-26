@@ -24,7 +24,7 @@
       "exports": "journal, bilan, diagnostic, corpus"
     }
   ],
-  "relecture": "à venir (Natif, opérateur)",
+  "relecture": "Natif 4.7.19, 25/09 14:49–15:07, partielle : 151 des 346 cuts du lot 4.7.18 relus (8066–8503 et 5151–5192 sautés) ; dossier relecture/",
   "archives": [
     {
       "collection": "2026-09-25_v4.7.18_",
@@ -140,8 +140,128 @@
           "sha256": "446976c2f586e4473657cb4b9d38973ce42c48acbe819dbe1a062cec4bff6ad7"
         }
       ]
+    },
+    {
+      "collection": "2026-09-25_v4.7.19_",
+      "path": "collections/2026-09-25_v4.7.19_/relecture p9/relecture-p9-4.7.19-1.7z",
+      "sha256": "9ff4f3d7c80ff4d94b28a0d361da2b26fe0ed46826563e987d71566e21d663d2",
+      "bytes": 11658090,
+      "extractTo": "relecture",
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-25T14-54-22-auto-seg01.json",
+          "uncompressedBytes": 28825727,
+          "sha256": "6986859de14a3ab2d009543860aa73719d44b799971f08e0e5b2514d5c9aaf4c"
+        },
+        {
+          "name": "banane-native-v4-2026-09-25T14-58-53-auto-seg02.json",
+          "uncompressedBytes": 46130521,
+          "sha256": "b4f76f50f525da72681ffe00283728c9386eacd3f90255bef8e87d0f06e4f598"
+        },
+        {
+          "name": "banane-native-v4-2026-09-25T14-58-53-auto-seg03.json",
+          "uncompressedBytes": 33999229,
+          "sha256": "957e7a3195838481c3faa27971c3b5338f8a6e62fd01f6b2457ee0bfa93fc290"
+        }
+      ]
+    },
+    {
+      "collection": "2026-09-25_v4.7.19_",
+      "path": "collections/2026-09-25_v4.7.19_/relecture p9/relecture-p9-4.7.19-2.7z",
+      "sha256": "69723b559434102307dc1431eccd6a6f7064502a34e7f951a722d7e5c23dbf76",
+      "bytes": 20117812,
+      "extractTo": "relecture",
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-25T15-03-48-auto-seg03.json",
+          "uncompressedBytes": 48611576,
+          "sha256": "19e4ab1678ec3efa27972b00d2c6308fdf126f7382e71a1d2d1fcd3160170b0d"
+        },
+        {
+          "name": "banane-native-v4-2026-09-25T15-03-48-auto-seg04.json",
+          "uncompressedBytes": 48586627,
+          "sha256": "9019789c0df6876597e84a50733e2369dea457dd9e9e8508d306fa0d7cd126a6"
+        },
+        {
+          "name": "banane-native-v4-2026-09-25T15-03-48-auto-seg05.json",
+          "uncompressedBytes": 48470547,
+          "sha256": "fe47da91f6759c31672ad9242b18d1cc7a933a06c86bf228012857befb04b1bb"
+        },
+        {
+          "name": "banane-native-v4-2026-09-25T15-03-48-auto-seg06.json",
+          "uncompressedBytes": 48881557,
+          "sha256": "e5854fceec03ff687feebab4939184f30be6e406f7b684d29e46b488d94ea64f"
+        }
+      ]
+    },
+    {
+      "collection": "2026-09-25_v4.7.19_",
+      "path": "collections/2026-09-25_v4.7.19_/relecture p9/relecture-p9-4.7.19-3.7z",
+      "sha256": "159510b8c3e0d717d771a6bc71efe0f01a3af2c003dcbdbc6fc5aed7b4073497",
+      "bytes": 20137725,
+      "extractTo": "relecture",
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-25T15-03-48-auto-seg07.json",
+          "uncompressedBytes": 48577762,
+          "sha256": "9b171db67551e391ee630d6e486896f6d7ea1144c3fae665a18a5c7252395a6f"
+        },
+        {
+          "name": "banane-native-v4-2026-09-25T15-03-48-auto-seg08.json",
+          "uncompressedBytes": 48520518,
+          "sha256": "80f1d71bf407059007164676f04f84a587094aa64ed61c70a36a9631e996b577"
+        },
+        {
+          "name": "banane-native-v4-2026-09-25T15-03-48-auto-seg09.json",
+          "uncompressedBytes": 48447447,
+          "sha256": "179903e4ceff9f0cecc0f3bae0f552118ff45a9bf69a608355d67caf7644407e"
+        },
+        {
+          "name": "banane-native-v4-2026-09-25T15-03-48-auto-seg10.json",
+          "uncompressedBytes": 50174996,
+          "sha256": "0b614e259beff039f01bb0dfdf731dd085d4f5eeefb9c0831a662edeb3ff982d"
+        }
+      ]
+    },
+    {
+      "collection": "2026-09-25_v4.7.19_",
+      "path": "collections/2026-09-25_v4.7.19_/relecture p9/relecture-p9-4.7.19-4.7z",
+      "sha256": "bbcb67f93a30ff5a21804577551731f185b878ff4041e11c926c4131ac0642d9",
+      "bytes": 13682028,
+      "extractTo": "relecture",
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-25T15-07-09-auto-seg04.json",
+          "uncompressedBytes": 65391017,
+          "sha256": "80cc1da42e72b72872c8669824c4370af9b26fe44dd37ab5ff4c4f3fbb623614"
+        },
+        {
+          "name": "banane-native-v4-2026-09-25T15-07-09-auto-seg05.json",
+          "uncompressedBytes": 66144383,
+          "sha256": "580e38b0b29c3be880f3d90fffeca63c6da86e96d654d725d6f7ae79015d825d"
+        }
+      ]
+    },
+    {
+      "collection": "2026-09-25_v4.7.19_",
+      "path": "collections/2026-09-25_v4.7.19_/relecture p9/relecture-p9-4.7.19-5.7z",
+      "sha256": "50f53f1d7d262bdbe4fb090f01cdc873e26c1c74cde22387f9a13ef4c671212c",
+      "bytes": 14269732,
+      "extractTo": "relecture",
+      "entries": [
+        {
+          "name": "banane-native-v4-2026-09-25T15-07-09-auto-seg06.json",
+          "uncompressedBytes": 66916832,
+          "sha256": "e095627830ab7ba88961dbc52118fe818bff9d8df210f9a5933907bc9a4e80ea"
+        },
+        {
+          "name": "banane-native-v4-2026-09-25T15-07-09-auto-seg07.json",
+          "uncompressedBytes": 69817080,
+          "sha256": "447d5853739e8cd90cdcafdba816ae1a27d55eef0b17c54e4a96f3ac2a2da19c"
+        }
+      ]
     }
   ],
-  "totalArchiveBytes": 104219289,
+  "totalArchiveBytes": 184084676,
   "extract": "python3 benchmarks/partie-9-2026-09-25/extraire.py DOSSIER"
 }

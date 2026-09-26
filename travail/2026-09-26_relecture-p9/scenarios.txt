@@ -1,0 +1,7 @@
+S0 278/346 (80.3 %) · 3 faux / 69 jugés · faux nouveaux 4892 · perdus —
+S1 289/346 (83.5 %) · 4 faux / 80 jugés · faux nouveaux 4892,7889 · perdus 4891,4900,4901,4902
+S2 297/346 (85.8 %) · 4 faux / 87 jugés · faux nouveaux 4892,8516 · perdus —
+S3 308/346 (89 %) · 5 faux / 98 jugés · faux nouveaux 4892,7889,8516 · perdus 4891,4900,4901,4902
+S1b 295/346 (85.3 %) · 4 faux / 84 jugés · faux nouveaux 4892,7889 · perdus —
+S3b 314/346 (90.8 %) · 5 faux / 102 jugés · faux nouveaux 4892,7889,8516 · perdus —
+commandes hors-vue oubliées (S2/S3) : 3 · voisins validés : 370

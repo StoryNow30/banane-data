@@ -42,3 +42,18 @@ plus). Une Reprise dans la même page n'ajouterait que 3 cuts : dans un
 reliquat, les appuis ne peuvent venir que des cuts validés à la main (§14 I).
 Le segment 2 du bilan ne se relit pas seul (KI-060, corrigé en 4.7.20).
 Analyse : banane, `audit/lot-4719-p6-2026-09-25.md`.
+
+## Relecture Natif de la partie 9
+
+**Relecture** : Natif 4.7.19, 25/09 14:49–15:07 UTC, 548 visites, 521 cuts
+(7–8550), exports automatiques (4 vidages, 15 segments), `relecture p9/`
+(5 archives 7z, 80 Mo). Dossier d'origine nommé « LOT PART 8 NATIV » : les
+données sont la partie 9. Relit 151 des 346 cuts du lot 4.7.18 (8066–8502 et
+5151–5192 sautés) et 76 des 85 cuts du lot 4.7.19.
+
+Jugement : lot 4.7.18, 2 faux sur 66 appliqués jugés (4903, 7523 : premiers
+passages, rail trop bas) ; lot 4.7.19, 0 sur 11. 62 des 360 cuts validés avant
+les lots sont corrigés à la relecture. Rail droit de 8516 validé sans
+correction (à 155 mm de ses voisins). Analyse : banane,
+`audit/relecture-p9-2026-09-26.md` ; scénarios :
+`travail/2026-09-26_relecture-p9/`.
