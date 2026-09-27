@@ -9,7 +9,7 @@ de la partie 12 (journal du 26/09) ; Écho sur 42 visites simulées.
 | `2-echo-{sombre,clair}.png` | Écho en collecte |
 | `3-orbite-{sombre,clair}.png` | Orbite en cours (cut 7787) |
 | `4-orbite-details-{sombre,clair}.png` | Détails : « Tout télécharger pour l'analyse », exports, réglages |
-| `5-parcours-du-menu.webm` | Parcours : accueil → Écho → Orbite en mouvement → détails → thème clair → accueil |
+| `5-parcours-du-menu.{webm,mp4}` | Parcours (MP4 H.264 pour iPhone) : accueil → Écho → Orbite en mouvement → détails → thème clair → accueil |
 | `6-bouton-esv-{sombre,clair}.png` | Bouton d'ouverture au bas d'ESV |
 
 Contrôle dans Chromium : « Tout télécharger pour l'analyse » produit quatre
