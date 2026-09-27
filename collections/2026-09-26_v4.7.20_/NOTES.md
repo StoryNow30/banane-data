@@ -39,5 +39,11 @@ Pour rejouer (dans banane) :
     node --max-old-space-size=13000 tools/acceptance-report.cjs \
       --lot DOSSIER_LOT=pilote-p12-4.7.20 --relecture DOSSIER_RELECTURE
 
-Un second lot 4.7.20 (partie 11, 556–8146, arrêté au cut 712) n'est pas encore
-exporté.
+## Lot Pilote, partie 11 (4.7.20, 26/09 05:49–06:04)
+
+`pilote p11/lot-p11-4.7.20.7z` : journal, bilan, diagnostic, corpus. Bornes
+556–8146 ; 96 cuts, **82 posés (85,4 %)**, 8 différés, 5 refus d'écartement,
+0 paire hors contrat appliquée. Le journal montre deux pauses **de
+l'opérateur** (581 et 703, retours en arrière dans ESV) puis « Arrêter » :
+aucun arrêt de Banane. C'est après ce lot que « Nouveau lot » restait bloqué
+(KI-062, corrigé en 4.7.21). Pas de relecture Natif : lot de couverture.

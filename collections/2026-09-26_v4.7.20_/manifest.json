@@ -34,6 +34,26 @@
       "exports": "journal, bilan (2 segments), diagnostic, corpus (2 segments)",
       "relecture": "complète : 84/84 appliqués jugés, 2 faux (7738, 7743) — banane, audit/relecture-p12-2026-09-26.md",
       "note": "Partie neuve : lot de validation de la 4.8 (mesure consignée le 26/09), puis réglage pour la 4.8.5 (rotation, D-057). Parité terrain / rejeu 106/106."
+    },
+    {
+      "session": "pilote-p11",
+      "batchId": "a66dd3e5-7e7e-404d-933c-c1c1a07e28dd",
+      "part": 11,
+      "scope": {
+        "start": 556,
+        "end": 8146
+      },
+      "lotDecision": "apply",
+      "unresolvedPolicy": "defer",
+      "state": "STOPPED par l'opérateur (deux pauses de l'opérateur à 581 et 703, puis « Arrêter ») ; nouveau lot bloqué ensuite (KI-062)",
+      "window": "2026-09-26T05:49:33Z – 06:04:40Z",
+      "distinctCuts": 96,
+      "applied": 82,
+      "deferred": 8,
+      "gaugeRejected": 5,
+      "exports": "journal, bilan (2 segments), diagnostic, corpus",
+      "relecture": "aucune (validation à l'œil de l'opérateur)",
+      "note": "Lot de couverture. 82/96 = 85,4 %, 0 paire hors contrat appliquée."
     }
   ],
   "piloteP12": {
@@ -100,5 +120,13 @@
     "window": "2026-09-26T19:42:36Z – 19:52:15Z",
     "frameId": "0972d27d-bd9d-47aa-bad6-85f2f970169c",
     "translationVerifiee": "106/106 cuts"
+  },
+  "piloteP11": {
+    "archive": {
+      "file": "pilote p11/lot-p11-4.7.20.7z",
+      "sha256": "21cf6696cb9467cededc9f7cee1955d2b7fb27685c7217b02235fd38dff346eb",
+      "bytes": 39411610,
+      "source": "archive de l'opérateur en deux morceaux (partie_11.7z.part001/002), recollés ; un troisième envoi (partie_11.zip.part001) était vide"
+    }
   }
 }

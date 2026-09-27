@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "2026-09-26_v4.7.21_",
+  "kind": "pilot-collection",
+  "bananeVersion": "4.7.21",
+  "modes": [
+    "Pilote"
+  ],
+  "date": "2026-09-26",
+  "status": "analysée : interruptions (KI-063), sans relecture",
+  "archives": [
+    {
+      "file": "interruptions p13-p14/INTERRUPTION_A_VOIR.7z",
+      "sha256": "653b5790f247bc91026698f6d90e4ad8106637c998463e18326f9456846a3fc2",
+      "bytes": 28361920
+    },
+    {
+      "file": "interruptions p13-p14/LOT_14_INTERRUPTION.zip.part001",
+      "sha256": "0e2ef02204cc3c09c92165ca048dcf539d3bb0317845527a844e3e022ba5122a",
+      "bytes": 28311552
+    },
+    {
+      "file": "interruptions p13-p14/LOT_14_INTERRUPTION.zip.part002",
+      "sha256": "11d8654649a806347a730bdc4f5a5aef47f9fd7fd554d2ded4fc2ce25db9d04d",
+      "bytes": 28311552
+    },
+    {
+      "file": "interruptions p13-p14/LOT_14_INTERRUPTION.zip.part003",
+      "sha256": "ea7f9f74748179d9262538ae804436bdf7a9e88741de8859697bb3ab97f679ce",
+      "bytes": 28311552
+    },
+    {
+      "file": "interruptions p13-p14/LOT_14_INTERRUPTION.zip.part004",
+      "sha256": "5fe18ec76ced7389531ec509f15a0437cd49388d58c944fe42fb1c05edee07d9",
+      "bytes": 28311552
+    },
+    {
+      "file": "interruptions p13-p14/LOT_14_INTERRUPTION.zip.part005",
+      "sha256": "fbcde22d14bad91e451469dc0e39d4418ac5b10212a56b1e05eebe7f0303c96e",
+      "bytes": 21064794
+    }
+  ],
+  "contenu": {
+    "INTERRUPTION_A_VOIR.7z": "bilan en 4 segments exporté à 15:47 (événements de 07:39 à 15:43)",
+    "LOT_14_INTERRUPTION.zip (5 morceaux, à recoller avec cat)": "bilan (5 segments), diagnostic et corpus (5 segments) exportés à 19:36 ; événements de 07:39 à 19:36, sur-ensemble du précédent ; pas de journal"
+  },
+  "lots": [
+    {
+      "part": 13,
+      "start": 0,
+      "window": "07:39–07:50",
+      "distinctCuts": 46,
+      "applied": 33,
+      "arret": "ERREUR « Vue ESV non recentrée sur le rail right » au cut 326 (ESV lent)"
+    },
+    {
+      "part": 13,
+      "start": 101,
+      "window": "15:08–15:29",
+      "distinctCuts": 85,
+      "applied": 69,
+      "arret": "ERREUR « Vue ESV non recentrée sur le rail right » au cut 536, pendant la pose"
+    },
+    {
+      "part": 13,
+      "start": 101,
+      "reprise": true,
+      "window": "15:30–15:42",
+      "distinctCuts": 75,
+      "applied": 40,
+      "arret": "clos à tort : ESV muet après la validation de 6629 (cut suivant annoncé 6758, même partie) ; 6629 retenu comme fin de la partie 13"
+    },
+    {
+      "part": 14,
+      "start": 1,
+      "window": "15:43:11–15:43:22",
+      "distinctCuts": 1,
+      "applied": 1,
+      "arret": "ERREUR « Export interrompu. » au cut 410 : annulation tardive d'un « Arrêter » du lot précédent"
+    },
+    {
+      "part": 14,
+      "start": 410,
+      "window": "15:48–15:58",
+      "distinctCuts": 63,
+      "applied": 57,
+      "arret": "ERREUR « Vue ESV non recentrée sur le rail left » au cut 6098, pendant la pose"
+    }
+  ],
+  "analyse": "banane, audit/interruptions-4721-2026-09-26.md ; correctifs 4.8.0 (KI-063)"
+}
