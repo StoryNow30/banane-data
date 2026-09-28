@@ -1,5 +1,11 @@
 # Préparer les entrées du banc 4.8.5 (depuis une session neuve)
 
+**En une commande** (D5) : `bash preparer.sh S` fait les cinq étapes
+ci-dessous (idempotent, ~9 Go, une vingtaine de minutes) et écrit
+`S/entrees.env`, que lit `banane/tools/portes-j1.cjs --entrees S/entrees.env`.
+Vérifié le 28/09 : Écho p11 fusionné, 1 730 nuages, 0 manquant ; lot 4.7.18
+de la partie 9 réduit à 346 observations.
+
 `run.sh`, `run-premier-passage-*.sh` et `run-calage.sh` prennent cinq
 dossiers : `DONNÉES_C5 KIT_EXTRAIT P9_4718R ECHO_P11 SORTIE`. Ils se
 reconstruisent ainsi (py7zr requis ; `S` = un dossier de travail, hors dépôt) :
