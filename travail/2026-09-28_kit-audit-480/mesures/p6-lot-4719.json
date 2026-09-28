@@ -1,0 +1,166 @@
+{
+ "source": {
+  "format": "banane-test-journal-v4",
+  "version": "4.7.19",
+  "exportedAt": null,
+  "partie": 6,
+  "lot": "13d9845f-4b9b-48e7-9cf6-9ed98524191d",
+  "etat": "STOPPED",
+  "lotSeul": true,
+  "evenements": 3082,
+  "debut": "2026-09-25T12:05:35.673Z",
+  "fin": "2026-09-25T12:57:46.777Z"
+ },
+ "cuts": {
+  "distincts": 125,
+  "cycles": 123
+ },
+ "dureeMin": {
+  "totale": 52.185066666666664,
+  "silences": 8.688033333333333,
+  "active": 43.497033333333334
+ },
+ "cadence": {
+  "cutsParHeureActive": 172.92477576991163
+ },
+ "cycleMs": {
+  "n": 123,
+  "median": 13269,
+  "p90": 32968,
+  "max": 35811,
+  "min": 9345,
+  "total": 2560651
+ },
+ "cyclesLents": [],
+ "commandesMs": {
+  "capture": {
+   "n": 125,
+   "median": 5167,
+   "p90": 6651,
+   "max": 8195,
+   "min": 3768,
+   "total": 663485
+  },
+  "apply": {
+   "n": 73,
+   "median": 683,
+   "p90": 697,
+   "max": 704,
+   "min": 663,
+   "total": 49924
+  },
+  "validateAndNext": {
+   "n": 73,
+   "median": 75,
+   "p90": 91,
+   "max": 145,
+   "min": 13,
+   "total": 4323
+  },
+  "nextWithoutDecision": {
+   "n": 52,
+   "median": 27,
+   "p90": 66,
+   "max": 73,
+   "min": 11,
+   "total": 2035
+  },
+  "cancel": {
+   "n": 1,
+   "median": 45002,
+   "p90": 45002,
+   "max": 45002,
+   "min": 45002,
+   "total": 45002
+  }
+ },
+ "erreurs": {
+  "cancel": [
+   {
+    "cut": 7634,
+    "at": "2026-09-25T12:57:46.777Z",
+    "message": "Adaptateur ESV sans réponse. Clique sur Connecter ; après une mise à jour, recharge ESV."
+   }
+  ]
+ },
+ "capture": {
+  "points": {
+   "n": 125,
+   "median": 3504,
+   "p90": 5245,
+   "max": 5924,
+   "min": 3068,
+   "total": 462851
+  },
+  "octets": {
+   "n": 125,
+   "median": 742899,
+   "p90": 916477,
+   "max": 1103907,
+   "min": 628802,
+   "total": 96498900
+  },
+  "essais": {
+   "n": 125,
+   "median": 2,
+   "p90": 2,
+   "max": 3,
+   "min": 2,
+   "total": 252
+  }
+ },
+ "analyseMs": {
+  "n": 125,
+  "median": 935,
+  "p90": 3515,
+  "max": 3897,
+  "min": 508,
+  "total": 236299
+ },
+ "decisionMs": {
+  "n": 125,
+  "median": 2,
+  "p90": 4,
+  "max": 954,
+  "min": 0,
+  "total": 1827
+ },
+ "silences": [
+  {
+   "apres": "batch-state",
+   "cut": 7634,
+   "de": "2026-09-25T12:49:05.495Z",
+   "ms": 521282,
+   "s": 521
+  }
+ ],
+ "lots": [
+  {
+   "lot": "13d9845f-4b9b-48e7-9cf6-9ed98524191d",
+   "partie": 6,
+   "depart": 526,
+   "debut": "2026-09-25T12:05:35.673Z",
+   "fin": "PAUSED_ADAPTER_UNRESPONSIVE",
+   "cuts": 125,
+   "dureeMin": 52.185066666666664,
+   "silencesMin": 8.688033333333333,
+   "cycleMs": {
+    "n": 123,
+    "median": 13269,
+    "p90": 32968,
+    "max": 35811,
+    "min": 9345,
+    "total": 2560651
+   },
+   "captureMs": {
+    "n": 125,
+    "median": 5167,
+    "p90": 6651,
+    "max": 8195,
+    "min": 3768,
+    "total": 663485
+   },
+   "erreurs": 1
+  }
+ ]
+}

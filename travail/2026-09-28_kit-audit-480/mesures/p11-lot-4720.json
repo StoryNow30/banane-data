@@ -1,0 +1,150 @@
+{
+ "source": {
+  "format": "banane-test-journal-v4",
+  "version": "4.7.20",
+  "exportedAt": null,
+  "partie": 11,
+  "lot": "a66dd3e5-7e7e-404d-933c-c1c1a07e28dd",
+  "etat": "STOPPED",
+  "lotSeul": true,
+  "evenements": 2413,
+  "debut": "2026-09-26T05:49:33.806Z",
+  "fin": "2026-09-26T06:04:40.619Z"
+ },
+ "cuts": {
+  "distincts": 103,
+  "cycles": 117
+ },
+ "dureeMin": {
+  "totale": 15.11355,
+  "silences": 0,
+  "active": 15.11355
+ },
+ "cadence": {
+  "cutsParHeureActive": 474.02752330747865
+ },
+ "cycleMs": {
+  "n": 117,
+  "median": 8533,
+  "p90": 9722,
+  "max": 20477,
+  "min": 793,
+  "total": 888556
+ },
+ "cyclesLents": [],
+ "commandesMs": {
+  "capture": {
+   "n": 97,
+   "median": 6055,
+   "p90": 6784,
+   "max": 7534,
+   "min": 4732,
+   "total": 583651
+  },
+  "apply": {
+   "n": 82,
+   "median": 677,
+   "p90": 686,
+   "max": 699,
+   "min": 661,
+   "total": 55538
+  },
+  "validateAndNext": {
+   "n": 82,
+   "median": 19,
+   "p90": 24,
+   "max": 28,
+   "min": 11,
+   "total": 1528
+  },
+  "nextWithoutDecision": {
+   "n": 13,
+   "median": 16,
+   "p90": 16,
+   "max": 16,
+   "min": 9,
+   "total": 185
+  },
+  "cancel": {
+   "n": 1,
+   "median": 0,
+   "p90": 0,
+   "max": 0,
+   "min": 0,
+   "total": 0
+  }
+ },
+ "erreurs": {},
+ "capture": {
+  "points": {
+   "n": 97,
+   "median": 10861,
+   "p90": 13236,
+   "max": 14571,
+   "min": 7077,
+   "total": 1080261
+  },
+  "octets": {
+   "n": 97,
+   "median": 1513336,
+   "p90": 1690814,
+   "max": 1822858,
+   "min": 1175011,
+   "total": 147348783
+  },
+  "essais": {
+   "n": 97,
+   "median": 2,
+   "p90": 2,
+   "max": 2,
+   "min": 2,
+   "total": 194
+  }
+ },
+ "analyseMs": {
+  "n": 95,
+  "median": 592,
+  "p90": 889,
+  "max": 3561,
+  "min": 370,
+  "total": 63043
+ },
+ "decisionMs": {
+  "n": 95,
+  "median": 3,
+  "p90": 703,
+  "max": 6388,
+  "min": 1,
+  "total": 31442
+ },
+ "silences": [],
+ "lots": [
+  {
+   "lot": "a66dd3e5-7e7e-404d-933c-c1c1a07e28dd",
+   "partie": 11,
+   "depart": 556,
+   "debut": "2026-09-26T05:49:33.806Z",
+   "fin": "PAUSED",
+   "cuts": 103,
+   "dureeMin": 15.11355,
+   "silencesMin": 0,
+   "cycleMs": {
+    "n": 117,
+    "median": 8533,
+    "p90": 9722,
+    "max": 20477,
+    "min": 793,
+    "total": 888556
+   },
+   "captureMs": {
+    "n": 97,
+    "median": 6055,
+    "p90": 6784,
+    "max": 7534,
+    "min": 4732,
+    "total": 583651
+   },
+   "erreurs": 0
+  }
+ ]
+}

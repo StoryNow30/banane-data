@@ -1,0 +1,158 @@
+{
+ "source": {
+  "format": "banane-test-journal-v4",
+  "version": "4.7.19",
+  "exportedAt": null,
+  "partie": 9,
+  "lot": "ccbcb19f-6b24-417f-85d7-64d7d94ed1ce",
+  "etat": "STOPPED",
+  "lotSeul": true,
+  "evenements": 2070,
+  "debut": "2026-09-25T11:02:34.716Z",
+  "fin": "2026-09-25T11:16:11.954Z"
+ },
+ "cuts": {
+  "distincts": 86,
+  "cycles": 84
+ },
+ "dureeMin": {
+  "totale": 13.620633333333334,
+  "silences": 0,
+  "active": 13.620633333333334
+ },
+ "cadence": {
+  "cutsParHeureActive": 375.77727740415446
+ },
+ "cycleMs": {
+  "n": 84,
+  "median": 9777,
+  "p90": 11791,
+  "max": 13397,
+  "min": 5238,
+  "total": 804732
+ },
+ "cyclesLents": [],
+ "commandesMs": {
+  "capture": {
+   "n": 86,
+   "median": 5651,
+   "p90": 7671,
+   "max": 9143,
+   "min": 3846,
+   "total": 508333
+  },
+  "nextWithoutDecision": {
+   "n": 71,
+   "median": 22,
+   "p90": 29,
+   "max": 41,
+   "min": 9,
+   "total": 1479
+  },
+  "apply": {
+   "n": 14,
+   "median": 675,
+   "p90": 692,
+   "max": 712,
+   "min": 662,
+   "total": 9458
+  },
+  "validateAndNext": {
+   "n": 14,
+   "median": 28,
+   "p90": 32,
+   "max": 36,
+   "min": 13,
+   "total": 359
+  },
+  "cancel": {
+   "n": 1,
+   "median": 3,
+   "p90": 3,
+   "max": 3,
+   "min": 3,
+   "total": 3
+  }
+ },
+ "erreurs": {
+  "capture": [
+   {
+    "cut": 8542,
+    "at": "2026-09-25T11:16:11.327Z",
+    "message": "Export interrompu."
+   }
+  ]
+ },
+ "capture": {
+  "points": {
+   "n": 85,
+   "median": 8640,
+   "p90": 9249,
+   "max": 10447,
+   "min": 4783,
+   "total": 661367
+  },
+  "octets": {
+   "n": 85,
+   "median": 1232627,
+   "p90": 1328510,
+   "max": 1399300,
+   "min": 918151,
+   "total": 101137023
+  },
+  "essais": {
+   "n": 85,
+   "median": 2,
+   "p90": 2,
+   "max": 3,
+   "min": 2,
+   "total": 171
+  }
+ },
+ "analyseMs": {
+  "n": 85,
+  "median": 587,
+  "p90": 819,
+  "max": 2096,
+  "min": 230,
+  "total": 53030
+ },
+ "decisionMs": {
+  "n": 85,
+  "median": 2,
+  "p90": 263,
+  "max": 1484,
+  "min": 1,
+  "total": 6092
+ },
+ "silences": [],
+ "lots": [
+  {
+   "lot": "ccbcb19f-6b24-417f-85d7-64d7d94ed1ce",
+   "partie": 9,
+   "depart": 638,
+   "debut": "2026-09-25T11:02:34.716Z",
+   "fin": "STOPPED",
+   "cuts": 86,
+   "dureeMin": 13.620633333333334,
+   "silencesMin": 0,
+   "cycleMs": {
+    "n": 84,
+    "median": 9777,
+    "p90": 11791,
+    "max": 13397,
+    "min": 5238,
+    "total": 804732
+   },
+   "captureMs": {
+    "n": 86,
+    "median": 5651,
+    "p90": 7671,
+    "max": 9143,
+    "min": 3846,
+    "total": 508333
+   },
+   "erreurs": 1
+  }
+ ]
+}

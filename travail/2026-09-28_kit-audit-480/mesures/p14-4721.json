@@ -1,0 +1,331 @@
+{
+ "source": {
+  "format": "banane-test-dataset-v4",
+  "version": "4.7.21",
+  "exportedAt": "2026-09-26T19:36:58.916Z",
+  "partie": 14,
+  "lot": "a3abff8a-f8fd-4f3b-be5d-87c87d79231f",
+  "etat": "STOPPED",
+  "lotSeul": false,
+  "evenements": 6764,
+  "debut": "2026-09-26T07:39:40.637Z",
+  "fin": "2026-09-26T19:36:55.390Z"
+ },
+ "cuts": {
+  "distincts": 240,
+  "cycles": 284
+ },
+ "dureeMin": {
+  "totale": 717.2458833333334,
+  "silences": 659.6132833333334,
+  "active": 57.6326
+ },
+ "cadence": {
+  "cutsParHeureActive": 307.9196757312558
+ },
+ "cycleMs": {
+  "n": 280,
+  "median": 9929,
+  "p90": 17383,
+  "max": 40750,
+  "min": 949,
+  "total": 3273581
+ },
+ "cyclesLents": [
+  {
+   "cut": 325,
+   "s": 26238
+  },
+  {
+   "cut": 535,
+   "s": 98
+  },
+  {
+   "cut": 1,
+   "s": 299
+  },
+  {
+   "cut": 6097,
+   "s": 13037
+  }
+ ],
+ "commandesMs": {
+  "capture": {
+   "n": 274,
+   "median": 4645,
+   "p90": 9043,
+   "max": 29992,
+   "min": 1000,
+   "total": 1603483
+  },
+  "nextWithoutDecision": {
+   "n": 70,
+   "median": 22,
+   "p90": 64,
+   "max": 81,
+   "min": 8,
+   "total": 2114
+  },
+  "apply": {
+   "n": 202,
+   "median": 679,
+   "p90": 702,
+   "max": 15845,
+   "min": 662,
+   "total": 165253
+  },
+  "validateAndNext": {
+   "n": 200,
+   "median": 27,
+   "p90": 77,
+   "max": 180,
+   "min": 11,
+   "total": 7691
+  },
+  "cancel": {
+   "n": 1,
+   "median": 45002,
+   "p90": 45002,
+   "max": 45002,
+   "min": 45002,
+   "total": 45002
+  }
+ },
+ "erreurs": {
+  "capture": [
+   {
+    "cut": 326,
+    "at": "2026-09-26T07:50:55.803Z",
+    "message": "Vue ESV non recentrée sur le rail right."
+   },
+   {
+    "cut": 410,
+    "at": "2026-09-26T15:43:22.150Z",
+    "message": "Export interrompu."
+   }
+  ],
+  "apply": [
+   {
+    "cut": 536,
+    "at": "2026-09-26T15:29:13.807Z",
+    "message": "Vue ESV non recentrée sur le rail right."
+   },
+   {
+    "cut": 6098,
+    "at": "2026-09-26T15:58:51.791Z",
+    "message": "Vue ESV non recentrée sur le rail left."
+   }
+  ],
+  "cancel": [
+   {
+    "cut": 410,
+    "at": "2026-09-26T15:43:22.085Z",
+    "message": "Adaptateur ESV sans réponse. Clique sur Connecter ; après une mise à jour, recharge ESV."
+   }
+  ]
+ },
+ "capture": {
+  "points": {
+   "n": 272,
+   "median": 5043,
+   "p90": 7285,
+   "max": 10456,
+   "min": 0,
+   "total": 1363652
+  },
+  "octets": {
+   "n": 272,
+   "median": 788289,
+   "p90": 1409445,
+   "max": 1741678,
+   "min": 153321,
+   "total": 244501365
+  },
+  "essais": {
+   "n": 272,
+   "median": 2,
+   "p90": 2,
+   "max": 3,
+   "min": 2,
+   "total": 546
+  }
+ },
+ "analyseMs": {
+  "n": 272,
+  "median": 742,
+  "p90": 1933,
+  "max": 2835,
+  "min": 32,
+  "total": 282508
+ },
+ "decisionMs": {
+  "n": 272,
+  "median": 3,
+  "p90": 747,
+  "max": 2145,
+  "min": 0,
+  "total": 47684
+ },
+ "silences": [
+  {
+   "apres": "batch-state",
+   "cut": 326,
+   "de": "2026-09-26T07:50:56.436Z",
+   "ms": 26206776,
+   "s": 26207
+  },
+  {
+   "apres": "batch-state",
+   "cut": 410,
+   "de": "2026-09-26T15:43:22.739Z",
+   "ms": 287793,
+   "s": 288
+  },
+  {
+   "apres": "batch-state",
+   "cut": 6098,
+   "de": "2026-09-26T15:58:52.701Z",
+   "ms": 13000218,
+   "s": 13000
+  },
+  {
+   "apres": "cut-target-changed",
+   "cut": 6098,
+   "de": "2026-09-26T19:35:33.150Z",
+   "ms": 82010,
+   "s": 82
+  }
+ ],
+ "lots": [
+  {
+   "lot": "bdc3a217-8cd6-4d5c-acbb-74b312e906c4",
+   "partie": 13,
+   "depart": 0,
+   "debut": "2026-09-26T07:39:40.637Z",
+   "fin": "ERROR",
+   "cuts": 49,
+   "dureeMin": 448.8890666666667,
+   "silencesMin": 436.7796,
+   "cycleMs": {
+    "n": 56,
+    "median": 13468,
+    "p90": 16952,
+    "max": 18758,
+    "min": 949,
+    "total": 674574
+   },
+   "captureMs": {
+    "n": 47,
+    "median": 7806,
+    "p90": 9278,
+    "max": 29992,
+    "min": 6351,
+    "total": 400264
+   },
+   "erreurs": 1
+  },
+  {
+   "lot": "f2f7eead-6dec-4c99-953a-ee84669bd16c",
+   "partie": 13,
+   "depart": 101,
+   "debut": "2026-09-26T15:08:45.464Z",
+   "fin": "ERROR",
+   "cuts": 87,
+   "dureeMin": 21.881633333333333,
+   "silencesMin": 0,
+   "cycleMs": {
+    "n": 85,
+    "median": 14639,
+    "p90": 20104,
+    "max": 21936,
+    "min": 6964,
+    "total": 1199753
+   },
+   "captureMs": {
+    "n": 86,
+    "median": 7583,
+    "p90": 9295,
+    "max": 12841,
+    "min": 3266,
+    "total": 616909
+   },
+   "erreurs": 1
+  },
+  {
+   "lot": "2ec8ddab-a5f0-40e5-a66a-2d2bf3a33522",
+   "partie": 13,
+   "depart": 101,
+   "debut": "2026-09-26T15:30:42.150Z",
+   "fin": "STOPPED",
+   "cuts": 75,
+   "dureeMin": 12.352933333333333,
+   "silencesMin": 0,
+   "cycleMs": {
+    "n": 74,
+    "median": 9420,
+    "p90": 10787,
+    "max": 40750,
+    "min": 7394,
+    "total": 731371
+   },
+   "captureMs": {
+    "n": 75,
+    "median": 3861,
+    "p90": 5297,
+    "max": 9770,
+    "min": 2391,
+    "total": 313662
+   },
+   "erreurs": 0
+  },
+  {
+   "lot": "11c16dc3-d4d1-4585-83d1-25c383ef5ec5",
+   "partie": 14,
+   "depart": 1,
+   "debut": "2026-09-26T15:43:11.671Z",
+   "fin": "ERROR",
+   "cuts": 2,
+   "dureeMin": 4.981016666666667,
+   "silencesMin": 4.79655,
+   "cycleMs": {
+    "n": 0
+   },
+   "captureMs": {
+    "n": 2,
+    "median": 3838,
+    "p90": 3838,
+    "max": 3838,
+    "min": 1000,
+    "total": 4838
+   },
+   "erreurs": 2
+  },
+  {
+   "lot": "a3abff8a-f8fd-4f3b-be5d-87c87d79231f",
+   "partie": 14,
+   "depart": 410,
+   "debut": "2026-09-26T15:48:10.695Z",
+   "fin": "ERROR",
+   "cuts": 65,
+   "dureeMin": 228.74491666666665,
+   "silencesMin": 218.03713333333334,
+   "cycleMs": {
+    "n": 62,
+    "median": 9640,
+    "p90": 10800,
+    "max": 12616,
+    "min": 8428,
+    "total": 597097
+   },
+   "captureMs": {
+    "n": 64,
+    "median": 3827,
+    "p90": 4844,
+    "max": 18844,
+    "min": 3263,
+    "total": 267810
+   },
+   "erreurs": 1
+  }
+ ]
+}

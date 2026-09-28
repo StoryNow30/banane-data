@@ -1,0 +1,270 @@
+{
+ "source": {
+  "format": "banane-test-dataset-v4",
+  "version": "4.7.21",
+  "exportedAt": "2026-09-26T15:47:40.778Z",
+  "partie": 14,
+  "lot": "11c16dc3-d4d1-4585-83d1-25c383ef5ec5",
+  "etat": "ERROR",
+  "lotSeul": false,
+  "evenements": 5173,
+  "debut": "2026-09-26T07:39:40.637Z",
+  "fin": "2026-09-26T15:43:22.739Z"
+ },
+ "cuts": {
+  "distincts": 183,
+  "cycles": 220
+ },
+ "dureeMin": {
+  "totale": 483.7017,
+  "silences": 436.7796,
+  "active": 46.9221
+ },
+ "cadence": {
+  "cutsParHeureActive": 293.22050869723114
+ },
+ "cycleMs": {
+  "n": 218,
+  "median": 11425,
+  "p90": 17858,
+  "max": 40750,
+  "min": 949,
+  "total": 2676484
+ },
+ "cyclesLents": [
+  {
+   "cut": 325,
+   "s": 26238
+  },
+  {
+   "cut": 535,
+   "s": 98
+  }
+ ],
+ "commandesMs": {
+  "capture": {
+   "n": 210,
+   "median": 6912,
+   "p90": 9125,
+   "max": 29992,
+   "min": 1000,
+   "total": 1335673
+  },
+  "nextWithoutDecision": {
+   "n": 64,
+   "median": 23,
+   "p90": 66,
+   "max": 81,
+   "min": 8,
+   "total": 2052
+  },
+  "apply": {
+   "n": 144,
+   "median": 686,
+   "p90": 702,
+   "max": 15845,
+   "min": 662,
+   "total": 114533
+  },
+  "validateAndNext": {
+   "n": 143,
+   "median": 48,
+   "p90": 80,
+   "max": 180,
+   "min": 11,
+   "total": 6688
+  },
+  "cancel": {
+   "n": 1,
+   "median": 45002,
+   "p90": 45002,
+   "max": 45002,
+   "min": 45002,
+   "total": 45002
+  }
+ },
+ "erreurs": {
+  "capture": [
+   {
+    "cut": 326,
+    "at": "2026-09-26T07:50:55.803Z",
+    "message": "Vue ESV non recentrée sur le rail right."
+   },
+   {
+    "cut": 410,
+    "at": "2026-09-26T15:43:22.150Z",
+    "message": "Export interrompu."
+   }
+  ],
+  "apply": [
+   {
+    "cut": 536,
+    "at": "2026-09-26T15:29:13.807Z",
+    "message": "Vue ESV non recentrée sur le rail right."
+   }
+  ],
+  "cancel": [
+   {
+    "cut": 410,
+    "at": "2026-09-26T15:43:22.085Z",
+    "message": "Adaptateur ESV sans réponse. Clique sur Connecter ; après une mise à jour, recharge ESV."
+   }
+  ]
+ },
+ "capture": {
+  "points": {
+   "n": 208,
+   "median": 5349,
+   "p90": 7459,
+   "max": 10456,
+   "min": 0,
+   "total": 1136310
+  },
+  "octets": {
+   "n": 208,
+   "median": 821344,
+   "p90": 1440660,
+   "max": 1741678,
+   "min": 153321,
+   "total": 195608211
+  },
+  "essais": {
+   "n": 208,
+   "median": 2,
+   "p90": 2,
+   "max": 3,
+   "min": 2,
+   "total": 418
+  }
+ },
+ "analyseMs": {
+  "n": 208,
+  "median": 999,
+  "p90": 2021,
+  "max": 2835,
+  "min": 32,
+  "total": 238793
+ },
+ "decisionMs": {
+  "n": 208,
+  "median": 4,
+  "p90": 826,
+  "max": 2145,
+  "min": 0,
+  "total": 43605
+ },
+ "silences": [
+  {
+   "apres": "batch-state",
+   "cut": 326,
+   "de": "2026-09-26T07:50:56.436Z",
+   "ms": 26206776,
+   "s": 26207
+  }
+ ],
+ "lots": [
+  {
+   "lot": "bdc3a217-8cd6-4d5c-acbb-74b312e906c4",
+   "partie": 13,
+   "depart": 0,
+   "debut": "2026-09-26T07:39:40.637Z",
+   "fin": "ERROR",
+   "cuts": 49,
+   "dureeMin": 448.8890666666667,
+   "silencesMin": 436.7796,
+   "cycleMs": {
+    "n": 56,
+    "median": 13468,
+    "p90": 16952,
+    "max": 18758,
+    "min": 949,
+    "total": 674574
+   },
+   "captureMs": {
+    "n": 47,
+    "median": 7806,
+    "p90": 9278,
+    "max": 29992,
+    "min": 6351,
+    "total": 400264
+   },
+   "erreurs": 1
+  },
+  {
+   "lot": "f2f7eead-6dec-4c99-953a-ee84669bd16c",
+   "partie": 13,
+   "depart": 101,
+   "debut": "2026-09-26T15:08:45.464Z",
+   "fin": "ERROR",
+   "cuts": 87,
+   "dureeMin": 21.881633333333333,
+   "silencesMin": 0,
+   "cycleMs": {
+    "n": 85,
+    "median": 14639,
+    "p90": 20104,
+    "max": 21936,
+    "min": 6964,
+    "total": 1199753
+   },
+   "captureMs": {
+    "n": 86,
+    "median": 7583,
+    "p90": 9295,
+    "max": 12841,
+    "min": 3266,
+    "total": 616909
+   },
+   "erreurs": 1
+  },
+  {
+   "lot": "2ec8ddab-a5f0-40e5-a66a-2d2bf3a33522",
+   "partie": 13,
+   "depart": 101,
+   "debut": "2026-09-26T15:30:42.150Z",
+   "fin": "STOPPED",
+   "cuts": 75,
+   "dureeMin": 12.352933333333333,
+   "silencesMin": 0,
+   "cycleMs": {
+    "n": 74,
+    "median": 9420,
+    "p90": 10787,
+    "max": 40750,
+    "min": 7394,
+    "total": 731371
+   },
+   "captureMs": {
+    "n": 75,
+    "median": 3861,
+    "p90": 5297,
+    "max": 9770,
+    "min": 2391,
+    "total": 313662
+   },
+   "erreurs": 0
+  },
+  {
+   "lot": "11c16dc3-d4d1-4585-83d1-25c383ef5ec5",
+   "partie": 14,
+   "depart": 1,
+   "debut": "2026-09-26T15:43:11.671Z",
+   "fin": "ERROR",
+   "cuts": 2,
+   "dureeMin": 0.18446666666666667,
+   "silencesMin": 0,
+   "cycleMs": {
+    "n": 0
+   },
+   "captureMs": {
+    "n": 2,
+    "median": 3838,
+    "p90": 3838,
+    "max": 3838,
+    "min": 1000,
+    "total": 4838
+   },
+   "erreurs": 2
+  }
+ ]
+}
