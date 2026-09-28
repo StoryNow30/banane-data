@@ -1,0 +1,69 @@
+{
+ "jeux": [
+  "a:natif-p24",
+  "a:natif-p30",
+  "a:natif-p2-7801",
+  "b:pilote-p31-4.7.8",
+  "b:pilote-p31-fin-4.7.9",
+  "c:pilote-p34-4.7.11",
+  "d:pilote-p2-4.7.18",
+  "d:pilote-p3-4.7.18",
+  "e:pilote-p9-4.7.18",
+  "e:pilote-p9-4.7.19",
+  "f:pilote-p12-4.7.20",
+  "g:natif-p11",
+  "h:pilote-p11-4.7.20"
+ ],
+ "regles": {
+  "sans-appui-ecart-bas-1420": {
+   "applied": 1028,
+   "wrong": 9,
+   "stoppedWrong": [
+    "natif-p11:707",
+    "natif-p11:711"
+   ],
+   "lostRight": [],
+   "removedUnjudged": [],
+   "gained": [
+    "natif-p11:718"
+   ],
+   "newWrong": [
+    "natif-p11:718"
+   ]
+  },
+  "sans-appui-ecart-bas-1425": {
+   "applied": 1028,
+   "wrong": 9,
+   "stoppedWrong": [
+    "natif-p11:707",
+    "natif-p11:711"
+   ],
+   "lostRight": [],
+   "removedUnjudged": [],
+   "gained": [
+    "natif-p11:718"
+   ],
+   "newWrong": [
+    "natif-p11:718"
+   ]
+  }
+ },
+ "base": {
+  "applied": 1029,
+  "judged": 646,
+  "wrong": [
+   "pilote-p34-4.7.11:4551",
+   "pilote-p2-4.7.18:772",
+   "pilote-p2-4.7.18:773",
+   "pilote-p9-4.7.18:4892",
+   "pilote-p9-4.7.18:4903",
+   "pilote-p9-4.7.18:7523",
+   "pilote-p12-4.7.20:7738",
+   "pilote-p12-4.7.20:7743",
+   "natif-p11:707",
+   "natif-p11:711"
+  ],
+  "fpSansAppui": 242,
+  "fpSansAppuiJug": 0
+ }
+}
