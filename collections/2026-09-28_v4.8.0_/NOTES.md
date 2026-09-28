@@ -29,3 +29,15 @@ le geste humain sort de la fenêtre du moteur (±80 mm latéral, ±40 mm
 vertical) : zones 696–716, 749–752, 758–770, 777–799, 807–815, où la pose de
 départ d'ESV est décalée de 10 à 25 cm. Analyse : banane,
 `audit/relecture-p11-2026-09-28.md`.
+
+## Lot Orbite de la partie 15 (08:54–09:44)
+
+`lot p15/LOT_15.7z.part001…003` (archive de l'opérateur, volumes 7z à recoller
+dans l'ordre ; empreintes dans `SHA256SUMS`) : journal, diagnostic, bilan et
+corpus (5 segments chacun). Lot `4788921e`, 4.8.0, partie 15 du cut 106 à la
+fin de la partie : 251 cuts, 192 posés (76,5 %), 0 erreur d'ESV, 0 pause,
+345 cuts/h ; vue d'ESV large (0,46 mm par pixel), écart pose/cible maximal
+0,63 mm. Fin : ESV quitte la page après le différé de 9056 (dernier cut, sans
+point LiDAR) ; Ariane met le lot en pause « navigation incertaine » (KI-067),
+l'opérateur arrête. Pas de relecture Écho : C4 non évaluable. Analyse :
+banane, `audit/lot-4800-p15-2026-09-28.md`.
