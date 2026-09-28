@@ -1,0 +1,72 @@
+{
+ "base": {
+  "natif": {
+   "decided": 264,
+   "judged": 165,
+   "wrong": 2,
+   "wrongCuts": [
+    "natif-p11:707 145",
+    "natif-p11:711 301.1"
+   ]
+  },
+  "pilote": {
+   "decided": 765,
+   "judged": 481,
+   "wrong": 8,
+   "wrongCuts": [
+    "pilote-p34-4.7.11:4551 10.48",
+    "pilote-p2-4.7.18:772 14.86",
+    "pilote-p2-4.7.18:773 13.22",
+    "pilote-p9-4.7.18:4892 10.3",
+    "pilote-p9-4.7.18:4903 12.92",
+    "pilote-p9-4.7.18:7523 20.53",
+    "pilote-p12-4.7.20:7738 13.64",
+    "pilote-p12-4.7.20:7743 21.99"
+   ]
+  }
+ },
+ "guardMm20": {
+  "natif": {
+   "decided": 262,
+   "judged": 165,
+   "wrong": 2,
+   "wrongCuts": [
+    "natif-p11:707 145",
+    "natif-p11:711 301.1"
+   ]
+  },
+  "pilote": {
+   "decided": 760,
+   "judged": 479,
+   "wrong": 7,
+   "wrongCuts": [
+    "pilote-p34-4.7.11:4551 10.48",
+    "pilote-p2-4.7.18:772 14.86",
+    "pilote-p2-4.7.18:773 13.22",
+    "pilote-p9-4.7.18:4892 10.3",
+    "pilote-p9-4.7.18:4903 12.92",
+    "pilote-p9-4.7.18:7523 20.53",
+    "pilote-p12-4.7.20:7738 13.64"
+   ]
+  },
+  "gained": [
+   "pilote-p34-4.7.11:1834 juste",
+   "natif-p11:515 non jugé"
+  ],
+  "lost": [
+   "pilote-p31-fin-4.7.9:8373 juste",
+   "pilote-p2-4.7.18:1196 non jugé",
+   "pilote-p3-4.7.18:1196 non jugé",
+   "pilote-p12-4.7.20:7743 FAUX",
+   "natif-p11:473 non jugé",
+   "natif-p11:474 non jugé",
+   "natif-p11:513 non jugé",
+   "pilote-p11-4.7.20:662 non jugé",
+   "pilote-p11-4.7.20:663 juste"
+  ],
+  "changed": [
+   "pilote-p31-fin-4.7.9:8374 choice→crossing 3.49→4.51 mm",
+   "pilote-p31-fin-4.7.9:8375 window→choice 1.33→1.33 mm"
+  ]
+ }
+}
