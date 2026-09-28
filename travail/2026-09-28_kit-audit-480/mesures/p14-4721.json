@@ -158,6 +158,22 @@
   "min": 32,
   "total": 282508
  },
+ "observationMs": {
+  "n": 272,
+  "median": 230,
+  "p90": 976,
+  "max": 2454,
+  "min": 30,
+  "total": 105501
+ },
+ "analyseCompleteMs": {
+  "n": 272,
+  "median": 1047,
+  "p90": 2540,
+  "max": 5273,
+  "min": 62,
+  "total": 388009
+ },
  "decisionMs": {
   "n": 272,
   "median": 3,

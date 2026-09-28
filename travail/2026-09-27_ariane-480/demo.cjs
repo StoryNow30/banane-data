@@ -21,11 +21,12 @@ const now=Date.now(),iso=ms=>new Date(ms).toISOString();let t=now-40*1000*11;con
 const LABELS=['VALIDATE_NO_MOVEMENT','VALIDATE_CORRECTED_BOTH','VALIDATE_NO_MOVEMENT','VALIDATE_CORRECTED_LEFT_ONLY','VALIDATE_NO_MOVEMENT'];
 for(let i=0;i<42;i++){const d=(6+((i*37)%13)+(i%9===0?9:0))*1000;visits.push({visitId:'v'+i,visitIndex:i,identity:{part:34,cut:8414+i},startedAt:iso(t),endedAt:i<41?iso(t+d-300):null,label:i<41?LABELS[i%5]:null});t+=d;}
 const echo={native:{status:'RUNNING',visits,incomplete:[]},current:{identity:{part:34,cut:8455}},connection:{status:'ready'}};
-function init({b0,seq,proc,def,echo,debut,fige}){const t0=Date.now(),P=new Map(proc),D=new Map(def);
+function init({b0,seq,proc,def,echo,debut,fige,fin}){const t0=Date.now(),P=new Map(proc),D=new Map(def);
   const orbite=()=>{const tick=fige?debut*3:Math.floor((Date.now()-t0)/467),k=Math.min(debut+Math.floor(tick/3),seq.length-1),step=['capture','apply','validate'][tick%3];
-    const faits=seq.slice(0,k).map(s=>s.identity.cut);
-    const batch={...b0,state:'RUNNING',step,sequence:seq.slice(0,k+1),activeIdentity:seq[k].identity,
-      processed:faits.filter(c=>P.has(c)).map(c=>P.get(c)),deferred:faits.filter(c=>D.has(c)).map(c=>D.get(c)),stoppedAtEnd:null};
+    /* `fin` (audit qualité) : le lot arrêté à sa borne, tel qu'exporté. */
+    const faits=fin?seq.map(s=>s.identity.cut):seq.slice(0,k).map(s=>s.identity.cut);
+    const batch={...b0,state:fin?b0.state:'RUNNING',step,sequence:fin?seq:seq.slice(0,k+1),activeIdentity:fin?b0.activeIdentity:seq[k].identity,
+      processed:faits.filter(c=>P.has(c)).map(c=>P.get(c)),deferred:faits.filter(c=>D.has(c)).map(c=>D.get(c)),stoppedAtEnd:fin?b0.stoppedAtEnd:null};
     return {batch,current:{identity:seq[k].identity},connection:{status:'ready'},lastActionEvidence:{commandSent:true,navigationObserved:true,operatorDecision:'VALIDATE',beforeNavigationIdentity:seq[Math.max(0,k-1)].identity}};};
   const vue=()=>location.hash==='#native'?echo:location.hash==='#home'||!location.hash?{connection:{status:'ready'}}:orbite();
   window.chrome={runtime:{connect:()=>({onMessage:{addListener(){}},onDisconnect:{addListener(){}}}),
@@ -37,16 +38,18 @@ function init({b0,seq,proc,def,echo,debut,fige}){const t0=Date.now(),P=new Map(p
       a==='gcv1-diagnostic-export'?{format:'banane-gcv1-diagnostic-v1',observationCount:0,observations:[]}:
       a==='gcv1-corpus-export-plan'?{cloudIds:[],missingCaptureIds:[]}:{}};}}};}
 (async()=>{const browser=await chromium.launch({executablePath:'/opt/pw-browsers/chromium-1194/chrome-linux/chrome'});const bilan=[];
- const page=async(theme,{video=false,debut=40,fige=false,scale=2}={})=>{const ctx=await browser.newContext({viewport:{width:420,height:860},deviceScaleFactor:video?1:scale,colorScheme:theme,acceptDownloads:true,
+ const page=async(theme,{video=false,debut=40,fige=false,fin=false,scale=2}={})=>{const ctx=await browser.newContext({viewport:{width:420,height:860},deviceScaleFactor:video?1:scale,colorScheme:theme,acceptDownloads:true,
    ...(video?{recordVideo:{dir:out,size:{width:420,height:860}}}:{})});const p=await ctx.newPage();p.errs=[];
    p.on('pageerror',e=>p.errs.push(e.message));p.on('console',m=>{if(m.type()==='error')p.errs.push(m.text());});
-   await p.addInitScript(init,{b0,seq,proc,def,echo,debut,fige});return {ctx,p};};
+   await p.addInitScript(init,{b0,seq,proc,def,echo,debut,fige,fin});return {ctx,p};};
  /* Captures fixes. */
  for(const theme of ['dark','light']){const n=theme==='dark'?'sombre':'clair';
    let {ctx,p}=await page(theme);await p.goto('file://'+ROOT+'/panel.html#home');await p.waitForTimeout(1500);await p.screenshot({path:`${out}/1-accueil-${n}.png`});
    await p.click('#tab-native');await p.waitForTimeout(2200);await p.screenshot({path:`${out}/2-echo-${n}.png`});
    await p.click('#tab-automatic');await p.waitForTimeout(3200);await p.screenshot({path:`${out}/3-orbite-${n}.png`});
    await p.evaluate(()=>document.getElementById('lot-details').scrollIntoView({block:'start'}));await p.waitForTimeout(500);await p.screenshot({path:`${out}/4-orbite-details-${n}.png`});
+   await ctx.close();({ctx,p}=await page(theme,{fin:true}));await p.goto('file://'+ROOT+'/panel.html#automatic');await p.waitForTimeout(2500);
+   await p.evaluate(()=>document.getElementById('lot-compteurs').scrollIntoView({block:'start'}));await p.waitForTimeout(500);await p.screenshot({path:`${out}/4b-orbite-fin-${n}.png`});
    bilan.push(`${n} : erreurs ${p.errs.length?p.errs.join(' | '):'aucune'}`);await ctx.close();}
  /* Tout télécharger : quatre fichiers attendus (état simulé, stockage vide). */
  {const {ctx,p}=await page('dark',{fige:true});await p.goto('file://'+ROOT+'/panel.html#automatic');await p.waitForTimeout(1500);

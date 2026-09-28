@@ -19,8 +19,9 @@ erreur.
 
     node demo.cjs JOURNAL.json SORTIE/   (ARIANE=/chemin/vers/banane)
 
-## Paquet validé (28/09)
+## Paquet du matin du 28/09 : remplacé
 
-`ariane-v4.8.0.zip` (SHA-256 dans `ariane-v4.8.0.zip.sha256`), construit
-depuis `a68201a` de `banane` (branche `claude/banane-48-cahier`), deux
-constructions identiques. Voir `banane/PASSATION_4.8.0.md`.
+Le paquet construit depuis `a68201a` (`d3874290…`) est **retiré** : il garde
+KI-064 (Écho peut purger un nuage sans fichier confirmé). Paquet final 4.8.0,
+après l'audit qualité : `../2026-09-28_ariane-480-final/`. `demo.cjs` a une
+capture de plus (`4b-orbite-fin-*`, lot arrêté à sa borne).

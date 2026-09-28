@@ -6,9 +6,10 @@ Session réelle demandée à l'opérateur : `banane/consignes/chantier-8-operate
 
 ## 1. L'extension
 
-- Paquet : `../2026-09-27_ariane-480/ariane-v4.8.0.zip`, SHA-256 dans
-  `ariane-v4.8.0.zip.sha256` (construit depuis `a68201a` de `banane`,
-  reproductible). Chargeable dans Chromium ou Edge (« Charger l'extension
+- Paquet audité (retiré depuis, remplacé après l'audit par
+  `../2026-09-28_ariane-480-final/`) : `ariane-v4.8.0.zip` du matin, SHA-256
+  `d38742903b9ecaf3910ec34846cdc72b6ba1646586a1b549fad54c6e1b1fe58f`
+  (construit depuis `a68201a` de `banane`, reproductible). Chargeable dans Chromium ou Edge (« Charger l'extension
   non empaquetée » sur le dossier décompressé).
 - Sans ESV (application web privée, accès authentifié), le panneau s'ouvre
   mais aucun lot ne tourne. Le comportement dans ESV se lit dans les exports
@@ -58,7 +59,7 @@ partir des fichiers légers ci-dessus. Reproduire :
     node tools/perf-lot.cjs KIT/lots/p12-lot-4720/banane-journal-v4-1790404362008.json.gz --md sortie.md
     node tools/perf-lot.cjs KIT/lots/p14-4721/bilan-p14-4721-sans-nuages.json.gz --tous --md sortie.md
 
-| Lot | Cycle par cut (médiane / p90) | Lecture LiDAR (médiane / p90 / max) | Analyse (médiane / p90) |
+| Lot | Cycle par cut (médiane / p90) | Lecture LiDAR (médiane / p90 / max) | GCV1, capture → proposition (médiane / p90) |
 |---|---|---|---|
 | p12, 4.7.20 | 8,3 / 9,8 s | 5,7 / 6,4 / 10,1 s | 372 / 593 ms |
 | p11, 4.7.20 | 8,5 / 9,7 s | 6,1 / 6,8 / 7,5 s | 592 / 889 ms |

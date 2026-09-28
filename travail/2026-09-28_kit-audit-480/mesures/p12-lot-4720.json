@@ -101,6 +101,22 @@
   "min": 103,
   "total": 46229
  },
+ "observationMs": {
+  "n": 106,
+  "median": 95,
+  "p90": 302,
+  "max": 1831,
+  "min": 12,
+  "total": 16233
+ },
+ "analyseCompleteMs": {
+  "n": 106,
+  "median": 512,
+  "p90": 861,
+  "max": 4254,
+  "min": 115,
+  "total": 62462
+ },
  "decisionMs": {
   "n": 106,
   "median": 1,
