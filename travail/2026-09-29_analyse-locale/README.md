@@ -1,6 +1,6 @@
 # Kit d'analyse locale des exports (29/09/2026)
 
-`ariane-analyse-locale.zip`, SHA-256 dans `ariane-analyse-locale.zip.sha256`
+`ariane-analyse-locale.zip`, SHA-256 dans `SHA256SUMS`
 (`a38aae31…`), construit depuis la branche `claude/banane-48-cahier` de `banane`
 par `tools/kit-analyse-locale.py` (reproductible : deux constructions
 identiques). Mode d'emploi pas à pas dans le zip : `LISEZMOI.txt`.
@@ -26,3 +26,20 @@ nouvel outil `analyse-locale.cjs`, essais `tests/analyse-locale.test.cjs`.
 - Kit décompressé seul, hors du dépôt : mêmes résultats.
 - Le rejeu hors ligne (`--rejeu-lot`, études de règles) exige les points bruts :
   il reste possible sur un échantillon envoyé à part, jamais en mode léger.
+
+## Sans rien installer : `reducteur-exports.html` (poste de travail restreint)
+
+Une page unique (35 Ko, sans dépendance, aucune connexion réseau) à ouvrir dans Edge depuis le
+disque. Elle est assemblée depuis `banane` par `tools/navigateur/construire-reducteur.py`.
+
+- **Lot Orbite** (un dossier à la fois) : garde le journal et le diagnostic, compressés ;
+  écarte le corpus et le bilan. 198 Mo → 0,58 Mo sur le lot 25.
+- **Relecture Écho** : garde les visites sans les instantanés de rails, les observations et
+  captures de géométrie, les événements ni les nuages. 72 Mo → 0,41 Mo (partie 12) ;
+  989 Mo → 1,1 Mo (parties 11 et 15, mesuré avec le même code sous Node).
+- **Contrôles** : pilotée dans Chromium avec les vrais fichiers du lot 25 et de la relecture de la
+  partie 12 : le journal ressort octet pour octet, et le rapport d'acceptation sur les fichiers
+  produits est identique au rapport complet (0 différence hors libellés) ; essais
+  `tests/reducteur-exports.test.cjs`.
+- **Limite** : les fichiers allégés servent au rapport d'acceptation (C1 à C4, écarts, temps). Le
+  rejeu hors ligne et les études de règles exigent les exports complets, donc un échantillon.

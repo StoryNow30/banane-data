@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ariane — réducteur d'exports</title>
+<style>
+:root{--fond:#f7f8fa;--carte:#fff;--texte:#1f2328;--doux:#5b6470;--trait:#d8dde3;--accent:#1f6feb;--ok:#1a7f37;--alerte:#b35900}
+@media (prefers-color-scheme:dark){:root{--fond:#14171b;--carte:#1c2026;--texte:#e6e8eb;--doux:#98a2ad;--trait:#323944;--accent:#58a6ff;--ok:#3fb950;--alerte:#e3a13a}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--texte);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}h1{font-size:22px;margin:0 0 4px}.doux{color:var(--doux)}
+.carte{background:var(--carte);border:1px solid var(--trait);border-radius:12px;padding:16px;margin:16px 0}
+label.zone{display:block;border:2px dashed var(--trait);border-radius:12px;padding:28px 16px;text-align:center;cursor:pointer}
+label.zone.survol{border-color:var(--accent)}input[type=file]{display:none}
+button{font:inherit;padding:8px 14px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer}button:disabled{opacity:.5;cursor:default}
+ol{padding-left:20px;margin:8px 0}li{margin:4px 0}table{width:100%;border-collapse:collapse;font-size:14px}td,th{text-align:left;padding:5px 6px;border-bottom:1px solid var(--trait)}
+.ok{color:var(--ok)}.alerte{color:var(--alerte)}progress{width:100%;height:10px}a.tel{display:block;margin:6px 0;color:var(--accent);word-break:break-all}
+</style></head>
+<body><main>
+<h1>Ariane — réducteur d'exports</h1>
+<p class="doux">Rend un export assez léger pour être envoyé. <b>Rien n'est envoyé sur Internet</b> : tout se passe dans ce navigateur, sur ton ordinateur. Rien à installer.</p>
+<div class="carte"><ol>
+<li>Un dossier à la fois : un lot Orbite <b>ou</b> une relecture Écho.</li>
+<li>Glisse ici tous les fichiers .json du dossier (sélectionne-les tous avec Ctrl+A dans l'Explorateur), ou clique.</li>
+<li>Clique sur « Réduire », attends la fin (quelques minutes par Go), puis télécharge les fichiers proposés.</li>
+<li>Recommence pour chaque dossier, puis dépose tous les fichiers téléchargés dans la conversation.</li>
+</ol></div>
+<label class="zone" id="zone"><input type="file" id="fichiers" multiple accept=".json,application/json"><b>Choisir ou déposer les fichiers .json</b><br><span class="doux" id="choix">aucun fichier</span></label>
+<p><button id="go" disabled>Réduire</button> <span class="doux" id="etat"></span></p>
+<progress id="barre" value="0" max="1" hidden></progress>
+<div class="carte" id="journal" hidden><table><thead><tr><th>Fichier</th><th>Type</th><th>Poids</th><th>Suite</th></tr></thead><tbody id="lignes"></tbody></table></div>
+<div class="carte" id="resultats" hidden><b>À télécharger et à m'envoyer</b><div id="liens"></div><p class="doux" id="bilan"></p></div>
+</main>
+<script>
+/* Banane 2.4: pure snapshot math. No writes to ESV objects or matrix caches. */
+(function(root, factory) {
+  const api = factory();
+  if (typeof module === "object" && module.exports) module.exports = api;
+  else root.BananeCaptureCore = api;
+})(typeof globalThis !== "undefined" ? globalThis : this, function() {
+  "use strict";
+  const fail = s => { throw new Error(s); };
+  const finite = Number.isFinite;
+  const identity = () => [1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1];
+  const vector = v => {
+    const a = Array.isArray(v) ? v.slice(0,3) : [v?.x,v?.y,v?.z];
+    if (a.length !== 3 || !a.every(finite)) fail("Coordonnées absentes ou non finies.");
+    return a;
+  };
+  const matrix = m => {
+    const a = Array.from(m?.elements || m || []);
+    if (a.length !== 16 || !a.every(finite)) fail("Matrice 4 × 4 absente ou non finie.");
+    return a;
+  };
+  function affine(m) {
+    const a = matrix(m);
+    if (Math.max(Math.abs(a[3]),Math.abs(a[7]),Math.abs(a[11]),Math.abs(a[15]-1)) > 1e-12)
+      fail("Transformation affine attendue.");
+    return a;
+  }
+  function multiply(a,b) {
+    const c = Array(16).fill(0);
+    for(let j=0;j<4;j++) for(let i=0;i<4;i++)
+      for(let k=0;k<4;k++) c[4*j+i] += a[4*k+i]*b[4*j+k];
+    return c;
+  }
+  function inverse(m) {
+    const a = matrix(m);
+    const rows = Array.from({length:4},(_,i)=>[
+      a[i],a[4+i],a[8+i],a[12+i],...Array.from({length:4},(_,j)=>Number(i===j))
+    ]);
+    for(let col=0;col<4;col++) {
+      let p=col;
+      for(let i=col+1;i<4;i++) if(Math.abs(rows[i][col])>Math.abs(rows[p][col])) p=i;
+      if(Math.abs(rows[p][col])<1e-14) fail("Matrice singulière : repère non exploitable.");
+      [rows[col],rows[p]]=[rows[p],rows[col]];
+      const d=rows[col][col];
+      for(let j=0;j<8;j++) rows[col][j]/=d;
+      for(let i=0;i<4;i++) if(i!==col) {
+        const v=rows[i][col];
+        for(let j=0;j<8;j++) rows[i][j]-=v*rows[col][j];
+      }
+    }
+    return Array.from({length:16},(_,i)=>rows[i%4][4+Math.floor(i/4)]);
+  }
+  function point(m,p) {
+    const [x,y,z]=p, w=m[3]*x+m[7]*y+m[11]*z+m[15];
+    if(!finite(w)||Math.abs(w)<1e-15) fail("Projection non finie.");
+    const out=[(m[0]*x+m[4]*y+m[8]*z+m[12])/w,
+      (m[1]*x+m[5]*y+m[9]*z+m[13])/w,
+      (m[2]*x+m[6]*y+m[10]*z+m[14])/w];
+    if(!out.every(finite)) fail("Transformation non finie.");
+    return out;
+  }
+  const distance=(a,b)=>Math.hypot(...a.map((x,i)=>x-b[i]));
+  function translation(p) { const m=identity();m.splice(12,3,...p);return m; }
+  function rebase(m,origin) {
+    const a=affine(m);for(let i=0;i<3;i++) a[12+i]-=origin[i];return a;
+  }
+  function compose(o) {
+    if(o.matrixAutoUpdate===false) return affine(o.matrix);
+    const p=vector(o.position),s=vector(o.scale);
+    const q=o.quaternion, x=q?.x,y=q?.y,z=q?.z,w=q?.w;
+    if(![x,y,z,w].every(finite)||Math.abs(Math.hypot(x,y,z,w)-1)>1e-6)
+      fail("Quaternion absent ou non unitaire.");
+    const xx=x*x, yy=y*y, zz=z*z, xy=x*y, xz=x*z, yz=y*z, wx=w*x, wy=w*y, wz=w*z;
+    return [(1-2*(yy+zz))*s[0],2*(xy+wz)*s[0],2*(xz-wy)*s[0],0,
+      2*(xy-wz)*s[1],(1-2*(xx+zz))*s[1],2*(yz+wx)*s[1],0,
+      2*(xz+wy)*s[2],2*(yz-wx)*s[2],(1-2*(xx+yy))*s[2],0,...p,1];
+  }
+  function worldMatrix(o, seen=new Set()) {
+    if(!o || seen.has(o) || seen.size>80) fail("Hiérarchie 3D invalide.");
+    seen.add(o);
+    // Respect explicitly managed world matrices; never call updateMatrix*.
+    if(o.matrixWorldAutoUpdate===false) return affine(o.matrixWorld);
+    const local=compose(o);
+    return o.parent ? multiply(worldMatrix(o.parent,seen),local) : local;
+  }
+  function rotation(o) {
+    const e=o.rotation;
+    if(![e?.x,e?.y,e?.z].every(finite)||typeof e.order!=="string")
+      fail("Rotation Euler absente.");
+    return [e.x,e.y,e.z,e.order];
+  }
+  function railState(o) {
+    return {object:o,profile:o.children[1],railMatrix:worldMatrix(o),
+      profileMatrix:worldMatrix(o.children[1]),rotation:rotation(o),
+      profileRotation:rotation(o.children[1])};
+  }
+  function equalRails(a,b,tolerance=1e-9) {
+    return a.length===b.length && a.every((r,i)=>r.object===b[i].object && r.profile===b[i].profile &&
+      ["railMatrix","profileMatrix"].every(k=>r[k].every((v,j)=>Math.abs(v-b[i][k][j])<=tolerance)));
+  }
+  function serialRail(r,origin) {
+    const rm=rebase(r.railMatrix,origin),pm=rebase(r.profileMatrix,origin);
+    return {positionSceneRelative:point(rm,[0,0,0]),profileOriginSceneRelative:point(pm,[0,0,0]),
+      profileAxisLengthsSceneUnits:[0,4,8].map(i=>Math.hypot(pm[i],pm[i+1],pm[i+2])),
+      railLocalToSceneRelative:rm,profileLocalToSceneRelative:pm,
+      sceneRelativeToProfileLocal:inverse(pm),rotation:r.rotation,profileRotation:r.profileRotation};
+  }
+  function reference(before,after,origin,meta) {
+    const rails={};
+    for(let i=0;i<2;i++) {
+      const a=before[i], b=after[i], initial=serialRail(a,origin),corrected=serialRail(b,origin);
+      const inv=initial.sceneRelativeToProfileLocal;
+      const from=point(inv,initial.positionSceneRelative), to=point(inv,corrected.positionSceneRelative);
+      const d=to.map((v,j)=>v-from[j]);
+      rails[i===0?"left":"right"]={initial,corrected,initialLocal:from,correctedLocal:to,
+        displacementLocal:d,displacementSceneMeters:distance(initial.positionSceneRelative,corrected.positionSceneRelative),
+        initialRotation:a.rotation,correctedRotation:b.rotation,
+        positionChanged:distance(initial.positionSceneRelative,corrected.positionSceneRelative)>1e-8,
+        rotationChanged:JSON.stringify([a.rotation,a.profileRotation])!==JSON.stringify([b.rotation,b.profileRotation]),
+        observation:"État observé aux deux captures ; une absence de déplacement ne prouve pas une validation opérateur."};
+    }
+    return {...meta,rails};
+  }
+  // Support standard and interleaved BufferAttributes without calling setters.
+  function attribute(a) {
+    if(!a||!Number.isInteger(a.count)||a.count<0||!Number.isInteger(a.itemSize)||a.itemSize<1)
+      fail("Attribut géométrique non reconnu.");
+    const src=a.array||a.data?.array, stride=a.isInterleavedBufferAttribute?a.data?.stride:a.itemSize;
+    const offset=a.isInterleavedBufferAttribute?a.offset:0;
+    if(!ArrayBuffer.isView(src)||!Number.isInteger(stride)||stride<a.itemSize||!Number.isInteger(offset)||offset<0)
+      fail("Buffer de points non disponible en mémoire CPU.");
+    if(a.count && (a.count-1)*stride+offset+a.itemSize>src.length) fail("Buffer de points incomplet.");
+    // Float16's Uint16 backing data must be decoded by Three's accessors.
+    const getters=["getX","getY","getZ","getW"];
+    function get(i,k) {
+      if(k<4 && typeof a[getters[k]]==="function") return a[getters[k]](i);
+      let v=src[i*stride+offset+k];
+      if(a.isFloat16BufferAttribute) fail("Float16 sans accesseur de décodage.");
+      if(a.normalized) {
+        const type=src.constructor.name;
+        const max={Uint8Array:255,Uint8ClampedArray:255,Uint16Array:65535,Uint32Array:4294967295,
+          Int8Array:127,Int16Array:32767,Int32Array:2147483647}[type];
+        if(max) v=Math.max(-1,v/max);
+      }
+      return v;
+    }
+    const version=a.version, dataVersion=a.data?.version,count=a.count;
+    return {count:a.count,itemSize:a.itemSize,get,point:i=>[get(i,0),get(i,1),get(i,2)],
+      unchanged:()=>src===(a.array||a.data?.array)&&a.count===count &&
+        a.version===version&&a.data?.version===dataVersion,
+      metadata:{count:a.count,itemSize:a.itemSize,arrayType:src.constructor.name,
+        normalized:!!a.normalized,interleaved:!!a.isInterleavedBufferAttribute,stride,offset,version:version??null}};
+  }
+  return {identity,vector,matrix,affine,multiply,inverse,point,distance,translation,rebase,
+    worldMatrix,rotation,railState,equalRails,serialRail,reference,attribute};
+});
+
+</script>
+<script>
+(function(root,factory){const api=factory(typeof module==='object'?require('../vendor/capture-core.js'):root.BananeCaptureCore);
+ if(typeof module==='object')module.exports=api;else root.BananeCore3=api;
+})(typeof globalThis!=='undefined'?globalThis:this,function(C){
+ 'use strict';
+ /* D1 (4.8.5, D-061) : version de test = manifeste `4.8.5.N`, nom affiché
+  * « 4.8.5 test N » ; une version stable garde `X.Y.Z`. */
+ const VERSION='4.8.5.1',VERSION_NAME='4.8.5 test 1';
+ const clone=x=>JSON.parse(JSON.stringify(x)),uid=()=>typeof crypto!=='undefined'&&crypto.randomUUID?crypto.randomUUID():`${Date.now()}-${Math.random()}`;
+ const key=x=>`${x.pageId}|${x.part}|${x.cut}`;
+ const identityFields=['pageId','part','cut','shape','frameId','projectId'];
+ const identityValue=(x,k)=>k==='projectId'?(x?.projectId??(x?.project&&x.project!=='not-observed'?x.project:null)):x?.[k];
+ const cutId=x=>identityFields.map(k=>identityValue(x,k)??'not-observed').join('|');
+ function completeIdentity(x){return Object.fromEntries(identityFields.map(k=>[k,identityValue(x,k)??null]));}
+ function differences(a,b){return identityFields.filter(k=>identityValue(a,k)!==identityValue(b,k));}
+ function assertTarget(a,b){const changed=differences(a,b);if(changed.length)throw Error('Cible différente : '+changed.join(', '));}
+ // Only these errors from the bundled, read-only exporter describe replaceable
+ // LOD data. Camera, clipping, target, cancellation and write errors stay fatal.
+ const TRANSIENT_CAPTURE_ERRORS=new Set([
+   "Les nœuds LiDAR visibles ont changé pendant l'export. Attends la fin du chargement puis réessaie.",
+   "Le nuage ou sa matrice a changé pendant l'export. Recommence lorsque la vue est stable.",
+   'Le nuage a changé pendant le relevé des échantillons de diagnostic. Recommence sur une vue stable.',
+   'Niveau de détail non stabilisé.'
+ ]);
+ function transientCaptureError(error){const message=typeof error==='string'?error:error?.message;
+   return TRANSIENT_CAPTURE_ERRORS.has(message)||typeof message==='string'&&message.startsWith('Lecture LiDAR instable :');}
+ function equalPoses(a,b,tolerance=1e-7){return ['left','right'].every(s=>['railLocalToSceneRelative','profileLocalToSceneRelative'].every(k=>
+   Array.isArray(a?.[s]?.[k])&&Array.isArray(b?.[s]?.[k])&&a[s][k].length===16&&b[s][k].length===16&&
+   a[s][k].every((v,i)=>Number.isFinite(v)&&Number.isFinite(b[s][k][i])&&Math.abs(v-b[s][k][i])<=tolerance)));}
+ function reference(before,after,lidarId,sessionId){
+   assertTarget(before.identity,after.identity);const rails={};
+   for(const s of ['left','right']){const a=before.rails[s],b=after.rails[s],inv=a.sceneRelativeToProfileLocal;
+     const from=C.point(inv,a.positionSceneRelative),to=C.point(inv,b.positionSceneRelative);
+     const delta=to.map((v,i)=>v-from[i]);rails[s]={initial:clone(a),corrected:clone(b),
+       displacementLocal:delta,displacementSceneMeters:C.distance(a.positionSceneRelative,b.positionSceneRelative),
+       positionChanged:C.distance(a.positionSceneRelative,b.positionSceneRelative)>1e-8,
+       rotationChanged:JSON.stringify([a.rotation,a.profileRotation])!==JSON.stringify([b.rotation,b.profileRotation])};}
+   return {format:'banane-manual-reference-v3',version:VERSION,recordId:uid(),sessionId,
+     visitId:`${before.identity.frameId}:${before.identity.part}:${before.identity.cut}`,
+     coordinateBridge:{sceneFrameId:before.identity.frameId,captureSceneRelativeToSessionSceneRelative:C.identity()},
+     ...before.identity,identity:clone(before.identity),startedAt:before.capturedAt,capturedAt:after.capturedAt,
+     source:'explicit-before-after',lidarCaptureId:lidarId,rails};
+ }
+ function expectedPoses(before,proposals){
+   const out=clone(before.rails);
+   for(const s of ['left','right']){const p=proposals[s];if(!p?.delta)throw Error('Proposition absente : '+s);
+     const world=C.point(before.rails[s].profileLocalToSceneRelative,p.delta);
+     const origin=C.point(before.rails[s].profileLocalToSceneRelative,[0,0,0]);
+     const d=world.map((v,i)=>v-origin[i]),r=out[s];
+     for(const name of ['railLocalToSceneRelative','profileLocalToSceneRelative'])r[name]=C.multiply(C.translation(d),r[name]);
+     r.sceneRelativeToProfileLocal=C.inverse(r.profileLocalToSceneRelative);
+     r.positionSceneRelative=C.point(r.railLocalToSceneRelative,[0,0,0]);
+     r.profileOriginSceneRelative=C.point(r.profileLocalToSceneRelative,[0,0,0]);
+   }return out;
+ }
+ function parse(text,name='fichier'){
+   let d;try{d=JSON.parse(text);}catch(e){throw Error(name+' : JSON invalide : '+e.message);}
+   if(!d||typeof d!=='object'||Array.isArray(d))throw Error(name+' : objet JSON attendu.');return d;
+ }
+ function pairCorpus(files){
+   const captures=new Map(),records=new Map(),errors=[],duplicates=[];
+   for(const f of files){let d;try{d=parse(f.text,f.name);}catch(e){errors.push(e.message);continue;}
+     const arrays={};for(const name of ['clouds','records','manualReferences']){
+       if(d[name]!==undefined&&!Array.isArray(d[name]))errors.push(f.name+' : '+name+' doit être une liste.');
+       arrays[name]=Array.isArray(d[name])?d[name]:[];
+     }
+     for(const cloud of [d,...arrays.clouds])if(cloud?.captureId&&Array.isArray(cloud.pointsSceneRelative)){
+       if(captures.has(cloud.captureId)&&JSON.stringify(captures.get(cloud.captureId).data)!==JSON.stringify(cloud))errors.push('captureId contradictoire : '+cloud.captureId);
+       else captures.set(cloud.captureId,{name:f.name,data:cloud});
+     }
+     for(const r of [...arrays.records,...arrays.manualReferences]){if(!r?.recordId)continue;
+       if(records.has(r.recordId)){if(JSON.stringify(records.get(r.recordId).data)!==JSON.stringify(r))errors.push('recordId contradictoire : '+r.recordId);else duplicates.push(r.recordId);}
+       else records.set(r.recordId,{name:f.name,data:r});}
+   }
+   const paired=[],missing=[];
+   for(const r of records.values()){
+     const c=captures.get(r.data.lidarCaptureId);if(!c){missing.push(r);continue;}
+     const fields=['part','cut','shape','sessionId','visitId'];
+     const bad=fields.filter(k=>r.data[k]===undefined||c.data[k]===undefined||r.data[k]!==c.data[k]);
+     if(r.data.coordinateBridge?.sceneFrameId!==c.data.coordinateBridge?.sceneFrameId)bad.push('sceneFrameId');
+     for(const s of ['left','right']){const initial=r.data.rails?.[s]?.initial,rail=c.data.rails?.[s];
+       if(!initial||!rail||JSON.stringify(initial.profileLocalToSceneRelative)!==JSON.stringify(rail.profileLocalToSceneRelative))bad.push(s+'.initial');}
+     if(bad.length)errors.push('Association refusée '+r.data.recordId+' : '+bad.join(', '));else paired.push({reference:r,capture:c});
+   }
+   return {paired,missing,errors,duplicates,uniqueRecords:records.size,uniqueCaptures:captures.size};
+ }
+ function manualDecision(rails,operatorDecision){
+   if(operatorDecision==='SKIP')return 'SKIP';
+   if(operatorDecision!=='VALIDATE')return null;
+   const left=!!rails?.left?.positionChanged,right=!!rails?.right?.positionChanged;
+   return left&&right?'VALIDATE_CORRECTED_BOTH':left?'VALIDATE_CORRECTED_LEFT_ONLY':right?'VALIDATE_CORRECTED_RIGHT_ONLY':'VALIDATE_NO_MOVEMENT';
+ }
+ return {C,VERSION,VERSION_NAME,identityFields,clone,uid,key,cutId,completeIdentity,differences,assertTarget,transientCaptureError,equalPoses,reference,expectedPoses,manualDecision,parse,pairCorpus};
+});
+
+</script>
+<script>
+/* Banane V4.5-R — format d'export compact, sans perte d'information.
+ *
+ * Problème traité : l'export Natif v2 répète massivement les mêmes structures
+ * (repère de rail avec contours de profil, identité, observation de vue, repère
+ * de coordonnées) dans chaque chunk, chaque snapshot et chaque résumé de
+ * capture, et il stocke `pointsProfileLocal` qui est le produit exact de
+ * `sceneRelativeToProfileLocal` par `pointsSceneRelative`.
+ *
+ * Mesure sur le témoin 1789328681673 (88,9 Mo) :
+ *   pointsProfileLocal   24,0 Mo (27 %)  — dérivable
+ *   rail dupliqué         6,2 Mo         — 57 repères distincts sur 301 chunks
+ *   résumés de capture    6,5 Mo         — railObservations avec contours
+ *   pointSources          4,0 Mo         — diagnostic pur
+ *
+ * Ce module interne les structures répétées dans des dictionnaires et retire
+ * les champs strictement dérivables. `expand()` reconstruit le document v2.
+ *
+ * Contrat de non-régression : `buildEngineInput` (native-offline-evaluate.cjs)
+ * ne lit QUE `pointsSceneRelative` et `visibleByClipBoxes`. `pointsProfileLocal`
+ * n'est lu qu'en un seul point, qui possède déjà un repli le recalculant.
+ * Le retrait est donc sans effet sur les résultats du moteur.
+ */
+(function (root, factory) {
+  const api = factory(typeof module === 'object' ? require('./core.js') : root.BananeCore3);
+  if (typeof module === 'object') module.exports = api; else root.BananeNativeExport = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this, function (K) {
+  'use strict';
+
+  const FORMAT = 'banane-native-session-v3-compact';
+  const REF = '__ref';
+  const CHUNK = 'banane-native-lidar-chunk-v1';
+  const CAPTURE = 'banane-native-lidar-capture-v2';
+
+  // Structures internées. L'ordre compte : la première correspondance gagne.
+  const SHAPES = [
+    {
+      name: 'rails',
+      match: o => typeof o.railLocalToSceneRelative === 'object' && Array.isArray(o.railLocalToSceneRelative) &&
+        Array.isArray(o.profileLocalToSceneRelative) && Array.isArray(o.sceneRelativeToProfileLocal),
+    },
+    {
+      name: 'views',
+      match: o => o.viewEpochId !== undefined && o.camera !== undefined,
+    },
+    {
+      name: 'coords',
+      match: o => o.name === 'scene-relative' && typeof o.matrixLayout === 'string',
+    },
+    {
+      name: 'identities',
+      match: o => 'pageId' in o && 'part' in o && 'cut' in o && 'frameId' in o && Object.keys(o).length <= 8,
+    },
+  ];
+
+  function shapeOf(o) {
+    for (const s of SHAPES) { try { if (s.match(o)) return s.name; } catch (_) { /* forme non concernée */ } }
+    return null;
+  }
+
+  /* Dictionnaires partagés : permet de compacter en flux, chunk par chunk,
+   * sans jamais charger toute la session en mémoire. */
+  function createInterner() {
+    const store = {}, index = {};
+    for (const s of SHAPES) { store[s.name] = []; index[s.name] = new Map(); }
+    return {
+      dictionaries: store,
+      /* Poids sérialisé courant des dictionnaires. Chaque segment étant
+       * autonome, il reconstruit ses propres dictionnaires : mesuré sur un
+       * export réel, ils pèsent 7,2 Mo par segment. Sans ce suivi, un budget
+       * de segment calculé sur les seuls nuages est dépassé de plusieurs Mo. */
+      bytes: 2,
+      intern(name, value) {
+        const k = JSON.stringify(value);
+        const map = index[name];
+        let i = map.get(k);
+        if (i === undefined) {
+          i = store[name].length; store[name].push(JSON.parse(k)); map.set(k, i);
+          this.bytes += k.length + 1;
+        }
+        return i;
+      },
+      stats() {
+        const out = {};
+        for (const s of SHAPES) out[s.name] = store[s.name].length;
+        return out;
+      },
+    };
+  }
+
+  /* Remplace récursivement toute structure connue par une référence. */
+  function foldRefs(value, interner) {
+    if (Array.isArray(value)) {
+      // Tableau de points : aucune sous-structure à interner, on court-circuite.
+      if (value.length && Array.isArray(value[0]) && typeof value[0][0] === 'number') return value;
+      return value.map(v => foldRefs(v, interner));
+    }
+    if (!value || typeof value !== 'object') return value;
+    const shape = shapeOf(value);
+    if (shape) return { [REF]: shape + ':' + interner.intern(shape, value) };
+    const out = {};
+    for (const k of Object.keys(value)) out[k] = foldRefs(value[k], interner);
+    return out;
+  }
+
+  function unfoldRefs(value, dictionaries) {
+    if (Array.isArray(value)) {
+      if (value.length && Array.isArray(value[0]) && typeof value[0][0] === 'number') return value;
+      return value.map(v => unfoldRefs(v, dictionaries));
+    }
+    if (!value || typeof value !== 'object') return value;
+    const ref = value[REF];
+    if (typeof ref === 'string') {
+      const sep = ref.lastIndexOf(':');
+      const name = ref.slice(0, sep), i = Number(ref.slice(sep + 1));
+      const table = dictionaries[name];
+      if (!table || !table[i]) throw Error('Référence de dictionnaire introuvable : ' + ref);
+      return JSON.parse(JSON.stringify(table[i]));
+    }
+    const out = {};
+    for (const k of Object.keys(value)) out[k] = unfoldRefs(value[k], dictionaries);
+    return out;
+  }
+
+  /* Champs strictement dérivables retirés des chunks LiDAR. */
+  function stripDerived(cloud, options) {
+    if (cloud.format !== CHUNK) return cloud;
+    const dropped = [];
+    const out = {};
+    for (const k of Object.keys(cloud)) {
+      if (k === 'pointsProfileLocal' && options.dropProfileLocal !== false) { dropped.push(k); continue; }
+      if (k === 'pointSources' && options.dropPointSources !== false) { dropped.push(k); continue; }
+      out[k] = cloud[k];
+    }
+    if (dropped.length) out.droppedDerivedFields = dropped;
+    return out;
+  }
+
+  function restoreDerived(cloud) {
+    const dropped = cloud.droppedDerivedFields;
+    if (!Array.isArray(dropped) || !dropped.length) return cloud;
+    const out = { ...cloud };
+    delete out.droppedDerivedFields;
+    if (dropped.includes('pointsProfileLocal')) {
+      const m = out.rail && out.rail.sceneRelativeToProfileLocal;
+      out.pointsProfileLocal = m && Array.isArray(out.pointsSceneRelative)
+        ? out.pointsSceneRelative.map(p => K.C.point(m, p))
+        : [];
+    }
+    if (dropped.includes('pointSources')) out.pointSources = null; // diagnostic non reconstructible
+    return out;
+  }
+
+  /* --- API par objet, pour un export en flux --- */
+  function compactCloud(cloud, interner, options) {
+    return foldRefs(stripDerived(cloud, options || {}), interner);
+  }
+  function expandCloud(cloud, dictionaries) {
+    return restoreDerived(unfoldRefs(cloud, dictionaries));
+  }
+
+  /* --- API document complet --- */
+  function compact(doc, options) {
+    const opt = options || {};
+    const interner = createInterner();
+    const { clouds, ...rest } = doc;
+    const meta = foldRefs(rest, interner);
+    const packed = (clouds || []).map(c => compactCloud(c, interner, opt));
+    return {
+      ...meta,
+      format: FORMAT,
+      compactedFrom: doc.format || null,
+      compaction: {
+        tool: 'native-export.js',
+        droppedDerivedFields: [
+          opt.dropProfileLocal === false ? null : 'pointsProfileLocal',
+          opt.dropPointSources === false ? null : 'pointSources',
+        ].filter(Boolean),
+        dictionarySizes: interner.stats(),
+        note: 'Aucune valeur modifiée. pointsProfileLocal est recalculable exactement ' +
+          'par sceneRelativeToProfileLocal x pointsSceneRelative ; pointSources est un diagnostic.',
+      },
+      clouds: packed,
+      dictionaries: interner.dictionaries,
+    };
+  }
+
+  /* KI-060 (4.7.20) — jusqu'à la 4.7.19, le nuage qui déclenchait la coupe d'un
+   * segment était compacté avec le dictionnaire du segment EN COURS, puis écrit
+   * en tête du segment SUIVANT, dont le dictionnaire est neuf : ses références
+   * visent le dictionnaire du segment précédent. Lu avec le sien, il échoue
+   * (« référence introuvable ») ou, pire, prend les entrées d'un autre nuage
+   * (terrain du 25/09, bilan de la partie 6 : pose de départ du rail gauche d'un
+   * autre cut). Un tel segment est reconnu par sa trace : ouvert au fil de
+   * l'export (plus d'objets écrits au total que dans le segment) et sans la
+   * marque `selfContained` des exports 4.7.20. Sans trace : index ≥ 2. */
+  function misfiledHead(doc) {
+    const seg = doc && doc.segment, t = doc && doc.exportTrace;
+    if (!seg || seg.selfContained === true || doc.format !== FORMAT || !(doc.clouds || []).length) return false;
+    if (!t || !Number.isFinite(t.cloudObjects) || !Number.isFinite(t.segmentObjects)) return (seg.index || 0) >= 2;
+    return t.cloudObjects > t.segmentObjects;
+  }
+
+  /* `options.previousDictionaries` : dictionnaires du segment précédent du même
+   * export (même `segment.stamp`, index − 1), pour relire le premier nuage d'un
+   * segment touché par KI-060. Sans eux, ce nuage est retiré plutôt que lu faux ;
+   * `segmentRepair` le dit dans le document. */
+  function expand(doc, options) {
+    if (doc.format !== FORMAT) return doc;
+    const dictionaries = doc.dictionaries || {}, previous = options && options.previousDictionaries;
+    const { clouds, dictionaries: _d, compaction, compactedFrom, ...rest } = doc;
+    const meta = unfoldRefs(rest, dictionaries);
+    meta.format = compactedFrom || 'banane-native-session-v2';
+    let list = clouds || [], head = [], repair = null;
+    if (misfiledHead(doc)) {
+      if (previous) {
+        head = [expandCloud(list[0], previous)];
+        repair = { issue: 'KI-060', action: 'reread', note: 'premier nuage relu avec le dictionnaire du segment précédent' };
+      } else {
+        repair = { issue: 'KI-060', action: 'dropped', note: 'premier nuage retiré : ses références visent le dictionnaire du segment précédent, absent' };
+      }
+      list = list.slice(1);
+    }
+    return { ...meta, ...(repair ? { segmentRepair: repair } : {}),
+      clouds: [...head, ...list.map(c => expandCloud(c, dictionaries))] };
+  }
+
+  return { FORMAT, REF, SHAPES, createInterner, foldRefs, unfoldRefs, compactCloud, expandCloud, compact, expand, misfiledHead };
+});
+
+</script>
+<script>
+/* Réducteur d'exports — cœur commun au navigateur (tools/reducteur-exports.html) et à Node (essais).
+ *
+ * But : rendre un export d'Ariane assez léger pour être envoyé, sans rien installer. Un lot Orbite
+ * n'a besoin que de son journal et de son diagnostic (le corpus de nuages et le bilan pèsent 95 %
+ * du poids et ne changent aucun chiffre du rapport d'acceptation). Une relecture Écho n'a besoin que
+ * de ses visites, sans les instantanés de rails, les observations de géométrie, les captures de
+ * géométrie, les événements et les nuages. Le rapport d'acceptation (tools/acceptance-report.cjs)
+ * donne les mêmes résultats sur ces fichiers allégés (tests/reducteur-exports.test.cjs).
+ * Le rejeu hors ligne et les études de règles exigent en revanche les exports complets. */
+(function (root, factory) {
+  const api = factory(typeof module === 'object' ? require('../src/native-export.js') : root.BananeNativeExport);
+  if (typeof module === 'object') module.exports = api; else root.ArianeReducteur = api;
+})(typeof self !== 'undefined' ? self : this, function (X) {
+  'use strict';
+  const LOURDS = ['railSnapshots', 'geometryObservations', 'geometryCaptures'];
+  const FORMATS = {
+    'banane-test-journal-v4': 'journal', 'banane-gcv1-diagnostic-v1': 'diagnostic', 'banane-gcv1-lidar-corpus-v1': 'corpus',
+    'banane-test-dataset-v4': 'bilan', 'banane-native-session-v2': 'relecture', 'banane-native-session-v3-compact': 'relecture',
+  };
+  /* Le format est la première clé de chaque export : les quelques centaines d'octets du début suffisent. */
+  function classer(entete) {
+    const m = /"format"\s*:\s*"([^"]+)"/.exec(String(entete).slice(0, 600));
+    return (m && FORMATS[m[1]]) || 'autre';
+  }
+  const alleger = record => { const r = { ...record }; for (const k of LOURDS) delete r[k]; return r; };
+
+  /* Relecture : les segments d'un export se donnent dans l'ordre des noms de fichier (l'horodatage du vidage,
+   * puis segNN). Chaque segment est relu avec les dictionnaires du précédent (KI-060), ses visites sont
+   * allégées, et pour une même visite la plus récente l'emporte. */
+  class Relecture {
+    constructor() { this.records = new Map(); this.precedent = null; this.segments = 0; this.visitesLues = 0; this.octetsLourds = 0; this.debut = null; this.version = null; }
+    ajouter(brut) {
+      const seg = brut.segment || {}, stamp = String(seg.stamp || ''), index = seg.index || 0;
+      const prev = this.precedent && this.precedent.stamp === stamp && this.precedent.index === index - 1 ? this.precedent.dictionaries : null;
+      const plein = X.expand(brut, { previousDictionaries: prev });
+      this.precedent = brut.dictionaries ? { stamp, index, dictionaries: brut.dictionaries } : null;
+      const at = String(plein.exportedAt || '');
+      for (const r of plein.records || []) {
+        const cle = r.recordId || r.id || r.visitId;
+        if (!cle) continue;
+        this.visitesLues++;
+        const ancien = this.records.get(cle);
+        if (!ancien || at >= ancien.at) this.records.set(cle, { at, record: alleger(r) });
+      }
+      this.segments++; this.version = plein.version ?? this.version; this.debut = this.debut || plein.session?.startedAt || null;
+      return { visites: (plein.records || []).length };
+    }
+    parties() { return [...new Set([...this.records.values()].map(x => x.record.identity?.part).filter(Number.isInteger))].sort((a, b) => a - b); }
+    /* Un ou plusieurs documents lisibles par acceptance-report (kindOf : `session` + `records`) ; au-delà de
+     * `maxOctets` de JSON, les visites sont réparties en plusieurs documents (la fusion en fait l'union). */
+    documents(maxOctets = 150e6) {
+      const docs = []; let lot = [], taille = 0;
+      const clore = () => { if (lot.length) docs.push(lot); lot = []; taille = 0; };
+      for (const { record } of this.records.values()) {
+        const n = JSON.stringify(record).length;
+        if (lot.length && taille + n > maxOctets) clore();
+        lot.push(record); taille += n;
+      }
+      clore();
+      if (!docs.length) docs.push([]);
+      return docs.map((records, i) => ({
+        format: 'ariane-relecture-reduite-v1', version: this.version, session: { id: 'reduite', startedAt: this.debut },
+        reduction: { outil: 'reducteur-exports', partie: i + 1, sur: docs.length, segments: this.segments, retire: [...LOURDS, 'events', 'clouds'] },
+        records, events: [], clouds: [],
+      }));
+    }
+  }
+  return { classer, alleger, Relecture, LOURDS, FORMATS };
+});
+
+</script>
+<script>
+(function(){'use strict';
+const R=self.ArianeReducteur,$=id=>document.getElementById(id),Mo=n=>n>=1e9?(n/1e9).toFixed(2)+' Go':(n/1e6).toFixed(n<1e7?2:0)+' Mo';
+let fichiers=[];
+const choisir=l=>{fichiers=[...l].filter(f=>/\.json$/i.test(f.name)).sort((a,b)=>a.name.localeCompare(b.name,'fr',{numeric:true}));
+  $('choix').textContent=fichiers.length?`${fichiers.length} fichier(s), ${Mo(fichiers.reduce((n,f)=>n+f.size,0))}`:'aucun fichier .json';$('go').disabled=!fichiers.length;};
+$('fichiers').addEventListener('change',e=>choisir(e.target.files));
+const zone=$('zone');['dragover','dragenter'].forEach(t=>zone.addEventListener(t,e=>{e.preventDefault();zone.classList.add('survol');}));
+['dragleave','drop'].forEach(t=>zone.addEventListener(t,e=>{e.preventDefault();zone.classList.remove('survol');}));
+zone.addEventListener('drop',e=>choisir(e.dataTransfer.files));
+async function gz(blob){return new Response(blob.stream().pipeThrough(new CompressionStream('gzip'))).blob();}
+function lien(nom,blob){const a=document.createElement('a');a.className='tel';a.href=URL.createObjectURL(blob);a.download=nom;a.textContent=`${nom} (${Mo(blob.size)})`;$('liens').appendChild(a);}
+function ligne(nom,type,taille,suite,cls){const tr=document.createElement('tr');for(const [t,c] of [[nom],[type],[Mo(taille)],[suite,cls]]){const td=document.createElement('td');td.textContent=t;if(c)td.className=c;tr.appendChild(td);}$('lignes').appendChild(tr);return tr;}
+$('go').addEventListener('click',async()=>{
+  $('go').disabled=true;$('journal').hidden=false;$('resultats').hidden=false;$('lignes').innerHTML='';$('liens').innerHTML='';$('bilan').textContent='';
+  const barre=$('barre');barre.hidden=false;barre.max=fichiers.length;barre.value=0;
+  const rel=new R.Relecture(),bilans=[];let avant=0,garde=0,journaux=0,fait=0,relus=0;
+  try{
+    for(const f of fichiers){
+      $('etat').textContent=`${f.name}…`;avant+=f.size;
+      const type=R.classer(await f.slice(0,700).text());
+      if(type==='journal'||type==='diagnostic'){const b=await gz(f);lien(f.name+'.gz',b);garde+=b.size;if(type==='journal')journaux++;ligne(f.name,type,f.size,'gardé, compressé','ok');}
+      else if(type==='bilan'){bilans.push(f);ligne(f.name,type,f.size,'écarté (le journal suffit)','doux');}
+      else if(type==='corpus')ligne(f.name,type,f.size,'écarté (nuages de points inutiles)','doux');
+      else if(type==='relecture'){rel.ajouter(JSON.parse(await f.text()));relus++;ligne(f.name,type,f.size,'allégé','ok');}
+      else ligne(f.name,'inconnu',f.size,'ignoré','alerte');
+      barre.value=++fait;await new Promise(r=>setTimeout(r));
+    }
+    if(relus){$('etat').textContent='compression de la relecture…';const docs=rel.documents(),parties=rel.parties().join('-')||'x';
+      for(let i=0;i<docs.length;i++){const b=await gz(new Blob([JSON.stringify(docs[i])]));lien(`relecture-reduite-p${parties}${docs.length>1?'-'+(i+1):''}.json.gz`,b);garde+=b.size;}}
+    if(!journaux&&bilans.length&&!relus){const total=bilans.reduce((n,f)=>n+f.size,0);
+      $('bilan').innerHTML='<span class="alerte">Aucun journal dans ce dossier : je n\'ai gardé que les bilans ci-dessous.</span>';
+      for(const f of bilans){const b=await gz(f);lien(f.name+'.gz',b);garde+=b.size;}void total;}
+    $('etat').textContent='terminé';
+    $('bilan').textContent+=` ${Mo(avant)} lus, ${Mo(garde)} à envoyer.`+(relus&&!journaux?' (Relecture : visites seules, sans nuages.)':'');
+  }catch(e){$('etat').textContent='';$('bilan').innerHTML='<span class="alerte">Erreur : '+String(e&&e.message||e).replace(/[<>&]/g,'')+' — recopie ce message pour moi. Si le navigateur manque de mémoire, ferme les autres onglets et réessaie avec moins de fichiers.</span>';}
+  finally{$('go').disabled=false;barre.hidden=true;}
+});
+})();
+</script></body></html>
