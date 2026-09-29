@@ -1,0 +1,63 @@
+{
+ "ancienne": {
+  "nom": "4.8.5 test 1",
+  "id": "helcfgggnpdmimeapgbkeccdhdaendfp"
+ },
+ "nouvelle": {
+  "nom": "4.8.5 test 2",
+  "id": "iodilkelciokiblplegobonpeagchmaa"
+ },
+ "ordreA": {
+  "premier": "4.8.5 test 1",
+  "second": "4.8.5 test 2",
+  "premierConnecte": {
+   "erreur": "Ouvre une coupe dans ESV 3D."
+  },
+  "marqueurApresPremier": {
+   "version": "4.8.5.1",
+   "versionName": "4.8.5 test 1",
+   "proprietaire": "helcfgggnpdmimeapgbkeccdhdaendfp"
+  },
+  "secondConnecte": {
+   "erreur": "Une autre Ariane (4.8.5 test 1) est active dans cet onglet : désactive-la dans edge://extensions, puis F5 sur ESV."
+  },
+  "marqueurApresSecond": {
+   "version": "4.8.5.1",
+   "versionName": "4.8.5 test 1",
+   "proprietaire": "helcfgggnpdmimeapgbkeccdhdaendfp"
+  },
+  "premierReconnecte": {
+   "erreur": "Ouvre une coupe dans ESV 3D."
+  }
+ },
+ "ordreB": {
+  "premier": "4.8.5 test 2",
+  "second": "4.8.5 test 1",
+  "premierConnecte": {
+   "erreur": "Ouvre une coupe dans ESV 3D."
+  },
+  "marqueurApresPremier": {
+   "version": "4.8.5.2",
+   "versionName": "4.8.5 test 2",
+   "proprietaire": "iodilkelciokiblplegobonpeagchmaa"
+  },
+  "secondConnecte": {
+   "erreur": "Une autre Ariane (4.8.5 test 2) est active dans cet onglet : désactive-la dans edge://extensions, puis F5 sur ESV."
+  },
+  "marqueurApresSecond": {
+   "version": "4.8.5.2",
+   "versionName": "4.8.5 test 2",
+   "proprietaire": "iodilkelciokiblplegobonpeagchmaa"
+  },
+  "premierReconnecte": {
+   "erreur": "Ouvre une coupe dans ESV 3D."
+  }
+ },
+ "verdict": {
+  "refusAvantInjection": true,
+  "refusParAdaptateur": true,
+  "nouvelleResteMaitre": true,
+  "ok": true
+ },
+ "erreurs": []
+}
