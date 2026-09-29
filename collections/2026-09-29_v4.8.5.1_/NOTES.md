@@ -12,3 +12,10 @@ Lot de validation J2 sur la partie 25, exécuté par l'opérateur avec le paquet
 - Fin du lot : pause « Adaptateur ESV sans réponse » après la validation du cut 8338
   (dernier cut visité), sans perte de données ; il restait 12 cuts non validés,
   tous différés par Orbite.
+
+## Relecture Écho de la partie 25 (envoyée le 29/09 après le lot)
+
+- `relecture p25/ECHO_25.7z` : 6 segments `ariane-native-v4-…` (242 Mo décompressés), 235 visites ;
+  SHA-256 dans `relecture p25/SHA256SUMS`. Relecture faite avec « Ariane 4.8.5 TEST » (test 1), observation active.
+- Repère : frameId différent entre le lot et la relecture ; translation unique vérifiée sur 81/81 cuts.
+- Résultat : voir `audit/lot-485-p25-2026-09-29.md` (dépôt banane) : 62 posés jugés sur 69, 2 faux (cuts 112 et 113).
