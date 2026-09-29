@@ -1,0 +1,63 @@
+{
+ "ancienne": {
+  "nom": "4.8.0",
+  "id": "dajhgbilcmjmdedeeablbemokhikknpl"
+ },
+ "nouvelle": {
+  "nom": "4.8.5",
+  "id": "dpdmbhmojfhpcennamapkbeppgadahaf"
+ },
+ "ordreA": {
+  "premier": "4.8.0",
+  "second": "4.8.5",
+  "premierConnecte": {
+   "erreur": "Ouvre une coupe dans ESV 3D."
+  },
+  "marqueurApresPremier": {
+   "version": "4.8.0",
+   "versionName": null,
+   "proprietaire": null
+  },
+  "secondConnecte": {
+   "erreur": "Une autre Ariane (4.8.0) est active dans cet onglet : désactive-la dans edge://extensions, puis F5 sur ESV. Si c’est une mise à jour de cette Ariane, F5 suffit."
+  },
+  "marqueurApresSecond": {
+   "version": "4.8.0",
+   "versionName": null,
+   "proprietaire": null
+  },
+  "premierReconnecte": {
+   "erreur": "Ouvre une coupe dans ESV 3D."
+  }
+ },
+ "ordreB": {
+  "premier": "4.8.5",
+  "second": "4.8.0",
+  "premierConnecte": {
+   "erreur": "Ouvre une coupe dans ESV 3D."
+  },
+  "marqueurApresPremier": {
+   "version": "4.8.5",
+   "versionName": "4.8.5",
+   "proprietaire": "dpdmbhmojfhpcennamapkbeppgadahaf"
+  },
+  "secondConnecte": {
+   "erreur": "Une autre Ariane (4.8.5) est active dans cet onglet : désactive-la dans edge://extensions, puis F5 sur ESV."
+  },
+  "marqueurApresSecond": {
+   "version": "4.8.5",
+   "versionName": "4.8.5",
+   "proprietaire": "dpdmbhmojfhpcennamapkbeppgadahaf"
+  },
+  "premierReconnecte": {
+   "erreur": "Ouvre une coupe dans ESV 3D."
+  }
+ },
+ "verdict": {
+  "refusAvantInjection": true,
+  "refusParAdaptateur": true,
+  "nouvelleResteMaitre": true,
+  "ok": true
+ },
+ "erreurs": []
+}
