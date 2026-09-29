@@ -32,7 +32,8 @@ ni publication.
 
 - `node tools/verify.cjs` à 0 sur `36b8242` : 954 essais, 0 échec, 2 ignorés
   (corpus natif absent du clone).
-- Portes J1 (`tools/portes-j1.cjs`) : en cours sur `36b8242` (vertes sur `02f75ec`, D3 : 633 cuts inchangés ; 707, 711 refusés, 718 posé, 0 juste perdu)
+- Portes J1 (`tools/portes-j1.cjs`) sur `36b8242` : toutes VERTES ; 633 cuts de
+  validation inchangés ; 8 jeux : 707 et 711 refusés, 718 posé, 0 juste perdu.
 - Revue de code sur tout le diff 4.8.5 (après celle de chaque chantier) :
   constats corrigés ou écrits (`CHANGELOG.md`, section « Revue de tout le
   diff 4.8.5 »).
