@@ -20,6 +20,17 @@ Ce dépôt public centralise les collectes et benchmarks Banane. Depuis le 23/09
 | `2026-09-24_v4.7.11_` | Banane 4.7.11 | 2026-09-24 | **Pilote p34** (partie jamais vue) + relecture Natif | analysée ; 73/96 (76 %), **1 faux / 71** (1834, arrêté par la garde 4.7.12) | Git, 6 archives `.7z` (lot, relecture) — voir `manifest.json` |
 | `2026-09-24_v4.7.10_` | Banane 4.7.10 | 2026-09-24 | **Pilote p33**, 2 lots (décision sur le lot appliquée) | ingérée ; lot 1 : 20 traités, arrêt 8089 (KI-051) ; lot 2 : 65/83, 18 différés (vue d'ESV) ; relecture à venir | Git, 3 archives `.7z` — voir `manifest.json` |
 | `2026-09-24_v4.7.9_` | Banane 4.7.9 | 2026-09-24 | **Pilote p31, fin** (78 cuts, nuage saccadé) + relecture Natif | analysée ; Pilote 47/78, 0 faux / 45 ; décision sur le lot 72/78, **1 faux / 69** (7026) | Git, 4 archives `.7z` (lot, journal, relecture) — voir `manifest.json` |
+| `2026-10-07_v4.9.0.2_lots-7-10` | Ariane 4.9.0.2 | 2026-10-07 | Lots Orbite p7 et p10 (bilans, corpus GCV1, journal) | archivée le 16/10, volumes 7z d'origine | Git, 12 volumes |
+| `2026-10-12_v4.9.0.3_partie-3` | Ariane 4.9.0.3 | 2026-10-12 | Deux lots Orbite p3 | archivée le 16/10, volumes zip d'origine | Git, 6 volumes |
+| `2026-10-12_v4.9.0.4_partie-5` | Ariane 4.9.0.4 | 2026-10-12 | Lot Orbite p5 | archivée le 16/10, volumes 7z d'origine | Git, 3 volumes |
+| `2026-10-13_v4.9.0.8_parties-7-8-9-10` | Ariane 4.9.0.8 | 2026-10-13 | Lots Orbite p7, p8, p9, p10 | archivée le 16/10, volumes zip d'origine | Git, 12 volumes |
+| `2026-10-13_v4.9.0.9_parties-1-13-15` | Ariane 4.9.0.9 | 2026-10-13 | Lots Orbite p1, p13, p15 | archivée le 16/10, volumes zip d'origine | Git, 6 volumes |
+| `2026-10-14_v4.9.0.12_partie-17` | Ariane 4.9.0.12 | 2026-10-14 | Lots Orbite p17 (et p18) ; **Écho p17 relue par Mic** (vérité terrain de la jointure, E5, P0) | archivée le 16/10 | Git, 17 volumes |
+| `2026-10-14_v4.9.0.13_partie-23` | Ariane 4.9.0.13 | 2026-10-14 | Lot Orbite p23 | archivée le 16/10, volumes zip d'origine | Git, 5 volumes |
+| `2026-10-15_v4.9.0.15_partie-24` | Ariane 4.9.0.15 | 2026-10-15 | Lot Orbite p24 (rejoué à l'identique sur la maquette ESV) | archivée le 16/10, volumes zip d'origine | Git, 5 volumes |
+| `2026-10-15_v4.9.0.16_parties-25-26` | Ariane 4.9.0.16 | 2026-10-15 | Lots Orbite p25 et p26 | archivée le 16/10, volumes zip autonomes | Git, 14 volumes |
+| `2026-10-15_v4.9.0.17_parties-25-27` | Ariane 4.9.0.17 | 2026-10-15 | Lot Orbite p25 et p27 | archivée le 16/10, volumes zip autonomes | Git, 6 volumes |
+| `2026-10-15_v4.9.5.1_echo` | Ariane 4.9.5.1 | 2026-10-15 | Écho (segment 1, 13 h 08) | archivée le 16/10 | Git, 1 archive |
 
 ## Benchmarks
 

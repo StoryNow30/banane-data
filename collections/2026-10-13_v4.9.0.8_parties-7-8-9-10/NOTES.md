@@ -14,3 +14,5 @@ Pour un `.zip.001`, `.zip.002`… : concaténer les volumes dans l'ordre, puis o
 | `lot p7` | 3 | 51.9 Mo |
 | `lot p8` | 3 | 53.5 Mo |
 | `lot p9` | 3 | 43.8 Mo |
+
+Le dossier `lot p7` contient le même export deux fois : `ariane-lot-2026-10-13T07-08-20.zip` est exactement la concaténation de `.zip.001` et `.zip.002` (même SHA-256). Mic a envoyé les deux formes, et les deux sont gardées telles quelles.
