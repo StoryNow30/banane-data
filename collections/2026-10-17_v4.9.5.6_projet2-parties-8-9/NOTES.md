@@ -5,6 +5,7 @@ Ariane 4.9.5.6 (test 6), **second projet ESV**, partie 8, 17 octobre 2026. Lot O
 **Deux exports suivants**, chacun cumulatif depuis le début de la session :
 - 10 h 02 : un second lot sur la partie 8, déjà finie ; seul le cut 5948 est revalidé.
 - 10 h 06 : un lot sur la **partie 9**, parti à 10 h 04 avec « Tout recentré, comme un humain » et la règle grappe activée. 29 posés, 13 différés, dont 4 mis en attente par la règle grappe.
+- 10 h 17 : un second lot sur la partie 9, parti à 10 h 14 du cut 1, toujours en « Tout recentré » avec la règle grappe. Il reprend les 13 différés : 7 sont repris, 7 restent différés, dont 2 par la règle grappe.
 
 Exports envoyés par Mic et archivés le 17/10/2026, à sa demande, **tels qu'envoyés** (zips d'origine). Leurs empreintes sont dans `SHA256SUMS`.
 
@@ -12,4 +13,4 @@ Exports envoyés par Mic et archivés le 17/10/2026, à sa demande, **tels qu'en
 
 | Dossier | Volumes | Taille |
 |---|---|---|
-| `lots 10h00-10h06` | 3 | 26 Mo |
+| `lots 10h00-10h17` | 4 | 33 Mo |
