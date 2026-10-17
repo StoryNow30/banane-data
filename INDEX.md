@@ -37,6 +37,7 @@ Ce dépôt public centralise les collectes et benchmarks Banane. Depuis le 23/09
 | `2026-10-16_v4.9.5.3_partie-13-operateur` | Ariane 4.9.5.3 | 2026-10-16 | **Écho p13 : Mic corrige une partie humaine** (6 PN, 2 zones d'ADV notés) | archivée le 16/10 | Git, 4 zips |
 | `2026-10-16_v4.9.5.3_projet2-partie-1` | Ariane 4.9.5.3 | 2026-10-16 | **Second projet**, lot Orbite p1 (224 posés, 127 différés) + **Écho de Mic** (885 visites, 4 zones d'ADV) | archivée le 16/10 | Git, 9 + 28 zips |
 | `2026-10-16_v4.9.5.3_projet2-parties-2-3-4-6-7` | Ariane 4.9.5.3 | 2026-10-16 | **Second projet**, lot Orbite des parties 2, 3, 4, 6, 7 (sans Écho, parties réservées) | archivée le 17/10 | Git, 5 zips |
+| `2026-10-17_v4.9.5.6_projet2-partie-8` | Ariane 4.9.5.6 | 2026-10-17 | **Second projet**, lot Orbite p8 (test 6 : clic « Variante », règle grappe activée ; 29 posés, 2 différés), sans Écho, partie réservée | archivée le 17/10 | Git, 1 zip |
 
 ## Benchmarks
 
