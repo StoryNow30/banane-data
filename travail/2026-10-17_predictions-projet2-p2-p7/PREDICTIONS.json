@@ -1,0 +1,2020 @@
+{
+ "format": "ariane-predictions-figees-v1",
+ "creeLe": "2026-10-17T08:13:10.393Z",
+ "statut": "Prédictions figées AVANT toute Écho de Mic sur ces parties. Ne pas retoucher : l'empreinte SHA-256 de ce fichier est donnée dans RAPPORT.md.",
+ "lot": {
+  "version": "4.9.5.3 (test 3)",
+  "projet": 2,
+  "parties": [
+   2,
+   3,
+   4,
+   6,
+   7
+  ],
+  "export": "2026-10-16 16:42 heure de Paris",
+  "manifeste": "parties réservées (absentes de la liste d'apprentissage) ; jugées sans réglage (--juger-partie-reservee)"
+ },
+ "base": {
+  "branche": "origin/claude/50-base",
+  "commit": "2d60d046d0fa9f9293f4fb6ff3b0b2b55c848d48"
+ },
+ "reglagesFiges": {
+  "fichier": "datasets/reglages-figes.json",
+  "sha256": "bff4c5bae262a3bcd2bd54bca41f6d9fc35b2e7aacf35cb57c91fe6e9a4d9ef6",
+  "date": "2026-10-16 (règles métier, hauteur apprise, verts à contrôler : 2026-10-17)",
+  "modifies": false
+ },
+ "manifesteParties": {
+  "fichier": "datasets/manifeste-parties.json",
+  "sha256": "e411672b11a6fb2e509681e5325f6612db28aad542cc30595ce994cae25939b4"
+ },
+ "outils": {
+  "tools/rejeu-voie-predite.cjs": "52fa453d99f61c50b46d8043cf4efc11c9a8bee1223cfbdc0c4a151316cc5952",
+  "src/voie-recentree.js": "45c29f551855f9701f561e3015b85273799083d27ee47f96041413078dc60cd0",
+  "tools/regles-metier.cjs": "7c4d62c0b3b11dc7ffd87ee8d31b26baa6573b6a3a01265da4a013c91525a306",
+  "src/regles-metier.js": "189a3aa958ffa0ff19c5670bfba2acdf5a65a6e7466fb01951db67deb6fff853",
+  "tools/hauteur-apprise.cjs": "d7dc7fbd2df2a282f7e4856902b9f4cd30b549d1ba73af0d9daeb4340b6a589a",
+  "src/hauteur-apprise.js": "c7fa1998004144684ce32a0cf4e74155db3022c4eb3e93cf3e8481411c953f37",
+  "tools/faux-verts.cjs": "55b09e95f32dd3bfc23a876cd42a141477cb4d18ba397005c26e7e4d6a70f75c",
+  "src/faux-vert-ombre.js": "ab2b2af4b7a2160b8260546c349caebcf889723a291de157fd7ba8f67a0ecea6",
+  "tools/verts-a-controler.cjs": "fb626abead41b06f164d262b7dd68b3fde6f4ec1e9c4ec63f2cdd20c53e43c6b",
+  "src/verts-a-controler.js": "fa6dec1b009ff4b159fc202d56046b8c24121fca54f7067ddca5a2e8247f6d40",
+  "tools/jointure-echo-orbite.cjs": "6a543793156a78443f0ed682f7cd5f8d08a474a4defac21f8657ea00e7ab673e",
+  "tools/jeu-apprentissage.cjs": "67306183343412dc5ebea128024c5652b119c4b71efd5f36bb2d069bfb8fb0cc",
+  "src/lot-decision.js": "bf846fb448b5f2fba1ef558f96efbcad97df6ca8dfe678d594879c04dde40054",
+  "src/settings.js": "fca2e68a3abbff833c2e6ef58a70d8f5dc618caa8732cfdd64c2426626894057",
+  "tools/manifeste-parties.cjs": "3fdcfabac1501057c43ac6194e8fdbd3918d9e1ae2c0c342a0ac1ad5655564be"
+ },
+ "entrees": {
+  "CONTENU.txt": "4cce10616174313649ef571fc0861a2459c6d676029ff2d98d42798e8c9fa34b",
+  "ariane-bilan-v4-2026-10-16T14-43-17-seg01.json": "ff47edf20d37707251e73295a73e20c52016275a53fbfa24fd1ee042109fc371",
+  "ariane-gcv1-corpus-2026-10-16T14-43-06-seg01.json": "7190e2b66b84cfd68f26b3473e7e9b790bcde62521bfd23a788602bef5a8a87c",
+  "ariane-gcv1-corpus-2026-10-16T14-43-06-seg02.json": "bde27e7c091be806916493a27975e278be8ee6c20085e1061d5f5884977eea40",
+  "ariane-gcv1-corpus-2026-10-16T14-43-06-seg03.json": "4e8f9cea6e701c31fc2660d97ec8ee95746c1a2d7174157b29a3a1def5fa6918",
+  "ariane-gcv1-corpus-2026-10-16T14-43-06-seg04.json": "e9b107a6ad459e1d9197a4df3f10c6e511d57ceec0b6f3bd3abd976927c27b3f",
+  "ariane-gcv1-corpus-2026-10-16T14-43-06-seg05.json": "e8762f4835ed54780cef1cf18d15ff53eae6f6652c0e9905282caee157448b67",
+  "ariane-gcv1-corpus-2026-10-16T14-43-06-seg06.json": "03fc998bef8df2bcf72d5b2b7bf9c122d3e80d2402079f1833bc41693e5350b8",
+  "ariane-gcv1-corpus-2026-10-16T14-43-06-seg07.json": "4f96926e3d4a53d7dea02dac1fad5a5f09cacc5511561537caec58045e4d1f31",
+  "ariane-gcv1-corpus-2026-10-16T14-43-06-seg08.json": "2309c47213a52b3a202b93e708c2bc1dbaac357587fbd0f4ec274e1c1f6b701e",
+  "ariane-gcv1-diagnostic-1792161786696.json": "0a81cfbfad95bd849b5d476269f1c4a65d82e212f1daa559954e40f474a6203f",
+  "ariane-journal-v4-1792161778844.json": "cf20e47c8617d852c572b3301e8dd3a9f58d1ffa52082e4e9e9293b8d61d111c"
+ },
+ "methode": [
+  "Lot découpé par partie (journal, corpus) sans modifier les objets ; jointure lancée avec une Écho vide (aucune référence humaine) ; jeu d'apprentissage sans étiquette (construire de jeu-apprentissage, dansEcho forcé en mémoire).",
+  "Voie prédite : rejeu-voie-predite --variantes temoin,regle-wc-e10-p10 --ombre (code de l'ombre d'Orbite).",
+  "Règles métier : regles-metier lot, aucune liste de PN ni d'ADV de Mic fournie.",
+  "Hauteur apprise : hauteur-apprise extraire (module de l'extension) et preuve ; faux vert « hauteur ambiguë » : faux-verts extraire (src/faux-vert-ombre.js).",
+  "Verts à contrôler : module src/verts-a-controler.js, réglages livrés. Les bords des verts (liste d'ESV) ne sont pas dans l'export : liste certaine = verts qui passent le seuil sur le contexte seul ; estimation = somme, sur les candidats, de la part des verts justes de la partie 1 du projet 2 dont le score géométrique comble ce qui manque."
+ ],
+ "totaux": {
+  "differes": 68,
+  "posablesVoiePredite": 0,
+  "zonesPN": 18,
+  "zonesADV": 15,
+  "cutsEnAttenteReglesMetier": 123,
+  "cutsEnAttentePN": 108,
+  "cutsEnAttenteGrappe": 15,
+  "hauteurCutsChanges05": 41,
+  "hauteurCutsChanges2": 5,
+  "fauxVertDifferer": 0,
+  "vertsCertains": 103,
+  "vertsEstimes": 214,
+  "vertsCandidats": 1718,
+  "minutesCertaines": 6.4,
+  "minutesEstimees": 13.2
+ },
+ "aJugerALEcho": {
+  "voiePredite": "0 pose prédite : vérifier que Mic pose les différés loin de la pose de départ (si oui, la règle a manqué des poses ; si la voie est locale autour des ADV, l'abstention est juste).",
+  "reglesMetier": "Zones de PN : comparer aux PN notés par Mic (retrouvés, zones sans PN). Cuts mis en attente : faux verts évités contre bons verts différés en plus (correction > 10 mm / ≤ 5 mm). Zones d'ADV : contre les zones et aiguilles notées par Mic.",
+  "hauteurApprise": "Pour chaque rail changé : l'écart vertical à la pose de Mic diminue-t-il (avant / après) ; nouveaux faux verts créés : 0 attendu.",
+  "fauxVert": "0 cut « différer » : compter les faux verts de hauteur que Mic trouve (manqués par la règle).",
+  "vertsAControler": "Liste certaine et estimée contre les verts que Mic corrige de plus de 10 mm (rappel) et le temps réel de relecture."
+ },
+ "parties": {
+  "2": {
+   "lot": {
+    "cutsDecides": 89,
+    "poses": 61,
+    "differes": 28,
+    "differesCuts": [
+     1970,
+     2192,
+     2223,
+     2336,
+     2337,
+     2338,
+     2339,
+     2340,
+     2341,
+     2342,
+     2343,
+     2344,
+     2345,
+     2346,
+     2347,
+     2348,
+     2370,
+     2371,
+     2372,
+     2373,
+     2374,
+     2415,
+     2416,
+     3080,
+     3082,
+     3083,
+     3098,
+     3099
+    ],
+    "invalidesRestants": 28,
+    "raisonsDifferes": {
+     "no-anchor / commande deferred": 25,
+     "no-qualified-minimum-near-prediction / commande deferred": 2,
+     "no-qualified-minimum-near-prediction / commande guard": 1
+    }
+   },
+   "fideliteDuRejeu": {
+    "memeIssue": "89/89",
+    "memeEtage": "89/89",
+    "poseArianeRetrouveeEcartMaxMm": 0.5
+   },
+   "voiePredite": {
+    "regle": "regle-wc-e10-p10 (D-147), vue déplacée dans les limites dezoomMax 1,5 / glissement 250 px",
+    "ombreOrbite": {
+     "differesEvalues": 28,
+     "posables": 0,
+     "recalcules": 0,
+     "gestes": {},
+     "refus": {
+      "differe": 28
+     },
+     "cutsPosables": [],
+     "raisonParCut": {
+      "1970": "differe:no-anchor",
+      "2192": "differe:no-anchor",
+      "2223": "differe:right:no-qualified-minimum-near-prediction",
+      "2336": "differe:no-anchor",
+      "2337": "differe:no-anchor",
+      "2338": "differe:no-anchor",
+      "2339": "differe:no-anchor",
+      "2340": "differe:no-anchor",
+      "2341": "differe:no-anchor",
+      "2342": "differe:no-anchor",
+      "2343": "differe:no-anchor",
+      "2344": "differe:no-anchor",
+      "2345": "differe:no-anchor",
+      "2346": "differe:no-anchor",
+      "2347": "differe:no-anchor",
+      "2348": "differe:no-anchor",
+      "2370": "differe:no-anchor",
+      "2371": "differe:no-anchor",
+      "2372": "differe:no-anchor",
+      "2373": "differe:no-anchor",
+      "2374": "differe:no-anchor",
+      "2415": "differe:no-anchor",
+      "2416": "differe:no-anchor",
+      "3080": "differe:no-anchor",
+      "3082": "differe:left:no-qualified-minimum-near-prediction",
+      "3083": "differe:right:no-qualified-minimum-near-prediction",
+      "3098": "differe:no-anchor",
+      "3099": "differe:no-anchor"
+     }
+    },
+    "rejeuEnSerie": {
+     "posesNouvelles": 0,
+     "posesOrigineInchangees": "61/61",
+     "deplaces": 0,
+     "retires": 0
+    },
+    "prediction": "aucun des 28 différés n'est posable ; aucun geste de vue ; aucune pose d'origine changée"
+   },
+   "reglesMetier": {
+    "zonesPN": [
+     {
+      "debut": 363,
+      "fin": 368,
+      "controle": [
+       359,
+       374
+      ]
+     },
+     {
+      "debut": 4779,
+      "fin": 4784,
+      "controle": [
+       4775,
+       4790
+      ]
+     },
+     {
+      "debut": 7617,
+      "fin": 7622,
+      "controle": [
+       7613,
+       7628
+      ]
+     },
+     {
+      "debut": 8508,
+      "fin": 8514,
+      "controle": [
+       8504,
+       8520
+      ]
+     },
+     {
+      "debut": 9742,
+      "fin": 9748,
+      "controle": [
+       9738,
+       9754
+      ]
+     }
+    ],
+    "coeursPNNonConfirmes": [
+     363,
+     1814,
+     4779,
+     7617,
+     8508,
+     9742
+    ],
+    "zonesADV": [
+     [
+      2340,
+      2476
+     ],
+     [
+      3050,
+      3112
+     ]
+    ],
+    "alertesADVNonConfirmees": [
+     1970,
+     2337,
+     2348,
+     2370,
+     2415,
+     2431,
+     2443,
+     3080,
+     3098,
+     3104
+    ],
+    "cutsAvecAlerteADV": [
+     1970,
+     2337,
+     2348,
+     2370,
+     2371,
+     2372,
+     2373,
+     2376,
+     2415,
+     2416,
+     2417,
+     2431,
+     2443,
+     2444,
+     2445,
+     2446,
+     3080,
+     3081,
+     3082,
+     3098,
+     3104
+    ],
+    "enAttente": {
+     "pnChaqueCut": [
+      364,
+      365,
+      366,
+      368,
+      4780,
+      4781,
+      4782,
+      4783,
+      4784,
+      7618,
+      7619,
+      7620,
+      7621,
+      7622,
+      7624,
+      8509,
+      8511,
+      8512,
+      8513,
+      8514,
+      9743,
+      9744,
+      9745,
+      9746,
+      9747,
+      9748
+     ],
+     "grappeDifferes": [
+      2375,
+      2376,
+      2417,
+      3084,
+      3085,
+      3100,
+      3101
+     ],
+     "validationEnPlace": [],
+     "toutes": [
+      364,
+      365,
+      366,
+      368,
+      2375,
+      2376,
+      2417,
+      3084,
+      3085,
+      3100,
+      3101,
+      4780,
+      4781,
+      4782,
+      4783,
+      4784,
+      7618,
+      7619,
+      7620,
+      7621,
+      7622,
+      7624,
+      8509,
+      8511,
+      8512,
+      8513,
+      8514,
+      9743,
+      9744,
+      9745,
+      9746,
+      9747,
+      9748
+     ]
+    },
+    "tempsMicMin": {
+     "medianeMin": 0.7,
+     "hauteMin": 2.3
+    }
+   },
+   "hauteurApprise": {
+    "posesEvaluees": 61,
+    "railsChangesDe05mmOuPlus": 10,
+    "cutsChangesDe05mmOuPlus": 10,
+    "cutsChangesDe2mmOuPlus": 1,
+    "cutsAuPlafond5mm": [
+     {
+      "cut": 9745,
+      "gauche": 0.2,
+      "droite": 5
+     }
+    ],
+    "tousLesCutsChanges": [
+     {
+      "cut": 368,
+      "gauche": 0.2,
+      "droite": 0.6
+     },
+     {
+      "cut": 2382,
+      "gauche": 0.5,
+      "droite": 0.3
+     },
+     {
+      "cut": 2444,
+      "gauche": 0.2,
+      "droite": 0.5
+     },
+     {
+      "cut": 2445,
+      "gauche": 0.5,
+      "droite": 0
+     },
+     {
+      "cut": 3081,
+      "gauche": -0.5,
+      "droite": -0.1
+     },
+     {
+      "cut": 3104,
+      "gauche": -0.6,
+      "droite": 0
+     },
+     {
+      "cut": 7622,
+      "gauche": 0.5,
+      "droite": 0.4
+     },
+     {
+      "cut": 8511,
+      "gauche": 0,
+      "droite": 0.6
+     },
+     {
+      "cut": 8513,
+      "gauche": 0.5,
+      "droite": 0
+     },
+     {
+      "cut": 9745,
+      "gauche": 0.2,
+      "droite": 5
+     }
+    ],
+    "versLeHaut": 8,
+    "versLeBas": 2,
+    "abstentions": {
+     "etage": 12,
+     "calage": 9
+    },
+    "preuveSansEffet": true
+   },
+   "fauxVertHauteurAmbigue": {
+    "verdictDifferer": 0,
+    "cuts": []
+   },
+   "vertsAControler": {
+    "candidats": 271,
+    "candidatsParZone": {
+     "pn": 51,
+     "adv": 154,
+     "fenetre": 66
+    },
+    "listeCertaine": {
+     "verts": 27,
+     "minutes": 1.7,
+     "plages": [
+      {
+       "libelle": "PN 363–368",
+       "cuts": "367",
+       "nombre": 1
+      },
+      {
+       "libelle": "autour des différés 2336–2337",
+       "cuts": "2334, 2335",
+       "nombre": 2
+      },
+      {
+       "libelle": "autour des différés 2347–2348",
+       "cuts": "2349, 2350",
+       "nombre": 2
+      },
+      {
+       "libelle": "autour des différés 2370–2371",
+       "cuts": "2368, 2369",
+       "nombre": 2
+      },
+      {
+       "libelle": "ADV 2340–2476",
+       "cuts": "2377, 2383",
+       "nombre": 2
+      },
+      {
+       "libelle": "autour des différés 2415–2416",
+       "cuts": "2413, 2414",
+       "nombre": 2
+      },
+      {
+       "libelle": "autour du différé 2416",
+       "cuts": "2418",
+       "nombre": 1
+      },
+      {
+       "libelle": "ADV 2340–2476",
+       "cuts": "2441, 2447",
+       "nombre": 2
+      },
+      {
+       "libelle": "autour du différé 3080",
+       "cuts": "3078, 3079",
+       "nombre": 2
+      },
+      {
+       "libelle": "ADV 3050–3112",
+       "cuts": "3086",
+       "nombre": 1
+      },
+      {
+       "libelle": "autour des différés 3098–3099",
+       "cuts": "3096, 3097",
+       "nombre": 2
+      },
+      {
+       "libelle": "ADV 3050–3112",
+       "cuts": "3105",
+       "nombre": 1
+      },
+      {
+       "libelle": "PN 4779–4784",
+       "cuts": "4778, 4785",
+       "nombre": 2
+      },
+      {
+       "libelle": "PN 7617–7622",
+       "cuts": "7616, 7623",
+       "nombre": 2
+      },
+      {
+       "libelle": "PN 8508–8514",
+       "cuts": "8510",
+       "nombre": 1
+      },
+      {
+       "libelle": "PN 9742–9748",
+       "cuts": "9741, 9749",
+       "nombre": 2
+      }
+     ]
+    },
+    "estimation": {
+     "verts": 48,
+     "minutes": 2.9,
+     "hauteSiReferenceTousLesVerts": 69
+    },
+    "maximum": {
+     "verts": 271,
+     "minutes": 16.7
+    }
+   },
+   "voieDecalee": {
+    "posesLateralMaxAbsMedianeMm": 45.1,
+    "posesPlus80mm": 10,
+    "posesPlus150mm": 0,
+    "cutsPlus80mm": [
+     2378,
+     2379,
+     2380,
+     2381,
+     2382,
+     2969,
+     3081,
+     3102,
+     3103,
+     3104
+    ]
+   }
+  },
+  "3": {
+   "lot": {
+    "cutsDecides": 38,
+    "poses": 37,
+    "differes": 1,
+    "differesCuts": [
+     0
+    ],
+    "invalidesRestants": 1,
+    "raisonsDifferes": {
+     "no-anchor / commande deferred": 1
+    }
+   },
+   "fideliteDuRejeu": {
+    "memeIssue": "38/38",
+    "memeEtage": "38/38",
+    "poseArianeRetrouveeEcartMaxMm": 0.53
+   },
+   "voiePredite": {
+    "regle": "regle-wc-e10-p10 (D-147), vue déplacée dans les limites dezoomMax 1,5 / glissement 250 px",
+    "ombreOrbite": {
+     "differesEvalues": 1,
+     "posables": 0,
+     "recalcules": 0,
+     "gestes": {},
+     "refus": {
+      "differe": 1
+     },
+     "cutsPosables": [],
+     "raisonParCut": {
+      "0": "differe:no-anchor"
+     }
+    },
+    "rejeuEnSerie": {
+     "posesNouvelles": 0,
+     "posesOrigineInchangees": "37/37",
+     "deplaces": 0,
+     "retires": 0
+    },
+    "prediction": "aucun des 1 différés n'est posable ; aucun geste de vue ; aucune pose d'origine changée"
+   },
+   "reglesMetier": {
+    "zonesPN": [
+     {
+      "debut": 3447,
+      "fin": 3452,
+      "controle": [
+       3443,
+       3458
+      ]
+     },
+     {
+      "debut": 4633,
+      "fin": 4641,
+      "controle": [
+       4629,
+       4647
+      ]
+     },
+     {
+      "debut": 5805,
+      "fin": 5812,
+      "controle": [
+       5801,
+       5818
+      ]
+     },
+     {
+      "debut": 8244,
+      "fin": 8252,
+      "controle": [
+       8240,
+       8258
+      ]
+     }
+    ],
+    "coeursPNNonConfirmes": [
+     3447,
+     4633,
+     5805,
+     8244
+    ],
+    "zonesADV": [
+     [
+      1446,
+      1508
+     ]
+    ],
+    "alertesADVNonConfirmees": [
+     1476,
+     1498
+    ],
+    "cutsAvecAlerteADV": [
+     1476,
+     1477,
+     1478,
+     1498
+    ],
+    "enAttente": {
+     "pnChaqueCut": [
+      3448,
+      3449,
+      3451,
+      3452,
+      4635,
+      4637,
+      4638,
+      4639,
+      4640,
+      4641,
+      5806,
+      5807,
+      5808,
+      5809,
+      5810,
+      5811,
+      5812,
+      5813,
+      5814,
+      8245,
+      8246,
+      8247,
+      8248,
+      8249,
+      8250,
+      8251,
+      8252
+     ],
+     "grappeDifferes": [],
+     "validationEnPlace": [],
+     "toutes": [
+      3448,
+      3449,
+      3451,
+      3452,
+      4635,
+      4637,
+      4638,
+      4639,
+      4640,
+      4641,
+      5806,
+      5807,
+      5808,
+      5809,
+      5810,
+      5811,
+      5812,
+      5813,
+      5814,
+      8245,
+      8246,
+      8247,
+      8248,
+      8249,
+      8250,
+      8251,
+      8252
+     ]
+    },
+    "tempsMicMin": {
+     "medianeMin": 0.6,
+     "hauteMin": 1.8
+    }
+   },
+   "hauteurApprise": {
+    "posesEvaluees": 37,
+    "railsChangesDe05mmOuPlus": 2,
+    "cutsChangesDe05mmOuPlus": 2,
+    "cutsChangesDe2mmOuPlus": 0,
+    "cutsAuPlafond5mm": [],
+    "tousLesCutsChanges": [
+     {
+      "cut": 1477,
+      "gauche": -0.2,
+      "droite": 1.1
+     },
+     {
+      "cut": 4641,
+      "gauche": 0.6,
+      "droite": 0.4
+     }
+    ],
+    "versLeHaut": 2,
+    "versLeBas": 0,
+    "abstentions": {
+     "calage": 8,
+     "etage": 6
+    },
+    "preuveSansEffet": true
+   },
+   "fauxVertHauteurAmbigue": {
+    "verdictDifferer": 0,
+    "cuts": []
+   },
+   "vertsAControler": {
+    "candidats": 120,
+    "candidatsParZone": {
+     "pn": 41,
+     "adv": 59,
+     "fenetre": 20
+    },
+    "listeCertaine": {
+     "verts": 8,
+     "minutes": 0.5,
+     "plages": [
+      {
+       "libelle": "PN 3447–3452",
+       "cuts": "3450",
+       "nombre": 1
+      },
+      {
+       "libelle": "PN 4633–4641",
+       "cuts": "4634, 4636, 4642",
+       "nombre": 3
+      },
+      {
+       "libelle": "PN 5805–5812",
+       "cuts": "5804, 5815",
+       "nombre": 2
+      },
+      {
+       "libelle": "PN 8244–8252",
+       "cuts": "8243, 8253",
+       "nombre": 2
+      }
+     ]
+    },
+    "estimation": {
+     "verts": 16,
+     "minutes": 1,
+     "hauteSiReferenceTousLesVerts": 26
+    },
+    "maximum": {
+     "verts": 120,
+     "minutes": 7.4
+    }
+   },
+   "voieDecalee": {
+    "posesLateralMaxAbsMedianeMm": 35.3,
+    "posesPlus80mm": 0,
+    "posesPlus150mm": 0,
+    "cutsPlus80mm": []
+   }
+  },
+  "4": {
+   "lot": {
+    "cutsDecides": 55,
+    "poses": 48,
+    "differes": 7,
+    "differesCuts": [
+     1228,
+     6327,
+     8325,
+     8345,
+     8347,
+     8348,
+     8349
+    ],
+    "invalidesRestants": 7,
+    "raisonsDifferes": {
+     "no-anchor / commande deferred": 2,
+     "no-qualified-minimum-near-prediction / commande deferred": 5
+    }
+   },
+   "fideliteDuRejeu": {
+    "memeIssue": "55/55",
+    "memeEtage": "55/55",
+    "poseArianeRetrouveeEcartMaxMm": 0.53
+   },
+   "voiePredite": {
+    "regle": "regle-wc-e10-p10 (D-147), vue déplacée dans les limites dezoomMax 1,5 / glissement 250 px",
+    "ombreOrbite": {
+     "differesEvalues": 7,
+     "posables": 0,
+     "recalcules": 0,
+     "gestes": {},
+     "refus": {
+      "differe": 7
+     },
+     "cutsPosables": [],
+     "raisonParCut": {
+      "1228": "differe:no-anchor",
+      "6327": "differe:left:no-qualified-minimum-near-prediction",
+      "8325": "differe:left:no-qualified-minimum-near-prediction",
+      "8345": "differe:no-anchor",
+      "8347": "differe:left:no-qualified-minimum-near-prediction",
+      "8348": "differe:left:no-qualified-minimum-near-prediction",
+      "8349": "differe:left:no-qualified-minimum-near-prediction"
+     }
+    },
+    "rejeuEnSerie": {
+     "posesNouvelles": 0,
+     "posesOrigineInchangees": "48/48",
+     "deplaces": 0,
+     "retires": 0
+    },
+    "prediction": "aucun des 7 différés n'est posable ; aucun geste de vue ; aucune pose d'origine changée"
+   },
+   "reglesMetier": {
+    "zonesPN": [
+     {
+      "debut": 39,
+      "fin": 46,
+      "controle": [
+       35,
+       52
+      ]
+     },
+     {
+      "debut": 545,
+      "fin": 550,
+      "controle": [
+       541,
+       556
+      ]
+     },
+     {
+      "debut": 2658,
+      "fin": 2666,
+      "controle": [
+       2654,
+       2672
+      ]
+     },
+     {
+      "debut": 6325,
+      "fin": 6331,
+      "controle": [
+       6321,
+       6337
+      ]
+     },
+     {
+      "debut": 8631,
+      "fin": 8641,
+      "controle": [
+       8627,
+       8647
+      ]
+     }
+    ],
+    "coeursPNNonConfirmes": [
+     39,
+     545,
+     2658,
+     6325,
+     8631
+    ],
+    "zonesADV": [
+     [
+      8293,
+      8355
+     ]
+    ],
+    "alertesADVNonConfirmees": [
+     8190,
+     8323
+    ],
+    "cutsAvecAlerteADV": [
+     8190,
+     8323,
+     8325
+    ],
+    "enAttente": {
+     "pnChaqueCut": [
+      41,
+      42,
+      45,
+      46,
+      546,
+      547,
+      548,
+      549,
+      550,
+      2659,
+      2660,
+      2661,
+      2662,
+      2663,
+      2664,
+      2665,
+      2666,
+      6326,
+      6328,
+      6329,
+      6330,
+      6331,
+      6332,
+      8632,
+      8633,
+      8634,
+      8635,
+      8637,
+      8638,
+      8639,
+      8640,
+      8641
+     ],
+     "grappeDifferes": [],
+     "validationEnPlace": [],
+     "toutes": [
+      41,
+      42,
+      45,
+      46,
+      546,
+      547,
+      548,
+      549,
+      550,
+      2659,
+      2660,
+      2661,
+      2662,
+      2663,
+      2664,
+      2665,
+      2666,
+      6326,
+      6328,
+      6329,
+      6330,
+      6331,
+      6332,
+      8632,
+      8633,
+      8634,
+      8635,
+      8637,
+      8638,
+      8639,
+      8640,
+      8641
+     ]
+    },
+    "tempsMicMin": {
+     "medianeMin": 0.7,
+     "hauteMin": 2.2
+    }
+   },
+   "hauteurApprise": {
+    "posesEvaluees": 48,
+    "railsChangesDe05mmOuPlus": 3,
+    "cutsChangesDe05mmOuPlus": 3,
+    "cutsChangesDe2mmOuPlus": 1,
+    "cutsAuPlafond5mm": [
+     {
+      "cut": 7057,
+      "gauche": 5,
+      "droite": -0.4
+     }
+    ],
+    "tousLesCutsChanges": [
+     {
+      "cut": 546,
+      "gauche": 0.5,
+      "droite": 0
+     },
+     {
+      "cut": 547,
+      "gauche": 0.4,
+      "droite": 0.6
+     },
+     {
+      "cut": 7057,
+      "gauche": 5,
+      "droite": -0.4
+     }
+    ],
+    "versLeHaut": 3,
+    "versLeBas": 0,
+    "abstentions": {
+     "calage": 8,
+     "etage": 12
+    },
+    "preuveSansEffet": true
+   },
+   "fauxVertHauteurAmbigue": {
+    "verdictDifferer": 0,
+    "cuts": []
+   },
+   "vertsAControler": {
+    "candidats": 144,
+    "candidatsParZone": {
+     "pn": 53,
+     "adv": 50,
+     "fenetre": 41
+    },
+    "listeCertaine": {
+     "verts": 17,
+     "minutes": 1.1,
+     "plages": [
+      {
+       "libelle": "PN 39–46",
+       "cuts": "43, 44",
+       "nombre": 2
+      },
+      {
+       "libelle": "PN 545–550",
+       "cuts": "544, 551",
+       "nombre": 2
+      },
+      {
+       "libelle": "PN 2658–2666",
+       "cuts": "2657, 2667",
+       "nombre": 2
+      },
+      {
+       "libelle": "PN 6325–6331",
+       "cuts": "6324, 6333",
+       "nombre": 2
+      },
+      {
+       "libelle": "ADV 8293–8355",
+       "cuts": "8320, 8329",
+       "nombre": 2
+      },
+      {
+       "libelle": "autour du différé 8345",
+       "cuts": "8343, 8344",
+       "nombre": 2
+      },
+      {
+       "libelle": "autour des différés 8348–8349",
+       "cuts": "8350, 8351",
+       "nombre": 2
+      },
+      {
+       "libelle": "PN 8631–8641",
+       "cuts": "8630, 8636, 8642",
+       "nombre": 3
+      }
+     ]
+    },
+    "estimation": {
+     "verts": 27,
+     "minutes": 1.7,
+     "hauteSiReferenceTousLesVerts": 38
+    },
+    "maximum": {
+     "verts": 144,
+     "minutes": 8.9
+    }
+   },
+   "voieDecalee": {
+    "posesLateralMaxAbsMedianeMm": 38.7,
+    "posesPlus80mm": 6,
+    "posesPlus150mm": 0,
+    "cutsPlus80mm": [
+     7057,
+     8321,
+     8322,
+     8327,
+     8328,
+     8346
+    ]
+   }
+  },
+  "6": {
+   "lot": {
+    "cutsDecides": 83,
+    "poses": 72,
+    "differes": 11,
+    "differesCuts": [
+     3399,
+     3400,
+     3433,
+     3480,
+     3505,
+     3722,
+     4653,
+     4654,
+     4725,
+     4726,
+     4756
+    ],
+    "invalidesRestants": 11,
+    "raisonsDifferes": {
+     "pair-guard / commande pair-guard": 1,
+     "no-anchor / commande deferred": 8,
+     "no-qualified-minimum-near-prediction / commande deferred": 2
+    }
+   },
+   "fideliteDuRejeu": {
+    "memeIssue": "83/83",
+    "memeEtage": "83/83",
+    "poseArianeRetrouveeEcartMaxMm": 0.53
+   },
+   "voiePredite": {
+    "regle": "regle-wc-e10-p10 (D-147), vue déplacée dans les limites dezoomMax 1,5 / glissement 250 px",
+    "ombreOrbite": {
+     "differesEvalues": 11,
+     "posables": 0,
+     "recalcules": 0,
+     "gestes": {},
+     "refus": {
+      "differe": 11
+     },
+     "cutsPosables": [],
+     "raisonParCut": {
+      "3399": "differe:pair-guard",
+      "3400": "differe:no-anchor",
+      "3433": "differe:no-anchor",
+      "3480": "differe:no-anchor",
+      "3505": "differe:no-anchor",
+      "3722": "differe:left:no-qualified-minimum-near-prediction",
+      "4653": "differe:no-anchor",
+      "4654": "differe:no-anchor",
+      "4725": "differe:no-anchor",
+      "4726": "differe:no-anchor",
+      "4756": "differe:right:no-qualified-minimum-near-prediction"
+     }
+    },
+    "rejeuEnSerie": {
+     "posesNouvelles": 0,
+     "posesOrigineInchangees": "72/72",
+     "deplaces": 0,
+     "retires": 0
+    },
+    "prediction": "aucun des 11 différés n'est posable ; aucun geste de vue ; aucune pose d'origine changée"
+   },
+   "reglesMetier": {
+    "zonesPN": [
+     {
+      "debut": 7940,
+      "fin": 7950,
+      "controle": [
+       7936,
+       7956
+      ]
+     }
+    ],
+    "coeursPNNonConfirmes": [
+     3439,
+     7940
+    ],
+    "zonesADV": [
+     [
+      3366,
+      3433
+     ],
+     [
+      3652,
+      3755
+     ],
+     [
+      4422,
+      4484
+     ],
+     [
+      4619,
+      4683
+     ],
+     [
+      4695,
+      4788
+     ]
+    ],
+    "alertesADVNonConfirmees": [
+     3396,
+     3425,
+     3505,
+     3616,
+     3673,
+     3682,
+     3718,
+     4452,
+     4649,
+     4671,
+     4725,
+     4753
+    ],
+    "cutsAvecAlerteADV": [
+     3396,
+     3397,
+     3398,
+     3400,
+     3401,
+     3402,
+     3403,
+     3425,
+     3505,
+     3616,
+     3673,
+     3682,
+     3683,
+     3684,
+     3685,
+     3718,
+     3719,
+     3720,
+     3721,
+     3722,
+     3723,
+     3724,
+     3725,
+     4452,
+     4453,
+     4454,
+     4649,
+     4650,
+     4651,
+     4652,
+     4653,
+     4671,
+     4725,
+     4726,
+     4727,
+     4728,
+     4753,
+     4754,
+     4755,
+     4756,
+     4757,
+     4758
+    ],
+    "enAttente": {
+     "pnChaqueCut": [
+      7941,
+      7942,
+      7943,
+      7944,
+      7945,
+      7946,
+      7947,
+      7948,
+      7949,
+      7950,
+      7951
+     ],
+     "grappeDifferes": [
+      3401,
+      3402,
+      4656,
+      4727,
+      4728
+     ],
+     "validationEnPlace": [],
+     "toutes": [
+      3401,
+      3402,
+      4656,
+      4727,
+      4728,
+      7941,
+      7942,
+      7943,
+      7944,
+      7945,
+      7946,
+      7947,
+      7948,
+      7949,
+      7950,
+      7951
+     ]
+    },
+    "tempsMicMin": {
+     "medianeMin": 0.3,
+     "hauteMin": 1.1
+    }
+   },
+   "hauteurApprise": {
+    "posesEvaluees": 72,
+    "railsChangesDe05mmOuPlus": 12,
+    "cutsChangesDe05mmOuPlus": 11,
+    "cutsChangesDe2mmOuPlus": 1,
+    "cutsAuPlafond5mm": [
+     {
+      "cut": 4488,
+      "gauche": 5,
+      "droite": 0.1
+     }
+    ],
+    "tousLesCutsChanges": [
+     {
+      "cut": 1034,
+      "gauche": -0.5,
+      "droite": -0.3
+     },
+     {
+      "cut": 3675,
+      "gauche": 0.6,
+      "droite": 0.4
+     },
+     {
+      "cut": 3677,
+      "gauche": -0.2,
+      "droite": 0.5
+     },
+     {
+      "cut": 3720,
+      "gauche": 0.5,
+      "droite": 0.1
+     },
+     {
+      "cut": 3726,
+      "gauche": 0.5,
+      "droite": 0.1
+     },
+     {
+      "cut": 4452,
+      "gauche": 0.5,
+      "droite": 0.2
+     },
+     {
+      "cut": 4453,
+      "gauche": 0.5,
+      "droite": 0.5
+     },
+     {
+      "cut": 4488,
+      "gauche": 5,
+      "droite": 0.1
+     },
+     {
+      "cut": 4728,
+      "gauche": 0.1,
+      "droite": 0.5
+     },
+     {
+      "cut": 4755,
+      "gauche": 0,
+      "droite": 0.5
+     },
+     {
+      "cut": 4758,
+      "gauche": 0,
+      "droite": 0.9
+     }
+    ],
+    "versLeHaut": 11,
+    "versLeBas": 1,
+    "abstentions": {
+     "calage": 12
+    },
+    "preuveSansEffet": true
+   },
+   "fauxVertHauteurAmbigue": {
+    "verdictDifferer": 0,
+    "cuts": []
+   },
+   "vertsAControler": {
+    "candidats": 448,
+    "candidatsParZone": {
+     "pn": 9,
+     "adv": 334,
+     "fenetre": 105
+    },
+    "listeCertaine": {
+     "verts": 14,
+     "minutes": 0.9,
+     "plages": [
+      {
+       "libelle": "ADV 3366–3433",
+       "cuts": "3395, 3404",
+       "nombre": 2
+      },
+      {
+       "libelle": "ADV 3652–3755",
+       "cuts": "3672, 3686, 3716, 3728",
+       "nombre": 4
+      },
+      {
+       "libelle": "ADV 4619–4683",
+       "cuts": "4648",
+       "nombre": 1
+      },
+      {
+       "libelle": "autour des différés 4653–4654",
+       "cuts": "4655",
+       "nombre": 1
+      },
+      {
+       "libelle": "autour des différés 4725–4726",
+       "cuts": "4723, 4724",
+       "nombre": 2
+      },
+      {
+       "libelle": "ADV 4695–4788",
+       "cuts": "4752, 4759",
+       "nombre": 2
+      },
+      {
+       "libelle": "PN 7940–7950",
+       "cuts": "7939, 7952",
+       "nombre": 2
+      }
+     ]
+    },
+    "estimation": {
+     "verts": 37,
+     "minutes": 2.3,
+     "hauteSiReferenceTousLesVerts": 74
+    },
+    "maximum": {
+     "verts": 448,
+     "minutes": 27.6
+    }
+   },
+   "voieDecalee": {
+    "posesLateralMaxAbsMedianeMm": 55.6,
+    "posesPlus80mm": 17,
+    "posesPlus150mm": 0,
+    "cutsPlus80mm": [
+     831,
+     1034,
+     1054,
+     3675,
+     3676,
+     3678,
+     3679,
+     3680,
+     3681,
+     3682,
+     3683,
+     3721,
+     3723,
+     3724,
+     3725,
+     3726,
+     7951
+    ]
+   }
+  },
+  "7": {
+   "lot": {
+    "cutsDecides": 151,
+    "poses": 130,
+    "differes": 21,
+    "differesCuts": [
+     3220,
+     3275,
+     3544,
+     4413,
+     4414,
+     4468,
+     4500,
+     4724,
+     4766,
+     4813,
+     4851,
+     5523,
+     5552,
+     5576,
+     5638,
+     5639,
+     5684,
+     5818,
+     5820,
+     5821,
+     5901
+    ],
+    "invalidesRestants": 21,
+    "raisonsDifferes": {
+     "no-qualified-minimum-near-prediction / commande deferred": 5,
+     "no-anchor / commande deferred": 12,
+     "gauge-HIGH_INVALID / commande guard": 1,
+     "no-qualified-minimum-near-prediction / commande gauge-guard": 1,
+     "no-qualified-minimum-near-prediction / commande guard": 2
+    }
+   },
+   "fideliteDuRejeu": {
+    "memeIssue": "151/151",
+    "memeEtage": "151/151",
+    "poseArianeRetrouveeEcartMaxMm": 0.52
+   },
+   "voiePredite": {
+    "regle": "regle-wc-e10-p10 (D-147), vue déplacée dans les limites dezoomMax 1,5 / glissement 250 px",
+    "ombreOrbite": {
+     "differesEvalues": 21,
+     "posables": 0,
+     "recalcules": 0,
+     "gestes": {},
+     "refus": {
+      "differe": 21
+     },
+     "cutsPosables": [],
+     "raisonParCut": {
+      "3220": "differe:left:no-qualified-minimum-near-prediction",
+      "3275": "differe:no-anchor",
+      "3544": "differe:no-anchor",
+      "4413": "differe:no-anchor",
+      "4414": "differe:no-anchor",
+      "4468": "differe:no-anchor",
+      "4500": "differe:no-anchor",
+      "4724": "differe:gauge-HIGH_INVALID",
+      "4766": "differe:left:no-qualified-minimum-near-prediction",
+      "4813": "differe:left:no-qualified-minimum-near-prediction",
+      "4851": "differe:left:no-qualified-minimum-near-prediction",
+      "5523": "differe:no-anchor",
+      "5552": "differe:no-anchor",
+      "5576": "differe:right:no-qualified-minimum-near-prediction",
+      "5638": "differe:left:no-qualified-minimum-near-prediction",
+      "5639": "differe:left:no-qualified-minimum-near-prediction",
+      "5684": "differe:no-anchor",
+      "5818": "differe:right:no-qualified-minimum-near-prediction",
+      "5820": "differe:no-anchor",
+      "5821": "differe:no-anchor",
+      "5901": "differe:no-anchor"
+     }
+    },
+    "rejeuEnSerie": {
+     "posesNouvelles": 0,
+     "posesOrigineInchangees": "130/130",
+     "deplaces": 0,
+     "retires": 0
+    },
+    "prediction": "aucun des 21 différés n'est posable ; aucun geste de vue ; aucune pose d'origine changée"
+   },
+   "reglesMetier": {
+    "zonesPN": [
+     {
+      "debut": 1068,
+      "fin": 1075,
+      "controle": [
+       1064,
+       1081
+      ]
+     },
+     {
+      "debut": 1961,
+      "fin": 1967,
+      "controle": [
+       1957,
+       1973
+      ]
+     },
+     {
+      "debut": 5361,
+      "fin": 5363,
+      "controle": [
+       5357,
+       5369
+      ]
+     }
+    ],
+    "coeursPNNonConfirmes": [
+     1068,
+     1961,
+     5361
+    ],
+    "zonesADV": [
+     [
+      3118,
+      3295
+     ],
+     [
+      3514,
+      3576
+     ],
+     [
+      4376,
+      4536
+     ],
+     [
+      4712,
+      4776
+     ],
+     [
+      5493,
+      5715
+     ],
+     [
+      5787,
+      5851
+     ]
+    ],
+    "alertesADVNonConfirmees": [
+     3148,
+     3161,
+     3175,
+     3217,
+     3262,
+     3544,
+     4406,
+     4469,
+     4501,
+     4723,
+     4742,
+     4812,
+     4850,
+     5523,
+     5552,
+     5574,
+     5617,
+     5637,
+     5684,
+     5817
+    ],
+    "cutsAvecAlerteADV": [
+     3148,
+     3149,
+     3150,
+     3161,
+     3175,
+     3177,
+     3217,
+     3218,
+     3219,
+     3220,
+     3221,
+     3222,
+     3223,
+     3224,
+     3225,
+     3226,
+     3262,
+     3263,
+     3264,
+     3265,
+     3544,
+     3546,
+     4406,
+     4408,
+     4409,
+     4410,
+     4411,
+     4412,
+     4413,
+     4469,
+     4472,
+     4477,
+     4501,
+     4502,
+     4503,
+     4504,
+     4505,
+     4506,
+     4723,
+     4742,
+     4743,
+     4746,
+     4812,
+     4850,
+     5523,
+     5524,
+     5526,
+     5527,
+     5528,
+     5529,
+     5552,
+     5574,
+     5575,
+     5576,
+     5577,
+     5617,
+     5619,
+     5637,
+     5638,
+     5639,
+     5684,
+     5685,
+     5817,
+     5818,
+     5819,
+     5821
+    ],
+    "enAttente": {
+     "pnChaqueCut": [
+      1070,
+      1071,
+      1073,
+      1075,
+      1962,
+      1963,
+      1964,
+      1965,
+      1966,
+      1967,
+      5362,
+      5363
+     ],
+     "grappeDifferes": [
+      4415,
+      5640,
+      5822
+     ],
+     "validationEnPlace": [],
+     "toutes": [
+      1070,
+      1071,
+      1073,
+      1075,
+      1962,
+      1963,
+      1964,
+      1965,
+      1966,
+      1967,
+      4415,
+      5362,
+      5363,
+      5640,
+      5822
+     ]
+    },
+    "tempsMicMin": {
+     "medianeMin": 0.3,
+     "hauteMin": 1
+    }
+   },
+   "hauteurApprise": {
+    "posesEvaluees": 130,
+    "railsChangesDe05mmOuPlus": 16,
+    "cutsChangesDe05mmOuPlus": 15,
+    "cutsChangesDe2mmOuPlus": 2,
+    "cutsAuPlafond5mm": [
+     {
+      "cut": 3286,
+      "gauche": 0,
+      "droite": 5
+     },
+     {
+      "cut": 4438,
+      "gauche": 5,
+      "droite": 5
+     }
+    ],
+    "tousLesCutsChanges": [
+     {
+      "cut": 1070,
+      "gauche": 0.2,
+      "droite": 0.5
+     },
+     {
+      "cut": 3286,
+      "gauche": 0,
+      "droite": 5
+     },
+     {
+      "cut": 4408,
+      "gauche": 0.2,
+      "droite": 0.6
+     },
+     {
+      "cut": 4411,
+      "gauche": -0.5,
+      "droite": 0.3
+     },
+     {
+      "cut": 4438,
+      "gauche": 5,
+      "droite": 5
+     },
+     {
+      "cut": 4745,
+      "gauche": 0,
+      "droite": 0.5
+     },
+     {
+      "cut": 4746,
+      "gauche": 0.1,
+      "droite": 0.5
+     },
+     {
+      "cut": 4747,
+      "gauche": 0.3,
+      "droite": 0.6
+     },
+     {
+      "cut": 4812,
+      "gauche": 0.5,
+      "droite": 0.3
+     },
+     {
+      "cut": 5524,
+      "gauche": 0.5,
+      "droite": 0.3
+     },
+     {
+      "cut": 5528,
+      "gauche": 0.3,
+      "droite": 0.5
+     },
+     {
+      "cut": 5574,
+      "gauche": 0.8,
+      "droite": 0.4
+     },
+     {
+      "cut": 5636,
+      "gauche": 0.4,
+      "droite": 0.5
+     },
+     {
+      "cut": 5637,
+      "gauche": 0,
+      "droite": 0.7
+     },
+     {
+      "cut": 5902,
+      "gauche": 0.6,
+      "droite": 0.2
+     }
+    ],
+    "versLeHaut": 15,
+    "versLeBas": 1,
+    "abstentions": {
+     "etage": 6,
+     "calage": 20,
+     "dessus-peu-observe": 1
+    },
+    "preuveSansEffet": true
+   },
+   "fauxVertHauteurAmbigue": {
+    "verdictDifferer": 0,
+    "cuts": []
+   },
+   "vertsAControler": {
+    "candidats": 735,
+    "candidatsParZone": {
+     "pn": 32,
+     "adv": 633,
+     "fenetre": 70
+    },
+    "listeCertaine": {
+     "verts": 37,
+     "minutes": 2.3,
+     "plages": [
+      {
+       "libelle": "PN 1068–1075",
+       "cuts": "1072",
+       "nombre": 1
+      },
+      {
+       "libelle": "PN 1961–1967",
+       "cuts": "1959, 1968",
+       "nombre": 2
+      },
+      {
+       "libelle": "ADV 3118–3295",
+       "cuts": "3145, 3156–3159, 3214, 3228, 3289",
+       "nombre": 8
+      },
+      {
+       "libelle": "ADV 4376–4536",
+       "cuts": "4407",
+       "nombre": 1
+      },
+      {
+       "libelle": "autour du différé 4414",
+       "cuts": "4416",
+       "nombre": 1
+      },
+      {
+       "libelle": "ADV 4376–4536",
+       "cuts": "4436, 4444",
+       "nombre": 2
+      },
+      {
+       "libelle": "autour du différé 4468",
+       "cuts": "4467, 4470, 4471",
+       "nombre": 3
+      },
+      {
+       "libelle": "ADV 4376–4536",
+       "cuts": "4476",
+       "nombre": 1
+      },
+      {
+       "libelle": "autour du différé 4500",
+       "cuts": "4498, 4499",
+       "nombre": 2
+      },
+      {
+       "libelle": "ADV 4376–4536",
+       "cuts": "4508",
+       "nombre": 1
+      },
+      {
+       "libelle": "ADV 4712–4776",
+       "cuts": "4741, 4748, 4762",
+       "nombre": 3
+      },
+      {
+       "libelle": "autour du différé 4766",
+       "cuts": "4768, 4769",
+       "nombre": 2
+      },
+      {
+       "libelle": "autour du différé 5523",
+       "cuts": "5521, 5522, 5525",
+       "nombre": 3
+      },
+      {
+       "libelle": "autour du différé 5576",
+       "cuts": "5578",
+       "nombre": 1
+      },
+      {
+       "libelle": "ADV 5493–5715",
+       "cuts": "5635",
+       "nombre": 1
+      },
+      {
+       "libelle": "autour du différé 5639",
+       "cuts": "5641",
+       "nombre": 1
+      },
+      {
+       "libelle": "ADV 5787–5851",
+       "cuts": "5815",
+       "nombre": 1
+      },
+      {
+       "libelle": "autour du différé 5821",
+       "cuts": "5823",
+       "nombre": 1
+      },
+      {
+       "libelle": "ADV 5787–5851",
+       "cuts": "5837, 5843",
+       "nombre": 2
+      }
+     ]
+    },
+    "estimation": {
+     "verts": 86,
+     "minutes": 5.3,
+     "hauteSiReferenceTousLesVerts": 145
+    },
+    "maximum": {
+     "verts": 735,
+     "minutes": 45.3
+    }
+   },
+   "voieDecalee": {
+    "posesLateralMaxAbsMedianeMm": 52,
+    "posesPlus80mm": 18,
+    "posesPlus150mm": 0,
+    "cutsPlus80mm": [
+     1960,
+     3146,
+     3177,
+     4410,
+     4411,
+     4412,
+     4440,
+     4441,
+     4442,
+     4443,
+     4747,
+     5817,
+     5822,
+     5839,
+     5840,
+     5841,
+     5842,
+     5902
+    ]
+   }
+  }
+ }
+}
