@@ -1,0 +1,29 @@
+echo opé : Project : (identifiant du projet ESV retiré)
+
+
+AVIS GENERAL : ne pas prendre en compte dans les calculs le fait que je skip, on s'en occupera pas pour le moment et garder à l'esprit que 1 cut corrigé = 1 cut appris et entrainé à la CGV2. ps : penser à mettre un compteur des nouveaux cuts appris et entrainé à la cgv2 depuis le début de développement de la 5.0 avec file d'attente entre ceux en apprentissage et ceux qui sont appris. double ps : les cuts visités et non modifiés 0,6 secondes peuvent être appris à la cgv2. triple ps : on ne s'arrêtera pas 1000 ou 1500 cuts appris, il en faudra bien plus, je voudrais que tu me tiennes seulement le compteur à jour entre chaque session afin que j'ai un visuel et au fur et é mesure on déterminera la limite. 
+
+14 : que des PN que j'ai corrigé 
+
+15 : 
+
+- PN (marge comprise) au cut 144 au 160 ;
+- zone d'adv (marge comprise) au cut 5889 jusqu'au 6081 ; 
+- aiguille au cut 5944 ;
+- cœur d'adv au cut 6017 ;
+- petit PN (marge comprise au cut 6169 jusqu'au 6173 ; 
+- aiguille au cut 7079 ; 
+- fin d'aiguille au cut 7111 ; 
+- zone d'adv + pn à proximité du cut 7036 jusqu'au cut 7232 marge comprise ; 
+- PN du cut 7598 jusqu'au cut 7614 marge comprise ; 
+- Pn du cut 8137 jusqu'au cut 8151 marge comprise ;
+
+16 : 
+
+- PN marge comprise du cut 1678 jusqu'au cut 1702 ;
+- aiguille au cut 1778 ; 
+- j'arrête de noter les PN je pense que tu es reconnaitras et il y a qausi que ça sur cette partie  ; 
+- zone d'adv marge comprise au cut 8735 jusqu'au 8785 ; 
+- aiguille au cut 8751 ; 
+
+
