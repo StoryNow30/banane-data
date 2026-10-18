@@ -16,7 +16,7 @@ Les sauvegardes automatiques sont cumulatives (segments 01 à 15). L'export fina
 
 Zones et marges telles que Mic les a contrôlées, à comparer avec ce qu'Ariane a relu (zones d'ADV d'Ariane : 6425–6488, 7288–7350, 7388–7470, 8223–8290 ; PN d'Ariane : 4558–4581, 5528–5551, 7476–7488, 8369–8391, 8785–8805, 9176–9196, 9568–9586) :
 
-- Premier PN « commençant à 4458 » (à lire probablement 4558, le PN détecté est 4558–4581) : très bien.
+- Premier PN « commençant à 4458 » (Mic confirme : c'est 4558, le PN détecté est 4558–4581) : très bien.
 - Second PN à 5528 : très bien, **seul le cut 5546 est à revoir**.
 - **Cut 6391, dans un cœur d'ADV : la pose est mauvaise, et la vérification avec la marge n'a pas été faite.** Mic a commencé ce contrôle au cut 6362 et a vérifié tous les cuts jusqu'au 6424, car la deuxième zone d'ADV était proche.
 - Deuxième zone d'ADV contrôlée jusqu'au cut 6480 ; **aiguille au cut 6456**.
