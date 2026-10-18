@@ -40,6 +40,7 @@ Ce dépôt public centralise les collectes et benchmarks Banane. Depuis le 23/09
 | `2026-10-17_v4.9.5.6_projet2-parties-8-9` | Ariane 4.9.5.6 | 2026-10-17 | **Second projet**, lots Orbite test 6 : p8 en « Variante » (29 posés, 2 différés) et p9 en « Tout recentré » (29 posés, 13 différés, dont 4 par la règle grappe, puis une reprise), sans Écho, parties réservées | archivée le 17/10 | Git, 4 zips |
 | `2026-10-18_v4.9.5.7_partie-10` | Ariane 4.9.5.7 | 2026-10-18 | **Premier export de la test 7** : lot Orbite de la partie 10 (9 cuts posés, 0 différé) suivi de la **relecture automatique en mode corriger** (12 cuts relus, 1 corrigé au cut 4130, 22 s), règle grappe coupée ; sans Écho | archivée le 18/10 | Git, 1 zip |
 | `2026-10-18_v4.9.5.7_partie-11` | Ariane 4.9.5.7 | 2026-10-18 | **Deuxième export de la test 7** : lot Orbite de la partie 11 (119 posés, 12 différés, 6,4 min) suivi de la **relecture automatique en mode corriger** (144 cuts relus, 17 corrigés, 4 min 20 s), règle grappe coupée ; export cumulatif (contient aussi la partie 10) ; sans Écho | archivée le 18/10 | Git, 2 zips |
+| `2026-10-18_v4.9.5.7_echo-partie-11` | Ariane 4.9.5.7 | 2026-10-18 | **Écho de Mic sur la partie 11** (731 visites, 22 min), après le lot et la relecture automatique : vérité terrain des 17 corrections d'Ariane ; **notes de Mic** sur les PN, les zones d'ADV et leurs marges (NOTES.md) | archivée le 18/10 | Git, 11 zips |
 
 ## Benchmarks
 
