@@ -1,0 +1,27 @@
+écho: Project : (identifiant du projet ESV retiré) 
+
+
+PART 10: 
+
+- RAS la pose et la relecture était parfaite ;
+
+
+
+PART 11 :
+
+- le premier PN commençant à 4458 est très bien
+- le second à 5528 aussi (juste le cut 5546 à revoir)
+- cut 6391 dans un cœur d'adv à revoir, la pose est mauvaise et la vérification avec la marge à prendre n'a pas été faite, je l'ai commencé au cut 6362 et j'ai vérifié tous les cuts jusqu'au 6424 car la deuxième zone d'ADV était proche 
+- la deuxième zone d'adv je l'ai controlé jusqu'au cut 6480 
+- aiguille au cut 6456 
+- le cut isolé 7177 tu as oublié de controler le avant après de cet isolé 
+- zone d'adv que je commence à controler au cut 7299 et pas d'aiguille car on reste sur la même voie cut
+- je contrôle jusqu'au cut 7385 car autre zone d'adv proche 
+- aiguillle au cut 7390
+- fin de marge des zones successives d'adv au cut 7456
+- je commence à controler un nouvel adv en prennant de la marge au cut 8229
+- fin d'aiguille au cut 8257
+- fin de contrôle de marge d'adv au cut 8309
+- le reste c'et très bien, j'ai contrôlé tous les cuts demandés 
+- n'oublie pas cu cut corrigé = un cut appris pour la gcv2 
+
