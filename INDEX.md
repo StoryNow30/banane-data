@@ -41,6 +41,10 @@ Ce dépôt public centralise les collectes et benchmarks Banane. Depuis le 23/09
 | `2026-10-18_v4.9.5.7_partie-10` | Ariane 4.9.5.7 | 2026-10-18 | **Premier export de la test 7** : lot Orbite de la partie 10 (9 cuts posés, 0 différé) suivi de la **relecture automatique en mode corriger** (12 cuts relus, 1 corrigé au cut 4130, 22 s), règle grappe coupée ; sans Écho | archivée le 18/10 | Git, 1 zip |
 | `2026-10-18_v4.9.5.7_partie-11` | Ariane 4.9.5.7 | 2026-10-18 | **Deuxième export de la test 7** : lot Orbite de la partie 11 (119 posés, 12 différés, 6,4 min) suivi de la **relecture automatique en mode corriger** (144 cuts relus, 17 corrigés, 4 min 20 s), règle grappe coupée ; export cumulatif (contient aussi la partie 10) ; sans Écho | archivée le 18/10 | Git, 2 zips |
 | `2026-10-18_v4.9.5.7_echo-partie-11` | Ariane 4.9.5.7 | 2026-10-18 | **Écho de Mic sur la partie 11** (731 visites, 22 min), après le lot et la relecture automatique : vérité terrain des 17 corrections d'Ariane ; **notes de Mic** sur les PN, les zones d'ADV et leurs marges (NOTES.md) | archivée le 18/10 | Git, 11 zips |
+| `2026-10-18_v4.9.5.7_echo-partie-10` | Ariane 4.9.5.7 | 2026-10-18 | **Écho de la partie 10** (23 visites, 2 min) après le lot et la relecture automatique ; note de Mic : « RAS la pose et la relecture était parfaite » ; notes de Mic sur les parties 10 et 11 | archivée le 19/10 | Git, 1 zip |
+| `2026-10-18_v4.9.5.7_echo-partie-14` | Ariane 4.9.5.7 | 2026-10-18 | **Écho de la partie 14** (114 visites, 5 min), sans lot Orbite, opérateur débutant selon Mic ; **notes de Mic sur les parties 14, 15 et 16** et son avis sur l'apprentissage de GCV2 (un cut corrigé = un cut appris) | archivée le 19/10 | Git, 4 zips |
+| `2026-10-18_v4.9.5.7_echo-partie-15` | Ariane 4.9.5.7 | 2026-10-18 | **Écho de la partie 15** (567 visites à la dernière sauvegarde), sans lot Orbite ; export final non envoyé | archivée le 19/10 | Git, 21 zips |
+| `2026-10-18_v4.9.5.7_echo-partie-16` | Ariane 4.9.5.7 | 2026-10-18 | **Écho de la partie 16** (396 visites, 16 min), sans lot Orbite | archivée le 19/10 | Git, 12 zips |
 
 ## Benchmarks
 
