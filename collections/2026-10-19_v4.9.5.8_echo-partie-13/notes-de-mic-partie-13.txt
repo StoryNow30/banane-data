@@ -1,0 +1,12 @@
+PART 13 :
+
+- le contrôle est pas mal avec une prise de marge commençant à 3501, j'aurais juste pris un peu avant à 3488 ;
+- je m'arrête à 3572 pour la fin de la marge de la zone d'adv le reste est bien ;
+- début zone adv 3598
+- fin zone adv 3705
+- correction mineur de l'ordre de quelques mm, rien de méchant ça servira à la cgv2 ;
+- attention aux rouges isolés
+- PN qui aurait dû être contrôler avant et après, je commence au cut 6623 jusqu'au 6635 ;
+- pareil un autre PN oublié que je commence au cut 7739 -> 7752 ;
+- pareil un autre PN oublié que je commence au cut 9245 -> 9258 ;
+- je sais pas ce qui s'est pasé avec mon ariane mais ça n'a rien lu donc je te fais visiter les cuts que j'ai corrigé (j'ai corrigé d'autres pendant la revisite) ;
