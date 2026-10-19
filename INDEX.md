@@ -50,6 +50,7 @@ Ce dépôt public centralise les collectes et benchmarks Banane. Depuis le 23/09
 | `2026-10-19_v4.9.5.8_partie-13` | Ariane 4.9.5.8 | 2026-10-19 | **Partie 13 du second projet** (partie neuve, réservée) : premier lot Orbite de la test 8 (9 751 validés, 21 invalides au départ), relecture « corriger » en cours à l'export (78 sur 118 relus, 9 corrigés), 20 verts à contrôler ; sans Écho | archivée le 19/10 | Git, 1 zip |
 | `2026-10-19_v4.9.5.8_echo-partie-13` | Ariane 4.9.5.8 | 2026-10-19 | **Écho de la partie 13 du second projet** (267 visites, 12 h 46 à 13 h 07), après le premier lot Orbite de la test 8 (`2026-10-19_v4.9.5.8_partie-13`) ; **notes de Mic sur la partie 13** (NOTES.md) ; Mic écrit qu'Ariane « n'a rien lu » et revisite en Écho ses cuts corrigés (à analyser) | archivée le 19/10 | Git, 5 zips |
 | `2026-10-19_v4.9.5.8_partie-18` | Ariane 4.9.5.8 | 2026-10-19 | **Lot Orbite test 8, partie 18 du second projet** : 5 265 validés, 214 invalides au départ (13 h 51), relecture « corriger » finie (321 relus, 33 corrigés), 83 verts à contrôler en 24 plages ; sans Écho | archivée le 19/10 | Git, 6 zips |
+| `2026-10-19_v4.9.5.8_echo-partie-18` | Ariane 4.9.5.8 | 2026-10-19 | **Écho de la partie 18 du second projet** (52 visites, 15 h 01 à 15 h 03), après le lot Orbite de la test 8 (`2026-10-19_v4.9.5.8_partie-18`) ; session en cours : segment automatique, export final pas encore reçu, visite du cut 51 encore ouverte ; Mic n'a pas pu continuer, la séance reprendra | archivée le 19/10 (segment) | Git, 1 zip |
 
 ## Benchmarks
 
