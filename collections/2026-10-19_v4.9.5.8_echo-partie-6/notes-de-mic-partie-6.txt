@@ -1,0 +1,17 @@
+PART 6 :
+
+- cut 3359 début zone adv marge comprise ;
+- fin de zone 3442
+- début zone adv marge comprise au cut 3478
+- aiguille au cut 3505
+- fin zone adv cut 3535
+- début adv 3670
+- aiguille au cut 3723
+- fin zone adv 3752
+- début adv 4423
+- fin 4477
+- cut 4650 aiguille à droite
+- début marge zone adv 4723
+- cut 4756 aiguille
+- fin zone adv 4779
+- PN cut 7935 au 7957
