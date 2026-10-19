@@ -1,0 +1,36 @@
+PART 7 :
+
+- PN au cut 1065 jusqu'au 1079
+- Pn du cut 1975 au
+- début zone adv
+- aiguille cut 3149
+- fin d'aiguille cut 3161 gauche
+- début aiguile cut 3162 droite
+- fin zone adv 3201
+- aiguille  à 3219 gauche
+- grappe d'invalides de 3260 à 3304 que je laisse sans aucun trou
+- début zone adv à 3514
+- aiguille 3545
+- fin zone adv 3579
+- début zone adv cut 4373
+- aiguille au cut 4410
+- fin zone adv au cut 4444
+- début zone adv 4466
+- aiguille au cut droit 4504
+- fin zone adv cut 4532
+- début zone adv 4713
+- aiguille cut 4724
+- aiguille cut 4743
+- succession d'adv je continue à contrôler
+- aiguile cut 4851 gauche
+- fin zones d'advs cut 4875
+- 5502 début zone adv
+- aiguille cut 5525
+- aiguille 5638
+- aiguille cut 5685 droite
+- fin de zone adv 5716
+- début zone adv 5794
+- aiguille cut 5819 gauche
+- fin zone adv 5850
+- aiguille au cut 5897
+- fin zone adv cut 5928
