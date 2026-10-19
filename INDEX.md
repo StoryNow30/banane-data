@@ -47,6 +47,7 @@ Ce dépôt public centralise les collectes et benchmarks Banane. Depuis le 23/09
 | `2026-10-18_v4.9.5.7_echo-partie-16` | Ariane 4.9.5.7 | 2026-10-18 | **Écho de la partie 16** (396 visites, 16 min), sans lot Orbite | archivée le 19/10 | Git, 12 zips |
 | `2026-10-19_v4.9.5.8_echo-partie-6` | Ariane 4.9.5.8 | 2026-10-19 | **Écho de la partie 6 du second projet** (458 visites, 08 h 48 à 09 h 18), sans lot Orbite dans cette collecte ; **notes de Mic sur la partie 6** (NOTES.md) | archivée le 19/10 | Git, 10 zips |
 | `2026-10-19_v4.9.5.8_echo-partie-7` | Ariane 4.9.5.8 | 2026-10-19 | **Écho de la partie 7 du second projet** (1 106 visites, 09 h 21 à 11 h 54), sans lot Orbite dans cette collecte ; **notes de Mic sur la partie 7** (NOTES.md) | archivée le 19/10 | Git, 33 zips |
+| `2026-10-19_v4.9.5.8_partie-13` | Ariane 4.9.5.8 | 2026-10-19 | **Partie 13 du second projet** (partie neuve, réservée) : premier lot Orbite de la test 8 (9 751 validés, 21 invalides au départ), relecture « corriger » en cours à l'export (78 sur 118 relus, 9 corrigés), 20 verts à contrôler ; sans Écho | archivée le 19/10 | Git, 1 zip |
 
 ## Benchmarks
 
