@@ -1,6 +1,6 @@
 # Collecte 2026-10-20_v4.9.5.15_partie-0
 
-Ariane 4.9.5.15 (test 15, profil L1-e4 : v4 du lot), **lot Orbite sur la partie 0**, 20 octobre 2026. Projet à confirmer : l'export ne l'indique pas. C'est le premier lot de terrain de la test 15, décrit par Mic comme « une partie très compliquée ».
+Ariane 4.9.5.15 (test 15, profil L1-e4 : v4 du lot), **lot Orbite sur la partie 0 du troisième projet** (confirmé par Mic le 20/10), 20 octobre 2026. C'est le premier lot de terrain de la test 15, décrit par Mic comme « une partie très compliquée ».
 
 Export allégé du 20/10/2026 à 21 h 06 min 30 s (heure de Paris), 9 volumes. Chaque volume est un zip complet, et il faut les 9 pour avoir l'export entier :
 
