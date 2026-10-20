@@ -1,6 +1,6 @@
 # Collecte 2026-10-19_v4.9.5.8_partie-17-lot-15h51
 
-Ariane 4.9.5.8 (test 8), **partie 17, projet à confirmer par Mic ; une partie 17 du premier projet existe déjà dans `2026-10-14_v4.9.0.12_partie-17`, ne pas confondre**, 19 octobre 2026. **Lot Orbite de la test 8 sur cette partie.** Export allégé du 19/10/2026 à 15 h 51 min 03 s (heure de Paris), 5 volumes ; chaque volume est un zip complet, il faut les 5 pour l'export entier. Période : depuis le début de la session (cache jamais vidé).
+Ariane 4.9.5.8 (test 8), **partie 17 du second projet (confirmé par Mic le 20/10) ; une partie 17 du premier projet existe déjà dans `2026-10-14_v4.9.0.12_partie-17`, ne pas confondre**, 19 octobre 2026. **Lot Orbite de la test 8 sur cette partie.** Export allégé du 19/10/2026 à 15 h 51 min 03 s (heure de Paris), 5 volumes ; chaque volume est un zip complet, il faut les 5 pour l'export entier. Période : depuis le début de la session (cache jamais vidé).
 
 Départ de la partie 17 à 14 h 57 min 46 s : 9 703 validés, 139 invalides, total 9 844.
 

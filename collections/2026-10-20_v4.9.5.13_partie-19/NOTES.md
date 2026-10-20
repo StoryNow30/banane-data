@@ -1,6 +1,6 @@
 # Collecte 2026-10-20_v4.9.5.13_partie-19
 
-Ariane 4.9.5.13 (test 13, profil L1-s du lot), **lot Orbite sur la partie 19** (projet à confirmer par Mic ; second projet probable), 20 octobre 2026. Export allégé du 20/10/2026 à 9 h 11 min 58 s (heure de Paris), 5 volumes ; chaque volume est un zip complet, il faut les 5 pour l'export entier. Période : depuis le début de la session (cache jamais vidé). **Premier lot où la GCV2 pose réellement dans ESV.** Mot de Mic : le lot « rate la plupart » des différés.
+Ariane 4.9.5.13 (test 13, profil L1-s du lot), **lot Orbite sur la partie 19** (second projet, confirmé par Mic le 20/10), 20 octobre 2026. Export allégé du 20/10/2026 à 9 h 11 min 58 s (heure de Paris), 5 volumes ; chaque volume est un zip complet, il faut les 5 pour l'export entier. Période : depuis le début de la session (cache jamais vidé). **Premier lot où la GCV2 pose réellement dans ESV.** Mot de Mic : le lot « rate la plupart » des différés.
 
 Départs vus par l'export (heures de Paris) : partie 17 à 8 h 28 (9 801 validés, 41 invalides), partie 18 à 8 h 40 (5 446 validés, 33 invalides), **partie 19 à 8 h 49 min 49 s : 5 306 validés, 248 invalides, total 5 554** (la veille, avant correction, le départ de la partie 19 était à 5 203 validés, 351 invalides).
 

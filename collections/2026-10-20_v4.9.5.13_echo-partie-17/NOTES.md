@@ -1,6 +1,6 @@
 # Collecte 2026-10-20_v4.9.5.13_echo-partie-17
 
-Ariane 4.9.5.13 (test 13), **Écho de la partie 17** (projet à confirmer par Mic : second projet probable), 20 octobre 2026, de 8 h 28 à 8 h 32 (heure de Paris) : **55 visites** (45 complètes, 10 partielles), 642 objets LiDAR, 3 277 événements. Session Écho terminée (état FINISHED, reprise de page à 8 h 32). C'est la correction, par Mic, des cuts posés la veille (lot Orbite de la partie 17 dans `2026-10-19_v4.9.5.8_partie-17-lot-15h51`).
+Ariane 4.9.5.13 (test 13), **Écho de la partie 17** (second projet, confirmé par Mic le 20/10), 20 octobre 2026, de 8 h 28 à 8 h 32 (heure de Paris) : **55 visites** (45 complètes, 10 partielles), 642 objets LiDAR, 3 277 événements. Session Écho terminée (état FINISHED, reprise de page à 8 h 32). C'est la correction, par Mic, des cuts posés la veille (lot Orbite de la partie 17 dans `2026-10-19_v4.9.5.8_partie-17-lot-15h51`).
 
 Cuts visités, dans l'ordre : 9520 à 9530, 9545, 9549 à 9558, 9604, 9624 à 9626, 9638 à 9655, 9687 à 9689, 9753 à 9755, 9790, 9800, 9803, 9815, 9843.
 

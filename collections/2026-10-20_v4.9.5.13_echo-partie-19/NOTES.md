@@ -1,6 +1,6 @@
 # Collecte 2026-10-20_v4.9.5.13_echo-partie-19
 
-Ariane 4.9.5.13 (test 13), **Écho de la partie 19** (projet à confirmer par Mic ; second projet probable), 20 octobre 2026, de 9 h 25 à 10 h 05 (heure de Paris) : **634 visites** (327 complètes, 307 partielles) sur 620 cuts distincts, 27 106 événements. Session Écho terminée (état FINISHED). C'est la correction, par Mic, de la partie après le **premier lot réel de la GCV2** (`2026-10-20_v4.9.5.13_partie-19`, lot de 8 h 49).
+Ariane 4.9.5.13 (test 13), **Écho de la partie 19** (second projet, confirmé par Mic le 20/10), 20 octobre 2026, de 9 h 25 à 10 h 05 (heure de Paris) : **634 visites** (327 complètes, 307 partielles) sur 620 cuts distincts, 27 106 événements. Session Écho terminée (état FINISHED). C'est la correction, par Mic, de la partie après le **premier lot réel de la GCV2** (`2026-10-20_v4.9.5.13_partie-19`, lot de 8 h 49).
 
 Cuts visités (plages) : 0 à 3, 1755 à 1772, 2617 à 2618, 3618 à 3622, 4170 à 4172, **4846 à 5305** (tout le bloc du lot, verts compris), 5354 à 5436, 5469 à 5508, 5549 à 5553.
 

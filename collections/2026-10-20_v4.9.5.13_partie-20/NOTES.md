@@ -1,6 +1,6 @@
 # Collecte 2026-10-20_v4.9.5.13_partie-20
 
-Ariane 4.9.5.13 (test 13, profil L1-s du lot), **lot Orbite sur la partie 20** (projet à confirmer par Mic), 20 octobre 2026. Export allégé du 20/10/2026 à 12 h 04 min 49 s (heure de Paris), 10 volumes. Chaque volume est un zip complet, et il faut les 10 pour avoir l'export entier :
+Ariane 4.9.5.13 (test 13, profil L1-s du lot), **lot Orbite sur la partie 20** (second projet, confirmé par Mic le 20/10), 20 octobre 2026. Export allégé du 20/10/2026 à 12 h 04 min 49 s (heure de Paris), 10 volumes. Chaque volume est un zip complet, et il faut les 10 pour avoir l'export entier :
 
 - volume 1 : liste d'ESV, verts à contrôler, journal, diagnostic ;
 - volumes 2 à 9 : corpus, segments 1 à 8 ;

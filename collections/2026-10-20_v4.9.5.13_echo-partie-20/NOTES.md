@@ -1,6 +1,6 @@
 # Collecte 2026-10-20_v4.9.5.13_echo-partie-20
 
-Ariane 4.9.5.13 (test 13), **Écho de la partie 20** (projet à confirmer par Mic), 20 octobre 2026, de 12 h 08 min 18 s à 12 h 32 min 30 s (heure de Paris) : **536 visites**. La séance est close : l'export final donne une heure de fin. C'est la correction, par Mic, de la partie 20 après le lot Orbite de 10 h 27 (`2026-10-20_v4.9.5.13_partie-20`).
+Ariane 4.9.5.13 (test 13), **Écho de la partie 20** (second projet, confirmé par Mic le 20/10), 20 octobre 2026, de 12 h 08 min 18 s à 12 h 32 min 30 s (heure de Paris) : **536 visites**. La séance est close : l'export final donne une heure de fin. C'est la correction, par Mic, de la partie 20 après le lot Orbite de 10 h 27 (`2026-10-20_v4.9.5.13_partie-20`).
 
 Départs de la partie 20 vus par l'Écho (heures de Paris) :
 

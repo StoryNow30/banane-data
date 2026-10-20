@@ -1,6 +1,6 @@
 # Collecte 2026-10-19_v4.9.5.8_partie-19
 
-Ariane 4.9.5.8 (test 8), **partie 19, projet à confirmer par Mic**, 19 octobre 2026. **Lot Orbite de la test 8 sur cette partie.** Export allégé du 19/10/2026 à 20 h 56 min 23 s (heure de Paris), 8 volumes ; chaque volume est un zip complet, il faut les 8 pour l'export entier. Période : depuis le début de la session (cache jamais vidé).
+Ariane 4.9.5.8 (test 8), **partie 19 du second projet** (confirmé par Mic le 20/10), 19 octobre 2026. **Lot Orbite de la test 8 sur cette partie.** Export allégé du 19/10/2026 à 20 h 56 min 23 s (heure de Paris), 8 volumes ; chaque volume est un zip complet, il faut les 8 pour l'export entier. Période : depuis le début de la session (cache jamais vidé).
 
 Départs de la partie 19 à 20 h 02 min 35 s, puis à 20 h 03 min 08 s (deux départs enregistrés, mêmes chiffres) : 5 203 validés, 351 invalides, total 5 554.
 
