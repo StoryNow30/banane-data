@@ -56,6 +56,7 @@ Ce dépôt public centralise les collectes et benchmarks Banane. Depuis le 23/09
 | `2026-10-20_v4.9.5.13_echo-partie-17` | Ariane 4.9.5.13 | 2026-10-20 | **Écho de la partie 17** (projet à confirmer) : 55 visites (cuts 9520 à 9843, 8 h 28 à 8 h 32), correction par Mic des cuts posés la veille (`2026-10-19_v4.9.5.8_partie-17-lot-15h51`) ; première séance sous la test 13 (L1-s) ; session terminée | archivée le 20/10 | Git, 3 zips |
 | `2026-10-20_v4.9.5.13_echo-partie-18` | Ariane 4.9.5.13 | 2026-10-20 | **Écho de la partie 18 du second projet** : 87 visites (cuts 61 à 470, 8 h 39 à 8 h 47), correction par Mic des cuts posés la veille (`2026-10-19_v4.9.5.8_partie-18`), « coupes très complexes » ; test 13 (L1-s) ; session terminée | archivée le 20/10 | Git, 4 zips |
 | `2026-10-20_v4.9.5.13_partie-19` | Ariane 4.9.5.13 | 2026-10-20 | **Lot Orbite test 13 (L1-s), partie 19** : premier lot où la GCV2 pose dans ESV ; départ 5 306 validés, 248 invalides (8 h 49), 15 verts à contrôler, relecture arrêtée (71 sur 448) ; Mic : « il rate la plupart » ; sans Écho | archivée le 20/10 | Git, 5 zips |
+| `2026-10-20_v4.9.5.13_echo-partie-19` | Ariane 4.9.5.13 | 2026-10-20 | **Écho de la partie 19** : 634 visites, 620 cuts (dont tout le bloc 4846 à 5305, verts compris), 9 h 25 à 10 h 05, après le premier lot réel de la GCV2 (`2026-10-20_v4.9.5.13_partie-19`) ; session terminée ; nuages des segments 1 à 8 non envoyés (1 365 sur 3 040 manquants) | archivée le 20/10 | Git, 12 zips |
 
 ## Benchmarks
 
