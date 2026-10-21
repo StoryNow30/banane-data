@@ -1,6 +1,6 @@
 # Collecte 2026-10-21_v4.9.5.16_partie-1
 
-Ariane 4.9.5.16 (test 16, profil L1-e5 : v5 du lot), **premier lot de terrain de la test 16**, sur la **partie 1** (le projet n'est pas précisé par Mic : à confirmer ; la liste d'ESV compte 9 321 lignes), 21 octobre 2026.
+Ariane 4.9.5.16 (test 16, profil L1-e5 : v5 du lot), **premier lot de terrain de la test 16**, sur la **partie 1 du troisième projet** (confirmé par Mic le 21/10 ; la liste d'ESV compte 9 321 lignes), 21 octobre 2026.
 
 Export allégé du 21/10/2026 à 08 h 57 min 34 s (heure de Paris), **archive unique** (6 fichiers JSON) : liste d'ESV, verts à contrôler, journal, diagnostic, corpus (segment 1), bilan.
 
