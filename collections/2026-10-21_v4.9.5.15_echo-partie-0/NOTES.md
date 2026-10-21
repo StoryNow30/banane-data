@@ -33,3 +33,7 @@ Export envoyé et archivé le 21/10/2026, **tel qu'envoyé** : les deux zips d'o
 | Dossier | Fichiers | Taille |
 |---|---|---|
 | `echo 08h33` | 2 zips (`ariane-echo-partie0-2026-10-21T06-31-06-auto.zip`, `ariane-echo-partie0-2026-10-21T06-33-18.zip`), `SHA256SUMS` | 10,2 Mo (10 695 428 octets) |
+
+## Suite (21/10/2026)
+
+Mis en apprentissage le 21/10 (décision D-224), après examen à réglages figés. Chiffres de l'examen (v4 → v5, vérité d'Écho = validations seules, liste d'ESV du lot) : cuts laissés sans pose 18 → 15 ; poses jugées 20 → 22 ; à 10 mm ou moins 6 → 14 ; à plus de 50 mm 6 → 4 ; 0 vert de la chaîne changé. Sans la liste : 30 → 26 cuts sans pose, 3 poses à plus de 50 mm. Détail : `fiches/APPRENTISSAGE_3_0.md` du dépôt de code (branche `claude/50-apprentissage-3-0`).

@@ -39,3 +39,7 @@ Session Écho `d68f1c57…` du 21/10/2026, de 8 h 37 min 50 s à 9 h 05 min 49 s
 | Dossier | Fichiers | Taille |
 |---|---|---|
 | `echo 09h05` | 8 zips, `SHA256SUMS` | 87,9 Mo (87 887 957 octets) |
+
+## Suite (21/10/2026)
+
+Joint au premier Écho et au lot pour la vérité de la partie 0 ; mis en apprentissage le 21/10 (décision D-224) après examen à réglages figés : voir `2026-10-21_v4.9.5.15_echo-partie-0/NOTES.md`. Segments 2 et 3 absents : les 543 visites sont toutes présentes, 641 nuages sur 2 234 manquent (91 des 113 premières visites) ; la vérité n'en dépend pas.
