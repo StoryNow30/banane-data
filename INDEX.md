@@ -81,3 +81,4 @@ Ce dépôt public centralise les collectes et benchmarks Banane. Depuis le 23/09
 - Une transformation, fusion, extraction ou qualification produit un nouvel artefact avec son propre SHA-256.
 - Une archive `.7z` de collecte est versionnée directement dans Git (100 Mo au plus par fichier) ; au-delà, découpage en volumes.
 - Une correction humaine Natif doit être qualifiée avant tout usage comme vérité d'entraînement.
+| `2026-10-21_v4.9.5.18_partie-2` | Ariane 4.9.5.18 | 2026-10-21 | **Premier lot de terrain de la test 18** (deuxième passe des différés en écriture), partie 2 (projet non précisé), 18 h 14 à 18 h 17 ; départ 9 487 validés, 69 invalides ; bilan : 68 complétés, 1 différé (cut 2256) ; 47 verts à contrôler en 6 plages ; archive unique, SHA-256 et CRC vérifiés, 0 courriel / 0 adresse web / 0 code de projet ESV / 0 nom d'opérateur ; **non analysé**, en attente du go de Mic |
