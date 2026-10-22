@@ -1,6 +1,8 @@
 # Collecte 2026-10-22_v4.9.5.18_echo-partie-2
 
-Ariane 4.9.5.18 (test 18), **Écho de la partie 2 du troisième projet (3:2)**, 22 octobre 2026, après le premier lot de la test 18 sur cette partie (`2026-10-21_v4.9.5.18_partie-2`).
+Ariane 4.9.5.18 (test 18), **Écho de la partie 2 du quatrième projet (4:2)**, 22 octobre 2026, après le premier lot de la test 18 sur cette partie (`2026-10-21_v4.9.5.18_partie-2`, même taille de liste : 9 556 lignes).
+
+Correction du 22/10/2026 : cet Écho avait d'abord été noté 3:2 ; Mic a précisé que c'est la **4:2**. Le lot du 21/10 est rattaché à la même partie par la taille de la liste d'ESV (9 556 lignes des deux côtés, et 1 seul invalide au départ de l'Écho, cohérent avec le différé resté après le lot) ; à confirmer par Mic.
 
 Session Écho `e4fc795d…` du 22/10/2026, de 08 h 35 min 12 s à 08 h 42 min 50 s (heure de Paris), **77 visites** au dernier export, une seule partie (2). Version déclarée par la session : 4.9.5.18.
 

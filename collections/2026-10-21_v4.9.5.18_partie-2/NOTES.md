@@ -1,6 +1,6 @@
 # Collecte 2026-10-21_v4.9.5.18_partie-2
 
-Ariane 4.9.5.18 (test 18, profil L1-se : v6 du lot avec deuxième passe des différés), **premier lot de terrain de la test 18**, sur la **partie 2 du troisième projet** (3:2, formulation de Mic le 22/10 ; la liste d'ESV compte 9 556 lignes), 21 octobre 2026. Lot court : 69 cuts invalides au départ.
+Ariane 4.9.5.18 (test 18, profil L1-se : v6 du lot avec deuxième passe des différés), **premier lot de terrain de la test 18**, sur la **partie 2 du quatrième projet** (4:2 ; d'abord noté 3:2 d'après une formulation de Mic, corrigé le 22/10 quand Mic a dit que l'Écho transmis est la 4:2 ; même taille de liste d'ESV, 9 556 lignes, à confirmer par Mic pour le lot) , 21 octobre 2026. Lot court : 69 cuts invalides au départ.
 
 Export allégé du 21/10/2026 à 18 h 18 min 52 s (heure de Paris), **archive unique** (6 fichiers JSON) : liste d'ESV, verts à contrôler, journal, diagnostic, corpus (segment 1), bilan.
 
