@@ -32,4 +32,4 @@ Le fichier de 32 605 691 octets (31 842 Ko d'après Mic) dépasse la limite de t
 
 | Dossier | Fichiers | Taille |
 |---|---|---|
-| `export 13h42` | 18 zips (volumes 1 à 18 sur 18), `SHA256SUMS` | 305,7 Mo (305 692 912 octets pour les zips) |
+| `export 13h42` | 18 zips (volumes 1 à 18 sur 18), `SHA256SUMS` | 305,7 Mo (305 690 940 octets pour les zips) |
