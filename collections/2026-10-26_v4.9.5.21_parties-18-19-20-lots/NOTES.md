@@ -21,3 +21,7 @@ Archivé tel qu'envoyé le 26/10/2026, préfixe de téléversement retiré du no
 | `export 11h43 partie 18` | 2 zips, `SHA256SUMS` | 22 Mo |
 | `export 11h50 partie 19` | 2 zips, `SHA256SUMS` | 25 Mo |
 | `export 12h21 partie 20` | 4 zips, `SHA256SUMS` | 45 Mo |
+
+## Écho de la partie 19
+
+L'opérateur indique le 26/10/2026 que l'Écho de la partie 19 est **définitivement perdu** : il n'existera pas d'archive. Le lot de la partie 19 ne pourra donc pas être jugé contre une correction humaine (pas de vérité terrain pour cette partie).
