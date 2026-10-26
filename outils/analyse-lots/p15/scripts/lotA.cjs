@@ -3,7 +3,7 @@ const P=require(R+'tree/tools/perf-lot.cjs');
 const j=JSON.parse(fs.readFileSync(R+'data/lot/ariane-journal-v4-1793001080845.json','utf8'));
 const ev=j.events.filter(e=>e.timestamp).sort((a,b)=>a.timestamp.localeCompare(b.timestamp));
 const ms=e=>Date.parse(e.timestamp);
-const B='a1f5269b-424b-4262-a172-da6e1e6574bf';
+const B=process.env.LOT_ID; if(!B) throw new Error('LOT_ID : identifiant du lot (batchId de la fiche de départ) à passer en variable d’environnement');
 const t0=Date.parse('2026-10-26T07:43:17.676Z'),t1=Date.parse('2026-10-26T07:45:25.267Z'),tr0=Date.parse('2026-10-26T07:45:25.621Z'),tr1=Date.parse('2026-10-26T07:49:43.414Z');
 const inLot=e=>ms(e)>=t0&&ms(e)<=t1+400; // fin du lot
 const lot=ev.filter(e=>ms(e)>=t0&&ms(e)<tr0);

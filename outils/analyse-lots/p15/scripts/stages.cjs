@@ -1,7 +1,7 @@
 const fs=require('fs');
 const j=JSON.parse(fs.readFileSync(process.argv[2],'utf8'));
 const ev=j.events.slice().sort((a,b)=>(a.timestamp||'').localeCompare(b.timestamp||''));
-const B='a1f5269b-424b-4262-a172-da6e1e6574bf';
+const B=process.env.LOT_ID; if(!B) throw new Error('LOT_ID : identifiant du lot (batchId de la fiche de départ) à passer en variable d’environnement');
 const dec={};
 for(const e of ev) if(e.type==='gcv1-shadow-observed'&&e.batchId===B) dec[e.identity.cut]=e;
 const rows=[];

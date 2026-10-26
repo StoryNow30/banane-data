@@ -7,7 +7,7 @@ const apres=LM.decompacter(JSON.parse(fs.readFileSync(R+'data/echo/ariane-liste-
 const j=JSON.parse(fs.readFileSync(R+'data/lot/ariane-journal-v4-1793001080845.json','utf8'));
 const ev=j.events.slice().sort((a,b)=>(a.timestamp||'').localeCompare(b.timestamp||''));
 // étapes
-const B='a1f5269b-424b-4262-a172-da6e1e6574bf';
+const B=process.env.LOT_ID; if(!B) throw new Error('LOT_ID : identifiant du lot (batchId de la fiche de départ) à passer en variable d’environnement');
 const etape={};for(const e of ev) if(e.type==='gcv1-shadow-observed'&&e.batchId===B) etape[e.identity.cut]=e.lotObservation.stage;
 const rel={};for(const e of ev) if(e.type==='relecture-ombre') rel[e.identity.cut]=e;
 const corriges=Object.values(rel).filter(e=>e.action==='corrige').map(e=>e.identity.cut).sort((a,b)=>a-b);
