@@ -1,0 +1,18 @@
+{
+ "cutsAvecPixel": 402,
+ "sansPixel": 0,
+ "pixelMmQuantiles": [
+  0.499,
+  0.499,
+  0.499
+ ],
+ "n": 1608,
+ "residuNormalise": {
+  "min": -1.042,
+  "mediane": -0.481,
+  "max": 0.04
+ },
+ "partDansMoinsUnZero": 1,
+ "partSousDemiPixel": 0.502,
+ "ksContreUniformeMoins1a0": 0.031
+}

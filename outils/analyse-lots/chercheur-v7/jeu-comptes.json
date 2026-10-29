@@ -1,0 +1,16 @@
+{
+ "statutJeu": 0,
+ "lignesLues": 12331,
+ "ecrites": 4185,
+ "parType": {
+  "cut": 188,
+  "rail": 308,
+  "hyp": 3689
+ },
+ "ecartees": {
+  "examen": 7507,
+  "garde": 638,
+  "sansCut": 1
+ },
+ "ecrit": "jeu-reglage.jsonl"
+}

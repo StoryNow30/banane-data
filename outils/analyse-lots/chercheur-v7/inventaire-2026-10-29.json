@@ -1,0 +1,2887 @@
+{
+ "format": "ariane-chercheur-v7-inventaire-v1",
+ "partie": 17,
+ "versionJournal": "4.9.5.23",
+ "lignesTable": 1166,
+ "comptes": {
+  "reglage": {
+   "visite-sans-action": 29,
+   "echo-observee": 158,
+   "echo-non-observee": 1,
+   "hors-echo": 382
+  },
+  "examen": {
+   "hors-echo": 203,
+   "visite-sans-action": 50,
+   "echo-observee": 265,
+   "echo-non-observee": 3
+  },
+  "garde": {
+   "echo-observee": 21,
+   "visite-sans-action": 7,
+   "echo-non-observee": 1,
+   "hors-echo": 46
+  }
+ },
+ "jugesParLeLot": {
+  "cibles": 791,
+  "poses": 777,
+  "differes": 14,
+  "sansEcho": 631,
+  "nonJuges": 2,
+  "repereNonCalibre": 0
+ },
+ "note": "Aucun écart en mm. Les comptes d’examen sont des comptes d’état seulement.",
+ "detailReglage": [
+  {
+   "cut": 40,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 41,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 42,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 43,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 44,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 45,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 46,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 47,
+   "etat": "echo-non-observee",
+   "base": null
+  },
+  {
+   "cut": 48,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 49,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 50,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 51,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 52,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 53,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 54,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 55,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 56,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 83,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 84,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 85,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 86,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 87,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 88,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 89,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 90,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 91,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 92,
+   "etat": "visite-sans-action",
+   "base": "ariane"
+  },
+  {
+   "cut": 93,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 94,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 95,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 96,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 511,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 512,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 513,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 514,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 515,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 516,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 517,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 518,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 519,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 520,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 521,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 522,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 523,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 524,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 525,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 526,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 527,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 528,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 529,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 530,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 531,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 532,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 533,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 534,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 535,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 536,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 963,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 964,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 965,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 966,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 967,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 968,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 969,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 970,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 971,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 972,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 973,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 974,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 975,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 976,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 977,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 978,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 979,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 980,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 981,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 982,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 983,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 984,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 985,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 986,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 987,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 988,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 989,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 990,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 991,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 992,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 993,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 994,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 995,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 996,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 997,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 998,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 999,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 1000,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 1001,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 1002,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 1003,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 1004,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 1005,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 1006,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 1007,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2363,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2364,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2365,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2366,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2367,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2368,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2369,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2370,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2371,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2372,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2373,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2374,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2375,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2376,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2377,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 2378,
+   "etat": "visite-sans-action",
+   "base": "ariane"
+  },
+  {
+   "cut": 2379,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2380,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2381,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2382,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2383,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2384,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2385,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2386,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2387,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2388,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2389,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2390,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2391,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2392,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2393,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2394,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 2395,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2396,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2397,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2398,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2399,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2400,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2401,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 2402,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 3700,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 3701,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 3702,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 3703,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 4683,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 4684,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 4685,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 4686,
+   "etat": "visite-sans-action",
+   "base": "ariane"
+  },
+  {
+   "cut": 4687,
+   "etat": "visite-sans-action",
+   "base": "ariane"
+  },
+  {
+   "cut": 4688,
+   "etat": "visite-sans-action",
+   "base": "ariane"
+  },
+  {
+   "cut": 4689,
+   "etat": "visite-sans-action",
+   "base": "ariane"
+  },
+  {
+   "cut": 4690,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 4691,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 4692,
+   "etat": "visite-sans-action",
+   "base": "ariane"
+  },
+  {
+   "cut": 4693,
+   "etat": "visite-sans-action",
+   "base": "ariane"
+  },
+  {
+   "cut": 4694,
+   "etat": "visite-sans-action",
+   "base": "ariane"
+  },
+  {
+   "cut": 4695,
+   "etat": "visite-sans-action",
+   "base": "ariane"
+  },
+  {
+   "cut": 4696,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 4783,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4784,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4785,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4786,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4787,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4788,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4789,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4790,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4791,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4792,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4793,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4794,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4795,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4796,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4797,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4798,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4799,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4800,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4801,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4802,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4803,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4804,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4805,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4806,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4807,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4808,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4809,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4810,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4811,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4812,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4813,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4814,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4815,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4816,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4817,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4818,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4819,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4820,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4821,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4822,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4823,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4824,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4825,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4826,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4827,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4828,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4829,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4830,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4831,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4832,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4833,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4834,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4835,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4836,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4863,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4864,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4865,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4866,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4867,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4868,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4869,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4870,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4871,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4872,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4873,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4874,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4875,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4876,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4877,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4878,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4879,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4880,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4881,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4882,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4883,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4884,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4885,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4886,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4887,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4888,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4889,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4890,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4891,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4892,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4893,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4894,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 4895,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5150,
+   "etat": "visite-sans-action",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 5151,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 5152,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 5153,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5797,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5798,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5799,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5800,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5801,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5802,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5803,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5804,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5806,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5815,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5903,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5904,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5905,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5906,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5907,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5908,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5909,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5910,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5911,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5912,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5913,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5914,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5915,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 5916,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7492,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7608,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7609,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7610,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7611,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7612,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7614,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7615,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7616,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7617,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7618,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7619,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7620,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7621,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7622,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7623,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7624,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7625,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7626,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7627,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7628,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7629,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7630,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7631,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7632,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7633,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7634,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7635,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7636,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7637,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7638,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7639,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7640,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7641,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7642,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7643,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7644,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7645,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7646,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7647,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7648,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7649,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7650,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7651,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7652,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7653,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7654,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7655,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7656,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7839,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7840,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7841,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7842,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7843,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7844,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7845,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7846,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 7848,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8303,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 8304,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 8305,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 8306,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 8307,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 8308,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8309,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8310,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8311,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8312,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8313,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8314,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8315,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8316,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8317,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8318,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8319,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8320,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8321,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8322,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8323,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 8324,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 8325,
+   "etat": "visite-sans-action",
+   "base": "ariane"
+  },
+  {
+   "cut": 8326,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 8327,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 8328,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 8329,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 8330,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 8331,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 8332,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 8333,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8334,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8335,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8336,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8383,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8384,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8385,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8386,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8387,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8388,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8389,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8390,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8391,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8392,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8393,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8394,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8395,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8396,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8423,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8424,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8429,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8436,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8437,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8438,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8439,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8440,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8441,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8442,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8443,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8444,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8445,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8446,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8447,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8448,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8449,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8450,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8451,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8452,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8453,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8454,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8455,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8456,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8457,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8460,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8462,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8463,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8464,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8465,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8466,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8467,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8468,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8469,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8470,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8471,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8472,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8473,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8474,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8475,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8476,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8477,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8478,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8479,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8480,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8481,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8482,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8483,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8484,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8485,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8486,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8487,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8488,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8489,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8490,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8491,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8492,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8500,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8501,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8502,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8508,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8509,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8510,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8511,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8512,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8513,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8514,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8515,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8516,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8517,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8518,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8519,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8520,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8521,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8522,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8523,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8540,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8541,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8542,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8543,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8544,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8545,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8546,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8547,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8548,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8549,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8550,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8551,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8552,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8553,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8583,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8584,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8585,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8586,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8587,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8588,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8590,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8593,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8594,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8595,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8596,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8597,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8598,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8599,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8600,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8602,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8606,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8607,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8608,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8609,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8610,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8611,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8612,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8613,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8614,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8615,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8616,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8643,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8644,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8645,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8646,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8647,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8648,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8649,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8650,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8651,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8652,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8653,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 8654,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8655,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8656,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8657,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8658,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8659,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8660,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8661,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8662,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8663,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8664,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8665,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8666,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 8667,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 8668,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 8669,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 8670,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 8671,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8672,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8673,
+   "etat": "echo-observee",
+   "base": "premiere-visite"
+  },
+  {
+   "cut": 8674,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 8675,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 8676,
+   "etat": "echo-observee",
+   "base": "ariane"
+  },
+  {
+   "cut": 8768,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8769,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8770,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8823,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8824,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8825,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8826,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8827,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8828,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8829,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8830,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8831,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8832,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8833,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8834,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8835,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8836,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8837,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8838,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8839,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8840,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8842,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8843,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8844,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8845,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8846,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8847,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8848,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8849,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8850,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8851,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8852,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8853,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8854,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8855,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 8856,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 9574,
+   "etat": "hors-echo",
+   "base": null
+  },
+  {
+   "cut": 9575,
+   "etat": "hors-echo",
+   "base": null
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "cuts": 412,
+ "reelPose": 410,
+ "reelPoseRejoueePose": 402,
+ "comparables": 402,
+ "sansNuage": 0,
+ "a05": 244,
+ "a2": 402,
+ "a10": 402,
+ "erreurs": 0,
+ "etatsRejoue": {
+  "pose/lot": 402,
+  "differe/lot": 8
+ },
+ "part05": 60.7,
+ "ic05": [
+  55.8,
+  65.3
+ ],
+ "part05SurPosesReelles": 59.5,
+ "mediane": 0.47169905660283196,
+ "p90": 0.5889821729050854,
+ "max": 0.6935416353759859
+}

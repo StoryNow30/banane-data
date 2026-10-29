@@ -1,0 +1,58 @@
+{
+ "populations": {
+  "jugesReglage": {
+   "n": 28,
+   "k": 22,
+   "part": 78.6,
+   "ic": [
+    60.5,
+    89.8
+   ]
+  },
+  "horsDiffere": {
+   "n": 25,
+   "k": 22,
+   "part": 88,
+   "ic": [
+    70,
+    95.8
+   ]
+  }
+ },
+ "sous5": {
+  "jugesReglage": {
+   "n": 28,
+   "k": 24,
+   "part": 85.7,
+   "ic": [
+    68.5,
+    94.3
+   ]
+  },
+  "horsDiffere": {
+   "n": 25,
+   "k": 24,
+   "part": 96,
+   "ic": [
+    80.5,
+    99.3
+   ]
+  }
+ },
+ "emdPointsNonAppariee": {
+  "n28": {
+   "autour80": null
+  },
+  "n150": {
+   "autour80": 11.5
+  },
+  "n400": {
+   "autour80": 7.5
+  }
+ },
+ "nCutsApparies": {
+  "gainDe10points": 118,
+  "gainDe5points": 471,
+  "hypothese": "part de cuts discordants entre versions SUPPOSÉE à 15 %, non mesurée"
+ }
+}

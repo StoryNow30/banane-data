@@ -1,0 +1,95 @@
+{
+ "rails": 306,
+ "parReference": {
+  "visite-bon": 52,
+  "validation": 254
+ },
+ "H0_depart_ESV": {
+  "n": 306,
+  "sous3": {
+   "k": 182,
+   "part": 59.5,
+   "ic": [
+    53.9,
+    64.8
+   ]
+  },
+  "sous5": {
+   "k": 257,
+   "part": 84,
+   "ic": [
+    79.5,
+    87.7
+   ]
+  },
+  "sous10": {
+   "k": 295,
+   "part": 96.4,
+   "ic": [
+    93.7,
+    98
+   ]
+  },
+  "mediane": 2.42,
+  "p90": 6.32
+ },
+ "H1_proposition_moteur": {
+  "n": 239,
+  "sous3": {
+   "k": 179,
+   "part": 74.9,
+   "ic": [
+    69,
+    80
+   ]
+  },
+  "sous5": {
+   "k": 209,
+   "part": 87.4,
+   "ic": [
+    82.6,
+    91.1
+   ]
+  },
+  "sous10": {
+   "k": 221,
+   "part": 92.5,
+   "ic": [
+    88.4,
+    95.2
+   ]
+  },
+  "mediane": 2.07,
+  "p90": 6.71
+ },
+ "oracle_meilleure_hypothese": {
+  "n": 306,
+  "sous3": {
+   "k": 291,
+   "part": 95.1,
+   "ic": [
+    92.1,
+    97
+   ]
+  },
+  "sous5": {
+   "k": 303,
+   "part": 99,
+   "ic": [
+    97.2,
+    99.7
+   ]
+  },
+  "sous10": {
+   "k": 306,
+   "part": 100,
+   "ic": [
+    98.8,
+    100
+   ]
+  },
+  "mediane": 0.78,
+  "p90": 2.38
+ },
+ "note": "Écart par rail à la pose de l’opérateur, mm, 3D ; réglage seul ; l’oracle est une borne haute."
+}

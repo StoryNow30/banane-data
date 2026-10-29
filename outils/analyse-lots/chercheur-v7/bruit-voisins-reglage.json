@@ -1,0 +1,211 @@
+{
+ "format": "ariane-chercheur-v7-bruit-voisins-v1",
+ "partie": 17,
+ "tirage": "tirage-2026-10-29.json",
+ "cutsEcho": 535,
+ "cutsExamenEcartes": 318,
+ "cutsAvecReference": 179,
+ "fenetresReglage": 66,
+ "resume": {
+  "tous": {
+   "fenetres": 66,
+   "lat": {
+    "n": 132,
+    "blocs": 11,
+    "sigmaRobusteMm": 1.01,
+    "icRobuste": [
+     0.88,
+     1.31
+    ],
+    "sigmaQuadratiqueMm": 1.15,
+    "icQuadratique": [
+     0.91,
+     1.4
+    ],
+    "p90AbsMm": 1.82
+   },
+   "vert": {
+    "n": 132,
+    "blocs": 11,
+    "sigmaRobusteMm": 1.26,
+    "icRobuste": [
+     0.88,
+     1.75
+    ],
+    "sigmaQuadratiqueMm": 1.39,
+    "icQuadratique": [
+     1.07,
+     1.81
+    ],
+    "p90AbsMm": 2.26
+   }
+  },
+  "milieuDesRails": {
+   "fenetres": 66,
+   "lat": {
+    "n": 66,
+    "blocs": 11,
+    "sigmaRobusteMm": 0.74,
+    "icRobuste": [
+     0.61,
+     1.03
+    ],
+    "sigmaQuadratiqueMm": 0.91,
+    "icQuadratique": [
+     0.67,
+     1.14
+    ],
+    "p90AbsMm": 1.41
+   },
+   "vert": {
+    "n": 66,
+    "blocs": 11,
+    "sigmaRobusteMm": 1.18,
+    "icRobuste": [
+     0.96,
+     1.92
+    ],
+    "sigmaQuadratiqueMm": 1.25,
+    "icQuadratique": [
+     0.92,
+     1.65
+    ],
+    "p90AbsMm": 1.84
+   }
+  },
+  "voieDroite": {
+   "fenetres": 31,
+   "lat": {
+    "n": 62,
+    "blocs": 8,
+    "sigmaRobusteMm": 1.29,
+    "icRobuste": [
+     1.12,
+     1.81
+    ],
+    "sigmaQuadratiqueMm": 1.15,
+    "icQuadratique": [
+     1.04,
+     1.34
+    ],
+    "p90AbsMm": 1.78
+   },
+   "vert": {
+    "n": 62,
+    "blocs": 8,
+    "sigmaRobusteMm": 1.75,
+    "icRobuste": [
+     1.2,
+     2.62
+    ],
+    "sigmaQuadratiqueMm": 1.68,
+    "icQuadratique": [
+     1.22,
+     2.32
+    ],
+    "p90AbsMm": 2.56
+   }
+  },
+  "parStrate": {
+   "aucun-touche": {
+    "fenetres": 0,
+    "lat": {
+     "n": 0,
+     "blocs": 0,
+     "sigmaRobusteMm": null,
+     "icRobuste": [
+      null,
+      null
+     ],
+     "sigmaQuadratiqueMm": null,
+     "icQuadratique": [
+      null,
+      null
+     ],
+     "p90AbsMm": null
+    },
+    "vert": {
+     "n": 0,
+     "blocs": 0,
+     "sigmaRobusteMm": null,
+     "icRobuste": [
+      null,
+      null
+     ],
+     "sigmaQuadratiqueMm": null,
+     "icQuadratique": [
+      null,
+      null
+     ],
+     "p90AbsMm": null
+    }
+   },
+   "mixte": {
+    "fenetres": 62,
+    "lat": {
+     "n": 89,
+     "blocs": 11,
+     "sigmaRobusteMm": 1,
+     "icRobuste": [
+      0.83,
+      1.32
+     ],
+     "sigmaQuadratiqueMm": 1.11,
+     "icQuadratique": [
+      0.84,
+      1.37
+     ],
+     "p90AbsMm": 1.77
+    },
+    "vert": {
+     "n": 89,
+     "blocs": 11,
+     "sigmaRobusteMm": 1.33,
+     "icRobuste": [
+      1.03,
+      1.76
+     ],
+     "sigmaQuadratiqueMm": 1.39,
+     "icQuadratique": [
+      1.07,
+      1.81
+     ],
+     "p90AbsMm": 2.16
+    }
+   },
+   "tous-touches": {
+    "fenetres": 39,
+    "lat": {
+     "n": 43,
+     "blocs": 10,
+     "sigmaRobusteMm": 1.02,
+     "icRobuste": [
+      0.42,
+      1.79
+     ],
+     "sigmaQuadratiqueMm": 1.23,
+     "icQuadratique": [
+      0.96,
+      1.55
+     ],
+     "p90AbsMm": 1.85
+    },
+    "vert": {
+     "n": 43,
+     "blocs": 10,
+     "sigmaRobusteMm": 1.18,
+     "icRobuste": [
+      0.65,
+      1.87
+     ],
+     "sigmaQuadratiqueMm": 1.41,
+     "icQuadratique": [
+      0.95,
+      1.79
+     ],
+     "p90AbsMm": 2.66
+    }
+   }
+  }
+ }
+}

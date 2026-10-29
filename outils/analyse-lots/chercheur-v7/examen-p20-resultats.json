@@ -1,0 +1,508 @@
+{
+ "format": "ariane-chercheur-v7-examen-v1",
+ "partie": 20,
+ "projet": 10,
+ "role": "toutes",
+ "statutRejeu": 0,
+ "compte": {
+  "cibles": 889,
+  "posesLot": 721,
+  "gardes": 721,
+  "etats": {
+   "sans-echo": 544,
+   "controle": 75,
+   "corrige": 97,
+   "non-juge": 5
+  }
+ },
+ "fidelite": {
+  "comparables": 646,
+  "a08mm": 646,
+  "part": 100,
+  "wilson": [
+   99.4,
+   100
+  ],
+  "seuil": 95,
+  "porte": true
+ },
+ "decales": {
+  "cutsJuges": 21
+ },
+ "v6": {
+  "tous": {
+   "n": 172,
+   "sous3": {
+    "k": 92,
+    "part": 53.5,
+    "wilson": [
+     46,
+     60.8
+    ],
+    "bootBlocs": [
+     40.9,
+     62.5
+    ]
+   },
+   "sous5": {
+    "k": 109,
+    "part": 63.4,
+    "wilson": [
+     56,
+     70.2
+    ],
+    "bootBlocs": [
+     49.7,
+     73.2
+    ]
+   },
+   "sous10": {
+    "k": 140,
+    "part": 81.4,
+    "wilson": [
+     74.9,
+     86.5
+    ],
+    "bootBlocs": [
+     69.1,
+     89.5
+    ]
+   }
+  },
+  "sansDecales": {
+   "n": 151,
+   "sous3": {
+    "k": 92,
+    "part": 60.9,
+    "wilson": [
+     53,
+     68.3
+    ],
+    "bootBlocs": [
+     49.3,
+     70.8
+    ]
+   },
+   "sous5": {
+    "k": 109,
+    "part": 72.2,
+    "wilson": [
+     64.6,
+     78.7
+    ],
+    "bootBlocs": [
+     60.7,
+     82.1
+    ]
+   },
+   "sous10": {
+    "k": 140,
+    "part": 92.7,
+    "wilson": [
+     87.4,
+     95.9
+    ],
+    "bootBlocs": [
+     86.5,
+     97.5
+    ]
+   }
+  },
+  "corrigesSeuls": {
+   "n": 97,
+   "sous3": {
+    "k": 17,
+    "part": 17.5,
+    "wilson": [
+     11.2,
+     26.3
+    ],
+    "bootBlocs": [
+     8.8,
+     27.4
+    ]
+   },
+   "sous5": {
+    "k": 34,
+    "part": 35.1,
+    "wilson": [
+     26.3,
+     45
+    ],
+    "bootBlocs": [
+     22.6,
+     49
+    ]
+   },
+   "sous10": {
+    "k": 65,
+    "part": 67,
+    "wilson": [
+     57.2,
+     75.6
+    ],
+    "bootBlocs": [
+     50,
+     79.3
+    ]
+   }
+  },
+  "corrigesSeulsSansDecales": {
+   "n": 76,
+   "sous3": {
+    "k": 17,
+    "part": 22.4,
+    "wilson": [
+     14.5,
+     32.9
+    ],
+    "bootBlocs": [
+     11.8,
+     34.7
+    ]
+   },
+   "sous5": {
+    "k": 34,
+    "part": 44.7,
+    "wilson": [
+     34.1,
+     55.9
+    ],
+    "bootBlocs": [
+     30.6,
+     61.5
+    ]
+   },
+   "sous10": {
+    "k": 65,
+    "part": 85.5,
+    "wilson": [
+     75.9,
+     91.7
+    ],
+    "bootBlocs": [
+     74.6,
+     94.7
+    ]
+   }
+  }
+ },
+ "simulationArrondi": {
+  "tous": {
+   "rails": 112,
+   "medianeAvant": 6.69,
+   "medianeApres": 6.32,
+   "sous3": {
+    "n": 112,
+    "avant": 17,
+    "apres": 15,
+    "hausses": 0,
+    "baisses": 2,
+    "diffPoints": -1.8,
+    "bootBlocs": [
+     -5.8,
+     0
+    ]
+   },
+   "sous5": {
+    "n": 112,
+    "avant": 46,
+    "apres": 43,
+    "hausses": 1,
+    "baisses": 4,
+    "diffPoints": -2.7,
+    "bootBlocs": [
+     -7,
+     0.8
+    ]
+   }
+  },
+  "sansDecales": {
+   "rails": 82,
+   "medianeAvant": 4.66,
+   "medianeApres": 4.75,
+   "sous3": {
+    "n": 82,
+    "avant": 17,
+    "apres": 15,
+    "hausses": 0,
+    "baisses": 2,
+    "diffPoints": -2.4,
+    "bootBlocs": [
+     -7.7,
+     0
+    ]
+   },
+   "sous5": {
+    "n": 82,
+    "avant": 46,
+    "apres": 43,
+    "hausses": 1,
+    "baisses": 4,
+    "diffPoints": -3.7,
+    "bootBlocs": [
+     -10.3,
+     1.2
+    ]
+   }
+  },
+  "verdict": {
+   "tous": {
+    "nonRegressif": false,
+    "gain3": false,
+    "gain5": false
+   },
+   "sansDecales": {
+    "nonRegressif": false,
+    "gain3": false,
+    "gain5": false
+   }
+  }
+ },
+ "statutJeu": 0,
+ "hypotheses": {
+  "tous": {
+   "rails": 300,
+   "cuts": 180,
+   "H0": {
+    "n": 300,
+    "sous3": {
+     "k": 48,
+     "part": 16,
+     "wilson": [
+      12.3,
+      20.6
+     ],
+     "bootBlocs": [
+      8.8,
+      27.1
+     ]
+    },
+    "sous5": {
+     "k": 70,
+     "part": 23.3,
+     "wilson": [
+      18.9,
+      28.4
+     ],
+     "bootBlocs": [
+      13.3,
+      37.3
+     ]
+    },
+    "sous10": {
+     "k": 91,
+     "part": 30.3,
+     "wilson": [
+      25.4,
+      35.8
+     ],
+     "bootBlocs": [
+      18,
+      47
+     ]
+    }
+   },
+   "H1": {
+    "n": 300,
+    "sous3": {
+     "k": 68,
+     "part": 22.7,
+     "wilson": [
+      18.3,
+      27.7
+     ],
+     "bootBlocs": [
+      15.2,
+      31.6
+     ]
+    },
+    "sous5": {
+     "k": 116,
+     "part": 38.7,
+     "wilson": [
+      33.3,
+      44.3
+     ],
+     "bootBlocs": [
+      28.2,
+      52.5
+     ]
+    },
+    "sous10": {
+     "k": 147,
+     "part": 49,
+     "wilson": [
+      43.4,
+      54.6
+     ],
+     "bootBlocs": [
+      37.7,
+      63.2
+     ]
+    }
+   },
+   "oracle": {
+    "n": 300,
+    "sous3": {
+     "k": 152,
+     "part": 50.7,
+     "wilson": [
+      45,
+      56.3
+     ],
+     "bootBlocs": [
+      40.5,
+      62.3
+     ]
+    },
+    "sous5": {
+     "k": 202,
+     "part": 67.3,
+     "wilson": [
+      61.8,
+      72.4
+     ],
+     "bootBlocs": [
+      57.9,
+      77.6
+     ]
+    },
+    "sous10": {
+     "k": 235,
+     "part": 78.3,
+     "wilson": [
+      73.3,
+      82.6
+     ],
+     "bootBlocs": [
+      68.9,
+      87.6
+     ]
+    }
+   }
+  },
+  "sansDecales": {
+   "rails": 283,
+   "cuts": 167,
+   "H0": {
+    "n": 283,
+    "sous3": {
+     "k": 48,
+     "part": 17,
+     "wilson": [
+      13,
+      21.8
+     ],
+     "bootBlocs": [
+      9.3,
+      28.4
+     ]
+    },
+    "sous5": {
+     "k": 70,
+     "part": 24.7,
+     "wilson": [
+      20.1,
+      30.1
+     ],
+     "bootBlocs": [
+      14.2,
+      39.1
+     ]
+    },
+    "sous10": {
+     "k": 91,
+     "part": 32.2,
+     "wilson": [
+      27,
+      37.8
+     ],
+     "bootBlocs": [
+      19.3,
+      49.3
+     ]
+    }
+   },
+   "H1": {
+    "n": 283,
+    "sous3": {
+     "k": 67,
+     "part": 23.7,
+     "wilson": [
+      19.1,
+      29
+     ],
+     "bootBlocs": [
+      16,
+      32.6
+     ]
+    },
+    "sous5": {
+     "k": 115,
+     "part": 40.6,
+     "wilson": [
+      35.1,
+      46.4
+     ],
+     "bootBlocs": [
+      30,
+      54.4
+     ]
+    },
+    "sous10": {
+     "k": 145,
+     "part": 51.2,
+     "wilson": [
+      45.4,
+      57
+     ],
+     "bootBlocs": [
+      39.9,
+      65.1
+     ]
+    }
+   },
+   "oracle": {
+    "n": 283,
+    "sous3": {
+     "k": 147,
+     "part": 51.9,
+     "wilson": [
+      46.1,
+      57.7
+     ],
+     "bootBlocs": [
+      41.8,
+      63.5
+     ]
+    },
+    "sous5": {
+     "k": 193,
+     "part": 68.2,
+     "wilson": [
+      62.6,
+      73.3
+     ],
+     "bootBlocs": [
+      58,
+      78.8
+     ]
+    },
+    "sous10": {
+     "k": 226,
+     "part": 79.9,
+     "wilson": [
+      74.8,
+      84.1
+     ],
+     "bootBlocs": [
+      70.1,
+      89.2
+     ]
+    }
+   }
+  },
+  "cutsVisites": 393
+ }
+}
