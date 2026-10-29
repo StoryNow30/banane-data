@@ -1,0 +1,71 @@
+{
+ "A_sourde_garde_R3": {
+  "cutsRejoues": 205,
+  "cutsComparables": 161,
+  "croisementOrigineRejeu": {
+   "différé→différé": 91,
+   "différé→posé": 7,
+   "posé→différé": 19,
+   "posé→posé": 44
+  },
+  "accord": 135,
+  "cutsVueComparables": 30,
+  "croisementVue": {
+   "différé→différé": 24,
+   "différé→posé": 5,
+   "posé→posé": 1
+  },
+  "gestes": {
+   "glisser": 19,
+   "deplacer-vue": 17,
+   "clic-hors-vue": 5,
+   "garde-apres-differe": 19
+  }
+ },
+ "D_sourde_sans_garde": {
+  "cutsRejoues": 205,
+  "cutsComparables": 161,
+  "croisementOrigineRejeu": {
+   "différé→différé": 85,
+   "différé→posé": 13,
+   "posé→différé": 4,
+   "posé→posé": 59
+  },
+  "accord": 144,
+  "cutsVueComparables": 30,
+  "croisementVue": {
+   "différé→différé": 20,
+   "différé→posé": 9,
+   "posé→posé": 1
+  },
+  "gestes": {
+   "glisser": 25,
+   "deplacer-vue": 21,
+   "clic-hors-vue": 5,
+   "garde-apres-differe": 0
+  }
+ },
+ "C_clic_droit_sans_garde": {
+  "cutsRejoues": 205,
+  "cutsComparables": 161,
+  "croisementOrigineRejeu": {
+   "différé→différé": 48,
+   "différé→posé": 50,
+   "posé→différé": 13,
+   "posé→posé": 50
+  },
+  "accord": 98,
+  "cutsVueComparables": 30,
+  "croisementVue": {
+   "différé→différé": 8,
+   "différé→posé": 21,
+   "posé→posé": 1
+  },
+  "gestes": {
+   "glisser": 104,
+   "deplacer-vue": 91,
+   "clic-hors-vue": 5,
+   "garde-apres-differe": 0
+  }
+ }
+}

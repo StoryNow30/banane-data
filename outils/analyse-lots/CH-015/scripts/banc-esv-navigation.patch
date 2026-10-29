@@ -1,0 +1,11 @@
+--- t25/tools/banc-esv.cjs	2026-10-29 17:05:12.000000000 +0000
++++ t25g/tools/banc-esv.cjs	2026-10-29 17:39:08.370626871 +0000
+@@ -59,6 +59,8 @@
+       const limite=limiteRejeu(options);const liste=e0.cuts.slice(o.decalage,limite?o.decalage+limite:undefined);
+       if(!liste.length)throw Error('Aucun cut à rejouer.');o.debut=liste[0];o.decalage=0;o.cuts=liste.length;o.fin=liste.at(-1);
+       await esv.evaluate(cut=>window.__maquette.allerA(cut),o.debut);await esv.waitForFunction(()=>window.__maquette.etat().railsPrets);}
++    /* CH-015 (tâche 7) : modèle de navigation SUPPOSÉ de CH-018 (tests/helpers/modele-navigation.js), greffé comme le font ses essais ; --navigation '{"molette":"wheel","boutonGlisser":2,...}' */
++    if(o.navigation){const m=typeof o.navigation==='string'?JSON.parse(o.navigation):o.navigation;await esv.evaluate(m=>{window.__modeleNavigation=m;},m);await esv.addScriptTag({content:fs.readFileSync(path.join(racine,'tests/helpers/modele-navigation.js'),'utf8')});}
+     const panneau=await ctx.newPage();panneau.on('pageerror',e=>erreurs.push('panneau: '+e.message));
+     await panneau.goto(`chrome-extension://${id}/panel.html#automatic`);await dormir(600);
+     const api=async(action,a={})=>{const r=await panneau.evaluate(([action,a])=>chrome.runtime.sendMessage({kind:'panel',action,args:a}),[action,a]);if(r?.error)throw Error(`${action} : ${r.error}`);return r?.result;};
