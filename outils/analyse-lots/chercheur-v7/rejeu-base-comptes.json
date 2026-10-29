@@ -1,0 +1,11 @@
+{
+ "statutRejeu": 0,
+ "lignesLues": 792,
+ "ecrites": 412,
+ "ecartees": {
+  "examen": 326,
+  "garde": 53,
+  "sansCut": 0
+ },
+ "ecrit": "rejeu-base-reglage.jsonl"
+}
