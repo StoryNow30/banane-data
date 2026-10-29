@@ -1,0 +1,23 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "4.9.5.25",
+  "origine": "Export Orbite du 29/10/2026 23:27:22 (heure de Paris), 3 volumes, méthode deflate",
+  "contenu": "Journal, diagnostic GCV1 et corpus du lot de la partie 10 (217 invalides au départ), liste d'ESV relue (9327 lignes), verts à contrôler. Pas d'Écho dans cet export.",
+  "fichiers": [
+    {
+      "chemin": "raw/ariane-lot-2026-10-29T22-27-22-volume01-sur03.zip",
+      "taille": 12308283,
+      "sha256": "cf591e382b9fcefcb05ceb93214fc5a00e1f55b42ef8edceab3152565850c8a9"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-10-29T22-27-22-volume02-sur03.zip",
+      "taille": 15193319,
+      "sha256": "810696af456535af5fef5b5644159cca08355a62dc310820e56f42759fde6b38"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-10-29T22-27-22-volume03-sur03.zip",
+      "taille": 14971628,
+      "sha256": "81092b034c964fb0ed0aad4a82e9b8e00b50cca079f26b0522449eb599a0c6ce"
+    }
+  ]
+}
