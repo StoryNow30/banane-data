@@ -1,0 +1,796 @@
+{
+ "partie": 20,
+ "definition": "vérité = pose de l'opérateur (Écho) ; candidat trouvé = à moins de T mm en (latéral, vertical)",
+ "fausses": {
+  "n": 21,
+  "rails_a_moins_de_10mm_toutes_sources": 7,
+  "rails_a_moins_de_10mm_moteur_seul": 7,
+  "paires_a_moins_de_10mm_toutes_sources": 0,
+  "paires_a_moins_de_10mm_moteur_seul": 0,
+  "rails_a_moins_de_20mm_toutes_sources": 8,
+  "rails_a_moins_de_20mm_moteur_seul": 8,
+  "paires_a_moins_de_20mm_toutes_sources": 0,
+  "paires_a_moins_de_20mm_moteur_seul": 0,
+  "rails_a_moins_de_50mm_toutes_sources": 8,
+  "rails_a_moins_de_50mm_moteur_seul": 8,
+  "paires_a_moins_de_50mm_toutes_sources": 0,
+  "paires_a_moins_de_50mm_moteur_seul": 0,
+  "medianeDistanceMeilleurMoteurMm": 142.8,
+  "medianeDepartVeriteMm": 165
+ },
+ "autres_corrigees": {
+  "n": 76,
+  "rails_a_moins_de_10mm_toutes_sources": 129,
+  "rails_a_moins_de_10mm_moteur_seul": 120,
+  "paires_a_moins_de_10mm_toutes_sources": 56,
+  "paires_a_moins_de_10mm_moteur_seul": 49,
+  "rails_a_moins_de_20mm_toutes_sources": 139,
+  "rails_a_moins_de_20mm_moteur_seul": 132,
+  "paires_a_moins_de_20mm_toutes_sources": 65,
+  "paires_a_moins_de_20mm_moteur_seul": 59,
+  "rails_a_moins_de_50mm_toutes_sources": 141,
+  "rails_a_moins_de_50mm_moteur_seul": 135,
+  "paires_a_moins_de_50mm_toutes_sources": 67,
+  "paires_a_moins_de_50mm_moteur_seul": 62,
+  "medianeDistanceMeilleurMoteurMm": 4.1,
+  "medianeDepartVeriteMm": 123
+ },
+ "detailFausses": [
+  {
+   "cut": 6385,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -226,
+      2.7
+     ],
+     "departMm": 226,
+     "meilleur": "next",
+     "meilleurMm": 279.5,
+     "meilleurMoteurMm": 279.5,
+     "n": 6,
+     "latCandidatsMm": [
+      53,
+      76
+     ]
+    },
+    "right": {
+     "verite": [
+      -167.5,
+      -21.8
+     ],
+     "departMm": 169,
+     "meilleur": "v46Alt",
+     "meilleurMm": 226.5,
+     "meilleurMoteurMm": 226.5,
+     "n": 4,
+     "latCandidatsMm": [
+      59,
+      115
+     ]
+    }
+   }
+  },
+  {
+   "cut": 6401,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -122.9,
+      -6.1
+     ],
+     "departMm": 123,
+     "meilleur": "next",
+     "meilleurMm": 1.2,
+     "meilleurMoteurMm": 1.2,
+     "n": 7,
+     "latCandidatsMm": [
+      -124,
+      18
+     ]
+    },
+    "right": {
+     "verite": [
+      -138.6,
+      -28.4
+     ],
+     "departMm": 141,
+     "meilleur": "astarAlt",
+     "meilleurMm": 132.8,
+     "meilleurMoteurMm": 132.8,
+     "n": 3,
+     "latCandidatsMm": [
+      -9,
+      26
+     ]
+    }
+   }
+  },
+  {
+   "cut": 6402,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -143.2,
+      -0.3
+     ],
+     "departMm": 143,
+     "meilleur": "l1",
+     "meilleurMm": 143.2,
+     "meilleurMoteurMm": 171.9,
+     "n": 4,
+     "latCandidatsMm": [
+      0,
+      82
+     ]
+    },
+    "right": {
+     "verite": [
+      -133.9,
+      -35.6
+     ],
+     "departMm": 139,
+     "meilleur": "astar",
+     "meilleurMm": 142.8,
+     "meilleurMoteurMm": 142.8,
+     "n": 6,
+     "latCandidatsMm": [
+      5,
+      38
+     ]
+    }
+   }
+  },
+  {
+   "cut": 6507,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -224.6,
+      9.6
+     ],
+     "departMm": 225,
+     "meilleur": "astarAlt",
+     "meilleurMm": 313.6,
+     "meilleurMoteurMm": 313.6,
+     "n": 4,
+     "latCandidatsMm": [
+      88,
+      110
+     ]
+    },
+    "right": {
+     "verite": [
+      -178.7,
+      -25.1
+     ],
+     "departMm": 180,
+     "meilleur": "astarAlt",
+     "meilleurMm": 327,
+     "meilleurMoteurMm": 327,
+     "n": 3,
+     "latCandidatsMm": [
+      148,
+      168
+     ]
+    }
+   }
+  },
+  {
+   "cut": 6527,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -280.4,
+      19.4
+     ],
+     "departMm": 281,
+     "meilleur": "astarAlt",
+     "meilleurMm": 102.2,
+     "meilleurMoteurMm": 102.2,
+     "n": 3,
+     "latCandidatsMm": [
+      -180,
+      -165
+     ]
+    },
+    "right": {
+     "verite": [
+      -220,
+      -8.3
+     ],
+     "departMm": 220,
+     "meilleur": "astarAlt",
+     "meilleurMm": 104.3,
+     "meilleurMoteurMm": 104.3,
+     "n": 4,
+     "latCandidatsMm": [
+      -116,
+      -92
+     ]
+    }
+   }
+  },
+  {
+   "cut": 6528,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -269.6,
+      17.4
+     ],
+     "departMm": 270,
+     "meilleur": "astarAlt",
+     "meilleurMm": 105.5,
+     "meilleurMoteurMm": 105.5,
+     "n": 4,
+     "latCandidatsMm": [
+      -176,
+      -133
+     ]
+    },
+    "right": {
+     "verite": [
+      -213.7,
+      -11.3
+     ],
+     "departMm": 214,
+     "meilleur": "astarAlt",
+     "meilleurMm": 132.1,
+     "meilleurMoteurMm": 132.1,
+     "n": 6,
+     "latCandidatsMm": [
+      -82,
+      -70
+     ]
+    }
+   }
+  },
+  {
+   "cut": 6529,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -164.3,
+      2.1
+     ],
+     "departMm": 164,
+     "meilleur": "astarAlt",
+     "meilleurMm": 153.6,
+     "meilleurMoteurMm": 153.6,
+     "n": 6,
+     "latCandidatsMm": [
+      -12,
+      8
+     ]
+    },
+    "right": {
+     "verite": [
+      -171.3,
+      -10.4
+     ],
+     "departMm": 172,
+     "meilleur": "v46",
+     "meilleurMm": 165.4,
+     "meilleurMoteurMm": 165.4,
+     "n": 6,
+     "latCandidatsMm": [
+      -6,
+      20
+     ]
+    }
+   }
+  },
+  {
+   "cut": 6530,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -197.8,
+      0.8
+     ],
+     "departMm": 198,
+     "meilleur": "nextBrut",
+     "meilleurMm": 192.9,
+     "meilleurMoteurMm": 192.9,
+     "n": 6,
+     "latCandidatsMm": [
+      -5,
+      16
+     ]
+    },
+    "right": {
+     "verite": [
+      -209.2,
+      -9.3
+     ],
+     "departMm": 209,
+     "meilleur": "v46Alt",
+     "meilleurMm": 196.3,
+     "meilleurMoteurMm": 196.3,
+     "n": 6,
+     "latCandidatsMm": [
+      -13,
+      19
+     ]
+    }
+   }
+  },
+  {
+   "cut": 6534,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -268.7,
+      7.4
+     ],
+     "departMm": 269,
+     "meilleur": "v46Alt",
+     "meilleurMm": 350.5,
+     "meilleurMoteurMm": 350.5,
+     "n": 6,
+     "latCandidatsMm": [
+      79,
+      132
+     ]
+    },
+    "right": {
+     "verite": [
+      -222.2,
+      -27.2
+     ],
+     "departMm": 224,
+     "meilleur": "astar",
+     "meilleurMm": 387.5,
+     "meilleurMoteurMm": 387.5,
+     "n": 5,
+     "latCandidatsMm": [
+      165,
+      182
+     ]
+    }
+   }
+  },
+  {
+   "cut": 6548,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -253.5,
+      28.3
+     ],
+     "departMm": 255,
+     "meilleur": "astarAlt",
+     "meilleurMm": 78.6,
+     "meilleurMoteurMm": 78.6,
+     "n": 4,
+     "latCandidatsMm": [
+      -176,
+      -50
+     ]
+    },
+    "right": {
+     "verite": [
+      -200.5,
+      -1.9
+     ],
+     "departMm": 200,
+     "meilleur": "v46",
+     "meilleurMm": 128,
+     "meilleurMoteurMm": 128,
+     "n": 6,
+     "latCandidatsMm": [
+      -74,
+      -38
+     ]
+    }
+   }
+  },
+  {
+   "cut": 6593,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -232.4,
+      11.3
+     ],
+     "departMm": 233,
+     "meilleur": "v46Alt",
+     "meilleurMm": 314.7,
+     "meilleurMoteurMm": 314.7,
+     "n": 5,
+     "latCandidatsMm": [
+      79,
+      98
+     ]
+    },
+    "right": {
+     "verite": [
+      -182.4,
+      -14.3
+     ],
+     "departMm": 183,
+     "meilleur": "astarAlt",
+     "meilleurMm": 314.7,
+     "meilleurMoteurMm": 314.7,
+     "n": 4,
+     "latCandidatsMm": [
+      132,
+      153
+     ]
+    }
+   }
+  },
+  {
+   "cut": 6610,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -217.8,
+      9.5
+     ],
+     "departMm": 218,
+     "meilleur": "next",
+     "meilleurMm": 193.6,
+     "meilleurMoteurMm": 193.6,
+     "n": 6,
+     "latCandidatsMm": [
+      -29,
+      11
+     ]
+    },
+    "right": {
+     "verite": [
+      -180.2,
+      -26
+     ],
+     "departMm": 182,
+     "meilleur": "v46Alt",
+     "meilleurMm": 163.1,
+     "meilleurMoteurMm": 163.1,
+     "n": 4,
+     "latCandidatsMm": [
+      -19,
+      9
+     ]
+    }
+   }
+  },
+  {
+   "cut": 7557,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -128,
+      11.7
+     ],
+     "departMm": 129,
+     "meilleur": "v46Alt",
+     "meilleurMm": 86.9,
+     "meilleurMoteurMm": 86.9,
+     "n": 5,
+     "latCandidatsMm": [
+      -56,
+      -8
+     ]
+    },
+    "right": {
+     "verite": [
+      -77.2,
+      -0.1
+     ],
+     "departMm": 77,
+     "meilleur": "v46Alt",
+     "meilleurMm": 7.1,
+     "meilleurMoteurMm": 7.1,
+     "n": 6,
+     "latCandidatsMm": [
+      -82,
+      62
+     ]
+    }
+   }
+  },
+  {
+   "cut": 9124,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -120,
+      8.8
+     ],
+     "departMm": 120,
+     "meilleur": "v46",
+     "meilleurMm": 113,
+     "meilleurMoteurMm": 113,
+     "n": 6,
+     "latCandidatsMm": [
+      -7,
+      13
+     ]
+    },
+    "right": {
+     "verite": [
+      -73.8,
+      7.1
+     ],
+     "departMm": 74,
+     "meilleur": "v46Alt",
+     "meilleurMm": 15,
+     "meilleurMoteurMm": 15,
+     "n": 5,
+     "latCandidatsMm": [
+      -80,
+      61
+     ]
+    }
+   }
+  },
+  {
+   "cut": 9125,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -139.6,
+      6.1
+     ],
+     "departMm": 140,
+     "meilleur": "nextBrut",
+     "meilleurMm": 144.6,
+     "meilleurMoteurMm": 144.6,
+     "n": 6,
+     "latCandidatsMm": [
+      5,
+      29
+     ]
+    },
+    "right": {
+     "verite": [
+      -91.4,
+      2.5
+     ],
+     "departMm": 91,
+     "meilleur": "astarAlt",
+     "meilleurMm": 9.5,
+     "meilleurMoteurMm": 9.5,
+     "n": 5,
+     "latCandidatsMm": [
+      -91,
+      66
+     ]
+    }
+   }
+  },
+  {
+   "cut": 9437,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -119.7,
+      23.3
+     ],
+     "departMm": 122,
+     "meilleur": "v46Alt",
+     "meilleurMm": 103.3,
+     "meilleurMoteurMm": 103.3,
+     "n": 6,
+     "latCandidatsMm": [
+      -38,
+      -4
+     ]
+    },
+    "right": {
+     "verite": [
+      -73.6,
+      23.9
+     ],
+     "departMm": 77,
+     "meilleur": "v46Alt",
+     "meilleurMm": 7.3,
+     "meilleurMoteurMm": 7.3,
+     "n": 6,
+     "latCandidatsMm": [
+      -76,
+      70
+     ]
+    }
+   }
+  },
+  {
+   "cut": 9438,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -134,
+      17.5
+     ],
+     "departMm": 135,
+     "meilleur": "v46Alt",
+     "meilleurMm": 131.8,
+     "meilleurMoteurMm": 131.8,
+     "n": 5,
+     "latCandidatsMm": [
+      -14,
+      14
+     ]
+    },
+    "right": {
+     "verite": [
+      -86.6,
+      17.2
+     ],
+     "departMm": 88,
+     "meilleur": "nextBrut",
+     "meilleurMm": 5.9,
+     "meilleurMoteurMm": 5.9,
+     "n": 5,
+     "latCandidatsMm": [
+      -89,
+      72
+     ]
+    }
+   }
+  },
+  {
+   "cut": 9439,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -152.2,
+      9.8
+     ],
+     "departMm": 153,
+     "meilleur": "v46Alt",
+     "meilleurMm": 168,
+     "meilleurMoteurMm": 168,
+     "n": 6,
+     "latCandidatsMm": [
+      10,
+      32
+     ]
+    },
+    "right": {
+     "verite": [
+      -99.1,
+      8.4
+     ],
+     "departMm": 99,
+     "meilleur": "astar",
+     "meilleurMm": 5.4,
+     "meilleurMoteurMm": 5.4,
+     "n": 4,
+     "latCandidatsMm": [
+      -99,
+      99
+     ]
+    }
+   }
+  },
+  {
+   "cut": 9440,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -165,
+      0.7
+     ],
+     "departMm": 165,
+     "meilleur": "nextBrut",
+     "meilleurMm": 4.9,
+     "meilleurMoteurMm": 4.9,
+     "n": 6,
+     "latCandidatsMm": [
+      -164,
+      67
+     ]
+    },
+    "right": {
+     "verite": [
+      -106.3,
+      3.5
+     ],
+     "departMm": 106,
+     "meilleur": "v46Alt",
+     "meilleurMm": 183.3,
+     "meilleurMoteurMm": 183.3,
+     "n": 5,
+     "latCandidatsMm": [
+      77,
+      133
+     ]
+    }
+   }
+  },
+  {
+   "cut": 9456,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -127.2,
+      4.7
+     ],
+     "departMm": 127,
+     "meilleur": "next",
+     "meilleurMm": 168.5,
+     "meilleurMoteurMm": 168.5,
+     "n": 4,
+     "latCandidatsMm": [
+      41,
+      76
+     ]
+    },
+    "right": {
+     "verite": [
+      -130.6,
+      -26.9
+     ],
+     "departMm": 133,
+     "meilleur": "v46",
+     "meilleurMm": 132.2,
+     "meilleurMoteurMm": 132.2,
+     "n": 6,
+     "latCandidatsMm": [
+      -1,
+      20
+     ]
+    }
+   }
+  },
+  {
+   "cut": 9457,
+   "chemin": null,
+   "rails": {
+    "left": {
+     "verite": [
+      -178.6,
+      5.4
+     ],
+     "departMm": 179,
+     "meilleur": "v46",
+     "meilleurMm": 130.9,
+     "meilleurMoteurMm": 130.9,
+     "n": 5,
+     "latCandidatsMm": [
+      -48,
+      34
+     ]
+    },
+    "right": {
+     "verite": [
+      -153.5,
+      -28.9
+     ],
+     "departMm": 156,
+     "meilleur": "v46",
+     "meilleurMm": 155,
+     "meilleurMoteurMm": 155,
+     "n": 5,
+     "latCandidatsMm": [
+      -1,
+      20
+     ]
+    }
+   }
+  }
+ ]
+}

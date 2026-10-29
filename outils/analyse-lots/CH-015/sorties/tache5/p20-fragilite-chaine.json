@@ -1,0 +1,134 @@
+{
+ "partie": 20,
+ "fragilite": {
+  "racine (0 appui)": {
+   "posés": 106,
+   "jugés": 24,
+   "faux": 11,
+   "plus20": 13
+  },
+  "profondeur 1": {
+   "posés": 121,
+   "jugés": 34,
+   "faux": 6,
+   "plus20": 7
+  },
+  "profondeur 2": {
+   "posés": 61,
+   "jugés": 17,
+   "faux": 1,
+   "plus20": 1
+  },
+  "profondeur 3": {
+   "posés": 48,
+   "jugés": 13,
+   "faux": 0,
+   "plus20": 0
+  },
+  "profondeur > 3": {
+   "posés": 335,
+   "jugés": 63,
+   "faux": 0,
+   "plus20": 0
+  },
+  "chaîne inconnue ou sans racine": {
+   "posés": 50,
+   "jugés": 21,
+   "faux": 3,
+   "plus20": 3
+  }
+ },
+ "R3": {
+  "posésSignalés": 38,
+  "jugésSignalés": 32,
+  "faux": 13,
+  "plus20": 16,
+  "fauxTotal": 21
+ },
+ "fauxParProfondeur": [
+  [
+   6385,
+   0
+  ],
+  [
+   6401,
+   null
+  ],
+  [
+   6402,
+   null
+  ],
+  [
+   6507,
+   0
+  ],
+  [
+   6527,
+   0
+  ],
+  [
+   6528,
+   1
+  ],
+  [
+   6529,
+   1
+  ],
+  [
+   6530,
+   2
+  ],
+  [
+   6534,
+   null
+  ],
+  [
+   6548,
+   0
+  ],
+  [
+   6593,
+   0
+  ],
+  [
+   6610,
+   0
+  ],
+  [
+   7557,
+   0
+  ],
+  [
+   9124,
+   0
+  ],
+  [
+   9125,
+   0
+  ],
+  [
+   9437,
+   0
+  ],
+  [
+   9438,
+   1
+  ],
+  [
+   9439,
+   1
+  ],
+  [
+   9440,
+   1
+  ],
+  [
+   9456,
+   0
+  ],
+  [
+   9457,
+   1
+  ]
+ ]
+}
