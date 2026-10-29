@@ -1,0 +1,60 @@
+{
+ "partie": 0,
+ "role": "tous",
+ "cibles": 249,
+ "posés": 230,
+ "différés": 19,
+ "jugés": 0,
+ "faux100": 0,
+ "plus50": 0,
+ "plus20": 0,
+ "nonEvaluables": 0,
+ "horsRole": 0,
+ "appuisInconnus": 1,
+ "regles": {
+  "R1 un des 2 cuts précédents est différé": {
+   "coupesSignalees": [
+    111,
+    112,
+    115,
+    116,
+    123,
+    124,
+    1087,
+    1088
+   ],
+   "posésSignalés": 8,
+   "partDesPosés": 0.035,
+   "coûtDifférésSupplémentaires": 8,
+   "jugésSignalés": 0,
+   "faux100": 0,
+   "plus50": 0,
+   "plus20": 0,
+   "précisionFaux100": null,
+   "icPrécision": null,
+   "rappelFaux100": null,
+   "rappelPlus50": null,
+   "tauxFauxParmiJugésNonSignalés": null
+  },
+  "R2 R1 ET appuis = 0": {
+   "coupesSignalees": [
+    111,
+    115,
+    1087,
+    1088
+   ],
+   "posésSignalés": 4,
+   "partDesPosés": 0.017,
+   "coûtDifférésSupplémentaires": 4,
+   "jugésSignalés": 0,
+   "faux100": 0,
+   "plus50": 0,
+   "plus20": 0,
+   "précisionFaux100": null,
+   "icPrécision": null,
+   "rappelFaux100": null,
+   "rappelPlus50": null,
+   "tauxFauxParmiJugésNonSignalés": null
+  }
+ }
+}

@@ -4,7 +4,7 @@
  *   R2 : R1 ET « aucun appui de chaîne » (appuis = 0 : anchorsUsed vide ; à défaut chaîne.appuis de L1)
  * Lecture seule. Les descripteurs ne sont que ce que le lot sait à la décision du cut (consigné au journal) et l'issue des cuts précédents du lot.
  *
- * node predicteurs-valider.cjs --outils <dossier tools/ de banane> --lot <dossier d'export du lot> --echo <dossier d'export Écho> --partie N
+ * node predicteurs-valider.cjs --outils <dossier tools/ de banane> --lot <dossier d'export du lot> [--echo <dossier d'export Écho>] --partie N
  *      [--tirage <tirage.json> [--role reglage]] [--json sortie.json]
  *
  * Avec --tirage, seuls les cuts du rôle demandé (défaut : reglage, tirage.cjs de CH-012) sont évalués ; un cut dont n-1 ou n-2 n'est pas du même
@@ -14,7 +14,7 @@
 'use strict';
 const fs = require('node:fs'), path = require('node:path');
 const a = (() => { const o = { role: 'reglage' }, v = process.argv.slice(2); for (let i = 0; i < v.length; i++) { if (!v[i].startsWith('--')) throw Error('argument inconnu : ' + v[i]); o[v[i].slice(2)] = v[++i]; } return o; })();
-for (const k of ['outils', 'lot', 'echo', 'partie']) if (!a[k]) throw Error('--' + k + ' manquant');
+for (const k of ['outils', 'lot', 'partie']) if (!a[k]) throw Error('--' + k + ' manquant');  // --echo est facultatif : sans Écho, aucun cut n'est jugé, seuls les signalés et le coût sont comptés
 const partie = Number(a.partie);
 const J = require(path.join(a.outils, 'jointure-echo-orbite.cjs')), Poses = require(path.join(a.outils, 'precision-poses.cjs'));
 const fini = Number.isFinite, t = e => Date.parse(e.timestamp || '');
@@ -41,10 +41,13 @@ for (const e of ev) if (e.type === 'esv-observation' && e.kind === 'write' && t(
   && e.body && e.body.ExtractionStatus === 'valid' && e.body.TreatedByOperator === true && cibles.has(e.rowIndex)) poses.add(e.rowIndex);
 const shadow = new Map(); for (const e of ev) if (e.type === 'gcv1-shadow-observed' && e.batchId === B && e.identity.part === partie) shadow.set(e.identity.cut, e);
 
-const echo = Poses.lireEcho(J.dossiersEcho ? J.dossiersEcho([a.echo]) : [a.echo]);
-const { table } = J.joindre(echo.records, journal, { partie, base: 'auto', poses: false, visiteSansActionBonne: true, sessions: echo.sessions || [],
-  pagesPerdues: echo.pagesPerdues || [], capturesParVisite: echo.capturesParVisite || {}, evenementsEcho: echo.evenements || [] });
-const lignes = new Map(table.filter(l => l.partie === partie).map(l => [l.cut, l]));
+let lignes = new Map();
+if (a.echo) {
+  const echo = Poses.lireEcho(J.dossiersEcho ? J.dossiersEcho([a.echo]) : [a.echo]);
+  const { table } = J.joindre(echo.records, journal, { partie, base: 'auto', poses: false, visiteSansActionBonne: true, sessions: echo.sessions || [],
+    pagesPerdues: echo.pagesPerdues || [], capturesParVisite: echo.capturesParVisite || {}, evenementsEcho: echo.evenements || [] });
+  lignes = new Map(table.filter(l => l.partie === partie).map(l => [l.cut, l]));
+}
 
 const abs = v => fini(v) ? Math.abs(v) : null;
 const rows = []; let nonEvaluables = 0, horsRole = 0;
@@ -73,7 +76,7 @@ const out = { partie, role: a.tirage ? a.role : 'tous', cibles: rows.length, pos
   appuisInconnus: posesR.filter(r => r.appuis === null).length, regles: {} };
 for (const [nom, f] of Object.entries(regles)) {
   const sp = posesR.filter(f), sj = jug.filter(f), k = (g) => sj.filter(g).length, T = (g) => jug.filter(g).length;
-  out.regles[nom] = { posésSignalés: sp.length, partDesPosés: posesR.length ? +(sp.length / posesR.length).toFixed(3) : null, coûtDifférésSupplémentaires: sp.length,
+  out.regles[nom] = { coupesSignalees: sp.map(r => r.cut), posésSignalés: sp.length, partDesPosés: posesR.length ? +(sp.length / posesR.length).toFixed(3) : null, coûtDifférésSupplémentaires: sp.length,
     jugésSignalés: sj.length, faux100: k(F), plus50: k(G50), plus20: k(G20),
     précisionFaux100: sj.length ? +(k(F) / sj.length).toFixed(3) : null, icPrécision: wilson(k(F), sj.length),
     rappelFaux100: T(F) ? +(k(F) / T(F)).toFixed(3) : null, rappelPlus50: T(G50) ? +(k(G50) / T(G50)).toFixed(3) : null,

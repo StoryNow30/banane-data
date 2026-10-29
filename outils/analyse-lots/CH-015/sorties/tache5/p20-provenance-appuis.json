@@ -1,0 +1,369 @@
+{
+ "partie": 20,
+ "tableauSelonAppuis": {
+  "aucun appui": {
+   "posés": 106,
+   "jugés": 24,
+   "faux": 11,
+   "plus20": 13
+  },
+  "tous préexistants ou premier passage": {
+   "posés": 433,
+   "jugés": 98,
+   "faux": 7,
+   "plus20": 8
+  },
+  "au moins un appui posé par le lot": {
+   "posés": 132,
+   "jugés": 29,
+   "faux": 0,
+   "plus20": 0
+  },
+  "inconnu": {
+   "posés": 50,
+   "jugés": 21,
+   "faux": 3,
+   "plus20": 3
+  }
+ },
+ "fausses": {
+  "n": 21,
+  "propagation": {
+   "appuiFaux": 7,
+   "appuiJusteOuPreexistant": 0,
+   "appuiNonJuge": 0,
+   "sansAppui": 14
+  },
+  "runsConsecutifs": [
+   1,
+   2,
+   1,
+   4,
+   1,
+   1,
+   1,
+   1,
+   1,
+   2,
+   4,
+   2
+  ],
+  "premieresPosesDesRuns": [
+   6385,
+   6401,
+   6507,
+   6527,
+   6534,
+   6548,
+   6593,
+   6610,
+   7557,
+   9124,
+   9437,
+   9456
+  ]
+ },
+ "justesseSelonPremierAppui": {
+  "premier passage / juste": {
+   "jugés": 87,
+   "faux": 0,
+   "plus20": 0
+  },
+  "premier passage / imprécis (>20 mm)": {
+   "jugés": 4,
+   "faux": 0,
+   "plus20": 1
+  },
+  "lot / juste": {
+   "jugés": 22,
+   "faux": 0,
+   "plus20": 0
+  },
+  "premier passage / faux": {
+   "jugés": 10,
+   "faux": 7,
+   "plus20": 7
+  },
+  "lot / non jugé": {
+   "jugés": 1,
+   "faux": 0,
+   "plus20": 0
+  },
+  "premier passage / non jugé": {
+   "jugés": 3,
+   "faux": 0,
+   "plus20": 0
+  }
+ },
+ "contrefactuelRegleProvenance": {
+  "cutsAvecAppuiLot": 132,
+  "cutsSansAppuiApres": 69,
+  "jugesConcernes": 29,
+  "fauxConcernes": 0,
+  "fauxSansAppuiApres": 0
+ },
+ "detailFausses": [
+  {
+   "cut": 6385,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "aucun appui",
+   "n": 0,
+   "appuis": [],
+   "chemin": "engine:first-pass"
+  },
+  {
+   "cut": 6401,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "inconnu",
+   "n": null,
+   "appuis": [],
+   "chemin": "lot:gcv2-l1"
+  },
+  {
+   "cut": 6402,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "inconnu",
+   "n": null,
+   "appuis": [],
+   "chemin": "lot:gcv2-l1"
+  },
+  {
+   "cut": 6507,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "aucun appui",
+   "n": 0,
+   "appuis": [],
+   "chemin": "engine:first-pass"
+  },
+  {
+   "cut": 6527,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "aucun appui",
+   "n": 0,
+   "appuis": [],
+   "chemin": "engine:first-pass"
+  },
+  {
+   "cut": 6528,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "tous préexistants ou premier passage",
+   "n": 1,
+   "appuis": [
+    {
+     "cut": 6527,
+     "prov": "premier passage",
+     "verdict": "faux"
+    }
+   ],
+   "chemin": "engine:first-pass"
+  },
+  {
+   "cut": 6529,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "tous préexistants ou premier passage",
+   "n": 2,
+   "appuis": [
+    {
+     "cut": 6528,
+     "prov": "premier passage",
+     "verdict": "faux"
+    },
+    {
+     "cut": 6527,
+     "prov": "premier passage",
+     "verdict": "faux"
+    }
+   ],
+   "chemin": "engine:first-pass"
+  },
+  {
+   "cut": 6530,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "tous préexistants ou premier passage",
+   "n": 2,
+   "appuis": [
+    {
+     "cut": 6529,
+     "prov": "premier passage",
+     "verdict": "faux"
+    },
+    {
+     "cut": 6528,
+     "prov": "premier passage",
+     "verdict": "faux"
+    }
+   ],
+   "chemin": "engine:first-pass"
+  },
+  {
+   "cut": 6534,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "inconnu",
+   "n": null,
+   "appuis": [],
+   "chemin": "lot:gcv2-l1"
+  },
+  {
+   "cut": 6548,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "aucun appui",
+   "n": 0,
+   "appuis": [],
+   "chemin": "engine:first-pass"
+  },
+  {
+   "cut": 6593,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "aucun appui",
+   "n": 0,
+   "appuis": [],
+   "chemin": "engine:first-pass"
+  },
+  {
+   "cut": 6610,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "aucun appui",
+   "n": 0,
+   "appuis": [],
+   "chemin": "engine:first-pass"
+  },
+  {
+   "cut": 7557,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "aucun appui",
+   "n": 0,
+   "appuis": [],
+   "chemin": "engine:first-pass"
+  },
+  {
+   "cut": 9124,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "aucun appui",
+   "n": 0,
+   "appuis": [],
+   "chemin": "lot:gcv2-l1"
+  },
+  {
+   "cut": 9125,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "aucun appui",
+   "n": 0,
+   "appuis": [],
+   "chemin": "engine:first-pass"
+  },
+  {
+   "cut": 9437,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "aucun appui",
+   "n": 0,
+   "appuis": [],
+   "chemin": "engine:first-pass"
+  },
+  {
+   "cut": 9438,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "tous préexistants ou premier passage",
+   "n": 1,
+   "appuis": [
+    {
+     "cut": 9437,
+     "prov": "premier passage",
+     "verdict": "faux"
+    }
+   ],
+   "chemin": "lot:window"
+  },
+  {
+   "cut": 9439,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "tous préexistants ou premier passage",
+   "n": 1,
+   "appuis": [
+    {
+     "cut": 9437,
+     "prov": "premier passage",
+     "verdict": "faux"
+    }
+   ],
+   "chemin": "lot:gcv2-l1"
+  },
+  {
+   "cut": 9440,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "tous préexistants ou premier passage",
+   "n": 1,
+   "appuis": [
+    {
+     "cut": 9437,
+     "prov": "premier passage",
+     "verdict": "faux"
+    }
+   ],
+   "chemin": "lot:gcv2-l1"
+  },
+  {
+   "cut": 9456,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "aucun appui",
+   "n": 0,
+   "appuis": [],
+   "chemin": "engine:first-pass"
+  },
+  {
+   "cut": 9457,
+   "jug": true,
+   "F": true,
+   "G20": true,
+   "classe": "tous préexistants ou premier passage",
+   "n": 1,
+   "appuis": [
+    {
+     "cut": 9456,
+     "prov": "premier passage",
+     "verdict": "faux"
+    }
+   ],
+   "chemin": "lot:choice"
+  }
+ ]
+}
