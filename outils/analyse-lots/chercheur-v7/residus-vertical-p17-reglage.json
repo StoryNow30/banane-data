@@ -1,0 +1,54 @@
+{
+ "sans": {
+  "n": 193,
+  "cuts": 112,
+  "vertMediane": 0.73,
+  "latMediane": -0.02,
+  "terciles": {
+   "pointsDessusBas": {
+    "n": 66,
+    "seuilPoints": 47,
+    "vertMediane": 1.15,
+    "latMediane": 0.4
+   },
+   "pointsDessusMoyen": {
+    "n": 70,
+    "seuilPoints": 84,
+    "vertMediane": 0.42,
+    "latMediane": -0.24
+   },
+   "pointsDessusHaut": {
+    "n": 57,
+    "seuilPoints": null,
+    "vertMediane": 0.41,
+    "latMediane": 0.07
+   }
+  }
+ },
+ "avec": {
+  "n": 161,
+  "cuts": 104,
+  "vertMediane": 0.54,
+  "latMediane": 0.07,
+  "terciles": {
+   "pointsDessusBas": {
+    "n": 54,
+    "seuilPoints": 52,
+    "vertMediane": 1.31,
+    "latMediane": 0.23
+   },
+   "pointsDessusMoyen": {
+    "n": 57,
+    "seuilPoints": 84,
+    "vertMediane": 0.36,
+    "latMediane": -0.28
+   },
+   "pointsDessusHaut": {
+    "n": 50,
+    "seuilPoints": null,
+    "vertMediane": 0.33,
+    "latMediane": 0.24
+   }
+  }
+ }
+}
