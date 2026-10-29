@@ -1,0 +1,342 @@
+{
+ "format": "ariane-chercheur-v7-h7-replique-v1",
+ "parametres": "H7-PARAMETRES-FIGES-2026-10-29.json",
+ "comparaisons": {
+  "traitsPartie17": 40,
+  "testsReplication": 4,
+  "total": 44,
+  "seuilBonferroniReplication": 0.0125
+ },
+ "variantes": {
+  "sans": {
+   "rails": 252,
+   "cuts": 160,
+   "blocs": 30,
+   "tercilesMedianesVertBrutes": [
+    {
+     "n": 82,
+     "mediane": 2.68
+    },
+    {
+     "n": 23,
+     "mediane": 1.6
+    },
+    {
+     "n": 147,
+     "mediane": 0.75
+    }
+   ],
+   "evaluations": {
+    "A_reference_brute": {
+     "tous": {
+      "rails": 252,
+      "medianeAvant": 10.34,
+      "medianeApres": 9.88,
+      "sous3": {
+       "avant": 23,
+       "apres": 24.2,
+       "diffPoints": 1.2,
+       "hausses": 6,
+       "baisses": 3,
+       "ic95": [
+        -0.8,
+        3.4
+       ],
+       "icBonferroni4": [
+        -1.3,
+        4.1
+       ]
+      },
+      "sous5": {
+       "avant": 41.3,
+       "apres": 40.5,
+       "diffPoints": -0.8,
+       "hausses": 0,
+       "baisses": 2,
+       "ic95": [
+        -2,
+        0
+       ],
+       "icBonferroni4": [
+        -2.4,
+        0
+       ]
+      }
+     },
+     "sansDecales": {
+      "rails": 99,
+      "medianeAvant": 3.67,
+      "medianeApres": 3.51,
+      "sous3": {
+       "avant": 37.4,
+       "apres": 36.4,
+       "diffPoints": -1,
+       "hausses": 2,
+       "baisses": 3,
+       "ic95": [
+        -5.1,
+        3.5
+       ],
+       "icBonferroni4": [
+        -6.2,
+        5.1
+       ]
+      },
+      "sous5": {
+       "avant": 74.7,
+       "apres": 72.7,
+       "diffPoints": -2,
+       "hausses": 0,
+       "baisses": 2,
+       "ic95": [
+        -4.8,
+        0
+       ],
+       "icBonferroni4": [
+        -5.5,
+        0
+       ]
+      }
+     }
+    },
+    "B_pixel_corrige": {
+     "tous": {
+      "rails": 252,
+      "medianeAvant": 10.16,
+      "medianeApres": 9.78,
+      "sous3": {
+       "avant": 23,
+       "apres": 23.8,
+       "diffPoints": 0.8,
+       "hausses": 5,
+       "baisses": 3,
+       "ic95": [
+        -0.8,
+        2.5
+       ],
+       "icBonferroni4": [
+        -1.2,
+        3
+       ]
+      },
+      "sous5": {
+       "avant": 41.3,
+       "apres": 40.9,
+       "diffPoints": -0.4,
+       "hausses": 1,
+       "baisses": 2,
+       "ic95": [
+        -1.8,
+        1
+       ],
+       "icBonferroni4": [
+        -2.2,
+        1.5
+       ]
+      }
+     },
+     "sansDecales": {
+      "rails": 99,
+      "medianeAvant": 3.5,
+      "medianeApres": 3.58,
+      "sous3": {
+       "avant": 37.4,
+       "apres": 36.4,
+       "diffPoints": -1,
+       "hausses": 1,
+       "baisses": 2,
+       "ic95": [
+        -4.5,
+        2.3
+       ],
+       "icBonferroni4": [
+        -5.6,
+        3.4
+       ]
+      },
+      "sous5": {
+       "avant": 74.7,
+       "apres": 73.7,
+       "diffPoints": -1,
+       "hausses": 1,
+       "baisses": 2,
+       "ic95": [
+        -4.3,
+        2.3
+       ],
+       "icBonferroni4": [
+        -5.1,
+        3.5
+       ]
+      }
+     }
+    }
+   }
+  },
+  "avec": {
+   "rails": 189,
+   "cuts": 138,
+   "blocs": 30,
+   "tercilesMedianesVertBrutes": [
+    {
+     "n": 40,
+     "mediane": 0.75
+    },
+    {
+     "n": 17,
+     "mediane": 1.3
+    },
+    {
+     "n": 132,
+     "mediane": 0.57
+    }
+   ],
+   "evaluations": {
+    "A_reference_brute": {
+     "tous": {
+      "rails": 189,
+      "medianeAvant": 7.38,
+      "medianeApres": 7.19,
+      "sous3": {
+       "avant": 27,
+       "apres": 26.5,
+       "diffPoints": -0.5,
+       "hausses": 1,
+       "baisses": 2,
+       "ic95": [
+        -1.9,
+        0
+       ],
+       "icBonferroni4": [
+        -2.4,
+        0
+       ]
+      },
+      "sous5": {
+       "avant": 44.4,
+       "apres": 45.5,
+       "diffPoints": 1.1,
+       "hausses": 2,
+       "baisses": 0,
+       "ic95": [
+        0,
+        2.9
+       ],
+       "icBonferroni4": [
+        0,
+        3.5
+       ]
+      }
+     },
+     "sansDecales": {
+      "rails": 83,
+      "medianeAvant": 3.76,
+      "medianeApres": 3.67,
+      "sous3": {
+       "avant": 39.8,
+       "apres": 38.6,
+       "diffPoints": -1.2,
+       "hausses": 0,
+       "baisses": 1,
+       "ic95": [
+        -4.3,
+        0
+       ],
+       "icBonferroni4": [
+        -5.8,
+        0
+       ]
+      },
+      "sous5": {
+       "avant": 74.7,
+       "apres": 75.9,
+       "diffPoints": 1.2,
+       "hausses": 1,
+       "baisses": 0,
+       "ic95": [
+        0,
+        4.1
+       ],
+       "icBonferroni4": [
+        0,
+        5.2
+       ]
+      }
+     }
+    },
+    "B_pixel_corrige": {
+     "tous": {
+      "rails": 189,
+      "medianeAvant": 7.3,
+      "medianeApres": 7.32,
+      "sous3": {
+       "avant": 26.5,
+       "apres": 26.5,
+       "diffPoints": 0,
+       "hausses": 1,
+       "baisses": 1,
+       "ic95": [
+        -1.5,
+        1.5
+       ],
+       "icBonferroni4": [
+        -1.9,
+        1.9
+       ]
+      },
+      "sous5": {
+       "avant": 45,
+       "apres": 44.4,
+       "diffPoints": -0.5,
+       "hausses": 0,
+       "baisses": 1,
+       "ic95": [
+        -1.7,
+        0
+       ],
+       "icBonferroni4": [
+        -2.1,
+        0
+       ]
+      }
+     },
+     "sansDecales": {
+      "rails": 83,
+      "medianeAvant": 3.62,
+      "medianeApres": 3.67,
+      "sous3": {
+       "avant": 39.8,
+       "apres": 38.6,
+       "diffPoints": -1.2,
+       "hausses": 0,
+       "baisses": 1,
+       "ic95": [
+        -3.2,
+        0
+       ],
+       "icBonferroni4": [
+        -3.8,
+        0
+       ]
+      },
+      "sous5": {
+       "avant": 75.9,
+       "apres": 74.7,
+       "diffPoints": -1.2,
+       "hausses": 0,
+       "baisses": 1,
+       "ic95": [
+        -3.2,
+        0
+       ],
+       "icBonferroni4": [
+        -3.8,
+        0
+       ]
+      }
+     }
+    }
+   }
+  }
+ }
+}

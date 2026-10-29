@@ -1,0 +1,371 @@
+{
+ "rails": 208,
+ "h1": {
+  "tous": {
+   "n": 208,
+   "cuts": 118,
+   "lat": {
+    "mediane": -0.07,
+    "ic": [
+     -0.62,
+     0.44
+    ]
+   },
+   "vert": {
+    "mediane": 0.52,
+    "ic": [
+     0.36,
+     0.86
+    ]
+   },
+   "long": {
+    "mediane": 0,
+    "ic": [
+     0,
+     0
+    ]
+   },
+   "d3mediane": 2.1
+  },
+  "gauche": {
+   "n": 109,
+   "cuts": 109,
+   "lat": {
+    "mediane": 0.37,
+    "ic": [
+     -0.46,
+     0.69
+    ]
+   },
+   "vert": {
+    "mediane": 0.41,
+    "ic": [
+     0.24,
+     0.82
+    ]
+   },
+   "long": {
+    "mediane": 0,
+    "ic": [
+     -0.02,
+     0
+    ]
+   },
+   "d3mediane": 1.93
+  },
+  "droit": {
+   "n": 99,
+   "cuts": 99,
+   "lat": {
+    "mediane": -0.65,
+    "ic": [
+     -1.09,
+     0.09
+    ]
+   },
+   "vert": {
+    "mediane": 0.73,
+    "ic": [
+     0.38,
+     1.06
+    ]
+   },
+   "long": {
+    "mediane": 0,
+    "ic": [
+     -0.01,
+     0
+    ]
+   },
+   "d3mediane": 2.28
+  },
+  "zone-hors": {
+   "n": 94,
+   "cuts": 52,
+   "lat": {
+    "mediane": -0.51,
+    "ic": [
+     -0.94,
+     -0.02
+    ]
+   },
+   "vert": {
+    "mediane": 0.69,
+    "ic": [
+     0.29,
+     1.17
+    ]
+   },
+   "long": {
+    "mediane": 0,
+    "ic": [
+     -0.02,
+     0
+    ]
+   },
+   "d3mediane": 2.18
+  },
+  "zone-adv": {
+   "n": 71,
+   "cuts": 40,
+   "lat": {
+    "mediane": 0.36,
+    "ic": [
+     -0.55,
+     0.53
+    ]
+   },
+   "vert": {
+    "mediane": 0.39,
+    "ic": [
+     0.24,
+     0.91
+    ]
+   },
+   "long": {
+    "mediane": 0,
+    "ic": [
+     -0.02,
+     0
+    ]
+   },
+   "d3mediane": 1.69
+  },
+  "zone-abords": {
+   "n": 29,
+   "cuts": 19,
+   "lat": {
+    "mediane": 1.09,
+    "ic": [
+     0.86,
+     2.01
+    ]
+   },
+   "vert": {
+    "mediane": 0.43,
+    "ic": [
+     -0.26,
+     0.99
+    ]
+   },
+   "long": {
+    "mediane": 0,
+    "ic": [
+     0,
+     0
+    ]
+   },
+   "d3mediane": 2.11
+  },
+  "role-vert": {
+   "n": 190,
+   "cuts": 107,
+   "lat": {
+    "mediane": -0.09,
+    "ic": [
+     -0.62,
+     0.31
+    ]
+   },
+   "vert": {
+    "mediane": 0.58,
+    "ic": [
+     0.37,
+     0.92
+    ]
+   },
+   "long": {
+    "mediane": 0,
+    "ic": [
+     0,
+     0
+    ]
+   },
+   "d3mediane": 2.03
+  }
+ },
+ "best": {
+  "tous": {
+   "n": 208,
+   "cuts": 118,
+   "lat": {
+    "mediane": 0,
+    "ic": [
+     -0.13,
+     0
+    ]
+   },
+   "vert": {
+    "mediane": 0.06,
+    "ic": [
+     0,
+     0.27
+    ]
+   },
+   "long": {
+    "mediane": 0,
+    "ic": [
+     0,
+     0
+    ]
+   },
+   "d3mediane": 1
+  },
+  "gauche": {
+   "n": 109,
+   "cuts": 109,
+   "lat": {
+    "mediane": 0,
+    "ic": [
+     -0.06,
+     0
+    ]
+   },
+   "vert": {
+    "mediane": 0,
+    "ic": [
+     0,
+     0.09
+    ]
+   },
+   "long": {
+    "mediane": 0,
+    "ic": [
+     -0.02,
+     0
+    ]
+   },
+   "d3mediane": 0.93
+  },
+  "droit": {
+   "n": 99,
+   "cuts": 99,
+   "lat": {
+    "mediane": -0.27,
+    "ic": [
+     -0.47,
+     0
+    ]
+   },
+   "vert": {
+    "mediane": 0.24,
+    "ic": [
+     0,
+     0.4
+    ]
+   },
+   "long": {
+    "mediane": 0,
+    "ic": [
+     -0.01,
+     0
+    ]
+   },
+   "d3mediane": 1.19
+  },
+  "zone-hors": {
+   "n": 94,
+   "cuts": 52,
+   "lat": {
+    "mediane": 0,
+    "ic": [
+     -0.08,
+     0
+    ]
+   },
+   "vert": {
+    "mediane": 0.25,
+    "ic": [
+     0,
+     0.5
+    ]
+   },
+   "long": {
+    "mediane": 0,
+    "ic": [
+     -0.02,
+     0
+    ]
+   },
+   "d3mediane": 1.01
+  },
+  "zone-adv": {
+   "n": 71,
+   "cuts": 40,
+   "lat": {
+    "mediane": 0,
+    "ic": [
+     -0.17,
+     0.25
+    ]
+   },
+   "vert": {
+    "mediane": 0.06,
+    "ic": [
+     0,
+     0.66
+    ]
+   },
+   "long": {
+    "mediane": 0,
+    "ic": [
+     -0.02,
+     0
+    ]
+   },
+   "d3mediane": 0.95
+  },
+  "zone-abords": {
+   "n": 29,
+   "cuts": 19,
+   "lat": {
+    "mediane": 0,
+    "ic": [
+     -0.41,
+     0
+    ]
+   },
+   "vert": {
+    "mediane": 0,
+    "ic": [
+     0,
+     0.15
+    ]
+   },
+   "long": {
+    "mediane": 0,
+    "ic": [
+     0,
+     0
+    ]
+   },
+   "d3mediane": 1
+  },
+  "role-vert": {
+   "n": 190,
+   "cuts": 107,
+   "lat": {
+    "mediane": 0,
+    "ic": [
+     -0.08,
+     0
+    ]
+   },
+   "vert": {
+    "mediane": 0.2,
+    "ic": [
+     0.02,
+     0.34
+    ]
+   },
+   "long": {
+    "mediane": 0,
+    "ic": [
+     0,
+     0
+    ]
+   },
+   "d3mediane": 1
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "format": "ariane-chercheur-v7-h7-parametres-v1",
+ "date": "2026-10-29",
+ "source": "partie 17, réglage, jeu-reglage.jsonl",
+ "biaisPixelOperateurMm": 0.193,
+ "hypothese": "z += c[tercile de pointsDessus]",
+ "variantes": {
+  "sans": {
+   "rails": 193,
+   "seuilsTercile": [
+    47,
+    84
+   ],
+   "constantesBrutesMm": [
+    1.15,
+    0.425,
+    0.41
+   ],
+   "constantesPixelCorrigeesMm": [
+    0.957,
+    0.232,
+    0.217
+   ]
+  },
+  "avec": {
+   "rails": 161,
+   "seuilsTercile": [
+    52,
+    84
+   ],
+   "constantesBrutesMm": [
+    1.31,
+    0.36,
+    0.33
+   ],
+   "constantesPixelCorrigeesMm": [
+    1.117,
+    0.167,
+    0.137
+   ]
+  }
+ }
+}

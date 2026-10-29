@@ -1,0 +1,30 @@
+{
+ "variante": "avec hauteur apprise",
+ "rails": 161,
+ "cuts": 104,
+ "blocs": 17,
+ "medianeAvant": 2.03,
+ "medianeApres": 1.92,
+ "sous3": {
+  "avant": 77.6,
+  "apres": 81.4,
+  "diffPoints": 3.7,
+  "bootBlocs": [
+   0.6,
+   7.3
+  ],
+  "hausses": 9,
+  "baisses": 3
+ },
+ "sous5": {
+  "avant": 93.2,
+  "apres": 94.4,
+  "diffPoints": 1.2,
+  "bootBlocs": [
+   0,
+   3.1
+  ],
+  "hausses": 2,
+  "baisses": 0
+ }
+}

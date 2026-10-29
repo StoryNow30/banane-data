@@ -1,0 +1,104 @@
+{
+ "rails": 422,
+ "cuts": 211,
+ "strates": [
+  {
+   "strate": "tous",
+   "n": 422,
+   "manque3": 51.7,
+   "manque5": 36.3,
+   "manque10": 21.8,
+   "operateurDeplace3d_mediane": 154.98
+  },
+  {
+   "strate": "role=vert",
+   "n": 48,
+   "manque3": 50,
+   "manque5": 41.7,
+   "manque10": 33.3,
+   "operateurDeplace3d_mediane": 142.6
+  },
+  {
+   "strate": "role=differe",
+   "n": 236,
+   "manque3": 61.9,
+   "manque5": 46.2,
+   "manque10": 26.3,
+   "operateurDeplace3d_mediane": 199.32
+  },
+  {
+   "strate": "role=rouge",
+   "n": 138,
+   "manque3": 34.8,
+   "manque5": 17.4,
+   "manque10": 10.1,
+   "operateurDeplace3d_mediane": 4.16
+  },
+  {
+   "strate": "zone=abords",
+   "n": 84,
+   "manque3": 36.9,
+   "manque5": 23.8,
+   "manque10": 13.1,
+   "operateurDeplace3d_mediane": 141.46
+  },
+  {
+   "strate": "zone=adv",
+   "n": 336,
+   "manque3": 55.4,
+   "manque5": 39.6,
+   "manque10": 24.1,
+   "operateurDeplace3d_mediane": 159.34
+  },
+  {
+   "strate": "etage=first-pass",
+   "n": 154,
+   "manque3": 38.3,
+   "manque5": 22.7,
+   "manque10": 16.2,
+   "operateurDeplace3d_mediane": 4.82
+  },
+  {
+   "strate": "etage=deferred",
+   "n": 268,
+   "manque3": 59.3,
+   "manque5": 44,
+   "manque10": 25,
+   "operateurDeplace3d_mediane": 170.86
+  },
+  {
+   "strate": "micD>20mm (le rail a beaucoup bougé)",
+   "n": 278,
+   "manque3": 67.3,
+   "manque5": 51.8,
+   "manque10": 33.1,
+   "operateurDeplace3d_mediane": 200.16
+  },
+  {
+   "strate": "micD<=20mm",
+   "n": 144,
+   "manque3": 21.5,
+   "manque5": 6.3,
+   "manque10": 0,
+   "operateurDeplace3d_mediane": 2.89
+  }
+ ],
+ "manques5": {
+  "n": 153,
+  "residuSigneMedianMm": {
+   "lat": -5.59,
+   "vert": -0.74,
+   "long": 0
+  },
+  "ecartMedianMm": 12.98,
+  "parOrigineDuMeilleur": {
+   "H0": 3,
+   "H3": 4,
+   "H6": 107,
+   "H4": 28,
+   "H2": 7,
+   "H1": 3,
+   "H5": 1
+  }
+ }
+}

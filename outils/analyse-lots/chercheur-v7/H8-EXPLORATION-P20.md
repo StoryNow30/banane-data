@@ -1,0 +1,11 @@
+# CH-012 : H8 (décalage de voie en tendance linéaire), exploration sur la partie 20 (29/10/2026) : prémisse réfutée
+
+Partie 20 en apprentissage ; voisins sûrs de H6 extraits par `h8-extraire.cjs` (SHA-256 dans `h8-extraire.cjs.sha256`, copie en mémoire de `gcv2-jeu.cjs`, outil inchangé). Exploration descriptive, rien de figé, aucune réplication ouverte sur la partie 17. Environ 20 comparaisons descriptives (4 méthodes × 2 familles dans `h8-explorer-p20.json`, 6 variantes dans `h8-variantes-p20.json`, balayage de K dans `h9-candidats-p20.json`) : aucune n'est un test sélectionné, aucun seuil de Bonferroni n'est revendiqué.
+
+## Ce qui est mesuré (rails déplacés de plus de 20 mm par l'opérateur, écart LATÉRAL de la prédiction au décalage cible, en mm)
+- **Voisins du lot seuls** (188 rails avec au moins 3 voisins) : écart médian 128 mm (voisin le plus proche), 87 (médiane de 5), 154 (moindres carrés), 100 (Theil-Sen) ; 0 à 11 % à moins de 5 mm. Dans ces zones les poses du lot sont elles-mêmes fausses : ils ne sont pas des appuis sûrs.
+- **Voisins humains compris** (232 rails) : voisin le plus proche 25,0 % à 5 mm, 43,1 % à 10 mm (médiane 12,95) ; Theil-Sen sur 5 voisins 29,3 % et 46,1 % (médiane 11,31) : +4,3 et +3 points ; extrapolation linéaire de deux voisins du même côté +0,4 et −1,8 ; Theil-Sen de 3 voisins du même côté +3,7 et −4,6 ; **interpolation entre un voisin amont et un voisin aval : −10,2 et −19,8 points**.
+- **Choix discret** : la valeur de décalage de l'un des voisins (10,7 en moyenne) est à moins de 5 mm de la cible pour 24,6 % des rails avec le plus proche seul, 36,2 % avec les 3 plus proches, 42,7 % avec les 5, 53,0 % avec tous ; à 10 mm : 42,6, 53,4, 60,8, 69,8 %.
+
+## Lecture (PROBABLE, descriptive)
+Le décalage de voie n'est pas un champ lisse : l'interpolation est nettement plus mauvaise que le voisin le plus proche, et les tendances linéaires locales ne gagnent rien. La prémisse physique de H8 (continuité) est réfutée sur cet ensemble. Ce qui reste : la valeur juste est souvent (53 % à 5 mm, 70 % à 10 mm) l'une des valeurs déjà portées par les voisins sûrs, mais le voisin le plus proche n'est la bonne que dans 25 % des cas. Le problème est un CHOIX parmi des valeurs candidates (appartenance à une branche, aiguillage) plus qu'une tendance. H8 n'est pas poursuivie en validation croisée.

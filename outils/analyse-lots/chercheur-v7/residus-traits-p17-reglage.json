@@ -1,0 +1,87 @@
+{
+ "rails": 208,
+ "comparaisons": 40,
+ "note": "rho de Spearman ; t ≈ rho·racine((n−2)/(1−rho²)) ; |t| > 3,5 environ pour Bonferroni à 5 % sur ce nombre de comparaisons",
+ "top": [
+  {
+   "trait": "t.perte",
+   "n": 208,
+   "lat": 0.01,
+   "tlat": 0.1,
+   "vert": 0.33,
+   "tvert": 5
+  },
+  {
+   "trait": "t.ratioPerte",
+   "n": 208,
+   "lat": 0.13,
+   "tlat": 1.9,
+   "vert": -0.04,
+   "tvert": -0.5
+  },
+  {
+   "trait": "t.lignesSommet",
+   "n": 208,
+   "lat": -0.01,
+   "tlat": -0.1,
+   "vert": -0.27,
+   "tvert": -4
+  },
+  {
+   "trait": "t.faces",
+   "n": 208,
+   "lat": -0.09,
+   "tlat": -1.3,
+   "vert": -0.24,
+   "tvert": -3.5
+  },
+  {
+   "trait": "t.pointsDessus",
+   "n": 208,
+   "lat": -0.02,
+   "tlat": -0.3,
+   "vert": -0.27,
+   "tvert": -4.1
+  },
+  {
+   "trait": "t.pointsFlanc",
+   "n": 208,
+   "lat": -0.11,
+   "tlat": -1.6,
+   "vert": -0.3,
+   "tvert": -4.5
+  },
+  {
+   "trait": "t.epaisseurDessusMm",
+   "n": 208,
+   "lat": 0.17,
+   "tlat": 2.4,
+   "vert": 0.03,
+   "tvert": 0.5
+  },
+  {
+   "trait": "t.dzConventionMm",
+   "n": 193,
+   "lat": 0.1,
+   "tlat": 1.3,
+   "vert": -0.08,
+   "tvert": -1.1
+  },
+  {
+   "trait": "t.duConventionMm",
+   "n": 193,
+   "lat": 0.09,
+   "tlat": 1.2,
+   "vert": 0.28,
+   "tvert": 4
+  },
+  {
+   "trait": "t.deplMm",
+   "n": 208,
+   "lat": -0.04,
+   "tlat": -0.5,
+   "vert": 0.06,
+   "tvert": 0.8
+  }
+ ]
+}

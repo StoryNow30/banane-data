@@ -1,0 +1,26 @@
+{
+ "rails": 244,
+ "parNombreDeVoisins": {
+  "K=1": {
+   "n": 244,
+   "unVoisinA5mm": 24.6,
+   "unVoisinA10mm": 42.6
+  },
+  "K=3": {
+   "n": 232,
+   "unVoisinA5mm": 36.2,
+   "unVoisinA10mm": 53.4
+  },
+  "K=5": {
+   "n": 232,
+   "unVoisinA5mm": 42.7,
+   "unVoisinA10mm": 60.8
+  },
+  "K=99": {
+   "n": 232,
+   "unVoisinA5mm": 53,
+   "unVoisinA10mm": 69.8
+  }
+ },
+ "voisinsMoyens": 10.7
+}
