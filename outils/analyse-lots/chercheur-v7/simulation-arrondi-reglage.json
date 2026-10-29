@@ -1,0 +1,18 @@
+{
+ "rails": 17,
+ "partArrondisLat": 29.4,
+ "partArrondisVert": 35.3,
+ "avant": {
+  "mediane": 2.11,
+  "p90": 3.99,
+  "sous3": 13,
+  "sous5": 16
+ },
+ "apres": {
+  "mediane": 1.9,
+  "p90": 3.83,
+  "sous3": 14,
+  "sous5": 16
+ },
+ "note": "rails déplacés par l’opérateur seulement ; écart 2D (latéral, vertical) à la validation de l’opérateur ; réglage seul"
+}
