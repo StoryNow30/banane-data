@@ -1,0 +1,101 @@
+{
+ "partie": 20,
+ "definitions": {
+  "appuis": "lotObservation.anchorsUsed.length (à défaut l1.chaine.appuis ; sinon 0)",
+  "precedentDiffere": "cut-1 ou cut-2 numériques parmi les cibles du lot sans écriture de validation à la fin du lot (+5 s), écritures de la passe après l'arrêt comprises",
+  "moteurSeulDansR3": true
+ },
+ "cheminDesSignalesR3": {
+  "lot:gcv2-l1": 11,
+  "engine:first-pass": 21,
+  "lot:choice": 3,
+  "lot:window": 3
+ },
+ "sansCascade": {
+  "signalesR3": {
+   "posés": 38,
+   "jugés": 32,
+   "plus50": 13,
+   "taux": 0.406,
+   "ic95": [
+    0.255,
+    0.577
+   ]
+  },
+  "suivants1a3": {
+   "posés": 36,
+   "jugés": 24,
+   "plus50": 4,
+   "taux": 0.167,
+   "ic95": [
+    0.067,
+    0.359
+   ]
+  },
+  "suivantsPerdentUnAppui": {
+   "posés": 19,
+   "jugés": 14,
+   "plus50": 4,
+   "taux": 0.286,
+   "ic95": [
+    0.117,
+    0.546
+   ]
+  },
+  "suivantsDevenusRacines": {
+   "posés": 12,
+   "jugés": 10,
+   "plus50": 3,
+   "taux": 0.3,
+   "ic95": [
+    0.108,
+    0.603
+   ]
+  },
+  "racinesActuelles": {
+   "posés": 106,
+   "jugés": 24,
+   "plus50": 11,
+   "taux": 0.458,
+   "ic95": [
+    0.279,
+    0.649
+   ]
+  },
+  "dontRacinesDejaSignaleesR3": 18
+ },
+ "avecCascade": {
+  "difleresAjoutes": 254,
+  "partDesPoses": 0.352,
+  "differesTotal": 422,
+  "partDesCibles": 0.475,
+  "ajoutesJuges": 127,
+  "fauxPlus50Evites": 17,
+  "fauxPlus50Restants": 4,
+  "ajoutesParRapportAuSansCascade": 216
+ },
+ "d223": {
+  "posés": 721,
+  "jugés": 172,
+  "plus50Juges": 21,
+  "tauxJuges": 0.122,
+  "ic95Juges": [
+   0.081,
+   0.179
+  ],
+  "planchersurTousLesPoses": 0.0291,
+  "nonJuges": 549,
+  "jugesNonVoisinsDeDiffere": {
+   "posés": 138,
+   "jugés": 138,
+   "plus50": 7,
+   "taux": 0.051,
+   "ic95": [
+    0.025,
+    0.101
+   ]
+  },
+  "nonJugesAttendusSiMemeTauxQueNonVoisins": 28,
+  "nonJugesVoisinsDeDiffere": 4
+ }
+}
