@@ -1,0 +1,12 @@
+{
+ "statutJeu": 1,
+ "lignesLues": 0,
+ "ecrites": 0,
+ "parType": {},
+ "ecartees": {
+  "examen": 0,
+  "garde": 0,
+  "sansCut": 0
+ },
+ "ecrit": "jeu-reglage.jsonl"
+}
