@@ -1,0 +1,122 @@
+{
+ "rails": 208,
+ "cuts": 118,
+ "blocs": 17,
+ "note": "mêmes rails pour les trois lignes ; réglage seul ; oracle = borne haute",
+ "lignes": {
+  "H0_depart_ESV": {
+   "sous3": {
+    "k": 100,
+    "part": 48.1,
+    "wilson": [
+     41.4,
+     54.8
+    ],
+    "bootstrapBlocs": [
+     40.2,
+     55.2
+    ]
+   },
+   "sous5": {
+    "k": 168,
+    "part": 80.8,
+    "wilson": [
+     74.9,
+     85.5
+    ],
+    "bootstrapBlocs": [
+     67.2,
+     89.1
+    ]
+   },
+   "sous10": {
+    "k": 197,
+    "part": 94.7,
+    "wilson": [
+     90.8,
+     97
+    ],
+    "bootstrapBlocs": [
+     87.3,
+     98.6
+    ]
+   }
+  },
+  "H1_proposition_moteur": {
+   "sous3": {
+    "k": 151,
+    "part": 72.6,
+    "wilson": [
+     66.2,
+     78.2
+    ],
+    "bootstrapBlocs": [
+     61.2,
+     83.6
+    ]
+   },
+   "sous5": {
+    "k": 178,
+    "part": 85.6,
+    "wilson": [
+     80.2,
+     89.7
+    ],
+    "bootstrapBlocs": [
+     77.9,
+     92.1
+    ]
+   },
+   "sous10": {
+    "k": 190,
+    "part": 91.3,
+    "wilson": [
+     86.7,
+     94.5
+    ],
+    "bootstrapBlocs": [
+     82.5,
+     96.7
+    ]
+   }
+  },
+  "oracle": {
+   "sous3": {
+    "k": 199,
+    "part": 95.7,
+    "wilson": [
+     92,
+     97.7
+    ],
+    "bootstrapBlocs": [
+     91.5,
+     98.6
+    ]
+   },
+   "sous5": {
+    "k": 208,
+    "part": 100,
+    "wilson": [
+     98.2,
+     100
+    ],
+    "bootstrapBlocs": [
+     100,
+     100
+    ]
+   },
+   "sous10": {
+    "k": 208,
+    "part": 100,
+    "wilson": [
+     98.2,
+     100
+    ],
+    "bootstrapBlocs": [
+     100,
+     100
+    ]
+   }
+  }
+ }
+}
