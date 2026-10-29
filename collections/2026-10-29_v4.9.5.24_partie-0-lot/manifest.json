@@ -1,0 +1,38 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "4.9.5.24",
+  "origine": "Export Orbite « tout » du 29/10/2026 11:29:31 (heure de Paris), 6 volumes, méthode deflate",
+  "contenu": "Journal, diagnostic GCV1 et corpus du lot de la partie 0 (249 invalides au départ) ; instantanés des listes d'ESV des parties 0 et 20 ; relecture après le lot : 462 relus, 43 corrigés. Pas d'Écho dans cet envoi.",
+  "fichiers": [
+    {
+      "chemin": "raw/ariane-lot-2026-10-29T10-29-31-volume01-sur06.zip",
+      "taille": 14587264,
+      "sha256": "313eb34d8cd1c420d781a75fa14127003d2b0f33a84a9413ff6739cfbf2fc103"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-10-29T10-29-31-volume02-sur06.zip",
+      "taille": 10990317,
+      "sha256": "3079f5c852536f4e70e5571d37a42fabc9e0d0f21dbe3ac515ba2ad21bc8d67b"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-10-29T10-29-31-volume03-sur06.zip",
+      "taille": 11027085,
+      "sha256": "d3c45728c3ff2d7fc5a3a58d06da6384dbd3bdc66a2004cd1bf252333d281f45"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-10-29T10-29-31-volume04-sur06.zip",
+      "taille": 11564636,
+      "sha256": "fb75d3a37e70ca0b52a7c260acb05d3e1a71137a0eaac3f4a1a118233a199969"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-10-29T10-29-31-volume05-sur06.zip",
+      "taille": 13610115,
+      "sha256": "5a3d2e2878c4065b280d333f5d0c5a102d4bcb85586362aeebb154da78415ff9"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-10-29T10-29-31-volume06-sur06.zip",
+      "taille": 15598787,
+      "sha256": "ef4fe51d51b5a409973bb886b0fb48a43f4b0a321e972e6d084e89306c8c0415"
+    }
+  ]
+}
