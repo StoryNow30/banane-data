@@ -1,0 +1,83 @@
+{
+ "rails": 232,
+ "variantes": {
+  "proche": {
+   "n": 232,
+   "mediane": 12.95,
+   "sous5": 25,
+   "sous10": 43.1,
+   "procheMemePop": {
+    "mediane": 12.95,
+    "sous5": 25,
+    "sous10": 43.1
+   },
+   "gain5Points": 0,
+   "gain10Points": 0
+  },
+  "lineaire2": {
+   "n": 222,
+   "mediane": 13.36,
+   "sous5": 26.1,
+   "sous10": 42.8,
+   "procheMemePop": {
+    "mediane": 12.23,
+    "sous5": 25.7,
+    "sous10": 44.6
+   },
+   "gain5Points": 0.4,
+   "gain10Points": -1.8
+  },
+  "theil3memeCote": {
+   "n": 218,
+   "mediane": 17.28,
+   "sous5": 29.8,
+   "sous10": 40.8,
+   "procheMemePop": {
+    "mediane": 11.72,
+    "sous5": 26.1,
+    "sous10": 45.4
+   },
+   "gain5Points": 3.7,
+   "gain10Points": -4.6
+  },
+  "theil3": {
+   "n": 232,
+   "mediane": 20.41,
+   "sous5": 27.2,
+   "sous10": 38.4,
+   "procheMemePop": {
+    "mediane": 12.95,
+    "sous5": 25,
+    "sous10": 43.1
+   },
+   "gain5Points": 2.2,
+   "gain10Points": -4.7
+  },
+  "theil5": {
+   "n": 232,
+   "mediane": 11.31,
+   "sous5": 29.3,
+   "sous10": 46.1,
+   "procheMemePop": {
+    "mediane": 12.95,
+    "sous5": 25,
+    "sous10": 43.1
+   },
+   "gain5Points": 4.3,
+   "gain10Points": 3
+  },
+  "interp": {
+   "n": 177,
+   "mediane": 31.67,
+   "sous5": 16.4,
+   "sous10": 25.4,
+   "procheMemePop": {
+    "mediane": 11.56,
+    "sous5": 26.6,
+    "sous10": 45.2
+   },
+   "gain5Points": -10.2,
+   "gain10Points": -19.8
+  }
+ }
+}

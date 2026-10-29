@@ -1,0 +1,132 @@
+{
+ "rails": 363,
+ "deplaces20": 244,
+ "tous": {
+  "lot": {
+   "rails3voisins": 299,
+   "proche": {
+    "n": 299,
+    "mediane": 47.17,
+    "p90": 289.72,
+    "sous5": 15.1,
+    "sous10": 27.8
+   },
+   "mediane5": {
+    "n": 299,
+    "mediane": 45.2,
+    "p90": 212.23,
+    "sous5": 12.7,
+    "sous10": 22.7
+   },
+   "ols": {
+    "n": 299,
+    "mediane": 53.47,
+    "p90": 364.76,
+    "sous5": 20.1,
+    "sous10": 26.8
+   },
+   "theilSen": {
+    "n": 299,
+    "mediane": 32.72,
+    "p90": 323.05,
+    "sous5": 26.8,
+    "sous10": 35.1
+   }
+  },
+  "tous": {
+   "rails3voisins": 347,
+   "proche": {
+    "n": 347,
+    "mediane": 9.31,
+    "p90": 129.48,
+    "sous5": 30.5,
+    "sous10": 51.9
+   },
+   "mediane5": {
+    "n": 347,
+    "mediane": 10.43,
+    "p90": 82.83,
+    "sous5": 25.6,
+    "sous10": 48.4
+   },
+   "ols": {
+    "n": 347,
+    "mediane": 15.93,
+    "p90": 129.95,
+    "sous5": 27.7,
+    "sous10": 42.7
+   },
+   "theilSen": {
+    "n": 347,
+    "mediane": 8.57,
+    "p90": 108.3,
+    "sous5": 37.5,
+    "sous10": 53.9
+   }
+  }
+ },
+ "deplaces>20mm": {
+  "lot": {
+   "rails3voisins": 188,
+   "proche": {
+    "n": 188,
+    "mediane": 128.41,
+    "p90": 341.9,
+    "sous5": 1.1,
+    "sous10": 5.3
+   },
+   "mediane5": {
+    "n": 188,
+    "mediane": 87.04,
+    "p90": 240.11,
+    "sous5": 0,
+    "sous10": 1.6
+   },
+   "ols": {
+    "n": 188,
+    "mediane": 154.55,
+    "p90": 428.96,
+    "sous5": 4.8,
+    "sous10": 8.5
+   },
+   "theilSen": {
+    "n": 188,
+    "mediane": 100.5,
+    "p90": 379.78,
+    "sous5": 10.6,
+    "sous10": 15.4
+   }
+  },
+  "tous": {
+   "rails3voisins": 232,
+   "proche": {
+    "n": 232,
+    "mediane": 12.95,
+    "p90": 176.17,
+    "sous5": 25,
+    "sous10": 43.1
+   },
+   "mediane5": {
+    "n": 232,
+    "mediane": 13.88,
+    "p90": 92.22,
+    "sous5": 18.5,
+    "sous10": 39.7
+   },
+   "ols": {
+    "n": 232,
+    "mediane": 24.15,
+    "p90": 172.39,
+    "sous5": 19,
+    "sous10": 33.2
+   },
+   "theilSen": {
+    "n": 232,
+    "mediane": 11.31,
+    "p90": 136.73,
+    "sous5": 29.3,
+    "sous10": 46.1
+   }
+  }
+ }
+}
