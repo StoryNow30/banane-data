@@ -1,0 +1,44 @@
+{
+ "lat": {
+  "n": 804,
+  "min": -0.52,
+  "max": 0.02,
+  "mediane": -0.23,
+  "partDansMoinsGrainZero": 0.847,
+  "partSousDemiGrain": 0.419,
+  "ksContreUniforme": 0.198,
+  "histo8SurMoins0_6a0": [
+   0,
+   57,
+   115,
+   128,
+   120,
+   134,
+   117,
+   133
+  ],
+  "largeurObservee": 0.54
+ },
+ "vert": {
+  "n": 804,
+  "min": -0.52,
+  "max": 0.02,
+  "mediane": -0.25,
+  "partDansMoinsGrainZero": 0.812,
+  "partSousDemiGrain": 0.384,
+  "ksContreUniforme": 0.243,
+  "histo8SurMoins0_6a0": [
+   0,
+   74,
+   134,
+   108,
+   135,
+   109,
+   110,
+   134
+  ],
+  "largeurObservee": 0.54
+ },
+ "correlationLatVert": 0.05,
+ "grainMm": 0.386
+}
