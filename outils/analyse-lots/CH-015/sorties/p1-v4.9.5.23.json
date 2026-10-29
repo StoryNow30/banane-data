@@ -1,0 +1,416 @@
+{
+ "format": "ariane-juger-lot-v1",
+ "graine": 20261028,
+ "mauvaiseVoieLatMm": 100,
+ "definition": "Posé = écriture de validation 2xx pendant le lot. Jugé = validation de l'opérateur contre la pose d'Ariane (pire rail, 3D) ou contrôlé, bon (visite sans geste, seulement si l'Écho a visité le cut). Passe en ombre à part.",
+ "parties": [
+  {
+   "partie": 1,
+   "version": "4.9.5.23",
+   "lotTrouve": true,
+   "cibles": 380,
+   "poses": 352,
+   "differes": 28,
+   "sansEcho": 319,
+   "nonJuges": 9,
+   "repereNonCalibre": 0,
+   "juges": 24,
+   "dontCorriges": 16,
+   "dontControles": 8,
+   "plusDe20mm": 0,
+   "plusDe50mm": 0,
+   "mauvaiseVoie": 0,
+   "precision": {
+    "n": 24,
+    "medianeMm": 2.86,
+    "icMediane": [
+     0,
+     7.01
+    ],
+    "maxMm": 17.426,
+    "auPlus2mm": {
+     "n": 24,
+     "k": 11,
+     "part": 0.4583,
+     "bas": 0.2789,
+     "haut": 0.6493
+    },
+    "auPlus5mm": {
+     "n": 24,
+     "k": 14,
+     "part": 0.5833,
+     "bas": 0.3883,
+     "haut": 0.7553
+    },
+    "auPlus10mm": {
+     "n": 24,
+     "k": 20,
+     "part": 0.8333,
+     "bas": 0.6415,
+     "haut": 0.9332
+    },
+    "plusDe20mm": {
+     "n": 24,
+     "k": 0,
+     "part": 0,
+     "bas": 0,
+     "haut": 0.138
+    },
+    "plusDe50mm": {
+     "n": 24,
+     "k": 0,
+     "part": 0,
+     "bas": 0,
+     "haut": 0.138
+    },
+    "zoneGrise": {
+     "n": 24,
+     "k": 7,
+     "part": 0.2917,
+     "bas": 0.1491,
+     "haut": 0.4917
+    },
+    "zoneParSeuil": {
+     "2": {
+      "n": 24,
+      "k": 2,
+      "part": 0.0833,
+      "bas": 0.0232,
+      "haut": 0.2585
+     },
+     "5": {
+      "n": 24,
+      "k": 3,
+      "part": 0.125,
+      "bas": 0.0434,
+      "haut": 0.31
+     },
+     "10": {
+      "n": 24,
+      "k": 4,
+      "part": 0.1667,
+      "bas": 0.0668,
+      "haut": 0.3585
+     },
+     "20": {
+      "n": 24,
+      "k": 0,
+      "part": 0,
+      "bas": 0,
+      "haut": 0.138
+     },
+     "50": {
+      "n": 24,
+      "k": 0,
+      "part": 0,
+      "bas": 0,
+      "haut": 0.138
+     }
+    }
+   },
+   "ombre": {
+    "passe1": 28,
+    "poserait": 9,
+    "rien": 19,
+    "refusGarde": 0,
+    "juges": 9,
+    "sansEcho": 0,
+    "nonJuges": 0,
+    "plusDe20mm": 1,
+    "plusDe50mm": 0,
+    "precision": {
+     "n": 9,
+     "medianeMm": 11.17,
+     "icMediane": [
+      7.43,
+      13.14
+     ],
+     "maxMm": 22.492,
+     "auPlus2mm": {
+      "n": 9,
+      "k": 0,
+      "part": 0,
+      "bas": 0,
+      "haut": 0.2992
+     },
+     "auPlus5mm": {
+      "n": 9,
+      "k": 1,
+      "part": 0.1111,
+      "bas": 0.0199,
+      "haut": 0.435
+     },
+     "auPlus10mm": {
+      "n": 9,
+      "k": 3,
+      "part": 0.3333,
+      "bas": 0.1206,
+      "haut": 0.6458
+     },
+     "plusDe20mm": {
+      "n": 9,
+      "k": 1,
+      "part": 0.1111,
+      "bas": 0.0199,
+      "haut": 0.435
+     },
+     "plusDe50mm": {
+      "n": 9,
+      "k": 0,
+      "part": 0,
+      "bas": 0,
+      "haut": 0.2992
+     },
+     "zoneGrise": {
+      "n": 9,
+      "k": 4,
+      "part": 0.4444,
+      "bas": 0.1888,
+      "haut": 0.7334
+     },
+     "zoneParSeuil": {
+      "2": {
+       "n": 9,
+       "k": 1,
+       "part": 0.1111,
+       "bas": 0.0199,
+       "haut": 0.435
+      },
+      "5": {
+       "n": 9,
+       "k": 1,
+       "part": 0.1111,
+       "bas": 0.0199,
+       "haut": 0.435
+      },
+      "10": {
+       "n": 9,
+       "k": 3,
+       "part": 0.3333,
+       "bas": 0.1206,
+       "haut": 0.6458
+      },
+      "20": {
+       "n": 9,
+       "k": 0,
+       "part": 0,
+       "bas": 0,
+       "haut": 0.2992
+      },
+      "50": {
+       "n": 9,
+       "k": 0,
+       "part": 0,
+       "bas": 0,
+       "haut": 0.2992
+      }
+     }
+    }
+   }
+  }
+ ],
+ "total": {
+  "parties": [
+   1
+  ],
+  "cibles": 380,
+  "poses": 352,
+  "differes": 28,
+  "sansEcho": 319,
+  "nonJuges": 9,
+  "repereNonCalibre": 0,
+  "juges": 24,
+  "dontCorriges": 16,
+  "dontControles": 8,
+  "plusDe20mm": 0,
+  "plusDe50mm": 0,
+  "mauvaiseVoie": 0,
+  "precision": {
+   "n": 24,
+   "medianeMm": 2.86,
+   "icMediane": [
+    0,
+    7.01
+   ],
+   "maxMm": 17.426,
+   "auPlus2mm": {
+    "n": 24,
+    "k": 11,
+    "part": 0.4583,
+    "bas": 0.2789,
+    "haut": 0.6493
+   },
+   "auPlus5mm": {
+    "n": 24,
+    "k": 14,
+    "part": 0.5833,
+    "bas": 0.3883,
+    "haut": 0.7553
+   },
+   "auPlus10mm": {
+    "n": 24,
+    "k": 20,
+    "part": 0.8333,
+    "bas": 0.6415,
+    "haut": 0.9332
+   },
+   "plusDe20mm": {
+    "n": 24,
+    "k": 0,
+    "part": 0,
+    "bas": 0,
+    "haut": 0.138
+   },
+   "plusDe50mm": {
+    "n": 24,
+    "k": 0,
+    "part": 0,
+    "bas": 0,
+    "haut": 0.138
+   },
+   "zoneGrise": {
+    "n": 24,
+    "k": 7,
+    "part": 0.2917,
+    "bas": 0.1491,
+    "haut": 0.4917
+   },
+   "zoneParSeuil": {
+    "2": {
+     "n": 24,
+     "k": 2,
+     "part": 0.0833,
+     "bas": 0.0232,
+     "haut": 0.2585
+    },
+    "5": {
+     "n": 24,
+     "k": 3,
+     "part": 0.125,
+     "bas": 0.0434,
+     "haut": 0.31
+    },
+    "10": {
+     "n": 24,
+     "k": 4,
+     "part": 0.1667,
+     "bas": 0.0668,
+     "haut": 0.3585
+    },
+    "20": {
+     "n": 24,
+     "k": 0,
+     "part": 0,
+     "bas": 0,
+     "haut": 0.138
+    },
+    "50": {
+     "n": 24,
+     "k": 0,
+     "part": 0,
+     "bas": 0,
+     "haut": 0.138
+    }
+   }
+  },
+  "ombre": {
+   "passe1": 28,
+   "poserait": 9,
+   "rien": 19,
+   "refusGarde": 0,
+   "juges": 9,
+   "sansEcho": 0,
+   "nonJuges": 0,
+   "plusDe20mm": 1,
+   "plusDe50mm": 0,
+   "precision": {
+    "n": 9,
+    "medianeMm": 11.17,
+    "icMediane": [
+     7.43,
+     13.14
+    ],
+    "maxMm": 22.492,
+    "auPlus2mm": {
+     "n": 9,
+     "k": 0,
+     "part": 0,
+     "bas": 0,
+     "haut": 0.2992
+    },
+    "auPlus5mm": {
+     "n": 9,
+     "k": 1,
+     "part": 0.1111,
+     "bas": 0.0199,
+     "haut": 0.435
+    },
+    "auPlus10mm": {
+     "n": 9,
+     "k": 3,
+     "part": 0.3333,
+     "bas": 0.1206,
+     "haut": 0.6458
+    },
+    "plusDe20mm": {
+     "n": 9,
+     "k": 1,
+     "part": 0.1111,
+     "bas": 0.0199,
+     "haut": 0.435
+    },
+    "plusDe50mm": {
+     "n": 9,
+     "k": 0,
+     "part": 0,
+     "bas": 0,
+     "haut": 0.2992
+    },
+    "zoneGrise": {
+     "n": 9,
+     "k": 4,
+     "part": 0.4444,
+     "bas": 0.1888,
+     "haut": 0.7334
+    },
+    "zoneParSeuil": {
+     "2": {
+      "n": 9,
+      "k": 1,
+      "part": 0.1111,
+      "bas": 0.0199,
+      "haut": 0.435
+     },
+     "5": {
+      "n": 9,
+      "k": 1,
+      "part": 0.1111,
+      "bas": 0.0199,
+      "haut": 0.435
+     },
+     "10": {
+      "n": 9,
+      "k": 3,
+      "part": 0.3333,
+      "bas": 0.1206,
+      "haut": 0.6458
+     },
+     "20": {
+      "n": 9,
+      "k": 0,
+      "part": 0,
+      "bas": 0,
+      "haut": 0.2992
+     },
+     "50": {
+      "n": 9,
+      "k": 0,
+      "part": 0,
+      "bas": 0,
+      "haut": 0.2992
+     }
+    }
+   }
+  }
+ }
+}
