@@ -1,0 +1,3959 @@
+{
+ "format": "ariane-chercheur-v7-ecarts-reglage-v1",
+ "partie": 17,
+ "tirage": "tirage-2026-10-29.json",
+ "posesParRole": {
+  "reglage": 410,
+  "examen": 314,
+  "garde": 53
+ },
+ "note": "Seul le réglage est écrit. Signe : validation de l’opérateur moins pose v6, repère profil de la pose v6.",
+ "cuts": [
+  {
+   "cut": 92,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "controle",
+   "max3d": 0
+  },
+  {
+   "cut": 2377,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "corrige",
+   "max3d": 8.57,
+   "gauche": {
+    "long": 0,
+    "lat": -1.4,
+    "vert": -3.13,
+    "d3": 3.43
+   },
+   "droite": {
+    "long": 0,
+    "lat": -7.54,
+    "vert": -4.08,
+    "d3": 8.57
+   }
+  },
+  {
+   "cut": 2378,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "controle",
+   "max3d": 0
+  },
+  {
+   "cut": 2394,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "corrige",
+   "max3d": 3.34,
+   "gauche": {
+    "long": 0,
+    "lat": 0,
+    "vert": 0,
+    "d3": 0
+   },
+   "droite": {
+    "long": 0,
+    "lat": -3.28,
+    "vert": 0.63,
+    "d3": 3.34
+   }
+  },
+  {
+   "cut": 3701,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "corrige",
+   "max3d": 0,
+   "gauche": {
+    "long": 0,
+    "lat": 0,
+    "vert": 0,
+    "d3": 0
+   },
+   "droite": {
+    "long": 0,
+    "lat": 0,
+    "vert": 0,
+    "d3": 0
+   }
+  },
+  {
+   "cut": 4685,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "corrige",
+   "max3d": 2.12,
+   "gauche": {
+    "long": 0,
+    "lat": 1.68,
+    "vert": -1.29,
+    "d3": 2.12
+   },
+   "droite": {
+    "long": 0,
+    "lat": 0,
+    "vert": 0,
+    "d3": 0
+   }
+  },
+  {
+   "cut": 4686,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "controle",
+   "max3d": 0
+  },
+  {
+   "cut": 4687,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "controle",
+   "max3d": 0
+  },
+  {
+   "cut": 4688,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "controle",
+   "max3d": 0
+  },
+  {
+   "cut": 4689,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "controle",
+   "max3d": 0
+  },
+  {
+   "cut": 4691,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "corrige",
+   "max3d": 1.72,
+   "gauche": {
+    "long": 0,
+    "lat": 0,
+    "vert": 0,
+    "d3": 0
+   },
+   "droite": {
+    "long": 0,
+    "lat": -0.16,
+    "vert": -1.71,
+    "d3": 1.72
+   }
+  },
+  {
+   "cut": 4692,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "controle",
+   "max3d": 0
+  },
+  {
+   "cut": 4693,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "controle",
+   "max3d": 0
+  },
+  {
+   "cut": 4694,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "controle",
+   "max3d": 0
+  },
+  {
+   "cut": 4695,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "controle",
+   "max3d": 0
+  },
+  {
+   "cut": 4696,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "corrige",
+   "max3d": 1.88,
+   "gauche": {
+    "long": 0,
+    "lat": -0.28,
+    "vert": -0.69,
+    "d3": 0.74
+   },
+   "droite": {
+    "long": 0,
+    "lat": -1.71,
+    "vert": -0.79,
+    "d3": 1.88
+   }
+  },
+  {
+   "cut": 4783,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4784,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4785,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4786,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4787,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4788,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4789,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4790,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4791,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4792,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4793,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4794,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4795,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4796,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4797,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4798,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4799,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4800,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4801,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4802,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4803,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4804,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4805,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4806,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4807,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4808,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4809,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4810,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4811,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4812,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4813,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4814,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4815,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4816,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4817,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4818,
+   "shape": "U50",
+   "stage": "deferred",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4819,
+   "shape": "U50",
+   "stage": "deferred",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4820,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4821,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4822,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4823,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4824,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4825,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4826,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4827,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4828,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4829,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4830,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4831,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4832,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4833,
+   "shape": "U50",
+   "stage": "choice",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4834,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4835,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4836,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4863,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4864,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4865,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4866,
+   "shape": "U50",
+   "stage": "choice",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4867,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4868,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4869,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4870,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4871,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4872,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4873,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4874,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4875,
+   "shape": "U50",
+   "stage": "choice",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4876,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4877,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4878,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4879,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4880,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4881,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4882,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4883,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4884,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4885,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4886,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4887,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4888,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4889,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4890,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4891,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4892,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4893,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4894,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 4895,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5152,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "corrige",
+   "max3d": 2.75,
+   "gauche": {
+    "long": 0,
+    "lat": -2.75,
+    "vert": -0.06,
+    "d3": 2.75
+   },
+   "droite": {
+    "long": 0,
+    "lat": -1.21,
+    "vert": -0.76,
+    "d3": 1.43
+   }
+  },
+  {
+   "cut": 5153,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5797,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5798,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5799,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5800,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5801,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5802,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5803,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5804,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5806,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5815,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5903,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5904,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5905,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5906,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5907,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5908,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5909,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5910,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5911,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5912,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5913,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5914,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5915,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 5916,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7492,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7608,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7609,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7610,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7611,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7612,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7614,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7615,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7616,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7617,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7618,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7619,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7620,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7621,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7622,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7623,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7624,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7625,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7626,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7627,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7628,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7629,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7630,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7631,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7632,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7633,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7634,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7635,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7636,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7637,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7638,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7639,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7640,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7641,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7642,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7643,
+   "shape": "U50",
+   "stage": "window",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7644,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7645,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7646,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7647,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7648,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7649,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7650,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7651,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7652,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7653,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7654,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7655,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7656,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7839,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7840,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7841,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7842,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7843,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7844,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7845,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7846,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 7848,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8307,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "corrige",
+   "max3d": 1.81,
+   "gauche": {
+    "long": 0,
+    "lat": 0,
+    "vert": 0,
+    "d3": 0
+   },
+   "droite": {
+    "long": 0,
+    "lat": -0.34,
+    "vert": 1.78,
+    "d3": 1.81
+   }
+  },
+  {
+   "cut": 8308,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8309,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8310,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8311,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8312,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8313,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8314,
+   "shape": "U50",
+   "stage": "deferred",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8315,
+   "shape": "U50",
+   "stage": "choice",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8316,
+   "shape": "U50",
+   "stage": "deferred",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8317,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8318,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8319,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8320,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8321,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8322,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8325,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "controle",
+   "max3d": 0
+  },
+  {
+   "cut": 8326,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "corrige",
+   "max3d": 3.99,
+   "gauche": {
+    "long": 0,
+    "lat": 0.89,
+    "vert": 2.75,
+    "d3": 2.89
+   },
+   "droite": {
+    "long": 0,
+    "lat": -1.43,
+    "vert": 3.72,
+    "d3": 3.99
+   }
+  },
+  {
+   "cut": 8327,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "corrige",
+   "max3d": 1.41,
+   "gauche": {
+    "long": 0,
+    "lat": 0.19,
+    "vert": -1.21,
+    "d3": 1.23
+   },
+   "droite": {
+    "long": 0,
+    "lat": -0.69,
+    "vert": -1.24,
+    "d3": 1.41
+   }
+  },
+  {
+   "cut": 8329,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "corrige",
+   "max3d": 2.61,
+   "gauche": {
+    "long": 0,
+    "lat": 1.36,
+    "vert": 2.23,
+    "d3": 2.61
+   },
+   "droite": {
+    "long": 0,
+    "lat": 0,
+    "vert": 0,
+    "d3": 0
+   }
+  },
+  {
+   "cut": 8333,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8334,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8335,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8336,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8383,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8384,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8385,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8386,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8387,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8388,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8389,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8390,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8391,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8392,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8393,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8394,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8395,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8396,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8423,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8424,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8429,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8436,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8437,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8438,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8439,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8440,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8441,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8442,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8443,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8444,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8445,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8446,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8447,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8448,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8449,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8450,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8451,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8452,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8453,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8454,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8455,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8456,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8457,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8460,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8462,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8463,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8464,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8465,
+   "shape": "U50",
+   "stage": "choice",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8466,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8467,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8468,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8469,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8470,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8471,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8472,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8473,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8474,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8475,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8476,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8477,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8478,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8479,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8480,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8481,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8482,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8483,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8484,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8485,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8486,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8487,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8488,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8489,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8490,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8491,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8492,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8500,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8501,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8502,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8508,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8509,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8510,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8511,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8512,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8513,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8514,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8515,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8516,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8517,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8518,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8519,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8520,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8521,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8522,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8523,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8540,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8541,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8542,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8543,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8544,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8545,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8546,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8547,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8548,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8549,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8550,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8551,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8552,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8553,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8583,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8584,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8585,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8586,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8587,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8588,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8590,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8593,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8594,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8595,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8596,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8597,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8598,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8599,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8600,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8602,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8606,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8607,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8608,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8609,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8610,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8611,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8612,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8613,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8614,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8615,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8616,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8643,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8644,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8645,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8646,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8647,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8648,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8649,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8650,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8651,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8652,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8654,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8655,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8656,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8657,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8658,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8659,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8660,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8661,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8662,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8663,
+   "shape": "U50",
+   "stage": "choice",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8664,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8665,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8666,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "corrige",
+   "max3d": 0,
+   "gauche": {
+    "long": 0,
+    "lat": 0,
+    "vert": 0,
+    "d3": 0
+   },
+   "droite": {
+    "long": 0,
+    "lat": 0,
+    "vert": 0,
+    "d3": 0
+   }
+  },
+  {
+   "cut": 8669,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "corrige",
+   "max3d": 2.12,
+   "gauche": {
+    "long": 0,
+    "lat": 0.69,
+    "vert": -1.24,
+    "d3": 1.41
+   },
+   "droite": {
+    "long": 0,
+    "lat": 1.8,
+    "vert": -1.11,
+    "d3": 2.12
+   }
+  },
+  {
+   "cut": 8670,
+   "shape": "U50",
+   "stage": "choice",
+   "crossing": true,
+   "levelCrossing": {
+    "flushPct": 67,
+    "read": false,
+    "reason": "right:no-groove"
+   },
+   "anchorsUsed": 1,
+   "etat": "corrige",
+   "max3d": 0,
+   "gauche": {
+    "long": 0,
+    "lat": 0,
+    "vert": 0,
+    "d3": 0
+   },
+   "droite": {
+    "long": 0,
+    "lat": 0,
+    "vert": 0,
+    "d3": 0
+   }
+  },
+  {
+   "cut": 8671,
+   "shape": "U50",
+   "stage": "choice",
+   "crossing": true,
+   "levelCrossing": {
+    "flushPct": 100,
+    "read": false,
+    "reason": "left:no-groove"
+   },
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8672,
+   "shape": "U50",
+   "stage": "deferred",
+   "crossing": true,
+   "levelCrossing": {
+    "flushPct": 100,
+    "read": false,
+    "reason": "left:no-groove"
+   },
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8674,
+   "shape": "U50",
+   "stage": "deferred",
+   "crossing": true,
+   "levelCrossing": {
+    "flushPct": 93,
+    "read": false,
+    "reason": "left:no-groove"
+   },
+   "anchorsUsed": null,
+   "etat": "corrige",
+   "max3d": 34.77,
+   "gauche": {
+    "long": 0,
+    "lat": -34.06,
+    "vert": -6.99,
+    "d3": 34.77
+   },
+   "droite": {
+    "long": 0,
+    "lat": -31.99,
+    "vert": 5.69,
+    "d3": 32.5
+   }
+  },
+  {
+   "cut": 8675,
+   "shape": "U50",
+   "stage": "deferred",
+   "crossing": true,
+   "levelCrossing": {
+    "flushPct": 93,
+    "read": false,
+    "reason": "left:no-groove right:no-groove"
+   },
+   "anchorsUsed": null,
+   "etat": "corrige",
+   "max3d": 28.47,
+   "gauche": {
+    "long": 0,
+    "lat": -26.71,
+    "vert": -9.85,
+    "d3": 28.47
+   },
+   "droite": {
+    "long": 0,
+    "lat": -25.32,
+    "vert": 2.03,
+    "d3": 25.4
+   }
+  },
+  {
+   "cut": 8676,
+   "shape": "U50",
+   "stage": "deferred",
+   "crossing": true,
+   "levelCrossing": {
+    "flushPct": 86,
+    "read": false,
+    "reason": "left:no-groove right:no-groove"
+   },
+   "anchorsUsed": null,
+   "etat": "corrige",
+   "max3d": 111.44,
+   "gauche": {
+    "long": 0,
+    "lat": -111.34,
+    "vert": -4.61,
+    "d3": 111.44
+   },
+   "droite": {
+    "long": 0,
+    "lat": -109.7,
+    "vert": -8.19,
+    "d3": 110.01
+   }
+  },
+  {
+   "cut": 8768,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8769,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8770,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8823,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8824,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8825,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8826,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8827,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8828,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8829,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8830,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8831,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8832,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8833,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8834,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8835,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8836,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8837,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8838,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8839,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8840,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8842,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8843,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8844,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8845,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8846,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8847,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8848,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8849,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8850,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8851,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8852,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8853,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8854,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8855,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 8856,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 2,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 9574,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 0,
+   "etat": "sans-echo"
+  },
+  {
+   "cut": 9575,
+   "shape": "U50",
+   "stage": "first-pass",
+   "crossing": true,
+   "levelCrossing": null,
+   "anchorsUsed": 1,
+   "etat": "sans-echo"
+  }
+ ]
+}
