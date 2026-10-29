@@ -1,0 +1,101 @@
+[
+ {
+  "partie": 1,
+  "version": "4.9.5.23",
+  "debut": "2026-10-26T13:56Z",
+  "poses": 352,
+  "differes": 28,
+  "cibles": 380,
+  "partDifferes": 7.4,
+  "fin": "complete",
+  "motifFin": "dernier-cut-valide"
+ },
+ {
+  "partie": 2,
+  "version": "4.9.5.23",
+  "debut": "2026-10-27T07:54Z",
+  "poses": 9,
+  "differes": 26,
+  "cibles": 35,
+  "partDifferes": 74.3,
+  "fin": "complete",
+  "motifFin": "dernier-cut-differe"
+ },
+ {
+  "partie": 3,
+  "version": "4.9.5.23",
+  "debut": "2026-10-27T08:16Z",
+  "poses": 197,
+  "differes": 8,
+  "cibles": 205,
+  "partDifferes": 3.9,
+  "fin": "complete",
+  "motifFin": "dernier-cut-valide"
+ },
+ {
+  "partie": 4,
+  "version": "4.9.5.23",
+  "debut": "2026-10-27T09:09Z",
+  "poses": 65,
+  "differes": 5,
+  "cibles": 70,
+  "partDifferes": 7.1,
+  "fin": "complete",
+  "motifFin": "dernier-cut-valide"
+ },
+ {
+  "partie": 7,
+  "version": "4.9.5.23",
+  "debut": "2026-10-27T10:15Z",
+  "poses": 260,
+  "differes": 12,
+  "cibles": 272,
+  "partDifferes": 4.4,
+  "fin": "complete",
+  "motifFin": "dernier-cut-valide"
+ },
+ {
+  "partie": 8,
+  "version": "4.9.5.23",
+  "debut": "2026-10-27T11:42Z",
+  "poses": 355,
+  "differes": 24,
+  "cibles": 379,
+  "partDifferes": 6.3,
+  "fin": "complete",
+  "motifFin": "dernier-cut-valide"
+ },
+ {
+  "partie": 14,
+  "version": "4.9.5.23",
+  "debut": "2026-10-28T07:46Z",
+  "poses": 149,
+  "differes": 2,
+  "cibles": 151,
+  "partDifferes": 1.3,
+  "fin": "complete",
+  "motifFin": "dernier-cut-valide"
+ },
+ {
+  "partie": 17,
+  "version": "4.9.5.23",
+  "debut": "2026-10-28T08:31Z",
+  "poses": 777,
+  "differes": 14,
+  "cibles": 791,
+  "partDifferes": 1.8,
+  "fin": "complete",
+  "motifFin": "dernier-cut-valide"
+ },
+ {
+  "partie": 20,
+  "version": "4.9.5.23",
+  "debut": "2026-10-28T12:13Z",
+  "poses": 721,
+  "differes": 168,
+  "cibles": 889,
+  "partDifferes": 18.9,
+  "fin": "complete",
+  "motifFin": "dernier-cut-valide"
+ }
+]
