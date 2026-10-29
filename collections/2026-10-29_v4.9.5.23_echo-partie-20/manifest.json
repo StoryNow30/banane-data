@@ -1,0 +1,164 @@
+{
+ "collecte": "2026-10-29_v4.9.5.23_echo-partie-20",
+ "version_ariane": "4.9.5.23",
+ "alias": "echo-partie-20",
+ "fichiers": [
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-27-13-auto-volume02-sur02.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-27-13-auto-volume02-sur02.zip",
+   "octets": 5491080,
+   "octets_zip": 5503733,
+   "sha256_zip": "6051e412bbc1698993d8db5f4bfcbbb06fdb46d1cd4f1f130c5df00113323597"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-36-16-auto-volume03-sur03.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-36-16-auto-volume03-sur03.zip",
+   "octets": 4380078,
+   "octets_zip": 4395816,
+   "sha256_zip": "c7e3a1d7810c1284738f06e2f194b9e4670f70096da36a76d10946201feec66d"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-36-16-auto-volume02-sur03.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-36-16-auto-volume02-sur03.zip",
+   "octets": 18912952,
+   "octets_zip": 19083061,
+   "sha256_zip": "b830a8a99fbecee432c67f7dbef12f2bb65eccf7580fac4611de8172b28851af"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-05-09-auto.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-05-09-auto.zip",
+   "octets": 12626943,
+   "octets_zip": 12686802,
+   "sha256_zip": "946135fe6b07f2b33a64ee25d8682c01614cf3cb0693e8c23859264f197ff783"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-32-14-auto-volume01-sur02.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-32-14-auto-volume01-sur02.zip",
+   "octets": 17335350,
+   "octets_zip": 17488925,
+   "sha256_zip": "b52472f2f55e78fe1b501a2fd9f7f85beaecf9da1347824fea5222f81507884a"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-01-08-auto.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-01-08-auto.zip",
+   "octets": 10581510,
+   "octets_zip": 10634406,
+   "sha256_zip": "b3b634190b72566f2cc9aab996093bd3768379ee2148cd161f4853459a6aea2d"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-12-34-auto.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-12-34-auto.zip",
+   "octets": 13754880,
+   "octets_zip": 13848142,
+   "sha256_zip": "436861a60efa5ba6f50e1f1bac603ab435563d1082898e5c4d08a23c268ae705"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-37-45-volume01-sur02.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-37-45-volume01-sur02.zip",
+   "octets": 96326,
+   "octets_zip": 96112,
+   "sha256_zip": "a646f99a708f27bdfa23e58e3fa010cd57bda422c2cd45eadc2f2856488c3fb7"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-37-45-volume02-sur02.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-37-45-volume02-sur02.zip",
+   "octets": 19636544,
+   "octets_zip": 19820936,
+   "sha256_zip": "b453a696ad8a75d1ac4e964978654d75a4ed591c7d518b95e2715c3bee821548"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-24-12-auto-volume02-sur02.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-24-12-auto-volume02-sur02.zip",
+   "octets": 4531592,
+   "octets_zip": 4543836,
+   "sha256_zip": "05b29fe827f7349f2b4ed4bbc9da387a928ece07ebd9ed5c5eb6ea64083e02c4"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T07-56-08-auto.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T07-56-08-auto.zip",
+   "octets": 10935339,
+   "octets_zip": 10962839,
+   "sha256_zip": "94f8758deb720084dbcff3d7353f297652bf48b320fe44e3848ee771ae5a5241"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T07-59-08-auto.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T07-59-08-auto.zip",
+   "octets": 9273189,
+   "octets_zip": 9313999,
+   "sha256_zip": "86c6d2fb22a12f3d6fca2002a20d2f7115313bd52768ce626ee5afe83d2c99aa"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-27-13-auto-volume01-sur02.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-27-13-auto-volume01-sur02.zip",
+   "octets": 15616176,
+   "octets_zip": 15739573,
+   "sha256_zip": "c497bb9e2d9b04a39156571deb6ae2f24e3a9ff52062fdad2bd526e78beb5153"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-19-12-auto-volume01-sur02.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-19-12-auto-volume01-sur02.zip",
+   "octets": 11906316,
+   "octets_zip": 12001063,
+   "sha256_zip": "f7e81008e1e94f416184c57711e71d3ab0e30cfb0b84ee91c768872a84a92a9c"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-36-16-auto-volume01-sur03.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-36-16-auto-volume01-sur03.zip",
+   "octets": 96502,
+   "octets_zip": 96285,
+   "sha256_zip": "3d8d20901a44c82e664a3ca03c98fa3d15256a4bb84f319478da724b11ecc77c"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-10-10-auto.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-10-10-auto.zip",
+   "octets": 12273474,
+   "octets_zip": 12351205,
+   "sha256_zip": "a4436cd3b2e6bd75ad695a08597d7fcbe2dcae3d6226f228692bdea995174d72"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-15-10-auto.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-15-10-auto.zip",
+   "octets": 14825980,
+   "octets_zip": 14920763,
+   "sha256_zip": "750df3a980d90ca1855596320f0bd1cb7c078207bdf17177115335c7660425bc"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-24-12-auto-volume01-sur02.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-24-12-auto-volume01-sur02.zip",
+   "octets": 13636067,
+   "octets_zip": 13758379,
+   "sha256_zip": "5541a399760e73d0fece3bc4294f888d6b74ea6ee24f3b6cc45f9e420aed59ed"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-19-12-auto-volume02-sur02.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-19-12-auto-volume02-sur02.zip",
+   "octets": 5859311,
+   "octets_zip": 5874705,
+   "sha256_zip": "19e10a1396ab31c0de852d51cd731e1d75ab27676f4bbed65b98bab2e80472ab"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T07-53-06-auto.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T07-53-06-auto.zip",
+   "octets": 6664973,
+   "octets_zip": 6691611,
+   "sha256_zip": "80ffcfb6e50032258c2ebbd359a9510cecb45c59c7c979aa95b7daa3097b360c"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-22-11-auto.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-22-11-auto.zip",
+   "octets": 17130520,
+   "octets_zip": 17236576,
+   "sha256_zip": "590377c594c127ece73c21cd355c1a9a2c6f1689c9f550aa6054d58a7a34879e"
+  },
+  {
+   "fichier": "raw/ariane-echo-partie20-2026-10-29T08-32-14-auto-volume02-sur02.7z",
+   "contient": "ariane-echo-partie20-2026-10-29T08-32-14-auto-volume02-sur02.zip",
+   "octets": 5311958,
+   "octets_zip": 5319238,
+   "sha256_zip": "9b38cd0e76778b5467c5de952b662361c3528a262413a34445cc6d04ac819bdc"
+  }
+ ],
+ "total_octets_7z": 230877060,
+ "statut": "archivé tel que reçu, aucune qualification, rien modifié dans le contenu des zips",
+ "provenance": "envoyé par l'opérateur dans la conversation de CH-015 le 29/10/2026 ; préfixe de téléversement retiré du nom ; chaque zip est contenu tel quel dans un .7z du même nom ; sha256_zip = SHA-256 du zip d'origine"
+}
