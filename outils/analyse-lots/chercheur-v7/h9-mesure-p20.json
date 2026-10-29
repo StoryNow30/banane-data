@@ -1,0 +1,128 @@
+{
+ "format": "ariane-chercheur-v7-h9-mesure-v1",
+ "comparaisons": {
+  "testsDeRetenue": 3,
+  "seuilBonferroni": 0.0167,
+  "descriptifs": "abstention, propositions fausses confiantes, comparateur H6 proche humain"
+ },
+ "populations": {
+  "tousLesCuts": {
+   "cuts": 211,
+   "rails": 422,
+   "cutsEvitesBruts": {
+    "hausses": 4,
+    "baisses": 19,
+    "net": -15,
+    "netPour100Cuts": -7.11,
+    "ic95": [
+     -15.54,
+     -0.89
+    ],
+    "icBonferroni3": [
+     -18.01,
+     0
+    ]
+   },
+   "comparateurH6ProcheHumain": {
+    "hausses": 11,
+    "baisses": 5,
+    "net": 6,
+    "netPour100Cuts": 2.84
+   },
+   "fausseConfiants": {
+    "h9": 24,
+    "h6": 3
+   },
+   "abstention": {
+    "cutsSansAucunH9": 57,
+    "railsSansH9": 172,
+    "railsAvecCandidatsSansSupport": 98
+   },
+   "rails5": {
+    "base": 34.6,
+    "politique": 28.2,
+    "diffPoints": -6.4,
+    "ic95": [
+     -15.47,
+     0.87
+    ],
+    "icBonferroni3": [
+     -18.01,
+     2
+    ]
+   },
+   "rails10": {
+    "base": 42.4,
+    "politique": 52.1,
+    "diffPoints": 9.7,
+    "ic95": [
+     -1.67,
+     18.95
+    ],
+    "icBonferroni3": [
+     -4.55,
+     20.33
+    ]
+   }
+  },
+  "deplaces>20mm": {
+   "cuts": 143,
+   "rails": 286,
+   "cutsEvitesBruts": {
+    "hausses": 2,
+    "baisses": 2,
+    "net": 0,
+    "netPour100Cuts": 0,
+    "ic95": [
+     -2.8,
+     2.6
+    ],
+    "icBonferroni3": [
+     -3.42,
+     3.14
+    ]
+   },
+   "comparateurH6ProcheHumain": {
+    "hausses": 11,
+    "baisses": 2,
+    "net": 9,
+    "netPour100Cuts": 6.29
+   },
+   "fausseConfiants": {
+    "h9": 2,
+    "h6": 1
+   },
+   "abstention": {
+    "cutsSansAucunH9": 27,
+    "railsSansH9": 96,
+    "railsAvecCandidatsSansSupport": 68
+   },
+   "rails5": {
+    "base": 14.3,
+    "politique": 15.4,
+    "diffPoints": 1.1,
+    "ic95": [
+     -5.74,
+     6.37
+    ],
+    "icBonferroni3": [
+     -7.28,
+     7.3
+    ]
+   },
+   "rails10": {
+    "base": 17.8,
+    "politique": 43.7,
+    "diffPoints": 25.9,
+    "ic95": [
+     17.2,
+     33.46
+    ],
+    "icBonferroni3": [
+     15.14,
+     35.14
+    ]
+   }
+  }
+ }
+}
