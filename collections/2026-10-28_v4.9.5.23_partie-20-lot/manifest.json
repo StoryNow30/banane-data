@@ -1,0 +1,150 @@
+{
+ "collecte": "2026-10-28_v4.9.5.23_partie-20-lot",
+ "version_ariane": "4.9.5.23",
+ "alias": "partie-20-lot",
+ "fichiers": [
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume18-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume18-sur20.zip",
+   "octets": 17546191,
+   "octets_zip": 18355273,
+   "sha256_zip": "8caadf9980752c2002d549c3809e3482fdc7966f49fdb6c0d4d9671437850b14"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume06-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume06-sur20.zip",
+   "octets": 18085880,
+   "octets_zip": 18951742,
+   "sha256_zip": "e2d655c02603d08a37f3c55005a59de3523e090bc9f33c51fba1933f799aa635"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume19-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume19-sur20.zip",
+   "octets": 27961851,
+   "octets_zip": 29292183,
+   "sha256_zip": "214fd7056a02bfbbd59ab50b6428b1e26ec1734d3fd2219782223851908cc525"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume16-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume16-sur20.zip",
+   "octets": 17698276,
+   "octets_zip": 18559694,
+   "sha256_zip": "3c78e78b62143bab9b97780333ae68ec6aa278551426805b7ed15979d2a7d7b5"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume20-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume20-sur20.zip",
+   "octets": 12985070,
+   "octets_zip": 13004224,
+   "sha256_zip": "f3cdf485cc6b2a276b64bfbab06f9403c74aaefc34ebf7e560a181662e83249f"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume05-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume05-sur20.zip",
+   "octets": 18075798,
+   "octets_zip": 18941271,
+   "sha256_zip": "536ee9dda15c7dd29d52d45620c249497e4d525b9416a68a9a604e01d734f3b0"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume09-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume09-sur20.zip",
+   "octets": 17387970,
+   "octets_zip": 18222641,
+   "sha256_zip": "0250b347eb1f752a4ae767b0d070afc79afc092f5e4fe70326cf53da0e09b0a5"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume12-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume12-sur20.zip",
+   "octets": 18288414,
+   "octets_zip": 19175850,
+   "sha256_zip": "c070362f5675e7421acf3e9f89f88dfce57322ff3df706f353b79bf87ee43fa2"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume07-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume07-sur20.zip",
+   "octets": 17698476,
+   "octets_zip": 18551047,
+   "sha256_zip": "a1732d73190eb3121512eda1a7215a81c6de8bb4905a2bd8ede80bdd78fe8bff"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume04-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume04-sur20.zip",
+   "octets": 18115182,
+   "octets_zip": 19007733,
+   "sha256_zip": "4de1920b7a2819265665ec7443059c36950b4172a1739bc9321c1340b7c08d78"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume13-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume13-sur20.zip",
+   "octets": 17897815,
+   "octets_zip": 18757370,
+   "sha256_zip": "10518ba72fd8d626a5e3ee9d0fc0f8426dfe5bf6de95d50b44b8bf3291df053f"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume10-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume10-sur20.zip",
+   "octets": 18480216,
+   "octets_zip": 19394098,
+   "sha256_zip": "e13e580fbb0948503330eae8bb4fe53f451a31efd1d337b8499c81f5e8510db4"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume11-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume11-sur20.zip",
+   "octets": 18159310,
+   "octets_zip": 19037282,
+   "sha256_zip": "9cfe61001d917d68c1be3e2b8307889b34b7353df0c3a9dff9055b96e668bdce"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume14-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume14-sur20.zip",
+   "octets": 17549400,
+   "octets_zip": 18366504,
+   "sha256_zip": "71628789f85b896846d73b0d313b489c7dab7ad7f17584335453bf8d89be37fb"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume02-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume02-sur20.zip",
+   "octets": 17492900,
+   "octets_zip": 18309228,
+   "sha256_zip": "1ad837afd55f68f91df4f6a94bea8190ec84d5875ec1d686bd9692adf6285fe7"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume01-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume01-sur20.zip",
+   "octets": 13192336,
+   "octets_zip": 13221945,
+   "sha256_zip": "9f37cd893766137785f8ca8d6f7dd1828d954eb042821e9324ecd3a00ee649e0"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume17-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume17-sur20.zip",
+   "octets": 18198555,
+   "octets_zip": 19064863,
+   "sha256_zip": "4c7422592ce712c98b6b5ad08c8ddf70ede6ab7693add22a68a1528444b925b8"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume08-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume08-sur20.zip",
+   "octets": 17762871,
+   "octets_zip": 18596179,
+   "sha256_zip": "8912355c6e5ab8ec14de7c11b83ebf28138f4ebfff98f0dd0abf35f2d06d4f80"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume03-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume03-sur20.zip",
+   "octets": 17862528,
+   "octets_zip": 18709115,
+   "sha256_zip": "44d68a862f38ac8a709cb6b36a4cd45f4a08265751793db7ed6b42b3ad405d3a"
+  },
+  {
+   "fichier": "raw/ariane-lot-2026-10-28T15-22-26-volume15-sur20.7z",
+   "contient": "ariane-lot-2026-10-28T15-22-26-volume15-sur20.zip",
+   "octets": 18279450,
+   "octets_zip": 19192726,
+   "sha256_zip": "9363ab025656a36ab6dbae8f24d10d2f3d54706984aa40be81e289b061be54d3"
+  }
+ ],
+ "total_octets_7z": 358718489,
+ "statut": "archivé tel que reçu, aucune qualification, rien modifié dans le contenu des zips",
+ "provenance": "envoyé par l'opérateur dans la conversation de CH-015 le 29/10/2026 ; préfixe de téléversement retiré du nom ; chaque zip est contenu tel quel dans un .7z du même nom ; sha256_zip = SHA-256 du zip d'origine"
+}

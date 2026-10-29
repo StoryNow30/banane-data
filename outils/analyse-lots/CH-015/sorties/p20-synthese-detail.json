@@ -1,0 +1,237 @@
+{
+ "partie": 20,
+ "lot": "61f6c73b",
+ "cibles": 889,
+ "poses": {
+  "vueFin": {
+   "false/true": 720,
+   "true/false": 1
+  }
+ },
+ "differes": {
+  "n": 168,
+  "contiguite": {
+   "paquets": 28,
+   "tailles": [
+    24,
+    16,
+    16,
+    15,
+    15,
+    15,
+    10,
+    10,
+    9,
+    5,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "plusGrand": 24
+  },
+  "motifs": {
+   "candidate|ambiguity": 5,
+   "candidate|candidate": 10,
+   "candidate|flank": 2,
+   "flank|candidate": 35,
+   "flank|minTop": 1,
+   "gauge-out-of-contract|gauge-out-of-contract": 44,
+   "rsf|candidate": 15,
+   "rsf|minTop": 3,
+   "minTop|candidate": 12,
+   "ambiguity|candidate": 3,
+   "slope|candidate": 3,
+   "window|candidate": 2,
+   "input|slope": 1,
+   "minTop|rsf": 1,
+   "input|rsf": 1,
+   "rsf|slope": 1,
+   "minTop|minTop": 2,
+   "input|input": 4,
+   "rsf|flank": 1,
+   "rsf|input": 10,
+   "rsf|rsf": 1,
+   "ambiguity|slope": 1,
+   "candidate|window": 1,
+   "minTop|input": 3,
+   "flank|slope": 1,
+   "candidate|rsf": 1,
+   "candidate|input": 1,
+   "minTop|flank": 1,
+   "ambiguity|ambiguity": 2
+  },
+  "motifPrincipal": {
+   "candidate": 20,
+   "flank": 37,
+   "gauge-out-of-contract": 44,
+   "rsf": 31,
+   "minTop": 19,
+   "ambiguity": 6,
+   "slope": 3,
+   "window": 2,
+   "input": 6
+  },
+  "voiePredite": {
+   "no-anchor": 123,
+   "left:no-qualified-minimum-near-prediction right:no-qualified-minimum-near-predic": 11,
+   "null": 17,
+   "left:frame right:frame": 2,
+   "gauge-guard": 2,
+   "right:no-qualified-minimum-near-prediction": 5,
+   "left:frame right:no-qualified-minimum-near-prediction": 1,
+   "left:rsf right:frame": 1,
+   "left:no-qualified-minimum-near-prediction right:frame": 1,
+   "left:no-qualified-minimum-near-prediction": 1,
+   "gauge-LOW_INVALID": 2,
+   "left:no-qualified-minimum-near-prediction right:several-minima-near-prediction": 1,
+   "pair-guard": 1
+  },
+  "passe": {
+   "rien": 88,
+   "poserait": 80
+  },
+  "vusParEcho": 168,
+  "gestesVue": 29
+ },
+ "fausses": {
+  "n": 21,
+  "parmiJuges": 172,
+  "contiguite": {
+   "paquets": 12,
+   "tailles": [
+    4,
+    4,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "plusGrand": 4
+  },
+  "contiguite_ecart5": {
+   "paquets": 11,
+   "tailles": [
+    5,
+    4,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "plusGrand": 5
+  },
+  "minutes": [
+   5,
+   6.1,
+   6.3,
+   11.8,
+   13.2,
+   13.2,
+   13.3,
+   13.3,
+   13.5,
+   14.5,
+   18,
+   19.4,
+   39.3,
+   72.8,
+   72.9,
+   91.4,
+   91.6,
+   91.8,
+   92,
+   94.8,
+   95
+  ],
+  "plageCuts": [
+   6385,
+   9457
+  ],
+  "signeLatGaucheDroite": {
+   "-1/-1": 21
+  },
+  "latMedianeMm": 163.624,
+  "latMinMaxMm": [
+   128.333,
+   390.608
+  ],
+  "source": {
+   "geometry-candidate-v1-astar|geometry-candidate-v1-astar": 9,
+   "geometry-candidate-v1-astar|geometry-candidate-v1-abstention": 1,
+   "geometry-candidate-v1-abstention|geometry-candidate-v1-abstention": 5,
+   "geometry-candidate-v1-astar|geometry-candidate-v1-s1": 4,
+   "geometry-candidate-v1-s1|geometry-candidate-v1-astar": 2
+  },
+  "sourceAutres": {
+   "geometry-candidate-v1-abstention|geometry-candidate-v1-astar": 9,
+   "geometry-candidate-v1-abstention|geometry-candidate-v1-abstention": 24,
+   "geometry-candidate-v1-astar|geometry-candidate-v1-astar": 107,
+   "geometry-candidate-v1-s1|geometry-candidate-v1-astar": 5,
+   "geometry-candidate-v1-astar|geometry-candidate-v1-s1": 1,
+   "geometry-candidate-v1-s1|geometry-candidate-v1-abstention": 1,
+   "geometry-candidate-v1-abstention|geometry-candidate-v1-s1": 1,
+   "geometry-candidate-v1-astar|geometry-candidate-v1-abstention": 3
+  },
+  "confianceMinMediane": {
+   "fausses": 0,
+   "autres": 68
+  },
+  "railHorsVue": {
+   "fausses": {
+    "false/true": 21
+   },
+   "autres": {
+    "false/true": 150,
+    "true/false": 1
+   }
+  },
+  "gestesVue": {
+   "fausses": 0,
+   "autres": 1
+  },
+  "voisinsDiffere": {
+   "fausses": 14,
+   "autres": 20
+  },
+  "etatsDesFausses": {
+   "corrige": 21
+  }
+ },
+ "geste": {
+  "molette": 45,
+  "camera": {
+   "immobile": 45
+  },
+  "deplacerVue": {
+   "pre-vol:camera-immobile": 19
+  },
+  "clicHorsVue": 5,
+  "clicHorsVueBilan": 653
+ }
+}

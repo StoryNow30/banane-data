@@ -1,0 +1,354 @@
+{
+ "partie": 20,
+ "n": 889,
+ "regles": {
+  "D": {
+   "population": "différé (sur les cibles)",
+   "n": 889,
+   "positifs": 168,
+   "tauxBase": 0.1889763779527559,
+   "meilleures": [
+    {
+     "regle": "chemin = engine:deferred",
+     "signales": 151,
+     "vrais": 151,
+     "precision": 1,
+     "rappel": 0.899,
+     "sursaut": 5.29,
+     "coutPosesEcartes": null
+    },
+    {
+     "regle": "l1etat = rien",
+     "signales": 139,
+     "vrais": 139,
+     "precision": 1,
+     "rappel": 0.827,
+     "sursaut": 5.29,
+     "coutPosesEcartes": null
+    },
+    {
+     "regle": "l1p <= 0.4092",
+     "signales": 173,
+     "vrais": 147,
+     "precision": 0.85,
+     "rappel": 0.875,
+     "sursaut": 4.5,
+     "coutPosesEcartes": null
+    },
+    {
+     "regle": "l1p <= 0.5829",
+     "signales": 187,
+     "vrais": 153,
+     "precision": 0.818,
+     "rappel": 0.911,
+     "sursaut": 4.33,
+     "coutPosesEcartes": null
+    },
+    {
+     "regle": "l1p <= 0.5375",
+     "signales": 183,
+     "vrais": 151,
+     "precision": 0.825,
+     "rappel": 0.899,
+     "sursaut": 4.37,
+     "coutPosesEcartes": null
+    },
+    {
+     "regle": "l1p <= 0.6015",
+     "signales": 192,
+     "vrais": 154,
+     "precision": 0.802,
+     "rappel": 0.917,
+     "sursaut": 4.24,
+     "coutPosesEcartes": null
+    },
+    {
+     "regle": "l1p <= 0.4814",
+     "signales": 178,
+     "vrais": 148,
+     "precision": 0.831,
+     "rappel": 0.881,
+     "sursaut": 4.4,
+     "coutPosesEcartes": null
+    },
+    {
+     "regle": "l1p <= 0.3628",
+     "signales": 169,
+     "vrais": 144,
+     "precision": 0.852,
+     "rappel": 0.857,
+     "sursaut": 4.51,
+     "coutPosesEcartes": null
+    },
+    {
+     "regle": "l1p <= 0.2694",
+     "signales": 155,
+     "vrais": 137,
+     "precision": 0.884,
+     "rappel": 0.815,
+     "sursaut": 4.68,
+     "coutPosesEcartes": null
+    },
+    {
+     "regle": "l1p <= 0.2996",
+     "signales": 159,
+     "vrais": 138,
+     "precision": 0.868,
+     "rappel": 0.821,
+     "sursaut": 4.59,
+     "coutPosesEcartes": null
+    },
+    {
+     "regle": "l1p <= 0.6459",
+     "signales": 197,
+     "vrais": 154,
+     "precision": 0.782,
+     "rappel": 0.917,
+     "sursaut": 4.14,
+     "coutPosesEcartes": null
+    },
+    {
+     "regle": "precedentDiffere = true",
+     "signales": 164,
+     "vrais": 140,
+     "precision": 0.854,
+     "rappel": 0.833,
+     "sursaut": 4.52,
+     "coutPosesEcartes": null
+    }
+   ]
+  },
+  "F": {
+   "population": "pose à plus de 100 mm latéral (sur les jugés)",
+   "n": 172,
+   "positifs": 21,
+   "tauxBase": 0.12209302325581395,
+   "meilleures": [
+    {
+     "regle": "appuis <= 0",
+     "signales": 28,
+     "vrais": 13,
+     "precision": 0.464,
+     "rappel": 0.619,
+     "sursaut": 3.8,
+     "coutPosesEcartes": 120
+    },
+    {
+     "regle": "deplacementMm <= 104.7",
+     "signales": 28,
+     "vrais": 12,
+     "precision": 0.429,
+     "rappel": 0.571,
+     "sursaut": 3.51,
+     "coutPosesEcartes": 201
+    },
+    {
+     "regle": "deplacementMm <= 84.3",
+     "signales": 24,
+     "vrais": 11,
+     "precision": 0.458,
+     "rappel": 0.524,
+     "sursaut": 3.75,
+     "coutPosesEcartes": 185
+    },
+    {
+     "regle": "deplacementMm <= 75.6",
+     "signales": 20,
+     "vrais": 10,
+     "precision": 0.5,
+     "rappel": 0.476,
+     "sursaut": 4.1,
+     "coutPosesEcartes": 175
+    },
+    {
+     "regle": "deuxPrecedentsDiffere = true",
+     "signales": 35,
+     "vrais": 13,
+     "precision": 0.371,
+     "rappel": 0.619,
+     "sursaut": 3.04,
+     "coutPosesEcartes": 41
+    },
+    {
+     "regle": "deplacementMm <= 117.3",
+     "signales": 36,
+     "vrais": 13,
+     "precision": 0.361,
+     "rappel": 0.619,
+     "sursaut": 2.96,
+     "coutPosesEcartes": 268
+    },
+    {
+     "regle": "deplacementMm <= 112.3",
+     "signales": 32,
+     "vrais": 12,
+     "precision": 0.375,
+     "rappel": 0.571,
+     "sursaut": 3.07,
+     "coutPosesEcartes": 229
+    },
+    {
+     "regle": "grappeProche <= 2",
+     "signales": 34,
+     "vrais": 12,
+     "precision": 0.353,
+     "rappel": 0.571,
+     "sursaut": 2.89,
+     "coutPosesEcartes": 40
+    },
+    {
+     "regle": "deplacementMm <= 119.7",
+     "signales": 41,
+     "vrais": 13,
+     "precision": 0.317,
+     "rappel": 0.619,
+     "sursaut": 2.6,
+     "coutPosesEcartes": 288
+    },
+    {
+     "regle": "grappeProche <= 3",
+     "signales": 47,
+     "vrais": 14,
+     "precision": 0.298,
+     "rappel": 0.667,
+     "sursaut": 2.44,
+     "coutPosesEcartes": 56
+    },
+    {
+     "regle": "grappeProche <= 4",
+     "signales": 58,
+     "vrais": 16,
+     "precision": 0.276,
+     "rappel": 0.762,
+     "sursaut": 2.26,
+     "coutPosesEcartes": 71
+    },
+    {
+     "regle": "appuis <= 1",
+     "signales": 69,
+     "vrais": 18,
+     "precision": 0.261,
+     "rappel": 0.857,
+     "sursaut": 2.14,
+     "coutPosesEcartes": 244
+    }
+   ]
+  },
+  "G20": {
+   "population": "pose à plus de 20 mm (sur les jugés)",
+   "n": 172,
+   "positifs": 24,
+   "tauxBase": 0.13953488372093023,
+   "meilleures": [
+    {
+     "regle": "appuis <= 0",
+     "signales": 28,
+     "vrais": 15,
+     "precision": 0.536,
+     "rappel": 0.625,
+     "sursaut": 3.84,
+     "coutPosesEcartes": 120
+    },
+    {
+     "regle": "deuxPrecedentsDiffere = true",
+     "signales": 35,
+     "vrais": 16,
+     "precision": 0.457,
+     "rappel": 0.667,
+     "sursaut": 3.28,
+     "coutPosesEcartes": 41
+    },
+    {
+     "regle": "grappeProche <= 2",
+     "signales": 34,
+     "vrais": 15,
+     "precision": 0.441,
+     "rappel": 0.625,
+     "sursaut": 3.16,
+     "coutPosesEcartes": 40
+    },
+    {
+     "regle": "grappeProche <= 3",
+     "signales": 47,
+     "vrais": 17,
+     "precision": 0.362,
+     "rappel": 0.708,
+     "sursaut": 2.59,
+     "coutPosesEcartes": 56
+    },
+    {
+     "regle": "grappeProche <= 4",
+     "signales": 58,
+     "vrais": 19,
+     "precision": 0.328,
+     "rappel": 0.792,
+     "sursaut": 2.35,
+     "coutPosesEcartes": 71
+    },
+    {
+     "regle": "deplacementMm <= 104.7",
+     "signales": 28,
+     "vrais": 12,
+     "precision": 0.429,
+     "rappel": 0.5,
+     "sursaut": 3.07,
+     "coutPosesEcartes": 201
+    },
+    {
+     "regle": "deplacementMm <= 84.3",
+     "signales": 24,
+     "vrais": 11,
+     "precision": 0.458,
+     "rappel": 0.458,
+     "sursaut": 3.28,
+     "coutPosesEcartes": 185
+    },
+    {
+     "regle": "deplacementMm <= 75.6",
+     "signales": 20,
+     "vrais": 10,
+     "precision": 0.5,
+     "rappel": 0.417,
+     "sursaut": 3.58,
+     "coutPosesEcartes": 175
+    },
+    {
+     "regle": "appuis <= 1",
+     "signales": 69,
+     "vrais": 21,
+     "precision": 0.304,
+     "rappel": 0.875,
+     "sursaut": 2.18,
+     "coutPosesEcartes": 244
+    },
+    {
+     "regle": "grappeDiff = 6",
+     "signales": 8,
+     "vrais": 7,
+     "precision": 0.875,
+     "rappel": 0.292,
+     "sursaut": 6.27,
+     "coutPosesEcartes": 9
+    },
+    {
+     "regle": "precedentDiffere = true",
+     "signales": 22,
+     "vrais": 10,
+     "precision": 0.455,
+     "rappel": 0.417,
+     "sursaut": 3.26,
+     "coutPosesEcartes": 24
+    },
+    {
+     "regle": "deplacementMm <= 117.3",
+     "signales": 36,
+     "vrais": 13,
+     "precision": 0.361,
+     "rappel": 0.542,
+     "sursaut": 2.59,
+     "coutPosesEcartes": 268
+    }
+   ]
+  }
+ }
+}

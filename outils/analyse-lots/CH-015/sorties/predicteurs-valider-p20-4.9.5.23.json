@@ -1,0 +1,50 @@
+{
+ "partie": 20,
+ "role": "tous",
+ "cibles": 889,
+ "posés": 721,
+ "différés": 168,
+ "jugés": 172,
+ "faux100": 21,
+ "plus50": 21,
+ "plus20": 24,
+ "nonEvaluables": 0,
+ "horsRole": 0,
+ "appuisInconnus": 3,
+ "regles": {
+  "R1 un des 2 cuts précédents est différé": {
+   "posésSignalés": 41,
+   "partDesPosés": 0.057,
+   "coûtDifférésSupplémentaires": 41,
+   "jugésSignalés": 35,
+   "faux100": 13,
+   "plus50": 13,
+   "plus20": 16,
+   "précisionFaux100": 0.371,
+   "icPrécision": [
+    0.232,
+    0.537
+   ],
+   "rappelFaux100": 0.619,
+   "rappelPlus50": 0.619,
+   "tauxFauxParmiJugésNonSignalés": 0.058
+  },
+  "R2 R1 ET appuis = 0": {
+   "posésSignalés": 22,
+   "partDesPosés": 0.031,
+   "coûtDifférésSupplémentaires": 22,
+   "jugésSignalés": 19,
+   "faux100": 10,
+   "plus50": 10,
+   "plus20": 12,
+   "précisionFaux100": 0.526,
+   "icPrécision": [
+    0.317,
+    0.727
+   ],
+   "rappelFaux100": 0.476,
+   "rappelPlus50": 0.476,
+   "tauxFauxParmiJugésNonSignalés": 0.072
+  }
+ }
+}
