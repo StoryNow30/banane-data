@@ -1,0 +1,18 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "4.9.5.27",
+  "origine": "Export Orbite du 30/10/2026 20:54:41 (heure de Paris), 2 volumes, méthode deflate",
+  "contenu": "Journal, diagnostic GCV1 et corpus d'une file de 3 parties (2, 3, 4) sur un vrai ESV, puis d'une reprise sur la partie 4 ; instantanés des listes d'ESV, verts à contrôler. Pas d'Écho.",
+  "fichiers": [
+    {
+      "chemin": "raw/ariane-lot-2026-10-30T19-54-41-volume01-sur02.zip",
+      "taille": 16447732,
+      "sha256": "1a3244fc48e99e91320e6fc5444bed0fc00844ef1e878c207875a46dd96a719b"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-10-30T19-54-41-volume02-sur02.zip",
+      "taille": 1743426,
+      "sha256": "7212b26621e035e0e41e51a76a83f1a4e0f4f25a94886a88214fc60ed272be2e"
+    }
+  ]
+}
