@@ -1,0 +1,28 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "4.9.5.26",
+  "origine": "Deux exports Orbite du 30/10/2026 à 15:38:03 et 15:38:29 (heure de Paris), 2 volumes chacun, même séance",
+  "contenu": "Journal, diagnostic GCV1 et corpus de la partie 4 (165 invalides au départ) ; premier essai de la file de parties.",
+  "fichiers": [
+    {
+      "chemin": "raw/ariane-lot-2026-10-30T14-38-03-volume01-sur02.zip",
+      "taille": 10621458,
+      "sha256": "4c39f2624f7f8653574aee1aa9e39a40afcc5ae6f4b0ade7032d7aad934bf8fa"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-10-30T14-38-03-volume02-sur02.zip",
+      "taille": 16004675,
+      "sha256": "e9cd9ea1a1d95eeac7fb1f7226eefab73110e3dcae4fff11773005efda231f69"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-10-30T14-38-29-volume01-sur02.zip",
+      "taille": 10623685,
+      "sha256": "e5473ed427454fb2633351a58c62772781fadbe8e0b0dbda4b30f3b5d59e3625"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-10-30T14-38-29-volume02-sur02.zip",
+      "taille": 16006567,
+      "sha256": "741bf1422c3c06a998b90f55140ed8a9cfd317fa5e12873ebb4d8b6a1ff522a6"
+    }
+  ]
+}
