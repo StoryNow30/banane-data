@@ -1,0 +1,28 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "4.9.5.30",
+  "origine": "Export Orbite du 01/11/2026 17:27:34 (heure de Paris), 3 volumes, et export Écho de la séance Aurore du 01/11/2026 17:25:43 (parties 10 et 11)",
+  "contenu": "Journal, diagnostic GCV1 et corpus d'une Constellation de 2 parties (10, 11) sur un vrai ESV, puis l'Aurore (correction dans Orbite, 34 cuts) enregistrée en séance Écho (43 visites).",
+  "fichiers": [
+    {
+      "chemin": "raw/2d87016e-ariane-lot-2026-11-01T16-27-34-volume03-sur03.zip",
+      "taille": 16630460,
+      "sha256": "13e1ae318d3c2593ecd0c3daf285ab85158b6519c298db4635802ea56aa4692e"
+    },
+    {
+      "chemin": "raw/44b2c2e2-ariane-lot-2026-11-01T16-27-34-volume02-sur03.zip",
+      "taille": 14846759,
+      "sha256": "6743e069726370832b4005ea29ab88615735001cd914a32776a1df08359260eb"
+    },
+    {
+      "chemin": "raw/92829986-ariane-lot-2026-11-01T16-27-34-volume01-sur03.zip",
+      "taille": 12265938,
+      "sha256": "361d2eff4e5bd027cfb459afe7a50911e38734eef3642e43a0e93e5565a2bf54"
+    },
+    {
+      "chemin": "raw/d3e3f110-ariane-echo-partie10-11-2026-11-01T16-25-43-auto.zip",
+      "taille": 4791751,
+      "sha256": "99694270ca2f2aaa81a82f4e2fda8bcff62c409fa18f215054a618f673ee9202"
+    }
+  ]
+}
