@@ -1,0 +1,13 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "4.9.5.33",
+  "origine": "Export Écho du 02/11/2026 09:12:24 (heure de Paris)",
+  "contenu": "Séance Écho (9 visites) où la touche physique KeyW (Z sur un clavier AZERTY) après la validation du dernier cut de la partie 2 fait changer ESV de partie.",
+  "fichiers": [
+    {
+      "chemin": "raw/02fc2d0e-ariane-echo-partie2-2026-11-02T08-12-24.zip",
+      "taille": 931894,
+      "sha256": "e0e28b1fdc86241b709766a35b24824943abe3008b194beade46bb25087baa51"
+    }
+  ]
+}
