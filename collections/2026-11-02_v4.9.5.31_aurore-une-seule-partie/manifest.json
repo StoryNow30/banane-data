@@ -1,0 +1,43 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "4.9.5.31",
+  "origine": "Export Orbite du 02/11/2026 10:20:58 (heure de Paris), 7 volumes",
+  "contenu": "Session de la test 31 : partie 0 puis partie 1 par la Constellation, puis l'Aurore (15 cuts) qui ne propose que la partie 1.",
+  "fichiers": [
+    {
+      "chemin": "raw/1c6d49b4-ariane-lot-2026-11-02T09-20-58-volume07-sur07.zip",
+      "taille": 4740494,
+      "sha256": "0806cbbcd776090cad96912ba74e0df793e597d04ba6eaac809292ab14de917d"
+    },
+    {
+      "chemin": "raw/1dcc0c5d-ariane-lot-2026-11-02T09-20-58-volume06-sur07.zip",
+      "taille": 14362715,
+      "sha256": "2696c8919419733f20fb593340297ec5ebcf6415d740fc317c55e9813494a4a7"
+    },
+    {
+      "chemin": "raw/5c6da6a2-ariane-lot-2026-11-02T09-20-58-volume05-sur07.zip",
+      "taille": 14419676,
+      "sha256": "cc6c12c6439cb68f541d001564099b6c285a4d864a86ab440bab4b92dcbeaeac"
+    },
+    {
+      "chemin": "raw/6696d738-ariane-lot-2026-11-02T09-20-58-volume03-sur07.zip",
+      "taille": 14769220,
+      "sha256": "b3ffd73ca33826eb2435bacce47ba75d0ef3ae80ad2b31623191dceee007625f"
+    },
+    {
+      "chemin": "raw/7ebcdd05-ariane-lot-2026-11-02T09-20-58-volume04-sur07.zip",
+      "taille": 13851979,
+      "sha256": "728968d04e2bb5f1a780b5281c9ed3e4cde3df4a1c161a239e64b1c092e94a23"
+    },
+    {
+      "chemin": "raw/8717e85b-ariane-lot-2026-11-02T09-20-58-volume02-sur07.zip",
+      "taille": 14200125,
+      "sha256": "622708199e48cbdb0b9d2060a6efe889d80d351c83d3045c2f6e71c4c9651529"
+    },
+    {
+      "chemin": "raw/e49a2dc1-ariane-lot-2026-11-02T09-20-58-volume01-sur07.zip",
+      "taille": 3741309,
+      "sha256": "c5e066af0d63aedb1a66f3c3aed12ffbe011e10b0e015c767edbc6e8ec0092d9"
+    }
+  ]
+}
