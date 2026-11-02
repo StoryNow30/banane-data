@@ -1,0 +1,13 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "4.9.5.33",
+  "origine": "Export Orbite du 02/11/2026 08:57:34 (heure de Paris), archive unique",
+  "contenu": "Un lot de la partie 0 arrêté au cut 115 sur une erreur « Vue ESV non recentrée sur le rail right. » pendant l'application après un déplacement de vue ; journal, diagnostic, corpus, liste d'ESV.",
+  "fichiers": [
+    {
+      "chemin": "raw/44d4e693-ariane-lot-2026-11-02T07-57-34.zip",
+      "taille": 5991961,
+      "sha256": "b18995d1c85c4b0b85d9e039557b3cf0e0b08094bc1b2ece127989edf07f7e91"
+    }
+  ]
+}
