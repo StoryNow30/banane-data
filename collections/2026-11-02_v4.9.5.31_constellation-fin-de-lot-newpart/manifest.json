@@ -1,0 +1,38 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "4.9.5.31",
+  "origine": "Export Orbite du 02/11/2026 10:13:44 (heure de Paris), 6 volumes",
+  "contenu": "Constellation de la partie 0 (lot, Rattrapage de 10 écritures, relecture) puis partie 1 ; le lot de la partie 1 (relancé) s'arrête sur une erreur quand ESV change lui-même de partie (newPart 2) après la validation d'un cut.",
+  "fichiers": [
+    {
+      "chemin": "raw/124819de-ariane-lot-2026-11-02T09-13-44-volume02-sur06.zip",
+      "taille": 14200103,
+      "sha256": "6cdca81a4672292b31666126ead307ea5fac9810d2fd9b1945115abb8de29e79"
+    },
+    {
+      "chemin": "raw/1b4c3cde-ariane-lot-2026-11-02T09-13-44-volume04-sur06.zip",
+      "taille": 13851965,
+      "sha256": "5bbcdfcbad54f1fabcfc1ee0024dd84a9b50c2d49e527736b0108cedbf8260af"
+    },
+    {
+      "chemin": "raw/1c2d3813-ariane-lot-2026-11-02T09-13-44-volume06-sur06.zip",
+      "taille": 17190768,
+      "sha256": "367a29bdc00017c1acf2d718135cb49ce89c7951ab17c5238be3fb4ab2cf0734"
+    },
+    {
+      "chemin": "raw/6510e332-ariane-lot-2026-11-02T09-13-44-volume01-sur06.zip",
+      "taille": 3701780,
+      "sha256": "0d74857b2f6b4bdeb6df1ca89d55eb55fda7bcb868570c1b5cec797082cd7a31"
+    },
+    {
+      "chemin": "raw/894fb84f-ariane-lot-2026-11-02T09-13-44-volume05-sur06.zip",
+      "taille": 14419630,
+      "sha256": "7db4b0ae18f5341c0005a0673dd3404f87b29fc89b77e5ccf51c935d3afa368e"
+    },
+    {
+      "chemin": "raw/9d3197a9-ariane-lot-2026-11-02T09-13-44-volume03-sur06.zip",
+      "taille": 14769191,
+      "sha256": "9b58779dc4dc2cc047e0b272fb212c5328cfb553362ed324c79af93fe6aa6151"
+    }
+  ]
+}
