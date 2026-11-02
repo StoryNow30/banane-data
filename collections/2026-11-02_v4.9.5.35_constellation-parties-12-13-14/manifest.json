@@ -1,0 +1,38 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "4.9.5.35",
+  "origine": "Exports du 02/11/2026 : lot Orbite 4 volumes (15:24:33 Paris) + Écho automatique des parties 12 à 14 (2 envois, 15:07 et 15:11, segments 1 à 3)",
+  "contenu": "Première Constellation de trois parties (12, 13, 14) de la test 35, de bout en bout : lot, Rattrapage, relecture, passage entre parties, puis Aurore sur les trois parties par le lien. Écho = visites de l'Aurore seulement (108 visites de 14:55 à 15:11 Paris).",
+  "fichiers": [
+    {
+      "chemin": "raw/48f6e68d-ariane-lot-2026-11-02T14-24-33-volume04-sur04.zip",
+      "taille": 6133634,
+      "sha256": "1e8c08bbcdc5c94274339a091514b7dabbdcc31cdfe44e156c66dd977ebc638a"
+    },
+    {
+      "chemin": "raw/522baacb-ariane-echo-partie12-13-14-2026-11-02T14-11-42-auto.zip",
+      "taille": 7378138,
+      "sha256": "93896c13a5bf49b4a3a843f29372433e3c56f71d5571f24194aee49223c3ee70"
+    },
+    {
+      "chemin": "raw/6dbcde10-ariane-lot-2026-11-02T14-24-33-volume03-sur04.zip",
+      "taille": 14222318,
+      "sha256": "2f8f09368cf0e71cb5794b12c4210bd8cd855b47a2ceac6c4a13102ed4436b5b"
+    },
+    {
+      "chemin": "raw/711b306c-ariane-lot-2026-11-02T14-24-33-volume01-sur04.zip",
+      "taille": 13647818,
+      "sha256": "90ed1a397869ca4a3904a56110d4f7c5420cb162f74af9e7140644e10a07cb23"
+    },
+    {
+      "chemin": "raw/9da88bb1-ariane-lot-2026-11-02T14-24-33-volume02-sur04.zip",
+      "taille": 15105903,
+      "sha256": "f17c5601f908b6be4bb8b44d7fcffcfa998289fdd773ae1467b3d04e1ee535fd"
+    },
+    {
+      "chemin": "raw/e8136f01-ariane-echo-partie12-13-14-2026-11-02T14-07-41-auto.zip",
+      "taille": 4491361,
+      "sha256": "f849fdd6c4e322d650e20722beb26af62bf1f4bb42fa99d82e6b3fcae55cf6f9"
+    }
+  ]
+}
