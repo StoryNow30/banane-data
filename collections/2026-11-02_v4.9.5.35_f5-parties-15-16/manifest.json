@@ -1,0 +1,23 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "4.9.5.35",
+  "origine": "Export lot Orbite du 02/11/2026 16:23:52 (Paris), 3 volumes",
+  "contenu": "Constellation de deux parties (15, 16) avec un F5 de l'opérateur à 14:42:50 UTC (cut 5946 de la partie 15) et une pause suivie de « Reprendre » à 14:51 UTC (partie 16). Données précédentes vidées à la main à 15:39 Paris.",
+  "fichiers": [
+    {
+      "chemin": "raw/3d8656d9-ariane-lot-2026-11-02T15-23-52-volume03-sur03.zip",
+      "taille": 13535658,
+      "sha256": "0f1c88d409173db99640a6959a299cf512f8a78742698fbeaa283a6944184342"
+    },
+    {
+      "chemin": "raw/4d0b2bcc-ariane-lot-2026-11-02T15-23-52-volume01-sur03.zip",
+      "taille": 13679691,
+      "sha256": "e55a255c8fac848fc6cfcbd49d00c28b9951e017428439aee20e23bb5b3ecaa0"
+    },
+    {
+      "chemin": "raw/8dcd34f3-ariane-lot-2026-11-02T15-23-52-volume02-sur03.zip",
+      "taille": 10692523,
+      "sha256": "318b383b13635e2ffcbda44953194ebe985359b0b87b421e4098053321564a4d"
+    }
+  ]
+}
