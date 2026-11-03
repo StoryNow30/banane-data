@@ -1,0 +1,53 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Export lot Orbite du 03/11/2026 18:03:35 (Paris), 9 volumes",
+  "contenu": "Constellation des parties 25 et 26 avec le paquet ariane-v5.zip, 15:44 à 17:03 UTC. Aucune veille, aucune capture lente.",
+  "fichiers": [
+    {
+      "chemin": "raw/09d10ca1-ariane-lot-2026-11-03T17-03-35-volume05-sur09.zip",
+      "taille": 13754075,
+      "sha256": "bd43ca0632adbb67443d3447e0cd94d254db1dcdaec6985fef9394fcf79357ea"
+    },
+    {
+      "chemin": "raw/0c6b02ce-ariane-lot-2026-11-03T17-03-35-volume08-sur09.zip",
+      "taille": 26913206,
+      "sha256": "64b7f7c61a7a54336333923ae956646fa398afd31accdd4e55927cdd93664747"
+    },
+    {
+      "chemin": "raw/36b3f2d3-ariane-lot-2026-11-03T17-03-35-volume06-sur09.zip",
+      "taille": 13476357,
+      "sha256": "86df83adb7fa2d1262fd2592fa0ba7d36bf5608d35224122d8ec67f20db51e8f"
+    },
+    {
+      "chemin": "raw/55b6c0a2-ariane-lot-2026-11-03T17-03-35-volume07-sur09.zip",
+      "taille": 12101390,
+      "sha256": "de0fb9183baad8ec36c19cc3731d4bbc7af1845977cc04ff7e09b4f1cb08dd10"
+    },
+    {
+      "chemin": "raw/6b505a81-ariane-lot-2026-11-03T17-03-35-volume09-sur09.zip",
+      "taille": 6587543,
+      "sha256": "f04f399d61f262bea92ddd37864c4b841350cc6bbb3cdfb420aece759398161e"
+    },
+    {
+      "chemin": "raw/a19db58a-ariane-lot-2026-11-03T17-03-35-volume04-sur09.zip",
+      "taille": 13726795,
+      "sha256": "8e59c8c8dae0e46d79c7b54ecdcab716674f27b8e72185528b98251a32b90c24"
+    },
+    {
+      "chemin": "raw/aae39dcb-ariane-lot-2026-11-03T17-03-35-volume03-sur09.zip",
+      "taille": 13718103,
+      "sha256": "50bc56da32d36d1589e5d0f2fef7567e7ed923aa35a6e37c5f9442aa1347b83f"
+    },
+    {
+      "chemin": "raw/c600ec3d-ariane-lot-2026-11-03T17-03-35-volume01-sur09.zip",
+      "taille": 7922237,
+      "sha256": "2598608f83c572a51d1a760e1a2d2f357a972da74587893104bf6ac92ab679c2"
+    },
+    {
+      "chemin": "raw/d0add987-ariane-lot-2026-11-03T17-03-35-volume02-sur09.zip",
+      "taille": 13729867,
+      "sha256": "dd8232df1343ac59b11152e186e097deeda804d71e28df9b064f313c8278f2d0"
+    }
+  ]
+}
