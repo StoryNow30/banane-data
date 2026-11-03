@@ -1,0 +1,118 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5.0.0",
+  "origine": "Export lot Orbite du 03/11/2026 16:02:01 (Paris), 22 volumes",
+  "contenu": "Constellation des parties 18 à 24 (partie 17 en lot seul avant), version 5.0.0. Arrêt « occupé » à 11:25:26 UTC (partie 18) ; captures figées 41/90/90 s à 11:22-11:25 UTC ; pause « Lecture LiDAR instable » de 74 min (12:50 → 14:03 UTC).",
+  "fichiers": [
+    {
+      "chemin": "raw/1e919c0b-ariane-lot-2026-11-03T15-02-01-volume10-sur22.zip",
+      "taille": 11656651,
+      "sha256": "edd548f7038a1fedb528b3181d86850728e3044990377a48ab499976f018b945"
+    },
+    {
+      "chemin": "raw/1f119c1e-ariane-lot-2026-11-03T15-02-01-volume19-sur22.zip",
+      "taille": 11402778,
+      "sha256": "6c89517380ecb20544728f1ee133b74059718eaa7c7efa20cd69f82b3d11313b"
+    },
+    {
+      "chemin": "raw/37229bbe-ariane-lot-2026-11-03T15-02-01-volume20-sur22.zip",
+      "taille": 10080860,
+      "sha256": "2c9777ab815a9046a3b8c1f49e76da3d8f2aede2c79e7822379a37c06cf67c41"
+    },
+    {
+      "chemin": "raw/376cd2c9-ariane-lot-2026-11-03T15-02-01-volume16-sur22.zip",
+      "taille": 11497341,
+      "sha256": "2d6b5e212cd5a8a0dff28b92788c29ab543fbfd19c4925955f631d9c20e5a964"
+    },
+    {
+      "chemin": "raw/410417a4-ariane-lot-2026-11-03T15-02-01-volume07-sur22.zip",
+      "taille": 10900636,
+      "sha256": "ce429eb25b289ee75a234e91530c362954bc80b838d83c18e0e505fc1be7df18"
+    },
+    {
+      "chemin": "raw/4d511f11-ariane-lot-2026-11-03T15-02-01-volume08-sur22.zip",
+      "taille": 12572392,
+      "sha256": "567e3ee07c50fced1d6f87b3e44cf48cb32efb09ae4ae6a25c762cb30daacfea"
+    },
+    {
+      "chemin": "raw/5227b006-ariane-lot-2026-11-03T15-02-01-volume02-sur22.zip",
+      "taille": 12770785,
+      "sha256": "655d101eedc942b4b35978e16f877554beadc92748cde02b9f84332648c8b6a3"
+    },
+    {
+      "chemin": "raw/62ca4a8f-ariane-lot-2026-11-03T15-02-01-volume21-sur22.zip",
+      "taille": 22747195,
+      "sha256": "5e8629549102db6d0a05e102e362b66eb435c75bedb264f76cde4a203ebfafba"
+    },
+    {
+      "chemin": "raw/7389104b-ariane-lot-2026-11-03T15-02-01-volume11-sur22.zip",
+      "taille": 11572149,
+      "sha256": "012a8c35341b5484327af265d8c4c6c2e98dba44118cf80a3fee9407e09187ed"
+    },
+    {
+      "chemin": "raw/74935e68-ariane-lot-2026-11-03T15-02-01-volume01-sur22.zip",
+      "taille": 16448019,
+      "sha256": "de4232e06b2f266ad35e96889a35b190298a0c07ceeb96be336a4ff4971b1cbd"
+    },
+    {
+      "chemin": "raw/865ada8b-ariane-lot-2026-11-03T15-02-01-volume13-sur22.zip",
+      "taille": 11170566,
+      "sha256": "8475747d2a712f38c3e43e9e17c723c809f269a8b66ea929f952bf86b47e40ec"
+    },
+    {
+      "chemin": "raw/90d2bc9e-ariane-lot-2026-11-03T15-02-01-volume09-sur22.zip",
+      "taille": 12336872,
+      "sha256": "35fffab1c6393234ae9e0a72ac627d7774c2ece4c82afbb98d429e6318632825"
+    },
+    {
+      "chemin": "raw/9dc54b24-ariane-lot-2026-11-03T15-02-01-volume12-sur22.zip",
+      "taille": 11251124,
+      "sha256": "8a9e085b78ab50ee7cb75b47ffcb68d2ccdc3f80d55f7034bc43605da6a1fc28"
+    },
+    {
+      "chemin": "raw/9f565c02-ariane-lot-2026-11-03T15-02-01-volume03-sur22.zip",
+      "taille": 11823322,
+      "sha256": "c5ca088029aaaa12ba25030bc580719db043387f6bc1a7c73b4665c6f2432834"
+    },
+    {
+      "chemin": "raw/9fc73a00-ariane-lot-2026-11-03T15-02-01-volume15-sur22.zip",
+      "taille": 11357582,
+      "sha256": "8b2b9b5f4e1e848f44a234be1029ec10f87e6329c69172985b476591513e8c6e"
+    },
+    {
+      "chemin": "raw/a6ec955f-ariane-lot-2026-11-03T15-02-01-volume04-sur22.zip",
+      "taille": 11957870,
+      "sha256": "dc934e79f0692a2b45d2e5cc5a18e229e142940ab2238e142577b8c9cfcf0faa"
+    },
+    {
+      "chemin": "raw/aa7f3f62-ariane-lot-2026-11-03T15-02-01-volume05-sur22.zip",
+      "taille": 11106315,
+      "sha256": "b009a34ff190d4a1a77d914e576671aca4dca5a0ae5c327b19bd0212897c1319"
+    },
+    {
+      "chemin": "raw/c03de8ed-ariane-lot-2026-11-03T15-02-01-volume17-sur22.zip",
+      "taille": 11654207,
+      "sha256": "26438e053562ef01959d166a9b3e86b3de66221ae9a0a7e719eb67dd26691639"
+    },
+    {
+      "chemin": "raw/c63ddf1f-ariane-lot-2026-11-03T15-02-01-volume22-sur22.zip",
+      "taille": 14634125,
+      "sha256": "0c2ebad21ee9d00cfb2f365c34e2fbc197cdbfcc8a4f166a689773f8f36c2656"
+    },
+    {
+      "chemin": "raw/e02dbb78-ariane-lot-2026-11-03T15-02-01-volume06-sur22.zip",
+      "taille": 11343119,
+      "sha256": "794b62f1061d6bb43ca4046422ac43e2af99905ecbde1786ce142c61a20a48dc"
+    },
+    {
+      "chemin": "raw/e31ce0af-ariane-lot-2026-11-03T15-02-01-volume14-sur22.zip",
+      "taille": 11335621,
+      "sha256": "4742f4162b1c3927492ba7743dde17096915a89fb2558496d6d5880575ae2c39"
+    },
+    {
+      "chemin": "raw/eb51d43e-ariane-lot-2026-11-03T15-02-01-volume18-sur22.zip",
+      "taille": 11522325,
+      "sha256": "245b94a40f67cd9c23a874e62ee84a83dcd6444feec2bb055c7ffd0544e8da03"
+    }
+  ]
+}
