@@ -1,0 +1,18 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Deux sessions Écho du 04/11/2026 (parties 13-14-15 à 18:28-18:38 Paris, partie 10 à 19:04-19:05 Paris)",
+  "contenu": "Travail manuel de l'opérateur : 132 validations et 72 cuts marqués vus sur les parties 13, 14, 15 ; partie 10 : 20 validations en 65 s sur un bloc de cuts laissés par Ariane. Les 4 envois cumulatifs plus anciens de la même session 13-14-15 sont inclus dans le dernier.",
+  "fichiers": [
+    {
+      "chemin": "raw/c226fb3e-ariane-echo-partie10-2026-11-04T18-05-41.zip",
+      "taille": 2646497,
+      "sha256": "3ae0569625d07975361dada4db197207a7dbd3e66b9408a6d32abdae2631a351"
+    },
+    {
+      "chemin": "raw/df270ae4-ariane-echo-partie13-14-15-2026-11-04T17-38-16.zip",
+      "taille": 7582484,
+      "sha256": "da78f0c90b5cd0df6aacadea149b4870ab12588ff6df66fa802293f015fc87f9"
+    }
+  ]
+}
