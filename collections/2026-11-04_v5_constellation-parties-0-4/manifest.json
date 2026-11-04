@@ -1,0 +1,48 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Export lot Orbite du 04/11/2026 10:49:13 (Paris), 8 volumes",
+  "contenu": "Constellations des parties 0 à 4 (08:34 à 09:49 UTC) avec un premier paquet ariane-v5.zip ; deux arrêts « ESV a ouvert la partie 0 » (1→2 à 09:05:06 et 2→3 à 09:16:53 UTC).",
+  "fichiers": [
+    {
+      "chemin": "raw/10fefc01-ariane-lot-2026-11-04T09-49-13-volume03-sur08.zip",
+      "taille": 9170306,
+      "sha256": "44f672f731feaab172800d268e8188af663256b34185eba8611488bbcfbd00a1"
+    },
+    {
+      "chemin": "raw/61454a12-ariane-lot-2026-11-04T09-49-13-volume05-sur08.zip",
+      "taille": 10441941,
+      "sha256": "85d003c8fb7cb9618735d8e376a7b6f0835f591b7cc008ed310a86fd82081f4a"
+    },
+    {
+      "chemin": "raw/7c66d167-ariane-lot-2026-11-04T09-49-13-volume02-sur08.zip",
+      "taille": 11168301,
+      "sha256": "ec1d4c653dd1fb71def5d1637d88d5946b0c53226e05c56525cd562b40928a14"
+    },
+    {
+      "chemin": "raw/7e16364e-ariane-lot-2026-11-04T09-49-13-volume06-sur08.zip",
+      "taille": 11061995,
+      "sha256": "f78b72b52143de6e02b9735950ecb9743259884b2046fbeb841440c55125c96c"
+    },
+    {
+      "chemin": "raw/c2edef1c-ariane-lot-2026-11-04T09-49-13-volume07-sur08.zip",
+      "taille": 12768051,
+      "sha256": "24fc78a36eac3a76912b18915bf1c5bc5803a3ef1ed17410d13d4ff01455b5a0"
+    },
+    {
+      "chemin": "raw/ca21c9e2-ariane-lot-2026-11-04T09-49-13-volume01-sur08.zip",
+      "taille": 17039900,
+      "sha256": "fa9bd243c88067a86b6dc400d45f98381dd454eb1c35efb904777f58d7f0f829"
+    },
+    {
+      "chemin": "raw/dbdcc5f8-ariane-lot-2026-11-04T09-49-13-volume08-sur08.zip",
+      "taille": 5778407,
+      "sha256": "dc46299ba8843c169669cfb69e1902682b7a4c0375ca312e3433253df392f267"
+    },
+    {
+      "chemin": "raw/e62fa3c9-ariane-lot-2026-11-04T09-49-13-volume04-sur08.zip",
+      "taille": 11402782,
+      "sha256": "9197834dc6bd56ae56d5dd2564c00a80755a77a8af3500760697fc649b4e7701"
+    }
+  ]
+}
