@@ -1,0 +1,5763 @@
+{
+ "format": "ariane-jointure-echo-orbite-v1",
+ "creeLe": "2026-11-04T18:09:53.980Z",
+ "options": {
+  "partie": 15,
+  "base": "auto",
+  "poses": true,
+  "sansJournal": false,
+  "visiteSansActionBonne": null
+ },
+ "resume": {
+  "base": "auto",
+  "sansJournal": false,
+  "repereScene": {
+   "calibre": false,
+   "paires": 0,
+   "residuMedianMm": null,
+   "residuP90Mm": null,
+   "cadres": 0,
+   "translationsDistinctes": 0,
+   "cadresNonCalibres": 0,
+   "parCadre": []
+  },
+  "partiesEchoIgnorees": [
+   10,
+   13,
+   14,
+   16
+  ],
+  "projetsDifferents": 0,
+  "cutsVusDansPlusieursSessions": 0,
+  "sessionsChevauchantes": [],
+  "visiteSansActionBonne": null,
+  "cutsEcho": 35,
+  "cutsJournal": 70,
+  "cutsJoints": 9,
+  "cutsJournalAbsentsDeLEcho": 61,
+  "reperes": {
+   "profil": 50,
+   "3D": 0
+  },
+  "bases": {
+   "premiere-visite": 25
+  },
+  "cutsParClasse": {
+   "posee": 61,
+   "differee": 8,
+   "autre": 1
+  },
+  "parClasse": {
+   "posee": {
+    "cuts": 0,
+    "avecReference": 0,
+    "sansReference": 0,
+    "etiquettesEcho": {},
+    "ecart3dMm": {
+     "gauche": {
+      "n": 0,
+      "medianeMm": null,
+      "p90Mm": null,
+      "maxMm": null
+     },
+     "droite": {
+      "n": 0,
+      "medianeMm": null,
+      "p90Mm": null,
+      "maxMm": null
+     },
+     "rails": {
+      "n": 0,
+      "medianeMm": null,
+      "p90Mm": null,
+      "maxMm": null
+     },
+     "parCut": {
+      "n": 0,
+      "medianeMm": null,
+      "p90Mm": null,
+      "maxMm": null
+     }
+    },
+    "ecartLateralAbsMm": {
+     "n": 0,
+     "medianeMm": null,
+     "p90Mm": null,
+     "maxMm": null
+    },
+    "ecartVerticalAbsMm": {
+     "n": 0,
+     "medianeMm": null,
+     "p90Mm": null,
+     "maxMm": null
+    },
+    "corrections": {
+     "sup5mm": {
+      "cuts": 0,
+      "rails": 0
+     },
+     "sup10mm": {
+      "cuts": 0,
+      "rails": 0
+     }
+    }
+   },
+   "differee": {
+    "cuts": 8,
+    "avecReference": 8,
+    "sansReference": 0,
+    "etiquettesEcho": {
+     "VALIDATE_CORRECTED_BOTH": 7,
+     "VALIDATE_CORRECTED_LEFT_ONLY": 1
+    },
+    "ecart3dMm": {
+     "gauche": {
+      "n": 8,
+      "medianeMm": 91.31,
+      "p90Mm": 110.75,
+      "maxMm": 145.03
+     },
+     "droite": {
+      "n": 8,
+      "medianeMm": 145.44,
+      "p90Mm": 150.9,
+      "maxMm": 151.11
+     },
+     "rails": {
+      "n": 16,
+      "medianeMm": 119.01,
+      "p90Mm": 148.35,
+      "maxMm": 151.11
+     },
+     "parCut": {
+      "n": 8,
+      "medianeMm": 145.44,
+      "p90Mm": 150.9,
+      "maxMm": 151.11
+     }
+    },
+    "ecartLateralAbsMm": {
+     "n": 16,
+     "medianeMm": 114.5,
+     "p90Mm": 147.61,
+     "maxMm": 149.98
+    },
+    "ecartVerticalAbsMm": {
+     "n": 16,
+     "medianeMm": 8.13,
+     "p90Mm": 17.93,
+     "maxMm": 57.3
+    },
+    "corrections": {
+     "sup5mm": {
+      "cuts": 8,
+      "rails": 15
+     },
+     "sup10mm": {
+      "cuts": 8,
+      "rails": 15
+     }
+    }
+   },
+   "autre": {
+    "cuts": 1,
+    "avecReference": 0,
+    "sansReference": 1,
+    "etiquettesEcho": {
+     "PASS_NO_DECISION": 1
+    },
+    "ecart3dMm": {
+     "gauche": {
+      "n": 0,
+      "medianeMm": null,
+      "p90Mm": null,
+      "maxMm": null
+     },
+     "droite": {
+      "n": 0,
+      "medianeMm": null,
+      "p90Mm": null,
+      "maxMm": null
+     },
+     "rails": {
+      "n": 0,
+      "medianeMm": null,
+      "p90Mm": null,
+      "maxMm": null
+     },
+     "parCut": {
+      "n": 0,
+      "medianeMm": null,
+      "p90Mm": null,
+      "maxMm": null
+     }
+    },
+    "ecartLateralAbsMm": {
+     "n": 0,
+     "medianeMm": null,
+     "p90Mm": null,
+     "maxMm": null
+    },
+    "ecartVerticalAbsMm": {
+     "n": 0,
+     "medianeMm": null,
+     "p90Mm": null,
+     "maxMm": null
+    },
+    "corrections": {
+     "sup5mm": {
+      "cuts": 0,
+      "rails": 0
+     },
+     "sup10mm": {
+      "cuts": 0,
+      "rails": 0
+     }
+    }
+   },
+   "hors-journal": {
+    "cuts": 26,
+    "avecReference": 17,
+    "sansReference": 9,
+    "etiquettesEcho": {
+     "PASS_NO_DECISION": 9,
+     "VALIDATE_NO_MOVEMENT": 1,
+     "VALIDATE_CORRECTED_BOTH": 11,
+     "VALIDATE_CORRECTED_LEFT_ONLY": 5
+    },
+    "ecart3dMm": {
+     "gauche": {
+      "n": 17,
+      "medianeMm": 5.66,
+      "p90Mm": 66.22,
+      "maxMm": 73.75
+     },
+     "droite": {
+      "n": 17,
+      "medianeMm": 2.36,
+      "p90Mm": 67.37,
+      "maxMm": 71.19
+     },
+     "rails": {
+      "n": 34,
+      "medianeMm": 4.31,
+      "p90Mm": 68.72,
+      "maxMm": 73.75
+     },
+     "parCut": {
+      "n": 17,
+      "medianeMm": 5.75,
+      "p90Mm": 71.43,
+      "maxMm": 73.75
+     }
+    },
+    "ecartLateralAbsMm": {
+     "n": 34,
+     "medianeMm": 1.45,
+     "p90Mm": 68.46,
+     "maxMm": 73.45
+    },
+    "ecartVerticalAbsMm": {
+     "n": 34,
+     "medianeMm": 3.43,
+     "p90Mm": 6.5,
+     "maxMm": 13.44
+    },
+    "corrections": {
+     "sup5mm": {
+      "cuts": 11,
+      "rails": 15
+     },
+     "sup10mm": {
+      "cuts": 4,
+      "rails": 8
+     }
+    }
+   }
+  },
+  "referencesCorrigees": {
+   "cuts": 0,
+   "parLOutil": 0,
+   "parLEcho": 0,
+   "liste": []
+  },
+  "ecartementsReferenceHorsPlage": {
+   "minMm": 1420,
+   "maxMm": 1470,
+   "cuts": 0,
+   "liste": []
+  },
+  "motifsDeDiffere": {
+   "window": 1,
+   "candidate": 4,
+   "ambiguity": 1,
+   "flank": 2,
+   "gauge-out-of-contract": 8
+  },
+  "ombres": {
+   "voie": {
+    "evenements": 9,
+    "posables": 0,
+    "juste5": 0,
+    "juste10": 0,
+    "fausse": 0,
+    "mauvaiseVoie": 0,
+    "nonJugees": 0,
+    "abstenues": 9,
+    "refuseesAvecPose": {
+     "n": 0,
+     "juste10": 0,
+     "fausse": 0,
+     "mauvaiseVoie": 0
+    },
+    "parRaison": {
+     "differe": 9
+    },
+    "seuils": {
+     "justeMm": 5,
+     "fauxMm": 10,
+     "mauvaiseVoieMm": 50
+    }
+   },
+   "memoire": {
+    "evenements": 0,
+    "posables": 0,
+    "juste5": 0,
+    "juste10": 0,
+    "fausse": 0,
+    "mauvaiseVoie": 0,
+    "nonJugees": 0,
+    "abstenues": 0,
+    "refuseesAvecPose": {
+     "n": 0,
+     "juste10": 0,
+     "fausse": 0,
+     "mauvaiseVoie": 0
+    },
+    "parRaison": {},
+    "seuils": {
+     "justeMm": 5,
+     "fauxMm": 10,
+     "mauvaiseVoieMm": 50
+    }
+   }
+  },
+  "sources": {
+   "segmentsEcho": 1,
+   "sessionsEcho": 1,
+   "recordsEcho": 280,
+   "evenementsJournal": 131377,
+   "recordsJournal": 1809,
+   "pagesPerduesEcho": 4,
+   "visitesAvecCaptures": 218
+  }
+ },
+ "table": [
+  {
+   "partie": 15,
+   "cut": 1,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 70
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 74
+    }
+   },
+   "b1Ombre": {
+    "etat": "sans-repere",
+    "regle": null,
+    "changement": null,
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": null
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.15,
+     "lateralMm": 2.526,
+     "verticalMm": 1.968,
+     "dist3dMm": 3.206
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.15,
+     "lateralMm": 2.368,
+     "verticalMm": 3.552,
+     "dist3dMm": 4.272
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 441,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "PASS_NO_DECISION",
+   "statutEcho": "partial",
+   "referenceHumaine": "sans-reference",
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 442,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 2,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "PASS_NO_DECISION",
+   "statutEcho": "partial",
+   "referenceHumaine": "sans-reference",
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 443,
+   "classe": "differee",
+   "dansEcho": true,
+   "dansJournal": true,
+   "visitesEcho": 3,
+   "motifDiffere": {
+    "statut": "DEFERRED_UNRESOLVED",
+    "transition": "NEXT_CUT_WITHOUT_DECISION_SAME_PAGE_AND_PART",
+    "railsNonResolus": [
+     "gauche"
+    ],
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "window",
+     "raison": "Intersection hors de la fenêtre expérimentale."
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "raison": null
+    }
+   },
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "window",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "dernier-recours",
+    "changement": "pose-ajoutee",
+    "reel": {
+     "stage": "deferred",
+     "reason": "no-anchor"
+    },
+    "hypothese": {
+     "stage": "window",
+     "reason": null,
+     "appuis": 2,
+     "ecartPrevisionMm": 5.1
+    },
+    "ecartPoseMm": null
+   },
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "partial",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 52.4,
+   "gesteValidationS": 0.1,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 83.849,
+     "verticalMm": -6.319,
+     "dist3dMm": 84.087
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 141.699,
+     "verticalMm": 8.438,
+     "dist3dMm": 141.95
+    },
+    "maxDist3dMm": 141.95
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299606.278,
+     "y": 6701041.283,
+     "z": 12.681
+    },
+    "droite": {
+     "x": 299607.348,
+     "y": 6701040.323,
+     "z": 12.801
+    }
+   },
+   "ombres": {
+    "voie": {
+     "posable": false,
+     "raison": "differe:no-anchor",
+     "ecartMm": null,
+     "jugement": "abstenue"
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 444,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 3,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_NO_MOVEMENT",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 1.1,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 0,
+     "verticalMm": 0,
+     "dist3dMm": 0
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 0,
+     "verticalMm": 0,
+     "dist3dMm": 0
+    },
+    "maxDist3dMm": 0
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299606.964,
+     "y": 6701042.051,
+     "z": 12.68
+    },
+    "droite": {
+     "x": 299608.035,
+     "y": 6701041.095,
+     "z": 12.798
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 445,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "PASS_NO_DECISION",
+   "statutEcho": "partial",
+   "referenceHumaine": "sans-reference",
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 462,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 72
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "dernier-recours",
+    "changement": "aucun",
+    "reel": {
+     "stage": "deferred",
+     "reason": "no-anchor"
+    },
+    "hypothese": {
+     "stage": "deferred",
+     "reason": "left:several-minima-near-prediction",
+     "appuis": 4,
+     "ecartPrevisionMm": null
+    },
+    "ecartPoseMm": null
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.308,
+     "lateralMm": 63.1,
+     "verticalMm": -11.269,
+     "dist3dMm": 64.099
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.308,
+     "lateralMm": 75.835,
+     "verticalMm": 2.141,
+     "dist3dMm": 75.866
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 463,
+   "classe": "differee",
+   "dansEcho": true,
+   "dansJournal": true,
+   "visitesEcho": 1,
+   "motifDiffere": {
+    "statut": "DEFERRED_UNRESOLVED",
+    "transition": "NEXT_CUT_WITHOUT_DECISION_SAME_PAGE_AND_PART",
+    "railsNonResolus": [
+     "droite"
+    ],
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "raison": null
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "raison": "Plusieurs placements concurrents du champignon sont géométriquement plausibles."
+    }
+   },
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "dernier-recours",
+    "changement": "pose-ajoutee",
+    "reel": {
+     "stage": "deferred",
+     "reason": "no-anchor"
+    },
+    "hypothese": {
+     "stage": "window",
+     "reason": null,
+     "appuis": 4,
+     "ecartPrevisionMm": 6.7
+    },
+    "ecartPoseMm": null
+   },
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 7.1,
+   "gesteValidationS": 0.2,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 94.938,
+     "verticalMm": 7.831,
+     "dist3dMm": 95.261
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 149.766,
+     "verticalMm": 20.087,
+     "dist3dMm": 151.107
+    },
+    "maxDist3dMm": 151.107
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299619.514,
+     "y": 6701057.002,
+     "z": 12.608
+    },
+    "droite": {
+     "x": 299620.643,
+     "y": 6701056.111,
+     "z": 12.731
+    }
+   },
+   "ombres": {
+    "voie": {
+     "posable": false,
+     "raison": "differe:no-anchor",
+     "ecartMm": null,
+     "jugement": "abstenue"
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 464,
+   "classe": "differee",
+   "dansEcho": true,
+   "dansJournal": true,
+   "visitesEcho": 1,
+   "motifDiffere": {
+    "statut": "DEFERRED_UNRESOLVED",
+    "transition": "NEXT_CUT_WITHOUT_DECISION_SAME_PAGE_AND_PART",
+    "railsNonResolus": [
+     "droite"
+    ],
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "raison": null
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "flank",
+     "raison": "Flanc interne insuffisamment observé."
+    }
+   },
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": false,
+     "confiance": 52
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "flank",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "dernier-recours",
+    "changement": "pose-ajoutee",
+    "reel": {
+     "stage": "deferred",
+     "reason": "no-anchor"
+    },
+    "hypothese": {
+     "stage": "window",
+     "reason": null,
+     "appuis": 4,
+     "ecartPrevisionMm": 18.3
+    },
+    "ecartPoseMm": null
+   },
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 1.7,
+   "gesteValidationS": 0,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 95.779,
+     "verticalMm": 7.356,
+     "dist3dMm": 96.062
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 149.982,
+     "verticalMm": 15.773,
+     "dist3dMm": 150.809
+    },
+    "maxDist3dMm": 150.809
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299620.147,
+     "y": 6701057.809,
+     "z": 12.602
+    },
+    "droite": {
+     "x": 299621.281,
+     "y": 6701056.922,
+     "z": 12.72
+    }
+   },
+   "ombres": {
+    "voie": {
+     "posable": false,
+     "raison": "differe:no-anchor",
+     "ecartMm": null,
+     "jugement": "abstenue"
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 465,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 2,
+   "gesteValidationS": 0.1,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.043,
+     "lateralMm": 73.452,
+     "verticalMm": -6.663,
+     "dist3dMm": 73.754
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.043,
+     "lateralMm": 65.014,
+     "verticalMm": -6.216,
+     "dist3dMm": 65.311
+    },
+    "maxDist3dMm": 73.754
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299620.777,
+     "y": 6701058.619,
+     "z": 12.597
+    },
+    "droite": {
+     "x": 299621.916,
+     "y": 6701057.735,
+     "z": 12.713
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 466,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 1.8,
+   "gesteValidationS": 0.1,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.146,
+     "lateralMm": 62.257,
+     "verticalMm": -5.67,
+     "dist3dMm": 62.514
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.146,
+     "lateralMm": 70.731,
+     "verticalMm": -8.092,
+     "dist3dMm": 71.192
+    },
+    "maxDist3dMm": 71.192
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299621.408,
+     "y": 6701059.43,
+     "z": 12.592
+    },
+    "droite": {
+     "x": 299622.55,
+     "y": 6701058.548,
+     "z": 12.704
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 467,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 2,
+   "gesteValidationS": 0.1,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.052,
+     "lateralMm": 58.827,
+     "verticalMm": -5.066,
+     "dist3dMm": 59.044
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.052,
+     "lateralMm": 69.782,
+     "verticalMm": -6.409,
+     "dist3dMm": 70.075
+    },
+    "maxDist3dMm": 70.075
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299622.036,
+     "y": 6701060.241,
+     "z": 12.591
+    },
+    "droite": {
+     "x": 299623.178,
+     "y": 6701059.364,
+     "z": 12.706
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 468,
+   "classe": "differee",
+   "dansEcho": true,
+   "dansJournal": true,
+   "visitesEcho": 1,
+   "motifDiffere": {
+    "statut": "DEFERRED_UNRESOLVED",
+    "transition": "NEXT_CUT_WITHOUT_DECISION_SAME_PAGE_AND_PART",
+    "railsNonResolus": [
+     "droite"
+    ],
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "raison": null
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "flank",
+     "raison": "Flanc interne insuffisamment observé."
+    }
+   },
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": false,
+     "confiance": 25
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "flank",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "dernier-recours",
+    "changement": "aucun",
+    "reel": {
+     "stage": "deferred",
+     "reason": "no-anchor"
+    },
+    "hypothese": {
+     "stage": "deferred",
+     "reason": "left:no-qualified-minimum-near-prediction right:no-qualified-minimum-near-prediction",
+     "appuis": 3,
+     "ecartPrevisionMm": null
+    },
+    "ecartPoseMm": null
+   },
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 1.9,
+   "gesteValidationS": 0.1,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 90.71,
+     "verticalMm": 1.123,
+     "dist3dMm": 90.717
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 145.452,
+     "verticalMm": 11.221,
+     "dist3dMm": 145.885
+    },
+    "maxDist3dMm": 145.885
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299622.659,
+     "y": 6701061.055,
+     "z": 12.588
+    },
+    "droite": {
+     "x": 299623.804,
+     "y": 6701060.182,
+     "z": 12.703
+    }
+   },
+   "ombres": {
+    "voie": {
+     "posable": false,
+     "raison": "differe:no-anchor",
+     "ecartMm": null,
+     "jugement": "abstenue"
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 469,
+   "classe": "differee",
+   "dansEcho": true,
+   "dansJournal": true,
+   "visitesEcho": 1,
+   "motifDiffere": {
+    "statut": "DEFERRED_UNRESOLVED",
+    "transition": "NEXT_CUT_WITHOUT_DECISION_SAME_PAGE_AND_PART",
+    "railsNonResolus": [
+     "gauche",
+     "droite"
+    ],
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "raison": "Écartement de paire hors contrat : 1490.5 mm (HIGH_INVALID, admissible 1420–1470 mm)."
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "raison": "Écartement de paire hors contrat : 1490.5 mm (HIGH_INVALID, admissible 1420–1470 mm)."
+    }
+   },
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "dernier-recours",
+    "changement": "aucun",
+    "reel": {
+     "stage": "deferred",
+     "reason": "no-anchor"
+    },
+    "hypothese": {
+     "stage": "deferred",
+     "reason": "right:no-qualified-minimum-near-prediction",
+     "appuis": 3,
+     "ecartPrevisionMm": null
+    },
+    "ecartPoseMm": null
+   },
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 2,
+   "gesteValidationS": 0.3,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 91.896,
+     "verticalMm": -1.099,
+     "dist3dMm": 91.902
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 145.064,
+     "verticalMm": 10.336,
+     "dist3dMm": 145.432
+    },
+    "maxDist3dMm": 145.432
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299623.279,
+     "y": 6701061.873,
+     "z": 12.588
+    },
+    "droite": {
+     "x": 299624.428,
+     "y": 6701061.002,
+     "z": 12.703
+    }
+   },
+   "ombres": {
+    "voie": {
+     "posable": false,
+     "raison": "differe:no-anchor",
+     "ecartMm": null,
+     "jugement": "abstenue"
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 470,
+   "classe": "differee",
+   "dansEcho": true,
+   "dansJournal": true,
+   "visitesEcho": 1,
+   "motifDiffere": {
+    "statut": "DEFERRED_UNRESOLVED",
+    "transition": "NEXT_CUT_WITHOUT_DECISION_SAME_PAGE_AND_PART",
+    "railsNonResolus": [
+     "gauche",
+     "droite"
+    ],
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "raison": "Écartement de paire hors contrat : 1488.6 mm (HIGH_INVALID, admissible 1420–1470 mm)."
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "raison": "Écartement de paire hors contrat : 1488.6 mm (HIGH_INVALID, admissible 1420–1470 mm)."
+    }
+   },
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "dernier-recours",
+    "changement": "aucun",
+    "reel": {
+     "stage": "deferred",
+     "reason": "no-anchor"
+    },
+    "hypothese": {
+     "stage": "deferred",
+     "reason": "right:no-qualified-minimum-near-prediction",
+     "appuis": 4,
+     "ecartPrevisionMm": null
+    },
+    "ecartPoseMm": null
+   },
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 2,
+   "gesteValidationS": 0.1,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 81.347,
+     "verticalMm": -4.463,
+     "dist3dMm": 81.47
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 143.382,
+     "verticalMm": 9.387,
+     "dist3dMm": 143.689
+    },
+    "maxDist3dMm": 143.689
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299623.907,
+     "y": 6701062.684,
+     "z": 12.585
+    },
+    "droite": {
+     "x": 299625.051,
+     "y": 6701061.821,
+     "z": 12.702
+    }
+   },
+   "ombres": {
+    "voie": {
+     "posable": false,
+     "raison": "differe:no-anchor",
+     "ecartMm": null,
+     "jugement": "abstenue"
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 471,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 3.1,
+   "gesteValidationS": 0.3,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.322,
+     "lateralMm": 70.518,
+     "verticalMm": -13.436,
+     "dist3dMm": 71.787
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.322,
+     "lateralMm": 65.381,
+     "verticalMm": -4.9,
+     "dist3dMm": 65.565
+    },
+    "maxDist3dMm": 71.787
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299624.522,
+     "y": 6701063.506,
+     "z": 12.581
+    },
+    "droite": {
+     "x": 299625.671,
+     "y": 6701062.644,
+     "z": 12.699
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 472,
+   "classe": "differee",
+   "dansEcho": true,
+   "dansJournal": true,
+   "visitesEcho": 1,
+   "motifDiffere": {
+    "statut": "DEFERRED_UNRESOLVED",
+    "transition": "NEXT_CUT_WITHOUT_DECISION_SAME_PAGE_AND_PART",
+    "railsNonResolus": [
+     "gauche",
+     "droite"
+    ],
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "raison": "Écartement de paire hors contrat : 1490.3 mm (HIGH_INVALID, admissible 1420–1470 mm)."
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "raison": "Écartement de paire hors contrat : 1490.3 mm (HIGH_INVALID, admissible 1420–1470 mm)."
+    }
+   },
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "dernier-recours",
+    "changement": "pose-ajoutee",
+    "reel": {
+     "stage": "deferred",
+     "reason": "no-anchor"
+    },
+    "hypothese": {
+     "stage": "choice",
+     "reason": null,
+     "appuis": 2,
+     "ecartPrevisionMm": null
+    },
+    "ecartPoseMm": null
+   },
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 2.4,
+   "gesteValidationS": 0.2,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 84.884,
+     "verticalMm": -11.561,
+     "dist3dMm": 85.668
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 145.41,
+     "verticalMm": 3.433,
+     "dist3dMm": 145.45
+    },
+    "maxDist3dMm": 145.45
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299625.135,
+     "y": 6701064.328,
+     "z": 12.58
+    },
+    "droite": {
+     "x": 299626.286,
+     "y": 6701063.47,
+     "z": 12.697
+    }
+   },
+   "ombres": {
+    "voie": {
+     "posable": false,
+     "raison": "differe:no-anchor",
+     "ecartMm": null,
+     "jugement": "abstenue"
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 473,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 2.8,
+   "gesteValidationS": 0.3,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.013,
+     "lateralMm": -2.479,
+     "verticalMm": -2.86,
+     "dist3dMm": 3.785
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.013,
+     "lateralMm": 0.149,
+     "verticalMm": 2.213,
+     "dist3dMm": 2.218
+    },
+    "maxDist3dMm": 3.785
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299625.749,
+     "y": 6701065.15,
+     "z": 12.571
+    },
+    "droite": {
+     "x": 299626.901,
+     "y": 6701064.296,
+     "z": 12.695
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 474,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 2.1,
+   "gesteValidationS": 0.1,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.385,
+     "lateralMm": -6.275,
+     "verticalMm": -0.94,
+     "dist3dMm": 6.357
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.385,
+     "lateralMm": -1.599,
+     "verticalMm": 2.558,
+     "dist3dMm": 3.041
+    },
+    "maxDist3dMm": 6.357
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299626.36,
+     "y": 6701065.974,
+     "z": 12.571
+    },
+    "droite": {
+     "x": 299627.515,
+     "y": 6701065.123,
+     "z": 12.694
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 475,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 2.3,
+   "gesteValidationS": 0.2,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.018,
+     "lateralMm": 1.663,
+     "verticalMm": -6.528,
+     "dist3dMm": 6.736
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.018,
+     "lateralMm": 0.343,
+     "verticalMm": -1.67,
+     "dist3dMm": 1.705
+    },
+    "maxDist3dMm": 6.736
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299626.961,
+     "y": 6701066.805,
+     "z": 12.564
+    },
+    "droite": {
+     "x": 299628.123,
+     "y": 6701065.955,
+     "z": 12.688
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 476,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 3.1,
+   "gesteValidationS": 0.4,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.201,
+     "lateralMm": -3.903,
+     "verticalMm": -5.384,
+     "dist3dMm": 6.653
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.201,
+     "lateralMm": -1.577,
+     "verticalMm": 2.127,
+     "dist3dMm": 2.655
+    },
+    "maxDist3dMm": 6.653
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299627.567,
+     "y": 6701067.633,
+     "z": 12.564
+    },
+    "droite": {
+     "x": 299628.729,
+     "y": 6701066.789,
+     "z": 12.689
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 477,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "PASS_NO_DECISION",
+   "statutEcho": "partial",
+   "referenceHumaine": "sans-reference",
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 478,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 3.8,
+   "gesteValidationS": 0.1,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.134,
+     "lateralMm": -3.234,
+     "verticalMm": -0.66,
+     "dist3dMm": 3.303
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.134,
+     "lateralMm": -1.318,
+     "verticalMm": 5.6,
+     "dist3dMm": 5.754
+    },
+    "maxDist3dMm": 5.754
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299628.767,
+     "y": 6701069.297,
+     "z": 12.562
+    },
+    "droite": {
+     "x": 299629.934,
+     "y": 6701068.46,
+     "z": 12.684
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 479,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_LEFT_ONLY",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 6.5,
+   "gesteValidationS": 0.8,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.129,
+     "lateralMm": 0.11,
+     "verticalMm": -2.99,
+     "dist3dMm": 2.995
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 0,
+     "verticalMm": 0,
+     "dist3dMm": 0
+    },
+    "maxDist3dMm": 2.995
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 299629.361,
+     "y": 6701070.132,
+     "z": 12.557
+    },
+    "droite": {
+     "x": 299630.533,
+     "y": 6701069.298,
+     "z": 12.679
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 1543,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 81
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 78
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "garde-premier-passage",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": {
+     "stage": "first-pass",
+     "reason": null,
+     "appuis": 2,
+     "ecartPrevisionMm": null
+    },
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.023,
+     "lateralMm": -45.624,
+     "verticalMm": -2.144,
+     "dist3dMm": 45.674
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.023,
+     "lateralMm": 2.305,
+     "verticalMm": -3.663,
+     "dist3dMm": 4.328
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 1544,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 81
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.063,
+     "lateralMm": -44.557,
+     "verticalMm": -3.888,
+     "dist3dMm": 44.726
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.063,
+     "lateralMm": 2.241,
+     "verticalMm": -2.394,
+     "dist3dMm": 3.28
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 1545,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 77
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 79
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.189,
+     "lateralMm": -44.396,
+     "verticalMm": 1.265,
+     "dist3dMm": 44.414
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.189,
+     "lateralMm": 9.457,
+     "verticalMm": -2.456,
+     "dist3dMm": 9.772
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 1546,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 84
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 73
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.021,
+     "lateralMm": -43.653,
+     "verticalMm": -1.122,
+     "dist3dMm": 43.668
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.021,
+     "lateralMm": 5.775,
+     "verticalMm": -5.186,
+     "dist3dMm": 7.762
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 1547,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 78
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": false,
+     "confiance": 76
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.149,
+     "lateralMm": -43.905,
+     "verticalMm": -4.125,
+     "dist3dMm": 44.099
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.149,
+     "lateralMm": 4.464,
+     "verticalMm": -12.889,
+     "dist3dMm": 13.641
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 1548,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 64
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "window",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.039,
+     "lateralMm": -41.696,
+     "verticalMm": -1.434,
+     "dist3dMm": 41.721
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.039,
+     "lateralMm": 3.638,
+     "verticalMm": -4.869,
+     "dist3dMm": 6.078
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 1549,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 79
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 78
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.178,
+     "lateralMm": -42.502,
+     "verticalMm": -2.302,
+     "dist3dMm": 42.564
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.178,
+     "lateralMm": 7.574,
+     "verticalMm": -7.218,
+     "dist3dMm": 10.464
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 1550,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 76
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 72
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.078,
+     "lateralMm": -40.121,
+     "verticalMm": -2.308,
+     "dist3dMm": 40.187
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.078,
+     "lateralMm": 18.535,
+     "verticalMm": -5.82,
+     "dist3dMm": 19.427
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 1551,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 78
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 76
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.033,
+     "lateralMm": -36.271,
+     "verticalMm": -4.295,
+     "dist3dMm": 36.525
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.033,
+     "lateralMm": 19.021,
+     "verticalMm": -7.069,
+     "dist3dMm": 20.292
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 1552,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 77
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.142,
+     "lateralMm": -37.026,
+     "verticalMm": -1.546,
+     "dist3dMm": 37.059
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.142,
+     "lateralMm": 14.239,
+     "verticalMm": -4.762,
+     "dist3dMm": 15.015
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 2607,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "crossing",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.048,
+     "lateralMm": -14.575,
+     "verticalMm": -2.08,
+     "dist3dMm": 14.723
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.048,
+     "lateralMm": 35.251,
+     "verticalMm": -0.74,
+     "dist3dMm": 35.258
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 2608,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "choice",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.06,
+     "lateralMm": -17.939,
+     "verticalMm": -2.07,
+     "dist3dMm": 18.058
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.06,
+     "lateralMm": 33.621,
+     "verticalMm": -2.095,
+     "dist3dMm": 33.687
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 2609,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "choice",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.048,
+     "lateralMm": -22.887,
+     "verticalMm": -4.407,
+     "dist3dMm": 23.307
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.048,
+     "lateralMm": 40.667,
+     "verticalMm": 1.228,
+     "dist3dMm": 40.686
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 2610,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "choice",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.045,
+     "lateralMm": -14.578,
+     "verticalMm": -3.048,
+     "dist3dMm": 14.893
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.045,
+     "lateralMm": 35.272,
+     "verticalMm": -1.164,
+     "dist3dMm": 35.291
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 2611,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 78
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "garde-premier-passage",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": {
+     "stage": "first-pass",
+     "reason": null,
+     "appuis": 2,
+     "ecartPrevisionMm": null
+    },
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.019,
+     "lateralMm": -10.237,
+     "verticalMm": -0.763,
+     "dist3dMm": 10.265
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.019,
+     "lateralMm": 36.499,
+     "verticalMm": -0.254,
+     "dist3dMm": 36.5
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 2613,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 77
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.039,
+     "lateralMm": -12.644,
+     "verticalMm": -4.403,
+     "dist3dMm": 13.389
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.039,
+     "lateralMm": 34.298,
+     "verticalMm": 1.333,
+     "dist3dMm": 34.324
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 3351,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "crossing",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.026,
+     "lateralMm": -38.616,
+     "verticalMm": -8.633,
+     "dist3dMm": 39.569
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.026,
+     "lateralMm": -0.976,
+     "verticalMm": 2.536,
+     "dist3dMm": 2.718
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 3352,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "choice",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.118,
+     "lateralMm": -40.737,
+     "verticalMm": -8.03,
+     "dist3dMm": 41.521
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.118,
+     "lateralMm": 4.209,
+     "verticalMm": 0.675,
+     "dist3dMm": 4.264
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 3353,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 76
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.098,
+     "lateralMm": -45.408,
+     "verticalMm": -9.504,
+     "dist3dMm": 46.392
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.098,
+     "lateralMm": 1.733,
+     "verticalMm": -0.722,
+     "dist3dMm": 1.88
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 3354,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 75
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.138,
+     "lateralMm": -34.707,
+     "verticalMm": -7.424,
+     "dist3dMm": 35.492
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.138,
+     "lateralMm": 2.516,
+     "verticalMm": 0.59,
+     "dist3dMm": 2.588
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 3355,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 67
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.016,
+     "lateralMm": -37.82,
+     "verticalMm": -10.817,
+     "dist3dMm": 39.337
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.016,
+     "lateralMm": 6.728,
+     "verticalMm": -7.26,
+     "dist3dMm": 9.898
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 3356,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 78
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "choice",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.106,
+     "lateralMm": -37.046,
+     "verticalMm": -9.451,
+     "dist3dMm": 38.233
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.106,
+     "lateralMm": 17.815,
+     "verticalMm": -8.402,
+     "dist3dMm": 19.697
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 3357,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 79
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.04,
+     "lateralMm": -39.295,
+     "verticalMm": -10.688,
+     "dist3dMm": 40.722
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.04,
+     "lateralMm": 0.76,
+     "verticalMm": 1.775,
+     "dist3dMm": 1.931
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 3358,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 74
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "choice",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.017,
+     "lateralMm": -45.21,
+     "verticalMm": -4.75,
+     "dist3dMm": 45.459
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.017,
+     "lateralMm": 0.781,
+     "verticalMm": 1.352,
+     "dist3dMm": 1.561
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 3494,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_LEFT_ONLY",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 5.3,
+   "gesteValidationS": 0.9,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.025,
+     "lateralMm": 1.318,
+     "verticalMm": 3.87,
+     "dist3dMm": 4.088
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 0,
+     "verticalMm": 0,
+     "dist3dMm": 0
+    },
+    "maxDist3dMm": 4.088
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 302103.42,
+     "y": 6702417.454,
+     "z": 10.083
+    },
+    "droite": {
+     "x": 302103.401,
+     "y": 6702416.013,
+     "z": 9.961
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 3495,
+   "classe": "differee",
+   "dansEcho": true,
+   "dansJournal": true,
+   "visitesEcho": 2,
+   "motifDiffere": {
+    "statut": "DEFERRED_UNRESOLVED",
+    "transition": "NEXT_CUT_WITHOUT_DECISION_SAME_PAGE_AND_PART",
+    "railsNonResolus": [
+     "gauche",
+     "droite"
+    ],
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "raison": "Écartement de paire hors contrat : 1682.3 mm (HIGH_INVALID, admissible 1420–1470 mm)."
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "raison": "Écartement de paire hors contrat : 1682.3 mm (HIGH_INVALID, admissible 1420–1470 mm)."
+    }
+   },
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "dernier-recours",
+    "changement": "pose-ajoutee",
+    "reel": {
+     "stage": "deferred",
+     "reason": "no-anchor"
+    },
+    "hypothese": {
+     "stage": "window",
+     "reason": null,
+     "appuis": 2,
+     "ecartPrevisionMm": 9.5
+    },
+    "ecartPoseMm": null
+   },
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_LEFT_ONLY",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 2,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 3,
+   "gesteValidationS": 0.9,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.028,
+     "lateralMm": -133.227,
+     "verticalMm": -57.295,
+     "dist3dMm": 145.025
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 0,
+     "verticalMm": 0,
+     "dist3dMm": 0
+    },
+    "maxDist3dMm": 145.025
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 302104.472,
+     "y": 6702417.435,
+     "z": 10.089
+    },
+    "droite": {
+     "x": 302104.448,
+     "y": 6702415.997,
+     "z": 9.967
+    }
+   },
+   "ombres": {
+    "voie": {
+     "posable": false,
+     "raison": "differe:no-anchor",
+     "ecartMm": null,
+     "jugement": "abstenue"
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 3496,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_LEFT_ONLY",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 3.1,
+   "gesteValidationS": 0.9,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.04,
+     "lateralMm": -3.427,
+     "verticalMm": 4.107,
+     "dist3dMm": 5.35
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 0,
+     "verticalMm": 0,
+     "dist3dMm": 0
+    },
+    "maxDist3dMm": 5.35
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 302105.524,
+     "y": 6702417.419,
+     "z": 10.094
+    },
+    "droite": {
+     "x": 302105.496,
+     "y": 6702415.98,
+     "z": 9.972
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 3497,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 2.9,
+   "gesteValidationS": 0.2,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.02,
+     "lateralMm": 0.111,
+     "verticalMm": 5.66,
+     "dist3dMm": 5.661
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.02,
+     "lateralMm": 0.818,
+     "verticalMm": -2.511,
+     "dist3dMm": 2.641
+    },
+    "maxDist3dMm": 5.661
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 302106.576,
+     "y": 6702417.399,
+     "z": 10.1
+    },
+    "droite": {
+     "x": 302106.543,
+     "y": 6702415.96,
+     "z": 9.977
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 4214,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 72
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 78
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "garde-premier-passage",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": {
+     "stage": "first-pass",
+     "reason": null,
+     "appuis": 2,
+     "ecartPrevisionMm": null
+    },
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.08,
+     "lateralMm": 65.361,
+     "verticalMm": -6.115,
+     "dist3dMm": 65.647
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.08,
+     "lateralMm": 52.2,
+     "verticalMm": -0.316,
+     "dist3dMm": 52.201
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 4216,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "window",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 76.776,
+     "verticalMm": -7.285,
+     "dist3dMm": 77.121
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 137.771,
+     "verticalMm": 2.273,
+     "dist3dMm": 137.789
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 4217,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "choice",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 78.574,
+     "verticalMm": -5.988,
+     "dist3dMm": 78.802
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 136.691,
+     "verticalMm": 6.886,
+     "dist3dMm": 136.864
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 4223,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "crossing",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 81.159,
+     "verticalMm": -2.409,
+     "dist3dMm": 81.195
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 131.231,
+     "verticalMm": 14.249,
+     "dist3dMm": 132.002
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 4226,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "choice",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 74.759,
+     "verticalMm": -7.999,
+     "dist3dMm": 75.186
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 136.691,
+     "verticalMm": 6.886,
+     "dist3dMm": 136.864
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 4227,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 70
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 78
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "garde-premier-passage",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": {
+     "stage": "first-pass",
+     "reason": null,
+     "appuis": 2,
+     "ecartPrevisionMm": null
+    },
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.002,
+     "lateralMm": -2.482,
+     "verticalMm": -0.704,
+     "dist3dMm": 2.58
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.002,
+     "lateralMm": 73.952,
+     "verticalMm": -2.62,
+     "dist3dMm": 73.999
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 4229,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 73
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 78
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.036,
+     "lateralMm": -2.059,
+     "verticalMm": -2.369,
+     "dist3dMm": 3.139
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.036,
+     "lateralMm": 2.389,
+     "verticalMm": 3.129,
+     "dist3dMm": 3.937
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 5151,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 81
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "garde-premier-passage",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": {
+     "stage": "first-pass",
+     "reason": null,
+     "appuis": 2,
+     "ecartPrevisionMm": null
+    },
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.142,
+     "lateralMm": -37.511,
+     "verticalMm": -0.073,
+     "dist3dMm": 37.512
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.142,
+     "lateralMm": 25.221,
+     "verticalMm": -3.788,
+     "dist3dMm": 25.504
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 5152,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 72
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 71
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.025,
+     "lateralMm": -34.267,
+     "verticalMm": 0.648,
+     "dist3dMm": 34.273
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.025,
+     "lateralMm": 26.427,
+     "verticalMm": -2.455,
+     "dist3dMm": 26.541
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 5153,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "window",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.017,
+     "lateralMm": -29.935,
+     "verticalMm": -0.427,
+     "dist3dMm": 29.938
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.017,
+     "lateralMm": 15.89,
+     "verticalMm": -12.316,
+     "dist3dMm": 20.105
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 5154,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 68
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 63
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.197,
+     "lateralMm": -28.729,
+     "verticalMm": -4.384,
+     "dist3dMm": 29.062
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.197,
+     "lateralMm": 21.941,
+     "verticalMm": -6.074,
+     "dist3dMm": 22.767
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 5155,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 75
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 71
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.204,
+     "lateralMm": -39.535,
+     "verticalMm": -4.266,
+     "dist3dMm": 39.765
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.204,
+     "lateralMm": 8.97,
+     "verticalMm": -1.208,
+     "dist3dMm": 9.053
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 5156,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 75
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 76
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.101,
+     "lateralMm": -37.333,
+     "verticalMm": -1.636,
+     "dist3dMm": 37.369
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.101,
+     "lateralMm": 12.567,
+     "verticalMm": -5.27,
+     "dist3dMm": 13.628
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 5798,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 74
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "crossing",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": -24.728,
+     "verticalMm": -2.407,
+     "dist3dMm": 24.844
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 37.155,
+     "verticalMm": 3.598,
+     "dist3dMm": 37.328
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 5801,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "window",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": -29.785,
+     "verticalMm": 6.689,
+     "dist3dMm": 30.527
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 42.613,
+     "verticalMm": 13.205,
+     "dist3dMm": 44.612
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 7620,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": false,
+     "confiance": 69
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 75
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "garde-premier-passage",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": {
+     "stage": "first-pass",
+     "reason": null,
+     "appuis": 2,
+     "ecartPrevisionMm": null
+    },
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.023,
+     "lateralMm": -26.2,
+     "verticalMm": -13.973,
+     "dist3dMm": 29.694
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.023,
+     "lateralMm": 30.68,
+     "verticalMm": -2.666,
+     "dist3dMm": 30.796
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 7621,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 74
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 78
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.017,
+     "lateralMm": -0.844,
+     "verticalMm": 0.082,
+     "dist3dMm": 0.849
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.017,
+     "lateralMm": 2.643,
+     "verticalMm": -1.949,
+     "dist3dMm": 3.284
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 7631,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 72
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "dernier-recours",
+    "changement": "pose-ajoutee",
+    "reel": {
+     "stage": "deferred",
+     "reason": "no-anchor"
+    },
+    "hypothese": {
+     "stage": "window",
+     "reason": null,
+     "appuis": 5,
+     "ecartPrevisionMm": 10.8
+    },
+    "ecartPoseMm": null
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": -32.874,
+     "verticalMm": 12.769,
+     "dist3dMm": 35.267
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 35.038,
+     "verticalMm": 11.977,
+     "dist3dMm": 37.028
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 7647,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 72
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 78
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "garde-premier-passage",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": {
+     "stage": "first-pass",
+     "reason": null,
+     "appuis": 2,
+     "ecartPrevisionMm": null
+    },
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": -20.242,
+     "verticalMm": 10.298,
+     "dist3dMm": 22.711
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 46.444,
+     "verticalMm": 4.487,
+     "dist3dMm": 46.66
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 7648,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 78
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 78
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": -19.543,
+     "verticalMm": 7.638,
+     "dist3dMm": 20.983
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 46.931,
+     "verticalMm": 3.239,
+     "dist3dMm": 47.042
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 7649,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "window",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.08,
+     "lateralMm": 37.714,
+     "verticalMm": -11.671,
+     "dist3dMm": 39.479
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.08,
+     "lateralMm": 23.951,
+     "verticalMm": -3.852,
+     "dist3dMm": 24.259
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 7650,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": false,
+     "confiance": 71
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 72
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": -23.945,
+     "verticalMm": -3.759,
+     "dist3dMm": 24.238
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 43.841,
+     "verticalMm": 5.63,
+     "dist3dMm": 44.201
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 7651,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 76
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "window",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": -28.281,
+     "verticalMm": 2.554,
+     "dist3dMm": 28.396
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 37.324,
+     "verticalMm": 8.697,
+     "dist3dMm": 38.323
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8033,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 72
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 75
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "garde-premier-passage",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": {
+     "stage": "first-pass",
+     "reason": null,
+     "appuis": 2,
+     "ecartPrevisionMm": null
+    },
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": -26.42,
+     "verticalMm": 5.905,
+     "dist3dMm": 27.072
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 43.037,
+     "verticalMm": 4.741,
+     "dist3dMm": 43.297
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8034,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 80
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": -27.628,
+     "verticalMm": -1.544,
+     "dist3dMm": 27.671
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 43.355,
+     "verticalMm": -1.607,
+     "dist3dMm": 43.385
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8035,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 73
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 78
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.006,
+     "lateralMm": 31.937,
+     "verticalMm": -3.59,
+     "dist3dMm": 32.138
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.006,
+     "lateralMm": 22.174,
+     "verticalMm": -2.244,
+     "dist3dMm": 22.287
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8036,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "choice",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.144,
+     "lateralMm": 34.788,
+     "verticalMm": -19.542,
+     "dist3dMm": 39.901
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.144,
+     "lateralMm": 27.613,
+     "verticalMm": -9.184,
+     "dist3dMm": 29.1
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8037,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 81
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "window",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": -34.221,
+     "verticalMm": 2.125,
+     "dist3dMm": 34.287
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 35.737,
+     "verticalMm": 6.496,
+     "dist3dMm": 36.322
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8101,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 82
+    },
+    "droite": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 80
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "garde-premier-passage",
+    "changement": "aucun",
+    "reel": {
+     "stage": "first-pass",
+     "reason": null
+    },
+    "hypothese": {
+     "stage": "first-pass",
+     "reason": null,
+     "appuis": 2,
+     "ecartPrevisionMm": null
+    },
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": -25.175,
+     "verticalMm": 5.164,
+     "dist3dMm": 25.699
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 41.81,
+     "verticalMm": 3.831,
+     "dist3dMm": 41.985
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8102,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "choice",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": -14.951,
+     "verticalMm": 5.993,
+     "dist3dMm": 16.107
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 42.212,
+     "verticalMm": 4.275,
+     "dist3dMm": 42.428
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8103,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "window",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": -27.367,
+     "verticalMm": 3.846,
+     "dist3dMm": 27.636
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 43.037,
+     "verticalMm": 4.741,
+     "dist3dMm": 43.297
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8230,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "crossing",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.014,
+     "lateralMm": -12.714,
+     "verticalMm": -8.016,
+     "dist3dMm": 15.03
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0.014,
+     "lateralMm": 35.294,
+     "verticalMm": -10.072,
+     "dist3dMm": 36.703
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8231,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "choice",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": -17.837,
+     "verticalMm": -8.825,
+     "dist3dMm": 19.9
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 38.722,
+     "verticalMm": -10.749,
+     "dist3dMm": 40.186
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8232,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "candidate",
+     "motif": "candidate",
+     "convention": true,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "ambiguity",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "window",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.005,
+     "lateralMm": -18.931,
+     "verticalMm": -9.35,
+     "dist3dMm": 21.114
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.005,
+     "lateralMm": 42.023,
+     "verticalMm": -8.886,
+     "dist3dMm": 42.952
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8233,
+   "classe": "posee",
+   "dansEcho": false,
+   "dansJournal": true,
+   "visitesEcho": 0,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "gauge-out-of-contract",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "inchange",
+    "changement": "aucun",
+    "reel": {
+     "stage": "choice",
+     "reason": null
+    },
+    "hypothese": null,
+    "ecartPoseMm": 0
+   },
+   "pose": {
+    "source": "record"
+   },
+   "arianeDeplacement": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.067,
+     "lateralMm": -14.389,
+     "verticalMm": -6.092,
+     "dist3dMm": 15.625
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.067,
+     "lateralMm": 41.874,
+     "verticalMm": -5.924,
+     "dist3dMm": 42.291
+    }
+   },
+   "referenceHumaine": "absent-de-l-echo",
+   "etiquetteEcho": null,
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8676,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "PASS_NO_DECISION",
+   "statutEcho": "partial",
+   "referenceHumaine": "sans-reference",
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8677,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 2,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "PASS_NO_DECISION",
+   "statutEcho": "partial",
+   "referenceHumaine": "sans-reference",
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8678,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 2,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_LEFT_ONLY",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 2,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 1.7,
+   "gesteValidationS": 0.8,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.002,
+     "lateralMm": -1.681,
+     "verticalMm": -4.198,
+     "dist3dMm": 4.522
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 0,
+     "verticalMm": 0,
+     "dist3dMm": 0
+    },
+    "maxDist3dMm": 4.522
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 306579.396,
+     "y": 6700342.329,
+     "z": 4.054
+    },
+    "droite": {
+     "x": 306579.25,
+     "y": 6700340.9,
+     "z": 4.157
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 8679,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 2,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_LEFT_ONLY",
+   "statutEcho": "partial",
+   "referenceHumaine": "observee",
+   "visiteReference": 2,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 7.2,
+   "gesteValidationS": 0.9,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": -0.022,
+     "lateralMm": 0.023,
+     "verticalMm": -4.715,
+     "dist3dMm": 4.716
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": 0,
+     "lateralMm": 0,
+     "verticalMm": 0,
+     "dist3dMm": 0
+    },
+    "maxDist3dMm": 4.716
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 306580.39,
+     "y": 6700342.228,
+     "z": 4.056
+    },
+    "droite": {
+     "x": 306580.242,
+     "y": 6700340.798,
+     "z": 4.157
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 8680,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 2,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "VALIDATE_CORRECTED_BOTH",
+   "statutEcho": "complete",
+   "referenceHumaine": "observee",
+   "visiteReference": 1,
+   "validationsDeLaVisite": 1,
+   "dureeVisiteS": 2.9,
+   "gesteValidationS": 0.1,
+   "base": "premiere-visite",
+   "ecartHumain": {
+    "gauche": {
+     "repere": "profil",
+     "longitudinalMm": 0.056,
+     "lateralMm": -0.063,
+     "verticalMm": -6.441,
+     "dist3dMm": 6.442
+    },
+    "droite": {
+     "repere": "profil",
+     "longitudinalMm": -0.056,
+     "lateralMm": -0.93,
+     "verticalMm": -2.166,
+     "dist3dMm": 2.358
+    },
+    "maxDist3dMm": 6.442
+   },
+   "poseAriane": null,
+   "poseHumaineFinale": {
+    "gauche": {
+     "x": 306581.385,
+     "y": 6700342.13,
+     "z": 4.053
+    },
+    "droite": {
+     "x": 306581.24,
+     "y": 6700340.699,
+     "z": 4.158
+    }
+   }
+  },
+  {
+   "partie": 15,
+   "cut": 8681,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 2,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "PASS_NO_DECISION",
+   "statutEcho": "partial",
+   "referenceHumaine": "sans-reference",
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8682,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "PASS_NO_DECISION",
+   "statutEcho": "partial",
+   "referenceHumaine": "sans-reference",
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8683,
+   "classe": "hors-journal",
+   "dansEcho": true,
+   "dansJournal": false,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": null,
+   "b1Ombre": null,
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "PASS_NO_DECISION",
+   "statutEcho": "partial",
+   "referenceHumaine": "sans-reference",
+   "base": null
+  },
+  {
+   "partie": 15,
+   "cut": 8684,
+   "classe": "autre",
+   "dansEcho": true,
+   "dansJournal": true,
+   "visitesEcho": 1,
+   "motifDiffere": null,
+   "propositionMoteur": {
+    "gauche": {
+     "statut": "unresolved",
+     "motif": "input",
+     "convention": null,
+     "confiance": 0
+    },
+    "droite": {
+     "statut": "unresolved",
+     "motif": "input",
+     "convention": null,
+     "confiance": 0
+    }
+   },
+   "b1Ombre": {
+    "etat": "calcule",
+    "regle": "dernier-recours",
+    "changement": "aucun",
+    "reel": {
+     "stage": "deferred",
+     "reason": "no-anchor"
+    },
+    "hypothese": {
+     "stage": "deferred",
+     "reason": "left:frame right:frame",
+     "appuis": 2,
+     "ecartPrevisionMm": null
+    },
+    "ecartPoseMm": null
+   },
+   "pose": {
+    "source": null
+   },
+   "etiquetteEcho": "PASS_NO_DECISION",
+   "statutEcho": "partial",
+   "referenceHumaine": "sans-reference",
+   "base": null,
+   "ombres": {
+    "voie": {
+     "posable": false,
+     "raison": "differe:no-anchor",
+     "ecartMm": null,
+     "jugement": "abstenue"
+    }
+   }
+  }
+ ]
+}
