@@ -2,8 +2,23 @@
   "format": "ariane-collecte-v1",
   "version_ariane": "5",
   "origine": "Deux sessions Écho du 04/11/2026 (parties 13-14-15 à 18:28-18:38 Paris, partie 10 à 19:04-19:05 Paris)",
-  "contenu": "Travail manuel de l'opérateur : 132 validations et 72 cuts marqués vus sur les parties 13, 14, 15 ; partie 10 : 20 validations en 65 s sur un bloc de cuts laissés par Ariane. Les 4 envois cumulatifs plus anciens de la même session 13-14-15 sont inclus dans le dernier.",
+  "contenu": "Travail manuel de l'opérateur : 132 validations et 72 cuts marqués vus sur les parties 13, 14, 15 (session 13-14-15 : 5 envois, segments 01 à 07 portant les NUAGES, plus l'export final de 17:38 qui ne porte que 41 nuages sur 1 559) ; partie 10 : 20 validations en 65 s. IL FAUT LES CINQ ENVOIS POUR AVOIR LES NUAGES.",
   "fichiers": [
+    {
+      "chemin": "raw/2380eb76-ariane-echo-partie13-14-2026-11-04T17-34-22-auto.zip",
+      "taille": 10685252,
+      "sha256": "1a41fb556b2d1dc6fd03392ddd2b3162aed82a8c0b8646c38bf56cda511a81e2"
+    },
+    {
+      "chemin": "raw/32f7d460-ariane-echo-partie13-2026-11-04T17-32-11-auto.zip",
+      "taille": 8100466,
+      "sha256": "a203aa5d4851e0d42cd4d0d453c9cffbaca9c484ef3eb6e7a5f2cfeaa40b9e2d"
+    },
+    {
+      "chemin": "raw/b20fac4f-ariane-echo-partie13-2026-11-04T17-30-06-auto.zip",
+      "taille": 5402661,
+      "sha256": "d05ffc2dcffb2cf09d7b795951652856cbaafd5f95a32faf6048e8a017b4c300"
+    },
     {
       "chemin": "raw/c226fb3e-ariane-echo-partie10-2026-11-04T18-05-41.zip",
       "taille": 2646497,
@@ -13,6 +28,11 @@
       "chemin": "raw/df270ae4-ariane-echo-partie13-14-15-2026-11-04T17-38-16.zip",
       "taille": 7582484,
       "sha256": "da78f0c90b5cd0df6aacadea149b4870ab12588ff6df66fa802293f015fc87f9"
+    },
+    {
+      "chemin": "raw/f8da80e4-ariane-echo-partie13-14-15-2026-11-04T17-37-37-auto.zip",
+      "taille": 11901628,
+      "sha256": "2d5c70151f0db95b5f8f8d2781666fdfd8bd5f71dcbdb809ad386ca5063dd1d4"
     }
   ]
 }
