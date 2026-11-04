@@ -1,0 +1,53 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5 (ancien paquet, avant la borne de 45 s)",
+  "origine": "Export lot Orbite du 04/11/2026 22:02:37 (Paris), 9 volumes, données précédentes vidées à 19:13",
+  "contenu": "Constellation des parties 0 à 7 (18:13 à 20:56 UTC) avec un ancien paquet : trois arrêts « ESV a ouvert la partie 0 » à 16 s (3→4, 4→5, 5→6), relances à la main après 507, 708 et 717 s.",
+  "fichiers": [
+    {
+      "chemin": "raw/26778899-ariane-lot-2026-11-04T21-02-37-volume04-sur09.zip",
+      "taille": 15236003,
+      "sha256": "8eb5da1deef89dbf57aa089e3a31fea4b3adf616288867c87a9680daa2b717c9"
+    },
+    {
+      "chemin": "raw/29f74ce0-ariane-lot-2026-11-04T21-02-37-volume09-sur09.zip",
+      "taille": 14457500,
+      "sha256": "4984a9aadadca03c34b98a91640edcc233ad5331bbd9718052f3350a63b89f97"
+    },
+    {
+      "chemin": "raw/3506a4e1-ariane-lot-2026-11-04T21-02-37-volume01-sur09.zip",
+      "taille": 17566103,
+      "sha256": "cb044f17029948d21a2bf78797aa277d387565418a7541a9f48bdc790f713c31"
+    },
+    {
+      "chemin": "raw/37b6cf9c-ariane-lot-2026-11-04T21-02-37-volume08-sur09.zip",
+      "taille": 15416394,
+      "sha256": "afce5d2c2c459565c8652e026de0c2074429499bc3c1c6b1a55dafb3f1e3ff5e"
+    },
+    {
+      "chemin": "raw/3924af59-ariane-lot-2026-11-04T21-02-37-volume02-sur09.zip",
+      "taille": 15287395,
+      "sha256": "2153d220e65aecec4c1729f904df7e84b8d17bf5ffdc9e572762ca2f2a044141"
+    },
+    {
+      "chemin": "raw/405937ad-ariane-lot-2026-11-04T21-02-37-volume07-sur09.zip",
+      "taille": 15239896,
+      "sha256": "56a613a0281be7445681f0e121b6b3ab5e843efda66e262fa560284ce6191547"
+    },
+    {
+      "chemin": "raw/90fdbb9a-ariane-lot-2026-11-04T21-02-37-volume05-sur09.zip",
+      "taille": 15448318,
+      "sha256": "947962ad1ca7a71778cb452cf6dc931bad9c07daa43eecad655d5f5415ec900f"
+    },
+    {
+      "chemin": "raw/c90f9d9f-ariane-lot-2026-11-04T21-02-37-volume06-sur09.zip",
+      "taille": 15275673,
+      "sha256": "4dce8d8b6ea3096ce14b32899aa0b1337358621630a26d5de17dadf44b30c5cf"
+    },
+    {
+      "chemin": "raw/e7f899be-ariane-lot-2026-11-04T21-02-37-volume03-sur09.zip",
+      "taille": 15364059,
+      "sha256": "ad7412b15c81b84e79132e7d6a89f75952df8b7a5fc5de31bffb0b7725b97289"
+    }
+  ]
+}
