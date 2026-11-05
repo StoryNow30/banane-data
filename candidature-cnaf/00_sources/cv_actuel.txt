@@ -1,0 +1,58 @@
+Michael Leites Amorim
+DATA ANALYST · TRAITEMENT DE DONNÉES GÉOSPATIALES & LiDAR
+Ozoir-la-Ferrière, France · +33 6 46 16 14 95 · amorimleitesmichael@gmail.com
+Data analyst avec une pratique quotidienne de la donnée massive en environnement de production : contrôle qualité,
+automatisation de pipelines (Python/PDAL), requêtage SQL/PostGIS et livraison de jeux de données fiables à des
+systèmes et utilisateurs métier. Spécialisé dans le traitement de données géospatiales et LiDAR.
+
+
+EXPÉRIENCE PROFESSIONNELLE
+
+Spécialiste en traitement de données 3D
+Trealis (Eurailscout France), Paris · OCT. 2025 – AUJOURD'HUI
+• Contrôle qualité de nuages de points LiDAR (LAS/LAZ) à grande échelle — rails, caténaires, gabarit — sur l’ensemble
+du réseau ferré national, pour le compte de SNCF Réseau
+• Diagnostic et correction des cas d’échec d’un algorithme de détection automatique (occlusions liées au ballast, à la
+végétation, aux voies contiguës), via une interface de fiabilisation dédiée
+• Développement de pipelines PDAL/Python pour l’automatisation du traitement de données issues de relevés mobiles,
+réduisant la charge de traitement manuel
+• Structuration et interrogation de bases de données spatiales (PostgreSQL/PostGIS) pour fiabiliser les flux entre
+environnements de traitement
+• Contrôle qualité final et validation de conformité des livrables (CloudCompare, ArcGIS Pro) avant transmission au
+client
+
+Stage — Préparation de données pour l’intelligence artificielle
+Laboratoire Médiations (Sorbonne Université), Paris · JUIN – AOÛT 2025
+• Exploitation de données LiDAR HD (IGN, format LAS) pour la détection d’anomalies topographiques
+• Annotation manuelle de données sous Label Studio pour constituer un corpus d’entraînement
+• Structuration et archivage d’un jeu de données destiné à l’entraînement d’un modèle de détection d’objets
+
+Stage — Analyse de données territoriales
+Conseil Régional Île-de-France, Saint-Ouen-sur-Seine · JUIN – JUILLET 2024
+• Analyse de données satellite (imagerie MODIS, Landsat) pour la cartographie des îlots de chaleur et le suivi de la
+végétation (indices NDVI/NDWI)
+• Restitution des résultats via des applications web interactives (ArcGIS StoryMaps, Builder)
+
+
+AUTRES EXPÉRIENCES
+Carrefour Location, Pontault-Combault · JUILLET – SEPT. 2025
+Agent de location
+Super U · JANV. 2020 – AVRIL 2024
+Employé polyvalent, puis contrat étudiant en parallèle de la licence
+Olivier Stadler Architecte · SEPT. – NOV. 2019 · Stage assistant, AutoCAD/Rhino3D
+Mission de manutention · JUIN – JUILLET 2019 · Manutentionnaire
+AJP · JUILLET 2018 · Manœuvre chantier
+
+STACK TECHNIQUE
+Traitement 3D / LiDAR : CloudCompare · Agisoft Metashape · PDAL · classification, segmentation (LAS/LAZ)
+Programmation & pipelines : Python · PDAL · scripts d’automatisation de traitement
+Bases de données & SIG : PostgreSQL/PostGIS · ArcGIS Pro · ArcGIS Online · QGIS · GRASS GIS
+Visualisation & reporting : Power BI · Tableau · StoryMaps
+
+
+FORMATION
+Licence Géographie et Aménagement, parcours Télédétection et Géomatique · Sorbonne Université · 2022 – 2025
+
+LANGUES
+Français (natif) · Portugais (natif) · Anglais (courant)
+

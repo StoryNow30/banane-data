@@ -1,0 +1,67 @@
+ANNONCE OFFICIELLE (récupérée le 2026-11-05 sur lasecurecrute.fr, URL: https://www.lasecurecrute.fr/offre-emploi/data-analyst-decisionnel--powerbi-azure-/ile-de-france/1086847)
+JSON-LD: datePosted 2026-11-04, validThrough 2026-11-12, identifier LSR NVHADD130588, hiringOrganization CNAF, jobLocation Paris (Île de France), jobLocationType TELECOMMUTE
+
+• Data Analyst Décisionnel (PowerBI/Azure)
+Data Analyst Décisionnel (PowerBI/Azure)
+ Publié depuis 1 jour  •  Date limite de candidature 12/11/2026
+• CDI
+• Paris
+• NIVEAU 7
+• Télétravail possible
+• NVHADD130588
+CNAF
+Vous souhaitez rejoindre une équipe expérimentée et mettre vos compétences au service des Allocations Familiales, c'est ici ! 
+Rejoignez-nous et venez participer à l'activité de notre Direction des Politiques familiales et sociales ! 
+Qui sommes-nous ?  
+La Branche famille de la Sécurité Sociale recherche un(e) chargé (e) d'études et de statistiques. 
+La Cnaf (Caisse nationale des allocations familiales), tête de réseau des Caf (101 au total), a pour mission de piloter la politique familiale et l'aide aux populations en situation de précarité ainsi que la politique d'action sociale.  
+La Branche famille contribue non seulement au développement des modes d'accueil des jeunes enfants mais également à la vie sociale locale. Elle organise ou co-finance avec les collectivités locales, les associations ou encore des entreprises des activités de loisirs, d'accompagnement des parents ou encore des aides aux familles en matière de logement. 
+La convention d'objectifs et de gestion pour la période 2023-2027 prévoit l'augmentation de 2Md€ du budget de la branche Famille en matière d'action sociale ainsi que la mise en œuvre de nombreuses réformes réglementaires et financières nécessitant d'adapter le système d'information et les données de pilotage. 
+En intégrant notre organisme, vous aurez l'assurance de participer à une mission de service public tout en bénéficiant de formations et d'un véritable accompagnement vous permettant d'évoluer professionnellement. 
+Le poste est à pourvoir au sein du pôle Maîtrise des activités et des risques (MAR) au sein du département Gestion et financement de l'action sociale (DGFAS). Ce département se compose d'une vingtaine d'experts ; le pôle MAR est composé de 4 conseillers qui contribue au pilotage, à la mise en œuvre et la sécurisation de versement des aides aux partenaires.   
+Les missions du pôle sont centrées sur des activités d'appui au réseau et de maitrise des risques. La personne recrutée contribuera plus spécifiquement à enrichir le pilotage sur l'intégralité du processus métier, à renforcer l'efficience et simplifier les outils, à réaliser des études en lien avec l'activité des AFC ou le contrôle financier. 
+La mission se déroule à la Cnaf (Paris). Quelques déplacements sont à prévoir au sein du réseau des Caf. 
+ Description du poste
+Concrètement votre futur quotidien ? 
+Vos missions seront les suivantes :
+Travailler en transversal sur la sécurisation des activités du processus « Accompagner, maintenir et développer l'activité des partenaires d'action sociale » avec l'ensemble des équipes de la DPFAS et les autres directions de la Cnaf impliquées (DSER, DCF nationale, DSI …) l'objectif de renforcer les capacités de pilotage, de reporting et améliorer l'efficience des outils afin de :
+• Mieux analyser les données,
+• Fiabiliser et consolider les reporting
+• Collecter, mettre en forme et restituer les informations et/ou les données utiles à l'activité
+• Construire, au besoin, les requêtes nécessaires à l'exploitation des données
+• Elaborer, adapter et diffuser des outils pour le réseau des Cafs et participer à leur évolution
+Vous serez donc amené à :
+• Conceptualiser et assurer la maitrise d'ouvrage de tableaux de bord d'aide au pilotage et travailler en coordination avec les équipes du Dgfas sur des sujets de pilotage de l'action sociale de la branche Famille (6 milliards d'euros et 100 000 dossiers de financement)
+• Faire évoluer et développer les bases statistiques (pilotage du contrôle sur place, des actions de formation)
+• Participer à la réalisation d'études en lien avec le pôle financement
+• Collaborer aux activités du pôle et proposer des outils destinés à en améliorer l'efficience
+• Assurer la gestion et l'optimisation des bases documentaires (et notamment adoc_AS).
+ Profil recherché
+ Vos compétences
+Etes-vous notre prochain(e) collaborateur(trice) ? 
+Vous êtes titulaire d'un diplôme de l'enseignement supérieur (bac+4 Statistiques, sciences de la donnée) et possédez une expérience préalable en service d'appui au pilotage au sein de la branche Famille ou des compétences acquises dans le cadre de l'expérience professionnelle. 
+Le chargé(e) d'études et de statistiques doit démontrer diverses connaissances et qualités telles que :  
+• Une connaissance du contexte institutionnel et des enjeux de l'action sociale de la branche Famille 
+• Une très bonne maitrise de Python et/ou SQL sous Databricks 
+• Une appétence prononcée pour le traitement, l'analyse, la diffusion et la fiabilisation des données  
+• Un sens de l'organisation et de la rigueur  
+• Une autonomie ; 
+• De bonnes qualités d'écoute et de compréhension des besoins des Caf; 
+• Un fort esprit de synthèse ; 
+• De bonnes qualités relationnelles, le goût du travail en équipe ;  
+• Des connaissances générales du SID, du fonctionnement des Caf et de leurs métiers,  
+Atout supplémentaire : Connaissance de PowerBI
+ Informations complémentaires
+Quelle sera votre rémunération ?  
+Une rémunération annuelle brute de 40 481€ bruts est proposée. Elle peut être adaptée en fonction de votre expérience et de votre rémunération actuelle. 
+Votre futur environnement de travail ? 
+Intégrer la CNAF, c'est aussi pouvoir bénéficier de nombreux avantages :  
+• Travailler dans Paris à proximité immédiate du parc Montsouris et accessible via le RER B, métro ligne 4 et 6, 
+• Possibilité de télétravail (jusqu'à 3 jours par semaine) 
+• Flexibilité des horaires de travail, 
+• Jusqu'à 20 RTT / an, 
+• Transport : remboursement à 75% de votre abonnement, bénéfice d'un forfait mobilité durable d'un maximum de 700€/an si vous utilisez des modes de transport alternatifs à la voiture individuelle, 
+• Tickets restaurant (pris en charge à hauteur de 60%)  
+• CSE avec des œuvres sociales avantageuses (sport, loisirs, voyages…), 
+• Une prime d'intéressement. 
+Dans le cadre de sa politique de diversité, la CNAF ouvre ses offres d'emploi à toutes les candidatures.
