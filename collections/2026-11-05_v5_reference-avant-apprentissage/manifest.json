@@ -1,0 +1,128 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Lot Constellation du 05/11/2026 (export 12:23:14 Paris, 9 volumes) et envois Écho automatiques de la session de 11:09 (parties 8 à 12)",
+  "contenu": "RÉFÉRENCE « AVANT » demandée par l'opérateur pour mesurer les gains d'apprentissage (CH-053). Parties 8, 9, 10, 11, 12 du 05/11, RÉSERVÉES (manifeste : reçues après sa date, aucune décision de passage en apprentissage) : parties d'examen, à ne pas utiliser pour régler.",
+  "fichiers": [
+    {
+      "chemin": "raw/0f3fa783-ariane-echo-partie9-2026-11-05T10-24-39-auto.zip",
+      "taille": 5345258,
+      "sha256": "a6d4e00434ceafcdd8d7392f9fa13a718a852f21234ba15b29d638d5549ad3ac"
+    },
+    {
+      "chemin": "raw/1d70fc1b-ariane-echo-partie10-2026-11-05T10-47-05-auto.zip",
+      "taille": 7233671,
+      "sha256": "31229825161ca8912d40d0b4c4bb497d4582ca006cf0386a07b0d9a0c060e85b"
+    },
+    {
+      "chemin": "raw/2d020440-ariane-lot-2026-11-05T11-23-14-volume05-sur09.zip",
+      "taille": 15122656,
+      "sha256": "c599b417a40ac5af4d56389a69134ebf93f1062d935e14a7a5319d7103051f7b"
+    },
+    {
+      "chemin": "raw/4beeafec-ariane-echo-partie12-2026-11-05T11-20-24-auto.zip",
+      "taille": 5477572,
+      "sha256": "896799eb3f02fca0658ca8df7270a0a5798f1a8d99e4be09ec9aa2876665a042"
+    },
+    {
+      "chemin": "raw/5c53583a-ariane-echo-partie8-9-2026-11-05T10-18-23-auto.zip",
+      "taille": 4931808,
+      "sha256": "6895ef291bb4a65573b293bbcba37d26a6f94b4bf81a649e2f68f87432285377"
+    },
+    {
+      "chemin": "raw/6b2ea242-ariane-echo-partie9-2026-11-05T10-31-11-auto.zip",
+      "taille": 5219915,
+      "sha256": "6bf7d736bf83e56774c59c1407afccd306a83dcc716a49b350666b4e36ec0e50"
+    },
+    {
+      "chemin": "raw/715e5314-ariane-lot-2026-11-05T11-23-14-volume01-sur09.zip",
+      "taille": 15917620,
+      "sha256": "a28178db058c0cbb32dcc93321a18d2b8f3d06c756e117940f46a5b98eb4e7d8"
+    },
+    {
+      "chemin": "raw/74a06fd9-ariane-lot-2026-11-05T11-23-14-volume03-sur09.zip",
+      "taille": 15124362,
+      "sha256": "d74facea2b8094950676c930b46c76ab7d914080ecf1e7c2246da77b7953b8eb"
+    },
+    {
+      "chemin": "raw/79b0edc2-ariane-lot-2026-11-05T11-23-14-volume09-sur09.zip",
+      "taille": 15725474,
+      "sha256": "69678bab0d88b09a13ca27ca1927dc72a0807dcea45725d998ae3d14e54f4106"
+    },
+    {
+      "chemin": "raw/7d41b3f5-ariane-echo-partie11-2026-11-05T11-09-30-auto.zip",
+      "taille": 5982574,
+      "sha256": "dc4c9c3950c5b184c89b3b2dab704942bb96b8ed3d8862c5a4f8adcb8a776188"
+    },
+    {
+      "chemin": "raw/814051cf-ariane-lot-2026-11-05T11-23-14-volume04-sur09.zip",
+      "taille": 15250041,
+      "sha256": "e5b382e08f3abcbc7acfb1d3282421ad78d479363c1082aec4195fdc7772582e"
+    },
+    {
+      "chemin": "raw/82db6e43-ariane-echo-partie10-2026-11-05T10-50-46-auto.zip",
+      "taille": 6118120,
+      "sha256": "be3d53f595520e9bbab05f01b190811aeb52ec82e25c0ca1ab08f294b171c4c3"
+    },
+    {
+      "chemin": "raw/9a2d3085-ariane-echo-partie10-2026-11-05T10-43-43-auto.zip",
+      "taille": 5739716,
+      "sha256": "22b4751d67aa01a2cd08a9ffc472ff4092ee4744cd642fd888109e9791ce0dac"
+    },
+    {
+      "chemin": "raw/9c934ec1-ariane-lot-2026-11-05T11-23-14-volume02-sur09.zip",
+      "taille": 15255025,
+      "sha256": "fe55720ca562f0b0c0c47cefa72872053a5e42ff38aacdccef07e53300191f94"
+    },
+    {
+      "chemin": "raw/aa54fad3-ariane-echo-partie9-2026-11-05T10-27-50-auto.zip",
+      "taille": 5309679,
+      "sha256": "95eff2b2139999300e2414b389031f2dcbe3689b727df08264495f1676342b7f"
+    },
+    {
+      "chemin": "raw/b541beff-ariane-lot-2026-11-05T11-23-14-volume06-sur09.zip",
+      "taille": 15266463,
+      "sha256": "d9b38532782df94b39332cb608929735460f22f204e039b4775d2eabbc2f9dce"
+    },
+    {
+      "chemin": "raw/bee3e20b-ariane-echo-partie10-11-2026-11-05T11-06-13-auto.zip",
+      "taille": 5700437,
+      "sha256": "ac389022c59ec7760284938dc40ab072e47928f89379450006b0487121cea8fa"
+    },
+    {
+      "chemin": "raw/c2e7b959-ariane-echo-partie8-2026-11-05T10-14-56-auto.zip",
+      "taille": 4248397,
+      "sha256": "a3bacb271238807f72391f570b9e60d84412ceb13efe85880d7c57f1b17f4f06"
+    },
+    {
+      "chemin": "raw/e542bac1-ariane-echo-partie11-12-2026-11-05T11-15-15-auto.zip",
+      "taille": 6856889,
+      "sha256": "c5cabd746b5d89de0e1713d9e4c66cd686084ae2ceabd3b9b60e3e79aa0bc59a"
+    },
+    {
+      "chemin": "raw/e59b2c20-ariane-echo-partie10-2026-11-05T10-55-06-auto.zip",
+      "taille": 5947193,
+      "sha256": "c25ee35f227cd6da199946b1402f6a20679dc28cc5d48954b85dbc8221162460"
+    },
+    {
+      "chemin": "raw/e8459671-ariane-echo-partie9-2026-11-05T10-20-58-auto.zip",
+      "taille": 4672337,
+      "sha256": "ee73fcf3f2911d511bad16fae20e05693cb4d507ed55ee2991e1f7cbb76b9f2b"
+    },
+    {
+      "chemin": "raw/ef3af652-ariane-echo-partie9-10-2026-11-05T10-40-19-auto.zip",
+      "taille": 5592284,
+      "sha256": "e2d1b4baa791c56c88f186d5dc26e3b2cffead9b396534f41c91adb9c5cbead2"
+    },
+    {
+      "chemin": "raw/efbee134-ariane-lot-2026-11-05T11-23-14-volume08-sur09.zip",
+      "taille": 13478552,
+      "sha256": "9f461b589a774e7f955bc6405e77f6646fc246bc591e4f91b0f388f68c084ca9"
+    },
+    {
+      "chemin": "raw/f7b219ca-ariane-lot-2026-11-05T11-23-14-volume07-sur09.zip",
+      "taille": 15184249,
+      "sha256": "e218f2c95b91c3cc2bc2fe74678445b7f087b7ab7f7564a49eed6e65c6bd8676"
+    }
+  ]
+}
