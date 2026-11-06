@@ -1,0 +1,103 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Lot Constellation du 06/11/2026, parties 13 à 16, paquet 2bc1f56 : export de 13:55 Paris (14 volumes, journal après la relecture et l'Écho) et envois Écho automatiques de la séance avec Aurore (5 zips « -auto », 13:17 à 13:52 Paris). La session Écho est l'UNION des zips.",
+  "contenu": "EXAMEN (D-287 : première journée reçue avec Écho après la levée des réserves). Lot AVANT les corrections de lenteur (CH-058, CH-059, CH-060, CH-062) et la levée du plafond des abords (D-289). Un export antérieur du même lot (12:20 Paris, 13 volumes, avant l'Écho) n'est pas versé : celui-ci le contient.",
+  "fichiers": [
+    {
+      "chemin": "raw/038ba676-ariane-lot-2026-11-06T12-55-30-volume09-sur14.zip",
+      "taille": 15536416,
+      "sha256": "3c81f5741392202e5c930a38ec4b0c0c6187595584da6175bbb439567ebb53c2"
+    },
+    {
+      "chemin": "raw/09579ebe-ariane-lot-2026-11-06T12-55-30-volume04-sur14.zip",
+      "taille": 15075432,
+      "sha256": "92a847f8427156b1bdd2906d2eefd3860125cd26a91678fe87c17f6ef6e05623"
+    },
+    {
+      "chemin": "raw/3082802d-ariane-echo-partie13-15-2026-11-06T12-45-24-auto.zip",
+      "taille": 6157135,
+      "sha256": "bd50d574f8d519d4f7a08d83bc0cda26f956f7bd4e25062686788887d177d055"
+    },
+    {
+      "chemin": "raw/5d1d936a-ariane-lot-2026-11-06T12-55-30-volume07-sur14.zip",
+      "taille": 15040235,
+      "sha256": "b726dfaedca58af4ca6f9481f1093c1e806b413a47c70bd52af286be7d45c770"
+    },
+    {
+      "chemin": "raw/6ad6b0ed-ariane-lot-2026-11-06T12-55-30-volume10-sur14.zip",
+      "taille": 14887102,
+      "sha256": "cd296db72a0b7e6df17e3f3a107b3bfac1281892369fd9b5b6f1f740b3eaafc3"
+    },
+    {
+      "chemin": "raw/828e33c2-ariane-lot-2026-11-06T12-55-30-volume06-sur14.zip",
+      "taille": 14750631,
+      "sha256": "2485bf9e3a9e642f85de852e78b1c3a6a623732fb8d978e70e86b5be2a6b14bb"
+    },
+    {
+      "chemin": "raw/84c9b2dc-ariane-lot-2026-11-06T12-55-30-volume14-sur14.zip",
+      "taille": 2341042,
+      "sha256": "cefcf7ac0350a974ba6eb001f9b5e26cb2fb0585df12b3e373b147200fbde579"
+    },
+    {
+      "chemin": "raw/8ae1f3ce-ariane-lot-2026-11-06T12-55-30-volume01-sur14.zip",
+      "taille": 17380787,
+      "sha256": "d8770140499adf8edea789d941691ca291d34b6376b21a15e3b7bfc979f94354"
+    },
+    {
+      "chemin": "raw/963bfc5c-ariane-lot-2026-11-06T12-55-30-volume05-sur14.zip",
+      "taille": 14922833,
+      "sha256": "d29350c6e321b66cd91fa2650ccbea40c9685a8ed21d44377660500f9c820577"
+    },
+    {
+      "chemin": "raw/9c564985-ariane-lot-2026-11-06T12-55-30-volume03-sur14.zip",
+      "taille": 14891071,
+      "sha256": "f37d12dd31b1d7779b7976e5e40693975bb828840861390a6f92da0cb32b9121"
+    },
+    {
+      "chemin": "raw/9df7661c-ariane-echo-partie13-2026-11-06T12-22-06-auto.zip",
+      "taille": 5405572,
+      "sha256": "a14c2712e2645db724460d7dfdb4360fe7bcc352d09bd1640fd0d76aa0cd2805"
+    },
+    {
+      "chemin": "raw/a2de87bc-ariane-lot-2026-11-06T12-55-30-volume13-sur14.zip",
+      "taille": 17013692,
+      "sha256": "c4c1da0907f8cf96f7f0bea1f3013c82b89881a0de9ffb4f759a8fa707d264cf"
+    },
+    {
+      "chemin": "raw/a33eb42f-ariane-echo-partie13-2026-11-06T12-17-28-auto.zip",
+      "taille": 5180235,
+      "sha256": "ce89bcd82b41b9860dd3249355556bf0083d54333a97b4628084f56c2a8c1ea5"
+    },
+    {
+      "chemin": "raw/ac3db4a1-ariane-lot-2026-11-06T12-55-30-volume11-sur14.zip",
+      "taille": 15178519,
+      "sha256": "95780128b6ab0a3a87c2c35b947046e57fbd4cbe8a1939b95137ef7524ed5f2d"
+    },
+    {
+      "chemin": "raw/ae3d65c3-ariane-lot-2026-11-06T12-55-30-volume08-sur14.zip",
+      "taille": 15091460,
+      "sha256": "c478bac9acc4158cad575b23b4ca5eea21ce0f09aad71754e804e50e72845996"
+    },
+    {
+      "chemin": "raw/b2534502-ariane-lot-2026-11-06T12-55-30-volume12-sur14.zip",
+      "taille": 12575880,
+      "sha256": "363f3f22c75d0b8a81d8ba8357bc2dda056c205c99f115103c0f10bd987ee176"
+    },
+    {
+      "chemin": "raw/bb4778d0-ariane-echo-partie16-2026-11-06T12-52-21-auto.zip",
+      "taille": 6260797,
+      "sha256": "3ab326ce51cde8d1b0b5c7768664f7e32f4627d7c5edb235df89c6843cc62e52"
+    },
+    {
+      "chemin": "raw/c1feb8ab-ariane-lot-2026-11-06T12-55-30-volume02-sur14.zip",
+      "taille": 17074299,
+      "sha256": "7b0842096dc94978a088625176c4460df5bd69b5bca5684c8bc0615dd342afc2"
+    },
+    {
+      "chemin": "raw/d38da9bd-ariane-echo-partie15-16-2026-11-06T12-49-30-auto.zip",
+      "taille": 5850634,
+      "sha256": "91b9cae46e923eba8594509e6b1edae12e2b6577d3cdcfc9b379f6d061705fcd"
+    }
+  ]
+}
