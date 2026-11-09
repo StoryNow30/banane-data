@@ -1,0 +1,48 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Lot « Vision 7 » du 09/11/2026 (partie 12, 15:53-17:50 Paris), export de 17:50, 8 volumes.",
+  "contenu": "Premier essai de Vision 7 (préchauffage EPT). Constat : les requêtes de préchauffage reçoivent 401 (authentification d'ESV absente) ; relecture de 1 417 cuts.",
+  "fichiers": [
+    {
+      "chemin": "raw/0e9a774b-ariane-lot-2026-11-09T16-50-21-volume02-sur08.zip",
+      "octets": 11637596,
+      "sha256": "0799cf51c5400790ed3b64c49a33362e2d10e7fa6665d95139cb4f917419106c"
+    },
+    {
+      "chemin": "raw/3257be8f-ariane-lot-2026-11-09T16-50-21-volume01-sur08.zip",
+      "octets": 7193431,
+      "sha256": "664e569520a4f06f0a5a6424aeab01f039b890e72107dc47a4dde047dd171d9c"
+    },
+    {
+      "chemin": "raw/abf4ecc4-ariane-lot-2026-11-09T16-50-21-volume07-sur08.zip",
+      "octets": 14434346,
+      "sha256": "f2243127a56c2c2f5674fdb2b5d0a7bd3a30f64ab9b817cd80cf281e655d2e6e"
+    },
+    {
+      "chemin": "raw/b201a58c-ariane-lot-2026-11-09T16-50-21-volume06-sur08.zip",
+      "octets": 11956544,
+      "sha256": "60c37cac84cad74fce9ea63a51f8acbb1250e106c06e113b670f57e3837e9c49"
+    },
+    {
+      "chemin": "raw/baf5732d-ariane-lot-2026-11-09T16-50-21-volume08-sur08.zip",
+      "octets": 6260149,
+      "sha256": "129b738adb036f2a17abc3b3e43a46a2f3929f846c47e42cd68798e721305e06"
+    },
+    {
+      "chemin": "raw/d28c6469-ariane-lot-2026-11-09T16-50-21-volume05-sur08.zip",
+      "octets": 12487868,
+      "sha256": "201a49e0753075bd0540586e091e555a0fa7ae65da4596eb60da4d931f77c43a"
+    },
+    {
+      "chemin": "raw/d754ff4c-ariane-lot-2026-11-09T16-50-21-volume04-sur08.zip",
+      "octets": 13774320,
+      "sha256": "d9cf0c334272b0ce721eab0b308e35bf405f226c7454ff94cc6871952f34e9a0"
+    },
+    {
+      "chemin": "raw/fb781708-ariane-lot-2026-11-09T16-50-21-volume03-sur08.zip",
+      "octets": 11312521,
+      "sha256": "890daaedfc727537317234d8e5f6dc727033d3e93794a65ae2027e4e14328f62"
+    }
+  ]
+}
