@@ -1,0 +1,103 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Exports du 08/11/2026 envoyés par l'opérateur à l'intégrateur : lots « Vision » (paquets Vision à Vision 4) et séances Écho (parties 3-4 et 6). La session Écho de la partie 6 est l'UNION de ses zips.",
+  "contenu": "Lots 16:13 (Vision), 20:16 (Vision 2), 21:30 (Vision 3, 6 volumes), 22:28 (Vision 4) ; Écho partie 3-4 (16:13) et partie 6 (21:33 à 21:42). Sert à D-305, D-307 et D-308 (cuts validés faux de la partie 6 : 142, 143, 220, 221, 228, 231, 232, 360, 361).",
+  "fichiers": [
+    {
+      "chemin": "raw/05bcf90b-ariane-echo-partie6-2026-11-08T21-40-22-auto.zip",
+      "octets": 4956685,
+      "sha256": "50329c8356dd075456a1fe5c16ddc689f253832dc2fcee92107ef4055b39e892"
+    },
+    {
+      "chemin": "raw/186b440b-ariane-lot-2026-11-08T21-30-27-volume01-sur06.zip",
+      "octets": 3275673,
+      "sha256": "2b10b482dd2bf743dd6cffa55d4a25bc883a84212fda48651c1acfb15f32bf95"
+    },
+    {
+      "chemin": "raw/2b47e50c-ariane-lot-2026-11-08T22-28-24-volume02-sur02.zip",
+      "octets": 2150704,
+      "sha256": "74aab20aa3088bd5f46a690b0aeb972e4e23aa032662a55e51b4871d7c7bbd49"
+    },
+    {
+      "chemin": "raw/33aeb4f5-ariane-lot-2026-11-08T21-30-27-volume03-sur06.zip",
+      "octets": 18396520,
+      "sha256": "3c2146470a7c5b7b98af34422114954866d27136603b49130bbb5e84f1a2d997"
+    },
+    {
+      "chemin": "raw/3d2d6954-ariane-lot-2026-11-08T21-30-27-volume02-sur06.zip",
+      "octets": 17860712,
+      "sha256": "225607a85fd9f790ebaf9d4df7a031772edab5f0ac3cc9ffb65d8948c44830c9"
+    },
+    {
+      "chemin": "raw/49cc448d-ariane-lot-2026-11-08T21-30-27-volume06-sur06.zip",
+      "octets": 2587090,
+      "sha256": "361d63347b73ea32e0daf988d5e7cabdd177e0b7c27ca571888c000f3bb1bc00"
+    },
+    {
+      "chemin": "raw/4c6be7ab-ariane-lot-2026-11-08T21-30-27-volume05-sur06.zip",
+      "octets": 30040461,
+      "sha256": "e519d6302615addfe225da0178b604cdc3f6c88fa6d0c7edd99dc4c7c3842b8a"
+    },
+    {
+      "chemin": "raw/6296aa7a-ariane-echo-partie6-2026-11-08T21-42-53.zip",
+      "octets": 5474614,
+      "sha256": "bd77761a00f9d8d6acacc159bf2e0dfcef084601e020ed495450eabb70e10aae"
+    },
+    {
+      "chemin": "raw/6ab50862-ariane-echo-partie6-2026-11-08T21-33-36-auto.zip",
+      "octets": 4661700,
+      "sha256": "16395c9045eaabc753ffe7855d2c7e492bb8581049f42f95365145c2589ea8b8"
+    },
+    {
+      "chemin": "raw/7108cfc2-ariane-echo-partie6-2026-11-08T21-35-27-auto.zip",
+      "octets": 4657494,
+      "sha256": "9471e1d4eaf3f1a406d9cd73783d1b08aeef205c02bfad6bd91f017b4215e79c"
+    },
+    {
+      "chemin": "raw/84437ab1-ariane-echo-partie3-4-2026-11-08T16-13-38-auto.zip",
+      "octets": 4757831,
+      "sha256": "7443b55a2de287ac6ce87aa48cb05aedf9ff2139368ac49206448cedd080500b"
+    },
+    {
+      "chemin": "raw/a6488bbf-ariane-lot-2026-11-08T16-13-46-volume01-sur03.zip",
+      "octets": 13832926,
+      "sha256": "c197f0fabc9e580fdff48320fc5634ce67fc4c08eda8106107961f5c495a8e5f"
+    },
+    {
+      "chemin": "raw/a69b8334-ariane-echo-partie6-2026-11-08T21-41-52-auto.zip",
+      "octets": 5009730,
+      "sha256": "7cabf5d25642d94af502b6b82b89a1d8f09e06590e0f9059032b45883ab50fd2"
+    },
+    {
+      "chemin": "raw/ba1ed61c-ariane-lot-2026-11-08T22-28-24-volume01-sur02.zip",
+      "octets": 16433076,
+      "sha256": "8273dec5f22a37095c6d630af4abd39852cec5c752eff0fb01145b153cb1a6a7"
+    },
+    {
+      "chemin": "raw/c067ecd0-ariane-lot-2026-11-08T16-13-46-volume02-sur03.zip",
+      "octets": 15343488,
+      "sha256": "9309cfd6a2ae1b6ba9e136804db91a6bd4b3705f872124fbd4497621ec24e84e"
+    },
+    {
+      "chemin": "raw/cb27b6a0-ariane-lot-2026-11-08T20-16-23-volume02-sur02.zip",
+      "octets": 2544661,
+      "sha256": "2031f67ebca21b96a1d6ab97e0abea75343e198fb7d0813417cc4fc2d6e725b7"
+    },
+    {
+      "chemin": "raw/d1b8ec50-ariane-lot-2026-11-08T20-16-23-volume01-sur02.zip",
+      "octets": 17556552,
+      "sha256": "7944bf1ca9657d5b33de02531ea467e22e5386b43b9802039d55805c11e5147b"
+    },
+    {
+      "chemin": "raw/fac7250f-ariane-lot-2026-11-08T21-30-27-volume04-sur06.zip",
+      "octets": 18767058,
+      "sha256": "7f7d28b652d7aa5ed968a09a7da66cde47294494649483822b1afba362e781f5"
+    },
+    {
+      "chemin": "raw/fe0395de-ariane-lot-2026-11-08T16-13-46-volume03-sur03.zip",
+      "octets": 2677573,
+      "sha256": "0b58f96f4ec60da36940388b38dd8d9f7aa0c136f0c0129bb663baedf3ae8b8d"
+    }
+  ]
+}
