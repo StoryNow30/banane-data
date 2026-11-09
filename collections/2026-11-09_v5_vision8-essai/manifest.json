@@ -1,0 +1,13 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Lot « Vision 8 » du 09/11/2026 (partie 13, 18:45-18:51 Paris), export de 18:51.",
+  "contenu": "Premier essai de Vision 8 : préchauffage par Potree (CH-085), mémoire d'ESV (CH-083), anticipation (CH-081), attentes observées (CH-084).",
+  "fichiers": [
+    {
+      "chemin": "raw/36f00170-ariane-lot-2026-11-09T17-51-33.zip",
+      "octets": 13904105,
+      "sha256": "31723328f50add553a71f2302b78c2dea369710c51a52ba786b36f1cbb55b4b5"
+    }
+  ]
+}
