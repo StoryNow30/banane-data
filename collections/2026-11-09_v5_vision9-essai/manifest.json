@@ -1,0 +1,28 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Lot « Vision 9 » du 09/11/2026 (partie 14, 20:33-20:43 Paris), export de 20:43 en 4 volumes.",
+  "contenu": "Premier essai de Vision 9 : opération lointaine (CH-088), écritures en fond (CH-086).",
+  "fichiers": [
+    {
+      "chemin": "raw/6630fd6c-ariane-lot-2026-11-09T19-43-58-volume01-sur04.zip",
+      "octets": 1983076,
+      "sha256": "6d09468bec67addbe16fed2fccdedb017a9908b168fc7ac8f01aa8f19c437ee2"
+    },
+    {
+      "chemin": "raw/b7dd06f5-ariane-lot-2026-11-09T19-43-58-volume04-sur04.zip",
+      "octets": 1637674,
+      "sha256": "b2ffc38dfc0983176df7bbf4a3c3eb38bf3621d29fa5a162299bb154baffd2c4"
+    },
+    {
+      "chemin": "raw/cabba9f4-ariane-lot-2026-11-09T19-43-58-volume02-sur04.zip",
+      "octets": 16648028,
+      "sha256": "fefefd1b6b96365d407c0e956772212e2eec148bde2459a30423b2409345c4f5"
+    },
+    {
+      "chemin": "raw/f439211f-ariane-lot-2026-11-09T19-43-58-volume03-sur04.zip",
+      "octets": 17055747,
+      "sha256": "e1738ae44b86904064ccf8125d6bc6017e31fbd04cd81757ffce911bd13c56d0"
+    }
+  ]
+}
