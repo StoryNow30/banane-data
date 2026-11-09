@@ -1,0 +1,81 @@
+{
+ "format": "ch079-cas-controle-manifeste-v1",
+ "ticket": "CH-079",
+ "decision": "D-308",
+ "produit_par": "tools/ch079-extraire-corpus.cjs (dépôt banane, branche chantier/CH-079)",
+ "lecture": "tests/ch079-cas-controle.test.cjs avec CH079_CORPUS=<ce dossier>",
+ "fichiers": [
+  {
+   "fichier": "cut-6-142.json",
+   "octets": 1342874,
+   "sha256": "be09046ff8abcab814b33e9e6dc620a36c886a8cc3372823e55ea6233d387568",
+   "cut": 142,
+   "famille": "imprecision",
+   "ecartActuelMm": 9.74
+  },
+  {
+   "fichier": "cut-6-143.json",
+   "octets": 1333263,
+   "sha256": "0a93b4931fe54707b9887a6e77e15e12d27964875336cfc8c4df0b6ce352173f",
+   "cut": 143,
+   "famille": "imprecision",
+   "ecartActuelMm": 5.07
+  },
+  {
+   "fichier": "cut-6-220.json",
+   "octets": 1115444,
+   "sha256": "e535907ca827d573fcf8daf4a27690509375fb7e0cc3fdb40cdd12b4c099a4c4",
+   "cut": 220,
+   "famille": "mauvaise-voie",
+   "ecartActuelMm": 173.89
+  },
+  {
+   "fichier": "cut-6-221.json",
+   "octets": 1211742,
+   "sha256": "30005790e6411aa31b9f1ec5347fc6644b1941dbaab5808d0de46c9a5fe36a3c",
+   "cut": 221,
+   "famille": "imprecision",
+   "ecartActuelMm": 9.21
+  },
+  {
+   "fichier": "cut-6-228.json",
+   "octets": 1115592,
+   "sha256": "9940e557aff17673c5615b5d1676e65d05b4d7a1735a5a187f3b5492a0e9b9d4",
+   "cut": 228,
+   "famille": "imprecision",
+   "ecartActuelMm": 11.1
+  },
+  {
+   "fichier": "cut-6-231.json",
+   "octets": 1231256,
+   "sha256": "1f126e8004b13feae60fcf0b38886caa9a653af48055817a7b0776856b7abd62",
+   "cut": 231,
+   "famille": "imprecision",
+   "ecartActuelMm": 17.07
+  },
+  {
+   "fichier": "cut-6-232.json",
+   "octets": 1178765,
+   "sha256": "ea7bb07414aab5766520536bdbb5d78d9eb123b11b1a9fb456304a09120c0079",
+   "cut": 232,
+   "famille": "imprecision",
+   "ecartActuelMm": 11.95
+  },
+  {
+   "fichier": "cut-6-360.json",
+   "octets": 1124603,
+   "sha256": "ae689fe1d3a1db5899e31a1186582e6a39e163e4c0a86ab23e4191138d2ad08b",
+   "cut": 360,
+   "famille": "mauvaise-voie",
+   "ecartActuelMm": 156.09
+  },
+  {
+   "fichier": "cut-6-361.json",
+   "octets": 1203350,
+   "sha256": "76678ee4a4d4f34e5a2c82ded45ccb3d59c05548d244fcda39802972cb7ecb5e",
+   "cut": 361,
+   "famille": "mauvaise-voie",
+   "ecartActuelMm": 156.46
+  }
+ ]
+}
