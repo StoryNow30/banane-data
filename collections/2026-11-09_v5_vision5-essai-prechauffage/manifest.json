@@ -1,0 +1,48 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Lot « Vision 5 » du 09/11/2026 (partie 8), préchauffage CH-077 allumé (D-307), export de 10:59 Paris, 8 volumes.",
+  "contenu": "Lot d'essai du préchauffage. Incident internet signalé par l'opérateur pendant le lot (vers 10:20-10:40 Paris : série de captures vides, 176 différés).",
+  "fichiers": [
+    {
+      "chemin": "raw/167ca915-ariane-lot-2026-11-09T09-59-31-volume06-sur08.zip",
+      "octets": 14901758,
+      "sha256": "48fc67ffb3560d76ac65ee03f1a1b4a66e11ee502d5195a97868c57b318df5d7"
+    },
+    {
+      "chemin": "raw/511b0bf0-ariane-lot-2026-11-09T09-59-31-volume02-sur08.zip",
+      "octets": 8758237,
+      "sha256": "d236ac4ed78ab34aa21099f00693e71af7a9b519f7fdce4262fba68893410bf0"
+    },
+    {
+      "chemin": "raw/8c47d4f7-ariane-lot-2026-11-09T09-59-31-volume07-sur08.zip",
+      "octets": 12411541,
+      "sha256": "93cbd149f6acd5ae199508bafd9b1760ba6877fe7c2045ee17f3ec9c63808637"
+    },
+    {
+      "chemin": "raw/aea78fe3-ariane-lot-2026-11-09T09-59-31-volume01-sur08.zip",
+      "octets": 9058155,
+      "sha256": "28a33ec7404dc671dd0c23066d657058e03af6dafa5b37953fa76f9ba35b7748"
+    },
+    {
+      "chemin": "raw/c2396702-ariane-lot-2026-11-09T09-59-31-volume03-sur08.zip",
+      "octets": 17241708,
+      "sha256": "8cf42c1758b04869586de0eb47c446c54b2c7a5c2b181c465eb49a96dfbc2ad5"
+    },
+    {
+      "chemin": "raw/cbc696c3-ariane-lot-2026-11-09T09-59-31-volume05-sur08.zip",
+      "octets": 17622486,
+      "sha256": "424b915d46f501316ef8db6075e5cafaa8db822344962429ebed291e20826424"
+    },
+    {
+      "chemin": "raw/d59ad33a-ariane-lot-2026-11-09T09-59-31-volume08-sur08.zip",
+      "octets": 7619337,
+      "sha256": "49b4a8cff42593fe67152f7f1de73d56711d2a850e2b951a62ecdba8852d6f8a"
+    },
+    {
+      "chemin": "raw/defd5222-ariane-lot-2026-11-09T09-59-31-volume04-sur08.zip",
+      "octets": 17747257,
+      "sha256": "e6a86903b98c222b62ea1ebc1ec90dfcfd57c312b07d37a24a810d46ffaaae68"
+    }
+  ]
+}
