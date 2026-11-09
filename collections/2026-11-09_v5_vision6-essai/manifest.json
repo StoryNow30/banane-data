@@ -1,0 +1,23 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Lot « Vision 6 » du 09/11/2026 (partie 11, 13:00-13:14 Paris), export de 13:14 ; volumes 1, 2 et 4 sur 4 (le volume 3 n'a pas été envoyé).",
+  "contenu": "Premier lot de Vision 6 : préchauffage des coupes éloignées (CH-080, D-310) et ombres de D-308 (garde de voie, serrage du lot).",
+  "fichiers": [
+    {
+      "chemin": "raw/10fef50c-ariane-lot-2026-11-09T12-14-43-volume01-sur04.zip",
+      "octets": 2598513,
+      "sha256": "7ecf9092a02983370844952e8596d854e548b11c021a1a32edb004c47ef91a1b"
+    },
+    {
+      "chemin": "raw/1137183b-ariane-lot-2026-11-09T12-14-43-volume04-sur04.zip",
+      "octets": 2216564,
+      "sha256": "a9ad09b4669cfc6ab92d00db06e3654978fb7dd0b255c532e2fe92d6a9797256"
+    },
+    {
+      "chemin": "raw/b120463c-ariane-lot-2026-11-09T12-14-43-volume02-sur04.zip",
+      "octets": 18649602,
+      "sha256": "064697e9226d041b86ce61c2c5c7f48526479d18d10e2551a078f3a15461f22f"
+    }
+  ]
+}
