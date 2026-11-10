@@ -1,0 +1,73 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Séance Écho de l'opérateur du 10/11/2026 (partie 1, 07:54-08:12 Paris) : 11 vidages automatiques (segments 1 à 20) et l'export final en 2 volumes.",
+  "contenu": "Relecture manuelle de 508 coupes d'une partie presque entièrement verte au départ (9 908 validés, 10 invalides) ; aucun lot Ariane dans cette collecte.",
+  "fichiers": [
+    {
+      "chemin": "raw/0b4b0eb8-ariane-echo-partie1-2026-11-10T07-08-47-auto-volume01-sur02.zip",
+      "octets": 12241342,
+      "sha256": "29f6bd4f36c6be3ef58c848d00a2429be904b994174a82ddd81f16acfb5cae04"
+    },
+    {
+      "chemin": "raw/26c3b512-ariane-echo-partie1-2026-11-10T07-01-41-auto.zip",
+      "octets": 10816639,
+      "sha256": "bc906f97f20f5b12168c6fbafa8b3546742a0e9b63d43ec1c3385b247ee46618"
+    },
+    {
+      "chemin": "raw/4f84b5cd-ariane-echo-partie1-2026-11-10T07-12-13-volume01-sur02.zip",
+      "octets": 101748,
+      "sha256": "cc5253ba0f489dbaf9349a401aa22567cf9bf29ee6fa9bc2b750dd03841205db"
+    },
+    {
+      "chemin": "raw/51b698ca-ariane-echo-partie1-2026-11-10T07-11-49-auto.zip",
+      "octets": 8588358,
+      "sha256": "a860ce327df366301b9e798c8ee021fe78ec96ead8a45988da95222050120706"
+    },
+    {
+      "chemin": "raw/5ba0be99-ariane-echo-partie1-2026-11-10T07-00-40-auto.zip",
+      "octets": 9355709,
+      "sha256": "c00698d19987f5db2c481f2e884757a0d240933f1585a98d1ae806cf7374cfe9"
+    },
+    {
+      "chemin": "raw/6370c886-ariane-echo-partie1-2026-11-10T06-58-38-auto.zip",
+      "octets": 15694519,
+      "sha256": "6b748891a00e4a806dcae9ef22613d35b651c30f9eafe3981201d6af22136203"
+    },
+    {
+      "chemin": "raw/6ec4b176-ariane-echo-partie1-2026-11-10T07-06-43-auto.zip",
+      "octets": 8144640,
+      "sha256": "1e0526e7e55a5b041a0deb179de0b9280e856c4bfa7939518064bb243baf32e9"
+    },
+    {
+      "chemin": "raw/7419671b-ariane-echo-partie1-2026-11-10T06-59-39-auto.zip",
+      "octets": 8613476,
+      "sha256": "d972df28a2c9e64c9e1a83cd3e0a305ea32afb6a523effecac01098d61041c1d"
+    },
+    {
+      "chemin": "raw/a5c1bc7c-ariane-echo-partie1-2026-11-10T07-05-42-auto.zip",
+      "octets": 5937686,
+      "sha256": "ed6bb69b1e0494c0f3f6732056fe577420bd2617a49af700fead2a0b952638b4"
+    },
+    {
+      "chemin": "raw/b37267a2-ariane-echo-partie1-2026-11-10T07-12-13-volume02-sur02.zip",
+      "octets": 18586429,
+      "sha256": "91e72a0629a7ff8ce40bc513cbeddc59eea242f7e51ec697e00d579ad8fac6d9"
+    },
+    {
+      "chemin": "raw/c2bbe45b-ariane-echo-partie1-2026-11-10T07-09-46-auto.zip",
+      "octets": 6216709,
+      "sha256": "d69c2a19d4e3fa15cfab0157a0df1deaa81776cbe9f790a1d1b929a2f28207be"
+    },
+    {
+      "chemin": "raw/ccb9c9f4-ariane-echo-partie1-2026-11-10T07-08-47-auto-volume02-sur02.zip",
+      "octets": 5717592,
+      "sha256": "4f93cba2892b64ec7eea200252928c78141ca5abb955b324bb4a9eebf0cc692e"
+    },
+    {
+      "chemin": "raw/d09405d3-ariane-echo-partie1-2026-11-10T06-56-36-auto.zip",
+      "octets": 8529926,
+      "sha256": "7b7884ab66d6677ddccace39155f9e294b50660377c3444255e7ff1064294985"
+    }
+  ]
+}
