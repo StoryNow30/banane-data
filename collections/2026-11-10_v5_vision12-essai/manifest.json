@@ -1,0 +1,53 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Lot « Vision 12 » du 10/11/2026 (partie 9, 08:32-08:42 Paris) puis relecture (08:42-08:55), export de 08:55 en 9 volumes ; relevé de console après le lot.",
+  "contenu": "Premier essai de Vision 12 (build 286f541) : préchauffage qui survit à un 502, capacité relevée, plafonds par opération et par fenêtre glissante.",
+  "fichiers": [
+    {
+      "chemin": "raw/32493ae6-ariane-lot-2026-11-10T07-55-49-volume02-sur09.zip",
+      "octets": 10818035,
+      "sha256": "c4f5b8d1f311a1f559971b207f3ac7bc61e670903625075d1d72ac0ad70eef5c"
+    },
+    {
+      "chemin": "raw/3f561d70-ariane-lot-2026-11-10T07-55-49-volume08-sur09.zip",
+      "octets": 19932576,
+      "sha256": "ea4505eb988390cfe4422f4cbcbaa2039ac4692393dd5c4b9a8c4f28a353e708"
+    },
+    {
+      "chemin": "raw/4383e59c-ariane-lot-2026-11-10T07-55-49-volume01-sur09.zip",
+      "octets": 7313292,
+      "sha256": "fb24a31f218c063aacf72d76bb5f5d3a20761507191cbb3f3be4015b95091e91"
+    },
+    {
+      "chemin": "raw/4b3528fd-ariane-lot-2026-11-10T07-55-49-volume05-sur09.zip",
+      "octets": 10894620,
+      "sha256": "e531a4e4e8ded330ac0ef47b6bafa481da45315e1e3a98a2557c2ea5c4fdb0be"
+    },
+    {
+      "chemin": "raw/5af2084f-ariane-lot-2026-11-10T07-55-49-volume09-sur09.zip",
+      "octets": 6221329,
+      "sha256": "93d1c8e92403f56f3dde5a2eb6c5eb0f01ab52811598b28b67f0b11421d4345c"
+    },
+    {
+      "chemin": "raw/9dc20995-ariane-lot-2026-11-10T07-55-49-volume04-sur09.zip",
+      "octets": 10840896,
+      "sha256": "801a7fd73ea4f490b5efe95cd1a645e2ae779d15ccac79e85fde68a900344762"
+    },
+    {
+      "chemin": "raw/bc5ce598-ariane-lot-2026-11-10T07-55-49-volume03-sur09.zip",
+      "octets": 10283038,
+      "sha256": "75c56f095a37ae9e6306bb21926eb883f529a414e23b0f2038f6c9829a1f6f0e"
+    },
+    {
+      "chemin": "raw/ded9c022-ariane-lot-2026-11-10T07-55-49-volume07-sur09.zip",
+      "octets": 10634868,
+      "sha256": "7792da42458a8e608f0714dd1382ae5ba9cb0b4221f8de2775dd949238245212"
+    },
+    {
+      "chemin": "raw/f057a332-ariane-lot-2026-11-10T07-55-49-volume06-sur09.zip",
+      "octets": 10767916,
+      "sha256": "8670be5f1cc5bec75710292d4ba7e56d73d61dcab1982f4f8619a39494cb2f21"
+    }
+  ]
+}

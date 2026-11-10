@@ -1,0 +1,6 @@
+{
+ "releve": "vision11", "note": "relevé de console après le lot Vision 12, page d'ESV ayant reçu un 502 sur un bloc de niveau 11 ; nombres seulement",
+ "nuages": 1,
+ "q1_blocsBloques": {"noeudsConnus": 23063, "charges": 118, "enCoursAuDebut": 1, "enCoursALaFin": 1, "restesEnCours12s": 1, "parNiveau": {"11": 1}, "compteurAuDebut": 1, "compteurALaFin": 1, "limiteChargements": 4, "reponsesEnErreur": {}, "nouvellesErreursPendantLeReleve": 0},
+ "q2_detailInconnu": {"cameraTrouvee": true, "demiCoteM": 3, "blocsDansLaZone": 27, "dontCharges": 15, "sansDetailConnu": 0, "parNiveau": {}}
+}
