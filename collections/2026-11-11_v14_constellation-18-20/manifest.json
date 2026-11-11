@@ -1,0 +1,38 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Constellation « Vision 14 » du 11/11/2026, parties 18, 19 et 20 (21:47 à 22:26 Paris), export de 22:26 en 6 volumes.",
+  "contenu": "Suite de la soirée du 11/11 après relance de la Constellation. Aucun blocage de Potree ; lot de la partie 20 en ERREUR (caméra changée pendant la capture), Constellation arrêtée.",
+  "fichiers": [
+    {
+      "chemin": "raw/0d5dc12b-ariane-lot-2026-11-11T21-26-27-volume04-sur06.zip",
+      "octets": 13796349,
+      "sha256": "d0a52c14d76d6dd75b007ca5e22cb1de9787501b691e1e13098b3c271d2f7942"
+    },
+    {
+      "chemin": "raw/1da0df08-ariane-lot-2026-11-11T21-26-27-volume01-sur06.zip",
+      "octets": 5230984,
+      "sha256": "4df07080894056f95727893c9b295fc5be6b38f15e79850bf88278bded990b23"
+    },
+    {
+      "chemin": "raw/2b9bfeb8-ariane-lot-2026-11-11T21-26-27-volume02-sur06.zip",
+      "octets": 14013913,
+      "sha256": "2e67ba5cc917e8b7cb2065a9eda45917771d2b35ac7bc3e6806a16701cac7eb8"
+    },
+    {
+      "chemin": "raw/3eac8401-ariane-lot-2026-11-11T21-26-27-volume06-sur06.zip",
+      "octets": 4487152,
+      "sha256": "8e550c7de578cb2a9f43469f166f356ccfb3599577cbca3adf541efd2143f73d"
+    },
+    {
+      "chemin": "raw/76213836-ariane-lot-2026-11-11T21-26-27-volume05-sur06.zip",
+      "octets": 16049070,
+      "sha256": "a745cf12c8e593eea91b6f3cc2b7bfd39ea51e56e9e3cd1b2109a39a795efc0d"
+    },
+    {
+      "chemin": "raw/b7ef2731-ariane-lot-2026-11-11T21-26-27-volume03-sur06.zip",
+      "octets": 13874370,
+      "sha256": "987427fc55d459f4bc12a00117dbcbe8c65cf10792bb63bad139d1bb4347d769"
+    }
+  ]
+}
