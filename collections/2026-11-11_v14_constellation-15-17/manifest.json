@@ -1,0 +1,73 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Constellation « Vision 14 » du 11/11/2026, parties 15, 16 et 17 (20:46 à 21:40 Paris), export de 21:40 en 13 volumes.",
+  "contenu": "Premier essai de Vision 14 (build 5e8d305, panneau Graphite). Relecture sur captures vides (parties 15 et 16), F5 pendant la relecture de la partie 16, arrêt sur écriture incertaine en partie 17 (cut 338).",
+  "fichiers": [
+    {
+      "chemin": "raw/0cfb97cf-ariane-lot-2026-11-11T20-40-30-volume08-sur13.zip",
+      "octets": 14007071,
+      "sha256": "84edf86c7a4508d20751bf16c6a429c824bfa968018f8284e0ae1498454ad37b"
+    },
+    {
+      "chemin": "raw/162272a1-ariane-lot-2026-11-11T20-40-30-volume10-sur13.zip",
+      "octets": 13710034,
+      "sha256": "836931c8ff77118842dd8dc7cffbf253da82aa29e800e65a367b5876b1a052fd"
+    },
+    {
+      "chemin": "raw/1a615ffe-ariane-lot-2026-11-11T20-40-30-volume02-sur13.zip",
+      "octets": 13179077,
+      "sha256": "8db3b05b93a4861abd6e43af30dedf8b9cae3024a117242c9efc3cff6c152711"
+    },
+    {
+      "chemin": "raw/4dbfa06b-ariane-lot-2026-11-11T20-40-30-volume06-sur13.zip",
+      "octets": 13940610,
+      "sha256": "95aec70b44b4448d6737d961de3e46604d7d1119b466b5bbd33d975bcdd6dfa5"
+    },
+    {
+      "chemin": "raw/56f6fb48-ariane-lot-2026-11-11T20-40-30-volume01-sur13.zip",
+      "octets": 11063075,
+      "sha256": "32dd90ffdca30c3c9465a3bb8d6050d67baa136f2c2a7ef6f2702e963be32fc5"
+    },
+    {
+      "chemin": "raw/5895be14-ariane-lot-2026-11-11T20-40-30-volume03-sur13.zip",
+      "octets": 13806891,
+      "sha256": "23ba1b4c3700e9b77acc95aa761f6d0a06b347e96dd273f6738a297e430ff6a5"
+    },
+    {
+      "chemin": "raw/61d7af5e-ariane-lot-2026-11-11T20-40-30-volume09-sur13.zip",
+      "octets": 14840135,
+      "sha256": "90a4da2fb832542ec3d3be6a8bed7ff14204f32179378da18d61fe5d2c741528"
+    },
+    {
+      "chemin": "raw/914bea27-ariane-lot-2026-11-11T20-40-30-volume07-sur13.zip",
+      "octets": 14496981,
+      "sha256": "8cb2669515396d07d7871ac9d20507c6cf0b020462da87156742fca22f31dbfa"
+    },
+    {
+      "chemin": "raw/af270fa5-ariane-lot-2026-11-11T20-40-30-volume11-sur13.zip",
+      "octets": 13007125,
+      "sha256": "95a4fcadc04545b9e4866742e16d402555ea911377d614c4317ae70ed1c1365d"
+    },
+    {
+      "chemin": "raw/afd228af-ariane-lot-2026-11-11T20-40-30-volume05-sur13.zip",
+      "octets": 12695342,
+      "sha256": "3ded001689d38d5d6272fe039ce45e697a94dc1f68ee5c2d975426b215aeafe9"
+    },
+    {
+      "chemin": "raw/c123bd62-ariane-lot-2026-11-11T20-40-30-volume04-sur13.zip",
+      "octets": 14212709,
+      "sha256": "2ba3caf5298a4a77cd5e62caaae30543d4139fdb908019e93508be9defddd1a3"
+    },
+    {
+      "chemin": "raw/d276bb18-ariane-lot-2026-11-11T20-40-30-volume13-sur13.zip",
+      "octets": 9245277,
+      "sha256": "de7709157252add479d74bff971642ebd66857a10c89953b227a32e5edd6f1e5"
+    },
+    {
+      "chemin": "raw/db584651-ariane-lot-2026-11-11T20-40-30-volume12-sur13.zip",
+      "octets": 26347881,
+      "sha256": "6c0b834a673366853072b908be3447f1059c513e8e2030cb51de5f8f9643c39a"
+    }
+  ]
+}
