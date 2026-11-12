@@ -1,0 +1,48 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Séance Écho de l'opérateur du 12/11/2026, partie 23, 13:00 à 13:16 (Paris), 8 exports automatiques (segments 1 à 8 de la même session ; pas d'export final reçu).",
+  "contenu": "Relecture manuelle de la partie 23, jugée contre le lot « Vision 15 » de 11:46 (collection 2026-11-12_v15_constellations-21-23_0-4). Premier examen vierge de la règle « voie des cuts sûrs » (CH-112).",
+  "fichiers": [
+    {
+      "chemin": "raw/ariane-echo-partie23-2026-11-12T13-00-46-auto.zip",
+      "octets": 5370187,
+      "sha256": "62cf642f5d935d61caaa86586cc0095f34105552b474fdb6cff4c85c0e635bd6"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie23-2026-11-12T13-07-22-auto.zip",
+      "octets": 5755513,
+      "sha256": "0f33f08cf670922cb70ce5918483c6d3dfe0af87ac569578775074e2b870b9a9"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie23-2026-11-12T13-08-47-auto.zip",
+      "octets": 5328845,
+      "sha256": "bcd8fc4a7ad0acea798edb9021f2534059e0fcda15bd13cb81e151eda50b7b95"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie23-2026-11-12T13-10-07-auto.zip",
+      "octets": 5304237,
+      "sha256": "402f8aca512d8f5191f579be40e0550ee3d0b5a60e99129f559b099dd90ccd08"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie23-2026-11-12T13-12-03-auto.zip",
+      "octets": 5389322,
+      "sha256": "e915e47955827b18afdba9080dad8b045738e3ca366dc5e55ca3f0a3d8f2a359"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie23-2026-11-12T13-14-23-auto.zip",
+      "octets": 5882475,
+      "sha256": "6af5ed746c7e6a9c50af8af8de256b1527cb2af8a2f66074700366a15cf74780"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie23-2026-11-12T13-15-10-auto.zip",
+      "octets": 7004995,
+      "sha256": "3067e1a89c33d422fe10d866691ed4a1807c3e89686a8c87ee0ddca13ed5a800"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie23-2026-11-12T13-16-01-auto.zip",
+      "octets": 6508919,
+      "sha256": "f80be8fc115ab78b71e23f0cc9f120aa84d0eb61ff9e54ea0247e419555f3e67"
+    }
+  ]
+}
