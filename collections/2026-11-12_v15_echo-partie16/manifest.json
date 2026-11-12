@@ -1,0 +1,18 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Séance Écho de l'opérateur du 12/11/2026, partie 16, 08:43 à 09:49 (Paris), export final en 2 volumes (le volume 2 envoyé en deux morceaux, recollé : sha256 cd01b44f…). Les exports automatiques intermédiaires ne sont pas gardés (contenus dans le final).",
+  "contenu": "Relecture manuelle de la partie 16 (1 459 visites), jugée contre le lot et la relecture de la Constellation « Vision 14 » du 11/11.",
+  "fichiers": [
+    {
+      "chemin": "raw/ariane-echo-partie16-2026-11-12T08-49-19-volume01-sur02.zip",
+      "octets": 85889,
+      "sha256": "abdd7bc3340d1bf982e61596028cfb626c861b9386b0b9477350993b0a88d96a"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie16-2026-11-12T08-49-19-volume02-sur02.zip",
+      "octets": 48423191,
+      "sha256": "cd01b44f853e645289fdd7e2185f95f5bec99d78934f1f9ef88bf84e9131e165"
+    }
+  ]
+}
