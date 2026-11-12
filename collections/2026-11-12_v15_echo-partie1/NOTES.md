@@ -9,3 +9,6 @@
 
 ## Lecture (SUPPOSÉ)
 - « Error creating WebGL context » : Chrome refuse un nouveau contexte WebGL à la page (processus graphique saturé ou planté, souvent après une longue séance ou un plantage du pilote). Rien dans Ariane ne crée de contexte WebGL ; un lien avec le préchauffage (mémoire graphique de Potree) n'est ni établi ni exclu.
+
+## Suite (14:54 à 14:59, après redémarrage), les deux séances jointes ensemble
+- 41 des 42 posés du lot revus : 34 sans action, 7 retouchés (médiane 8 mm, 2 au-delà de 10 mm, le pire à 39 mm). Aucune mauvaise voie.

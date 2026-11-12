@@ -1,13 +1,23 @@
 {
   "format": "ariane-collecte-v1",
   "version_ariane": "5",
-  "origine": "Séance Écho de l'opérateur du 12/11/2026, partie 1, 14:46 à 14:53 (Paris), export final ; séance coupée par une panne de la page ESV (Potree : « Error creating WebGL context » au rechargement).",
+  "origine": "Séance Écho de l'opérateur du 12/11/2026, partie 1, 14:46 à 14:53 (Paris), export final ; séance coupée par une panne de la page ESV (Potree : « Error creating WebGL context » au rechargement). Suite après redémarrage : seconde séance 14:54 à 14:59 (exports de 13-59-02 et 13-59-30, même session).",
   "contenu": "Relecture manuelle partielle de la partie 1, jugée contre le lot « Vision 15 » de 12:31.",
   "fichiers": [
     {
       "chemin": "raw/ariane-echo-partie1-2026-11-12T13-53-13.zip",
       "octets": 4767454,
       "sha256": "f28241978f930291fe55140885ef686e06fa12b0fb4a5461a258fa3d8b73cf73"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie1-2026-11-12T13-59-02.zip",
+      "octets": 1190095,
+      "sha256": "930b8440983de4bd056c02cfc78ded2f84c4ea87280e5f9ed2217ce86acff5e4"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie1-2026-11-12T13-59-30.zip",
+      "octets": 1190123,
+      "sha256": "e7cb609e000fbdb9f92c2a9b113888e1d5b6bebc07f3e4286001a9dd75e35154"
     }
   ]
 }
