@@ -1,0 +1,113 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Deux Constellations « Vision 15 » (build 2564593) du 12/11/2026 : parties 21, 22, 23 puis 0 à 4, 11:33 à 12:57 (Paris). Export de 12:57 en 21 volumes ; il contient aussi tout l'export de 12:20 (11 volumes, même période, non gardé).",
+  "contenu": "Premier terrain de Vision 15 : réparation du chargement de Potree, relecture sans cut vide, changements de partie seuls.",
+  "fichiers": [
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume01-sur21.zip",
+      "octets": 593406,
+      "sha256": "b199e1f996ceaa28887e2de8b47bfedc78afe07545a727bbc7ecb8a1f34eabc1"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume02-sur21.zip",
+      "octets": 18578981,
+      "sha256": "1fa8b8487fac27a916cf06107655de0b6a2a4f34ecd07b63c269482f3baafc7c"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume03-sur21.zip",
+      "octets": 12968631,
+      "sha256": "ebc12b67dbbe0065e12a0ac3257ad581ddef5dc4260c8531bc298856edefc4b6"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume04-sur21.zip",
+      "octets": 12493401,
+      "sha256": "51f915c36266a49eed2b8a31cdf612da6d7740fd292cc9a829f2c699ffae7994"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume05-sur21.zip",
+      "octets": 10784470,
+      "sha256": "78848084512b714c0e0f6b9f9e51c6bccb5af4b45de5cb191772e60ec558410d"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume06-sur21.zip",
+      "octets": 10909722,
+      "sha256": "2525a2c634e77105b74527d689cf557765c49deaa4c5699df203745022f39eb5"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume07-sur21.zip",
+      "octets": 12071475,
+      "sha256": "fce5ce5b9c127198254810afc733f259c8f5ae0a05864cb8e2f34d3d242dfaf1"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume08-sur21.zip",
+      "octets": 11157298,
+      "sha256": "742e2144514168e9e562208004016b0a9916839966eed1a29671cbbd5b22f4b0"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume09-sur21.zip",
+      "octets": 11781511,
+      "sha256": "6330e64e5d73c16300dc6209ec71ed72c8e9988a8c5fbbffbbbea1c9d2515e26"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume10-sur21.zip",
+      "octets": 11059151,
+      "sha256": "323ead84d029e0c86bcd0f07271a63b12edd27130b452e3e45f8673d54199043"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume11-sur21.zip",
+      "octets": 10625586,
+      "sha256": "a198adc564c62d3d5cc6db66f7066bb3f4eccb0c57d687cdfef4f7848a08ac8a"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume12-sur21.zip",
+      "octets": 11841814,
+      "sha256": "ded7754930ef998181e9612bb1d7c63854ffb779702375b651cea0deee23dc49"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume13-sur21.zip",
+      "octets": 12497758,
+      "sha256": "584de11fc5a5cfc749a4b7333c81fe7d855dd81588af31260b9065cab022ee9d"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume14-sur21.zip",
+      "octets": 11525517,
+      "sha256": "6bb7389ec15f31ba4a09354fe2023d0d57f98b66dec7f4bad0b91b8e5118ca42"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume15-sur21.zip",
+      "octets": 11535890,
+      "sha256": "5e0c50b6a07b14293921639ba029734cfbc4a7baa76decf7b69117af8ccc83b4"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume16-sur21.zip",
+      "octets": 11967934,
+      "sha256": "d559928abf0ed2e57beb6ba80a9ad246d487723312dd07db8cf5d959ad490d2f"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume17-sur21.zip",
+      "octets": 11217122,
+      "sha256": "a217ecf757520ee9523e05dbd47c83987f879bdf67208c9b82c6b232ab286ed4"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume18-sur21.zip",
+      "octets": 12170609,
+      "sha256": "e8c7501a2a31fab9ff11a55debc0f71788e792e9de9a15a27dfd597444bae371"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume19-sur21.zip",
+      "octets": 14597343,
+      "sha256": "474faebe80ea9584b90c34a2bac7dc48d2ea0ae085decd6544d179b6f9e09ae8"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume20-sur21.zip",
+      "octets": 18603630,
+      "sha256": "d48639858e6e6ff5bf08168628409de88e52be5231bb76e0b850cd443795c5ee"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-12T11-57-58-volume21-sur21.zip",
+      "octets": 3160852,
+      "sha256": "1cf4a952b5d17bcfcb5cf0ea8978bc98cc73551b26cfc2967a40f07434b04c29"
+    }
+  ]
+}
