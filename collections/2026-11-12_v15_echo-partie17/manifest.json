@@ -1,0 +1,13 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Séance Écho de l'opérateur du 12/11/2026, partie 17, 10:00 à 10:11 (Paris), export final (les exports automatiques intermédiaires ne sont pas gardés).",
+  "contenu": "Relecture manuelle de la partie 17 (297 visites), jugée contre le lot et la relecture de la Constellation « Vision 14 » du 11/11.",
+  "fichiers": [
+    {
+      "chemin": "raw/ariane-echo-partie17-2026-11-12T09-11-48.zip",
+      "octets": 9455042,
+      "sha256": "56e2a5b25d6b4380c31984ea739c7b0f8861b4987280d575360a779a56f37dbf"
+    }
+  ]
+}
