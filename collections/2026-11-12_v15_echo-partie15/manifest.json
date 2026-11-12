@@ -1,0 +1,43 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Séance Écho de l'opérateur du 12/11/2026, partie 15, 08:27 à 08:39 (Paris), 7 exports (6 automatiques et un final).",
+  "contenu": "Relecture manuelle de la partie 15, jugée contre le lot et la relecture de la Constellation « Vision 14 » du 11/11 (collection 2026-11-11_v14_constellation-15-17).",
+  "fichiers": [
+    {
+      "chemin": "raw/3094d420-ariane-echo-partie15-2026-11-12T07-31-35-auto.zip",
+      "octets": 6166035,
+      "sha256": "d8b12aab849bb851c6aa0f1275afc81b67b2049af09f4c892b08a444d2a9013e"
+    },
+    {
+      "chemin": "raw/49cfeec2-ariane-echo-partie15-2026-11-12T07-29-04-auto.zip",
+      "octets": 5807033,
+      "sha256": "0069cb1b7c7615d0ebe72dc8938dcead447906fde173b45bfeb33be887c54495"
+    },
+    {
+      "chemin": "raw/63b2605e-ariane-echo-partie15-2026-11-12T07-32-43-auto.zip",
+      "octets": 6144539,
+      "sha256": "8bc7efb8ffd143ca0390050b4bb5e674320443f7588376de61cbc6a32eac9e79"
+    },
+    {
+      "chemin": "raw/bea85f59-ariane-echo-partie15-2026-11-12T07-30-10-auto.zip",
+      "octets": 5795812,
+      "sha256": "0d9a845fd8061f7de176455c22c260a765e3eb52129aac8c5f5ef1935562a17b"
+    },
+    {
+      "chemin": "raw/c5c20ad4-ariane-echo-partie15-2026-11-12T07-39-07.zip",
+      "octets": 11866689,
+      "sha256": "e55ba60bc3a49ecdb4a9cf26060c1584d17e1347896468c4c85134a7c2477282"
+    },
+    {
+      "chemin": "raw/f0cae2a9-ariane-echo-partie15-2026-11-12T07-38-30-auto.zip",
+      "octets": 8581061,
+      "sha256": "2c1dc19c64180ccbb4e4f563d7230ad4fe95f4bd5f26ab8cf844f90421647e75"
+    },
+    {
+      "chemin": "raw/f4b05f92-ariane-echo-partie15-2026-11-12T07-36-29-auto.zip",
+      "octets": 6455208,
+      "sha256": "3fc143078473d7f003d430d10529c4c437665860201ffeb95c0d1c69a4f7292e"
+    }
+  ]
+}
