@@ -1,0 +1,13 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Séance Écho de l'opérateur du 12/11/2026, partie 0, 14:24 à 14:39 (Paris), export final (les automatiques ne sont pas gardés).",
+  "contenu": "Relecture manuelle de la partie 0, jugée contre le lot « Vision 15 » de 12:24 (collection 2026-11-12_v15_constellations-21-23_0-4) ; deuxième examen vierge de la règle « voie des cuts sûrs ».",
+  "fichiers": [
+    {
+      "chemin": "raw/ariane-echo-partie0-2026-11-12T13-39-38.zip",
+      "octets": 17621299,
+      "sha256": "aa40b29fc1e922c8135d0bc0b67609c73ea9f9f0f1934a96820500b18e3f2e3c"
+    }
+  ]
+}
