@@ -1,9 +1,14 @@
 {
   "format": "ariane-collecte-v1",
   "version_ariane": "5",
-  "origine": "Séance Écho de l'opérateur du 12/11/2026, partie 23, 13:00 à 13:16 (Paris), 8 exports automatiques (segments 1 à 8 de la même session ; pas d'export final reçu).",
+  "origine": "Séance Écho de l'opérateur du 12/11/2026, parties 22 et 23, 13:55 à 14:18 (Paris) : export final (13-22-42, 2 segments, 577 visites) et 8 exports automatiques de la même session.",
   "contenu": "Relecture manuelle de la partie 23, jugée contre le lot « Vision 15 » de 11:46 (collection 2026-11-12_v15_constellations-21-23_0-4). Premier examen vierge de la règle « voie des cuts sûrs » (CH-112).",
   "fichiers": [
+    {
+      "chemin": "raw/ariane-echo-partie22-23-2026-11-12T13-22-42.zip",
+      "octets": 12089260,
+      "sha256": "660ee8bbdd75266a0dce9e3d70a1162dd016b5504be9dc883cd87ef69e4125dd"
+    },
     {
       "chemin": "raw/ariane-echo-partie23-2026-11-12T13-00-46-auto.zip",
       "octets": 5370187,

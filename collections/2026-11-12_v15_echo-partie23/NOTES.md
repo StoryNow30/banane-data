@@ -12,3 +12,7 @@
 - Réglage retenu par CH-112 et branché en ombre par CH-114 (zone `alerte` seule, seuil 100 + 2·g² mm, G 12) : **0 des 13 erreurs de plus de 100 mm arrêtées**, 1 bon bloqué. Le terme de courbure (ajouté après coup) porte le seuil à 388 mm à 12 cuts : 3694 (285 mm) et 5132 (171 mm) passent ; les marges, exclues, portent 3747-3750.
 - Réglage d'origine (seuil 100 fixe, zones `alerte` et marges) : 7 des 13 arrêtées, 3 bons bloqués, 16 arrêts sur 267 posés.
 - Lecture (PROBABLE) : la courbure ajoutée au vu de deux cuts du 08/11 a ruiné le rappel sur un lot neuf.
+
+## Export final (13-22-42, parties 22 et 23)
+- Partie 23 : jointure refaite sur l'export final, chiffres identiques à ceux des segments automatiques (45 posés jugés, 15 à plus de 50 mm ; 28 différés jugés, tous à corriger).
+- Partie 22 : 5 cuts revus seulement (4 posés sans action, 1 différé dont l'écart n'est pas jugeable : repère non raccordé). Pas d'examen possible.
