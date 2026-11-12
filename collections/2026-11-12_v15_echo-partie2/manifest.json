@@ -1,0 +1,18 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Séances Écho de l'opérateur du 12/11/2026 : partie 2 (15:31 à 15:45, Paris, export final) ; partie 22 (une seule visite, 15:28 à 15:31). Exports automatiques non gardés.",
+  "contenu": "Relecture manuelle de la partie 2, jugée contre le lot « Vision 15 » de 12:33.",
+  "fichiers": [
+    {
+      "chemin": "raw/ariane-echo-partie2-2026-11-12T14-45-17.zip",
+      "octets": 11729901,
+      "sha256": "134135b40312b06cdf34f57e4c9784d4d8a2c177279c1684040ebf6aa9754efd"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie22-2026-11-12T14-31-01.zip",
+      "octets": 118976,
+      "sha256": "e8faea46980fd64f682468bfa51a6b9a4e79ad4e0e2d4e81d9d5973e18b63acb"
+    }
+  ]
+}
