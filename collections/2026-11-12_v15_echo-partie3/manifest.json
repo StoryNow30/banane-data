@@ -1,0 +1,9 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Séance Écho de l'opérateur du 12/11/2026, partie 3 (export final). Exports automatiques non gardés : l'export final contient toutes les visites.",
+  "contenu": "Relecture manuelle de la partie 3, jugée contre le lot « Vision 15 » de la Constellation 0 → 4 (collection 2026-11-12_v15_constellations-21-23_0-4).",
+  "fichiers": [
+    { "chemin": "raw/ariane-echo-partie3-2026-11-12T15-07-47.zip", "octets": 8185542, "sha256": "b5ac071f6fbd5d1b44090c12a0f595d65965c0bf0a928999cadc6f0c9d412c88" }
+  ]
+}
