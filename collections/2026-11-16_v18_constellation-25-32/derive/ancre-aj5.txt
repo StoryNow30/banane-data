@@ -1,0 +1,30 @@
+partie | observations | ancre jugée | ancre muette | refus | |écart| médian | P90 | aj5 présent | aj5 appliqué | décisions
+25 | 63 | 56 | 7 | 0 | 4.0 | 13.2 | 4 | 0 | {"engine":36,"lot":26,"defer":1}
+26 | 138 | 133 | 5 | 0 | 3.5 | 8.2 | 9 | 0 | {"lot":50,"engine":87,"defer":1}
+27 | 625 | 589 | 36 | 7 | 7.0 | 18.6 | 37 | 0 | {"lot":223,"engine":395,"defer":7}
+28 | 68 | 68 | 0 | 0 | 5.1 | 13.7 | 8 | 0 | {"engine":25,"lot":43}
+29 | 183 | 176 | 7 | 0 | 4.4 | 11.3 | 18 | 0 | {"engine":102,"lot":81}
+30 | 217 | 214 | 3 | 1 | 5.0 | 10.8 | 22 | 0 | {"engine":103,"lot":113,"defer":1}
+31 | 113 | 105 | 8 | 0 | 8.1 | 15.4 | 16 | 0 | {"engine":55,"lot":58}
+32 | 11 | 11 | 0 | 0 | 5.7 | 11.8 | 1 | 0 | {"lot":2,"engine":9}
+refus :
+{"part":27,"cut":3095,"ecartMm":260.1,"axeMm":-151.9,"cin":-144.3,"decision":"defer"}
+{"part":27,"cut":2916,"ecartMm":120.9,"axeMm":-198.4,"cin":-194,"decision":"defer"}
+{"part":27,"cut":3041,"ecartMm":394.8,"axeMm":-183.6,"cin":-179.3,"decision":"defer"}
+{"part":27,"cut":3039,"ecartMm":263.5,"axeMm":-163.9,"cin":-159.4,"decision":"defer"}
+{"part":30,"cut":9159,"ecartMm":-153.6,"axeMm":192.2,"cin":197.8,"decision":"defer"}
+{"part":27,"cut":3107,"ecartMm":97.7,"axeMm":-250.7,"cin":-242.8,"decision":"defer"}
+{"part":27,"cut":3094,"ecartMm":211,"axeMm":-208.8,"cin":-133.7,"decision":"defer"}
+{"part":27,"cut":3038,"ecartMm":220.6,"axeMm":-219.1,"cin":-152.8,"decision":"defer"}
+aj5 exemple : {"avant":{"left":[0,-127.52,7.95],"right":[0,-64.29,-13.16]},"apres":{"left":[0,-127.52,7.95],"right":[0,-64.29,-4.52]},"info":{"left":{"topN":71,"faceN":20},"right":{"topN":81,"faceN":7,"dz":8.6}},"commandeAvant":"lot"}
+aj5 commande exemple : true "lot"
+observations avec aj5 : 115 ; rails changés : 120 ; |dz| médian 8.15 max 10.770000000000001
+par partie : {"25":{"n":4,"chg":4},"26":{"n":9,"chg":9},"27":{"n":37,"chg":37},"28":{"n":8,"chg":8},"29":{"n":18,"chg":19},"30":{"n":22,"chg":24},"31":{"n":16,"chg":18},"32":{"n":1,"chg":1}}
+rails changés jugés par l'Écho (base = pose d'Ariane) : 6
+plus près 6 plus loin 0 égal (0,5 mm) 0
+{"part":25,"cut":9166,"rail":"droite","dz":6.1,"verticalApres":0,"verticalAvant":6.1,"ref":"observee","etiquette":"PASS_NO_DECISION","commande":"engine"}
+{"part":26,"cut":2038,"rail":"droite","dz":10.1,"verticalApres":0,"verticalAvant":10.1,"ref":"observee","etiquette":"PASS_NO_DECISION","commande":"lot"}
+{"part":25,"cut":3693,"rail":"gauche","dz":6.5,"verticalApres":0,"verticalAvant":6.5,"ref":"observee","etiquette":"PASS_NO_DECISION","commande":"engine"}
+{"part":25,"cut":3672,"rail":"gauche","dz":7.4,"verticalApres":0,"verticalAvant":7.4,"ref":"observee","etiquette":"PASS_NO_DECISION","commande":"engine"}
+{"part":26,"cut":2044,"rail":"gauche","dz":10.1,"verticalApres":0,"verticalAvant":10.1,"ref":"observee","etiquette":"SKIP","commande":"engine"}
+{"part":26,"cut":8137,"rail":"droite","dz":8.9,"verticalApres":0,"verticalAvant":8.9,"ref":"observee","etiquette":"VALIDATE_NO_MOVEMENT","commande":"engine"}

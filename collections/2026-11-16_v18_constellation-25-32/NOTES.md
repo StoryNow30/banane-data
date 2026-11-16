@@ -1,0 +1,13 @@
+# Lot « Vision 18 » du 16/11 (Constellation, parties 25 à 32) et Échos des parties 25 et 26
+
+Lot : 32 volumes (journal au volume 2, build 581fa4b), export du 16/11 13:34 Paris. Écho : 12 exports automatiques en delta des parties 25 et 26 (séance en cours ; le reste viendra). Sorties : `derive/bilan-lot.md` (`tools/bilan-lot.cjs`), `derive/ancre-aj5.txt` (`derive/ancre.cjs`, `derive/aj5.cjs`, lus dans le dossier du journal décompressé), `derive/jointure-echo-lot-p25.csv` et `-p26.csv` (`tools/jointure-echo-orbite.cjs --visite-sans-action-bonne`).
+
+## Mesuré (ÉTABLI sauf mention)
+- Lot : 1 361 validés, 74 différés, 8 parties ; 0 série de captures vides ; cut médian 2,1 s (P90 5,6 s).
+- **Levier N (ancre)** : jugé sur 1 352 des 1 418 décisions ; muet sur 66, toutes déjà différées par le moteur ou une garde (aucune pose sans ancre). **8 refus**, tous différés : partie 27 cuts 2916, 3038, 3039, 3041, 3094, 3095, 3107 et partie 30 cut 9159 ; écart à l'axe 98 à 395 mm. Pas d'Écho sur ces parties : refus non jugés.
+- **aj5 allumé par l'opérateur** au début du lot (07:22 UTC) : 115 décisions ajustées, 120 rails changés en hauteur, |dz| médian 8,2 mm, max 10,8 mm. Jugés par l'Écho (p25-26) : 6 rails ; la pose finale de l'opérateur est à la hauteur d'aj5 sur les 6 (1 validation sans mouvement, 5 visites sans action d'au moins 0,8 s, 1 de celles-ci étiquetée SKIP par l'Écho). PROBABLE : aj5 n'a rien dégradé ; échantillon trop petit pour conclure.
+- **Écho p25-26, posés** (base : pose d'Ariane) : 82 jugés, 76 à 10 mm ou moins (92,7 %) ; plus de 10 mm : p25 684 (47 mm, rail droit latéral), 686 (10,7), 2888 (12,9), 2128 (14,8, deuxième passe) ; p26 2041 (10,8), 2040 (50,2 mm, deuxième passe, étiquette « intentions multiples »).
+- **Écho p25-26, différés** : 5 jugés (25/808, 809, 2690, 2887 ; 26/5920), tous corrigés de 40 à 116 mm : bons différés.
+- **Deuxième passe** : écrit sur 6 parties (3, 4, 0, 7, 1, 2 cuts), jamais plus de 10. Jugés p25-26 : 7 écrits, 5 à 5,5 mm ou moins, 2128 à 14,8 mm, 2040 à 50,2 mm. **Partie 27 : arrêtée au premier refus** (cut 3049, « cible hors de la vue : cette passe ne déplace pas la vue », pose décidée à 224-279 mm de celle d'ESV) : 0 écrit sur 10 demandés, 11 décidés. Arrêt voulu (D-237 : arrêt au premier refus).
+- Garde de voie (ombre D-308) : 19 pauses qu'elle aurait demandées, dont 11 en partie 27 (zones 3034-3286 et 8398-8477).
+- Relecture : 8 passes, 3 552 relus, 300 corrigés, 0 refusé.

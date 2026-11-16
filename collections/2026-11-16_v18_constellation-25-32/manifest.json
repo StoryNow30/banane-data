@@ -1,0 +1,258 @@
+{
+  "format": "ariane-collecte-v1",
+  "version_ariane": "5",
+  "origine": "Lot « Vision 18 » du 16/11/2026 (Constellation, parties 25 à 32, 32 volumes, export du 16/11 13:34 Paris) et séance Écho du 16/11 (exports automatiques en delta, parties 25 et 26 ; séance en cours).",
+  "contenu": "Premier lot de terrain de la Vision 18 : levier N, essai aj5 allumé, deuxième passe ; jointure Écho des parties 25 et 26.",
+  "fichiers": [
+    {
+      "chemin": "raw/ariane-echo-partie25-2026-11-16T10-37-18-auto.zip",
+      "octets": 4918816,
+      "sha256": "f7d8098c2a241b5e454bd37e07372a550724e0117978af5fb6d5aeb68785e608"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie25-2026-11-16T10-40-29-auto.zip",
+      "octets": 6507547,
+      "sha256": "6039d2a3080afb5c0430f3334c5709c36186f677c7232e4f3bd9a02a249530d5"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie25-2026-11-16T10-43-15-auto.zip",
+      "octets": 5953245,
+      "sha256": "698fc251e6bba72bd5f732ef4fcc8eaf9e1053b92689ede1b2c62dced6e74e31"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie25-2026-11-16T10-46-25-auto.zip",
+      "octets": 6233434,
+      "sha256": "5a5d773ae53e5f447b24478945b17a0a41648026b2c03c636b7179e12cbcf15c"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie25-2026-11-16T10-52-01-auto.zip",
+      "octets": 6566114,
+      "sha256": "60af94e96d283c4f0fba6f2efdc71d9caffd56b39c5107ad19f35a49eca7e88d"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie25-2026-11-16T10-53-58-auto.zip",
+      "octets": 6994310,
+      "sha256": "29004f24ee4465f1cbf4de7cfce992f4fdc1035f69e878205b9995a9bc3fe0dd"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie25-2026-11-16T10-55-35-auto.zip",
+      "octets": 7598889,
+      "sha256": "87eca554077d5e7798bb7d592de5e83681217232ee2044a1118e60528d72d414"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie25-26-2026-11-16T11-00-08-auto.zip",
+      "octets": 6297460,
+      "sha256": "163717be0ee73df6ef41ca4c8adc8078c1be3f0ac6d7ca183a51a396c9a7b3ad"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie26-2026-11-16T11-01-51-auto.zip",
+      "octets": 6644040,
+      "sha256": "50e6ac4f618733d1646d232ca5231854d7b66f3ed6585545e9d88992d3bbaf04"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie26-2026-11-16T11-03-32-auto.zip",
+      "octets": 5564524,
+      "sha256": "dc6c445d1cd70ee25cbca05587b63fe111a11cbe4bfe465e2b170679d6c7ffec"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie26-2026-11-16T11-04-48-auto.zip",
+      "octets": 5615462,
+      "sha256": "f8a58dc162f27883504867bab97cf7badb5f32e64618619d23088e4c9e4cdd85"
+    },
+    {
+      "chemin": "raw/ariane-echo-partie26-2026-11-16T11-05-58-auto.zip",
+      "octets": 6385831,
+      "sha256": "4ab59168f2d0125fd0a0f3a9f229dbe70b85ab0105259be0d06a43d0086e98d8"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume01-sur32.zip",
+      "octets": 763394,
+      "sha256": "6cd258e3b02dfbecd7f5bc9d2b19a66a750cb00a6278e6f110b5f72d09d5e374"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume02-sur32.zip",
+      "octets": 26720100,
+      "sha256": "ffd268b6b5cfab99ddc830bb4725142c853d529bb503e42f7b0055c256d8d124"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume03-sur32.zip",
+      "octets": 15631495,
+      "sha256": "04df5e2efad3f086e89152576d3d1290a7956e88f4f0bd241db33b3453febec8"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume04-sur32.zip",
+      "octets": 13564167,
+      "sha256": "b741b3984160e085034ef33d462a86f8a00b699a302e26f30242610c3afd4476"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume05-sur32.zip",
+      "octets": 12827390,
+      "sha256": "03d867de1312ff0af010c4844ccbf7d8f929c632a39d862dcbfc79a32d1ab9f4"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume06-sur32.zip",
+      "octets": 13682834,
+      "sha256": "ee8b9cd7e26dd2aa559c181f86040dde349a624fd23c73544f2673f5922b4aee"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume07-sur32.zip",
+      "octets": 13182613,
+      "sha256": "928fe516c00902b079c9870442999b11de8be0f221f3b8967f0d631acaba141e"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume08-sur32.zip",
+      "octets": 13783472,
+      "sha256": "c890caa123bcaab747878d40afeb2bbe9125bff06095ade1995a6292bfb8a454"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume09-sur32.zip",
+      "octets": 13047666,
+      "sha256": "4d85986586aeed6421e3de1bb5c388dd004fbe49f9dc6d1b730171968163a74d"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume10-sur32.zip",
+      "octets": 14185957,
+      "sha256": "9c8404c9c0a6f167b897400c5eb48209b5454fd7885c8e86da0abb6a65aadc37"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume11-sur32.zip",
+      "octets": 13607056,
+      "sha256": "41cb5ff81e4f48fe67a43f7af44e3f4ae3e85507dcd4049aededb401dd864ec1"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume12-sur32.zip",
+      "octets": 14480521,
+      "sha256": "4e25eba4ec2df1463ca61ad15265adee647a4d8913e186ab3070ff17c28f2ba2"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume13-sur32.zip",
+      "octets": 12475100,
+      "sha256": "2dfeaf7a9a74c7497f9fe856c05be024532e67c0fbd9b6949a2b2eccbf7a6a8d"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume14-sur32.zip",
+      "octets": 13100995,
+      "sha256": "f6c28554cfc44e8fa7e0a76610bbd84c02f667e29ac976237c936df18887edb4"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume15-sur32.zip",
+      "octets": 14139848,
+      "sha256": "3abb2ec6faf9e88d6d8df8d33dd1a9c9d9f3b6a8bd902be9217a1c7ed34fa4b2"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume16-sur32.zip",
+      "octets": 14176376,
+      "sha256": "6845c00987d406122584622a2353f161d4676b3095664c6c4ceff00eb45fef69"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume17-sur32.zip",
+      "octets": 13876503,
+      "sha256": "e980d9f4ccfa9d222bbf3326e58c1c83298db59b02cfe81a1b1e5ec32177919f"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume18-sur32.zip",
+      "octets": 13260468,
+      "sha256": "a45f1303ed16d948ed0a3d058136dc97d82827c10f69412bb865a153e953e9b2"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume19-sur32.zip",
+      "octets": 13525608,
+      "sha256": "85683dbcac6279fe682efed8faeeb0a7507e406fcae3a902faad788e9525b1c7"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume20-sur32.zip",
+      "octets": 14147962,
+      "sha256": "f3bd7856560c35a4baddc1532aea2a62f94c0c96216df75cf034ec11a5f31232"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume21-sur32.zip",
+      "octets": 12547270,
+      "sha256": "883b3aeb27e25d9528bd74951f4804203067392aba83d689fc5976e9e5e24dbc"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume22-sur32.zip",
+      "octets": 13348520,
+      "sha256": "5155755993a6aeb7cdd9a925306973732236c21b99bd358f7e3572a82ff00975"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume23-sur32.zip",
+      "octets": 14634045,
+      "sha256": "cda2285be83cb2680bdd8c6070bcb221bce8405ebbbe1d749abc1a4a17ca56b0"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume24-sur32.zip",
+      "octets": 13317955,
+      "sha256": "bbf803141f1a98c81fb8733379e8c0ee9b53f1690f40b575832aa96a1281c890"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume25-sur32.zip",
+      "octets": 14043169,
+      "sha256": "1c7aff78d1514b814f6c8cd0b3c33d15a4a1f3fd57a03e924c0782b4df1278e5"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume26-sur32.zip",
+      "octets": 13261662,
+      "sha256": "192b3a320b3aaa29d998767189ab442773da2c3fee0eacf80c30d9af4e2879f6"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume27-sur32.zip",
+      "octets": 13121904,
+      "sha256": "c9c2dee320d4927c287beb50632714bec8b81d25f029fcffc5b7dc4e96e64465"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume28-sur32.zip",
+      "octets": 13598618,
+      "sha256": "5ff519145ea4d159280ec5f2dce565ceb6b6906a92501941b93228f14f56a005"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume29-sur32.zip",
+      "octets": 12335022,
+      "sha256": "49c3f722e1e7418a48354fc944995e5df47968526e863a96ef78887ffe6af5ca"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume30-sur32.zip",
+      "octets": 14419024,
+      "sha256": "aa520cc4568b04133e3ccc72726f603fb5354f27343d87ba4e64f6110afc8ba6"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume31-sur32.zip",
+      "octets": 21230047,
+      "sha256": "8c5a0b5e4d55b022428d541f7acece83e76f72788e80e9f7878772a0c8dc7cfe"
+    },
+    {
+      "chemin": "raw/ariane-lot-2026-11-16T12-34-17-volume32-sur32.zip",
+      "octets": 25577694,
+      "sha256": "0afd9c8e8d185aa86959518eee86a364cc7f62ab347778bc64d45da16824c4b4"
+    },
+    {
+      "chemin": "derive/aj5.cjs",
+      "octets": 2167,
+      "sha256": "d77124ef8c70402b25e2deea8f0d06fdc81062e6ef9d9d7feccf6f73770bca66"
+    },
+    {
+      "chemin": "derive/ancre-aj5.txt",
+      "octets": 2986,
+      "sha256": "6dab10609963c6955e4a5717c9ff5fd811b3875306c4de92847b148ce855b25f"
+    },
+    {
+      "chemin": "derive/ancre.cjs",
+      "octets": 2407,
+      "sha256": "66cdd19ce690934d66db1fb6df8cb67c68aeee71fbd655bafb929aed469dc625"
+    },
+    {
+      "chemin": "derive/bilan-lot.md",
+      "octets": 9244,
+      "sha256": "99b60bc57ca47f6740b4ac1238cd7623a6fe49d39f36cc972f5f714a644c08e9"
+    },
+    {
+      "chemin": "derive/jointure-echo-lot-p25.csv",
+      "octets": 44434,
+      "sha256": "44dbfccd5483da26b2ed6f7f76a19a0e1b25497164434f1fd5ed75d0f8caa6bd"
+    },
+    {
+      "chemin": "derive/jointure-echo-lot-p26.csv",
+      "octets": 28905,
+      "sha256": "14ddbcc100b66a909f6bc611d4f709576f4131eaec8cad5c7e4c3939af21cc62"
+    }
+  ]
+}
