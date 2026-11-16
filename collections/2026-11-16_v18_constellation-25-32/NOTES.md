@@ -1,6 +1,6 @@
 # Lot « Vision 18 » du 16/11 (Constellation, parties 25 à 32) et Échos des parties 25 et 26
 
-Lot : 32 volumes (journal au volume 2, build 581fa4b), export du 16/11 13:34 Paris. Écho : 12 exports automatiques en delta des parties 25 et 26 (séance en cours ; le reste viendra). Sorties : `derive/bilan-lot.md` (`tools/bilan-lot.cjs`), `derive/ancre-aj5.txt` (`derive/ancre.cjs`, `derive/aj5.cjs`, lus dans le dossier du journal décompressé), `derive/jointure-echo-lot-p25.csv` et `-p26.csv` (`tools/jointure-echo-orbite.cjs --visite-sans-action-bonne`).
+Lot : 32 volumes (journal au volume 2, build 581fa4b), export du 16/11 13:34 Paris. Écho : 12 exports automatiques en delta des parties 25 et 26, puis l'export final de la séance (16/11 13:52 Paris, 800 visites, parties 25 et 26) ; les jointures sont faites sur l'export final seul (mêmes chiffres qu'avec les deltas). Les Échos des parties 27 à 32 viendront. Sorties : `derive/bilan-lot.md` (`tools/bilan-lot.cjs`), `derive/ancre-aj5.txt` (`derive/ancre.cjs`, `derive/aj5.cjs`, lus dans le dossier du journal décompressé), `derive/jointure-echo-lot-p25.csv` et `-p26.csv` (`tools/jointure-echo-orbite.cjs --visite-sans-action-bonne`).
 
 ## Mesuré (ÉTABLI sauf mention)
 - Lot : 1 361 validés, 74 différés, 8 parties ; 0 série de captures vides ; cut médian 2,1 s (P90 5,6 s).

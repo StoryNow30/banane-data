@@ -45,6 +45,11 @@
       "sha256": "163717be0ee73df6ef41ca4c8adc8078c1be3f0ac6d7ca183a51a396c9a7b3ad"
     },
     {
+      "chemin": "raw/ariane-echo-partie25-26-2026-11-16T12-52-37.zip",
+      "octets": 22006686,
+      "sha256": "c045f83698687bab6d4be2d11816ed708a63e970805af2994246fa5823af9753"
+    },
+    {
       "chemin": "raw/ariane-echo-partie26-2026-11-16T11-01-51-auto.zip",
       "octets": 6644040,
       "sha256": "50e6ac4f618733d1646d232ca5231854d7b66f3ed6585545e9d88992d3bbaf04"
@@ -251,8 +256,8 @@
     },
     {
       "chemin": "derive/jointure-echo-lot-p26.csv",
-      "octets": 28905,
-      "sha256": "14ddbcc100b66a909f6bc611d4f709576f4131eaec8cad5c7e4c3939af21cc62"
+      "octets": 30057,
+      "sha256": "aae727c44f1ae54a96b42d66ffd08f5481befd1a4101b8bb00cc04206d0a68a3"
     }
   ]
 }
