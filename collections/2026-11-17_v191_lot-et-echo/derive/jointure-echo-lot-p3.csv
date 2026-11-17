@@ -1,0 +1,3 @@
+partie,cut,classe,motifGauche,motifDroite,visitesEcho,referenceHumaine,etiquetteEcho,base,gaucheLateralMm,gaucheVerticalMm,gaucheLongitudinalMm,gaucheDist3dMm,droiteLateralMm,droiteVerticalMm,droiteLongitudinalMm,droiteDist3dMm,maxDist3dMm,repere,b1Etat,b1ReelStage,b1HypotheseStage,b1HypotheseRaison,b1Changement,b1Appuis,raison,raisonSource
+3,2468,differee,slope,candidate,1,observee,VALIDATE_CORRECTED_BOTH,premiere-visite,3.835,1.944,-0.052,4.3,-48.783,-41.247,0.052,63.884,63.884,profil,sans-repere,deferred,,,,,,
+3,2542,posee,,,1,observee,VALIDATE_NO_MOVEMENT,ariane,0,0,0,0,0,0,0,0,0,profil,sans-repere,deferred,,,,,,
