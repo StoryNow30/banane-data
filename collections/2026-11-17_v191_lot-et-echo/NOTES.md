@@ -9,3 +9,8 @@ Lot : 21 volumes (journal au volume 2), export du 17/11 18:12 Paris. Écho : exp
 - **aj5 (hauteur) ÉTEINT pendant ce lot** : aucun rail ajusté (le 16/11, allumé : 92,7 % à 10 mm ou moins). Comparaison entre lots et parties différents : SUPPOSÉ, pas une mesure de l'effet d'aj5.
 - **Différés jugés** : 84, dont 83 corrigés au-delà de 10 mm (bons différés) ; 1 (6/1) laissé tel quel.
 - **Deuxième passe** : 10 écrits sur 4 parties ; 9 jugés : 6 à 7,1 mm ou moins, 3 faux (6/7092 29 mm, 12/1340 33 mm, 13/8969 26 mm).
+
+## Deuxième passe : ce qui l'a trompée (16/11 et 17/11, ÉTABLI sur 16 écritures jugées par l'Écho)
+- Motif de la GCV2 L1 à la décision de la passe : **« branche »** (pose sur une branche d'aiguillage) : 6 jugées, **4 fausses** (26/2040 50 mm, 12/1340 33 mm, 6/7092 29 mm, 13/8969 26 mm), 2 justes (7/119 5,7 mm, 26/8234 0 mm). **« recherche-adv »** : 7 jugées, 7 justes (0 à 7,1 mm). « sous-tau-cohérent » : 1, à 14,8 mm (25/2128). Sans motif (lot) : 3 justes.
+- Toutes en zone ADV ou abords ; deux des fausses portent une anomalie d'écartement de paire non appliquée (6/7092 −28,8 mm ; 13/8969 −22,8 mm) ; 13/8969 déplacée de 195 mm (l'ancienne règle « test 13 » aurait dit rien : plus de 150 mm).
+- Échantillon petit (16) : piste PROBABLE, à mesurer sur le corpus avant toute règle.
