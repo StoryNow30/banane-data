@@ -1,0 +1,35 @@
+{
+ "source": "Figma, fichier de l'opérateur « Ariane Signal 5.0 — interface et mouvement », page « Écrans » (node 2:3), section 7 « Finition riche » ; jetons lus le 18/11/2026",
+ "couleurs": {
+  "fond": {"sombre": "#121314", "clair": "#e8e9e7"},
+  "surface": {"sombre": "#1a1b1d", "clair": "#f1f2f0"},
+  "surface2": {"sombre": "#222427", "clair": "#fafaf9"},
+  "encre": {"sombre": "#ecedee", "clair": "#141516"},
+  "encre2": {"sombre": "#a6a9ad", "clair": "#4e5257"},
+  "encre3": {"sombre": "#6f7378", "clair": "#7c8085"},
+  "filet": {"sombre": "#ffffff1f", "clair": "#0000001f"},
+  "filet-fort": {"sombre": "#ffffff38", "clair": "#0000003d"},
+  "vivant": {"sombre": "#37c871", "clair": "#15703f"},
+  "attention": {"sombre": "#e8a93b", "clair": "#8a570a"},
+  "alerte": {"sombre": "#f0665a", "clair": "#b2372b"},
+  "action": {"sombre": "#ecedee", "clair": "#141516"},
+  "action-texte": {"sombre": "#121314", "clair": "#e8e9e7"},
+  "action-survol": {"sombre": "#ffffff", "clair": "#000000"},
+  "ombre-couleur": {"sombre": "#00000066", "clair": "#0000002e"},
+  "voile": {"sombre": "#00000073", "clair": "#14151647"}
+ },
+ "espacements": [4, 8, 12, 16, 24, 32, 48],
+ "rayons": {"controle": 6, "boite": 12, "pastille": 999},
+ "mouvement_ms": {"appui": 200, "local": 200, "mot": 280, "phrase": 240, "bouton": 220, "rail": 320, "repere": 280, "chiffre": 240, "anneau": 400, "couche": 320, "ligne": 240, "signature": 1200},
+ "textes": {
+  "mot d'état": ["IBM Plex Sans", "Medium", 28, 32, "-1%"],
+  "phrase": ["IBM Plex Sans", "Regular", 15, 22, "0"],
+  "détail": ["IBM Plex Sans", "Regular", 13, 18, "0"],
+  "libellé de bouton": ["IBM Plex Sans", "Medium", 15, 22, "0"],
+  "chiffre tabulaire": ["IBM Plex Mono", "Medium", 15, 22, "0"],
+  "gros chiffre": ["IBM Plex Mono", "Medium", 44, 48, "-2%"],
+  "repère de rail": ["IBM Plex Mono", "Regular", 10, 12, "0"]
+ },
+ "effets": {"ombre de couche (tiroir ouvert seulement)": "drop-shadow 0 8px 24px #00000066"},
+ "fenetre": {"largeur": 600, "hauteur": 760, "hauteur_tiroir_ouvert_riche": 850}
+}
