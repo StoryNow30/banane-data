@@ -1,0 +1,35 @@
+{
+  "source": "Figma « Ariane Signal 5.0 — interface et mouvement », page « CH-024 · Signal mix », planche « Q4 sombre (mix strict) » (nœud 120:2), collection de variables « CH-024 · Mix », mode « Q4 sombre »",
+  "couleurs": {
+    "scene": "#0c0d0e",
+    "fond": "#121314",
+    "surface": "#1a1b1d",
+    "surface2": "#222427",
+    "encre": "#ecedee",
+    "encre2": "#a6a9ad",
+    "encre3": "#6f7378",
+    "filet": "#ffffff1f",
+    "filet-fort": "#ffffff38",
+    "marche": "#f2b65a",
+    "toi": "#f2806f",
+    "action": "#ecedee",
+    "action-texte": "#121314",
+    "voile": "#00000099"
+  },
+  "rayons": { "r1": 4, "r2": 8, "r3": 12 },
+  "textes": {
+    "mot-etat": { "famille": "IBM Plex Sans", "graisse": 500, "taille": 28, "interligne": 32, "approche": "-1%" },
+    "phrase": { "famille": "IBM Plex Sans", "graisse": 400, "taille": 15, "interligne": 22 },
+    "detail": { "famille": "IBM Plex Sans", "graisse": 400, "taille": 13, "interligne": 18 },
+    "bouton": { "famille": "IBM Plex Sans", "graisse": 500, "taille": 15, "interligne": 22 },
+    "chiffre-tabulaire": { "famille": "IBM Plex Mono", "graisse": 500, "taille": 15, "interligne": 22 },
+    "gros-chiffre": { "famille": "IBM Plex Mono", "graisse": 500, "taille": 44, "interligne": 48 },
+    "repere": { "famille": "IBM Plex Mono", "graisse": 400, "taille": 10, "interligne": 12 }
+  },
+  "effets": { "ombre-de-couche": "0 8px 24px #00000066" },
+  "mouvement": {
+    "ressort": { "raideur": 260, "amortissement": 16, "duree_ms": 420 },
+    "courbe": { "bezier": [0.2, 0.7, 0.2, 1], "duree_ms": 600 }
+  },
+  "cadre": { "largeur": 600, "hauteur": 760 }
+}
