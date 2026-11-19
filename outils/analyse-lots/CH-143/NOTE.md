@@ -32,7 +32,8 @@ comptée qu'une fois : tous les événements du premier journal qui porte le `ba
 **Le lot ne comprend pas la relecture.** Les deux passes sont séquentielles : le lot 29 du 19/11 finit
 à 07:34:21, sa relecture à 07:59:51, le lot 30 démarre à 08:00:02. Le rapport « relecture / lot » vaut
 donc **78,1 %** (elle coûte presque autant que la pose), et l'ensemble posé + relu vaut **14,6 h, dont
-43,9 % de relecture**. C'est le plus gros bloc de temps mesuré de la chaîne.
+43,9 % de relecture**. Après la pose elle-même, c'est le plus gros bloc de temps mesuré de la chaîne —
+et le seul que le lot D peut entamer.
 
 ## Où passe le temps de relecture
 
@@ -69,7 +70,9 @@ La décomposition médiane (22 + 259 + 211 = 492 ms) laisse **106 ms** hors des 
 
 ## Conséquence pour le lot D
 
-La relecture est **le premier poste de temps mesuré** (6,4 h pour 8,2 h de pose ; 43,9 % du total
-posé + relu) : la condition d'ouverture du lot D — « ne s'ouvre que si A4 montre que la relecture est
-ce qui pèse le plus » — est remplie. Mais 78,6 % de ce temps part en cuts **visités sans correction**,
-pas en corrections : le lot D doit d'abord éviter des visites, pas seulement accélérer les corrections.
+La relecture est **le premier poste réductible** : 6,4 h, soit 78,1 % du temps de pose et 43,9 % du
+total posé + relu. La pose (8,2 h) reste le plus gros bloc, mais c'est le travail lui-même ; la
+relecture est le seul gros bloc que le lot D peut entamer. La condition d'ouverture — « la relecture
+est ce qui pèse le plus » — est donc remplie au sens où elle pèse le plus **après la pose** ; mais
+78,6 % de ce temps part en cuts **visités sans correction**, pas en corrections : le lot D doit
+d'abord éviter des visites, pas seulement accélérer les corrections.
