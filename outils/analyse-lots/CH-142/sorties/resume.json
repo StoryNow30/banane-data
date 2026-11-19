@@ -1,0 +1,759 @@
+{
+  "chantier": "CH-142",
+  "titre": "Part des cuts où l'ancre de trajectoire est muette, par lot et par cause",
+  "mesure": "ÉTABLI : journaux et listes d'ESV des exports de lot, règles de src/ancre-trajectoire.js",
+  "seuils": {
+    "thetaMm": 75,
+    "a": 4,
+    "w": 14,
+    "pasM": 0.25,
+    "ecartMinMm": 1428,
+    "ecartMaxMm": 1446,
+    "fenetres": [
+      200,
+      400,
+      800,
+      1600
+    ],
+    "minLignes": 30,
+    "margeM": 2,
+    "sensRapportMin": 1.1,
+    "sensFaibleMaxMm": 20,
+    "rigideMaxMm": 2,
+    "calageMaxMm": 5,
+    "blocCout": 400,
+    "plafondCoutMm": 40,
+    "minLignesListe": 100
+  },
+  "populations": {
+    "visite": "before-captured ou proposed dans le journal du lot",
+    "pose": "validation-accepted ; ecriture_observee dit les écritures 2xx observées, accepte_sans_ecriture les poses acceptées sans écriture vue",
+    "principale": "pose"
+  },
+  "ordre_des_causes": [
+    "liste-absente",
+    "liste-courte",
+    "cut-hors-liste",
+    "voie-courante-insuffisante"
+  ],
+  "lots": {
+    "V18": {
+      "parties": 8,
+      "visites": 1418,
+      "poses": 1361,
+      "acceptes_sans_ecriture": 21,
+      "muets_poses": 13,
+      "pourcentage_muet_poses": 1,
+      "muets_visites": 14,
+      "pourcentage_muet_visites": 1,
+      "etablie_poses": 1348,
+      "causes_poses": {
+        "liste-absente": 0,
+        "liste-courte": 0,
+        "cut-hors-liste": 13,
+        "voie-courante-insuffisante": 0,
+        "etablie": 1348
+      },
+      "causes_visites": {
+        "liste-absente": 0,
+        "liste-courte": 0,
+        "cut-hors-liste": 14,
+        "voie-courante-insuffisante": 0,
+        "etablie": 1404
+      },
+      "par_partie": {
+        "p25": {
+          "visites": 63,
+          "poses": 59,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 1.7,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 58
+          }
+        },
+        "p26": {
+          "visites": 138,
+          "poses": 137,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 0.7,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 136
+          }
+        },
+        "p27": {
+          "visites": 625,
+          "poses": 582,
+          "muets_poses": 0,
+          "pourcentage_muet_poses": 0,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 0,
+            "voie-courante-insuffisante": 0,
+            "etablie": 582
+          }
+        },
+        "p28": {
+          "visites": 68,
+          "poses": 68,
+          "muets_poses": 0,
+          "pourcentage_muet_poses": 0,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 0,
+            "voie-courante-insuffisante": 0,
+            "etablie": 68
+          }
+        },
+        "p29": {
+          "visites": 183,
+          "poses": 183,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 0.5,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 182
+          }
+        },
+        "p30": {
+          "visites": 217,
+          "poses": 214,
+          "muets_poses": 7,
+          "pourcentage_muet_poses": 3.3,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 7,
+            "voie-courante-insuffisante": 0,
+            "etablie": 207
+          }
+        },
+        "p31": {
+          "visites": 113,
+          "poses": 107,
+          "muets_poses": 2,
+          "pourcentage_muet_poses": 1.9,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 2,
+            "voie-courante-insuffisante": 0,
+            "etablie": 105
+          }
+        },
+        "p32": {
+          "visites": 11,
+          "poses": 11,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 9.1,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 10
+          }
+        }
+      }
+    },
+    "V19.1": {
+      "parties": 11,
+      "visites": 836,
+      "poses": 750,
+      "acceptes_sans_ecriture": 10,
+      "muets_poses": 18,
+      "pourcentage_muet_poses": 2.4,
+      "muets_visites": 21,
+      "pourcentage_muet_visites": 2.5,
+      "etablie_poses": 732,
+      "causes_poses": {
+        "liste-absente": 0,
+        "liste-courte": 0,
+        "cut-hors-liste": 11,
+        "voie-courante-insuffisante": 7,
+        "etablie": 732
+      },
+      "causes_visites": {
+        "liste-absente": 0,
+        "liste-courte": 0,
+        "cut-hors-liste": 14,
+        "voie-courante-insuffisante": 7,
+        "etablie": 815
+      },
+      "par_partie": {
+        "p3": {
+          "visites": 2,
+          "poses": 1,
+          "muets_poses": 0,
+          "pourcentage_muet_poses": 0,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 0,
+            "voie-courante-insuffisante": 0,
+            "etablie": 1
+          }
+        },
+        "p4": {
+          "visites": 55,
+          "poses": 55,
+          "muets_poses": 8,
+          "pourcentage_muet_poses": 14.5,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 7,
+            "etablie": 47
+          }
+        },
+        "p5": {
+          "visites": 92,
+          "poses": 91,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 1.1,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 90
+          }
+        },
+        "p6": {
+          "visites": 123,
+          "poses": 103,
+          "muets_poses": 0,
+          "pourcentage_muet_poses": 0,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 0,
+            "voie-courante-insuffisante": 0,
+            "etablie": 103
+          }
+        },
+        "p7": {
+          "visites": 239,
+          "poses": 211,
+          "muets_poses": 2,
+          "pourcentage_muet_poses": 0.9,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 2,
+            "voie-courante-insuffisante": 0,
+            "etablie": 209
+          }
+        },
+        "p8": {
+          "visites": 11,
+          "poses": 9,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 11.1,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 8
+          }
+        },
+        "p9": {
+          "visites": 10,
+          "poses": 9,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 11.1,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 8
+          }
+        },
+        "p10": {
+          "visites": 52,
+          "poses": 50,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 2,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 49
+          }
+        },
+        "p11": {
+          "visites": 27,
+          "poses": 27,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 3.7,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 26
+          }
+        },
+        "p12": {
+          "visites": 45,
+          "poses": 45,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 2.2,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 44
+          }
+        },
+        "p13": {
+          "visites": 180,
+          "poses": 149,
+          "muets_poses": 2,
+          "pourcentage_muet_poses": 1.3,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 2,
+            "voie-courante-insuffisante": 0,
+            "etablie": 147
+          }
+        }
+      }
+    },
+    "V19": {
+      "parties": 3,
+      "visites": 125,
+      "poses": 123,
+      "acceptes_sans_ecriture": 0,
+      "muets_poses": 46,
+      "pourcentage_muet_poses": 37.4,
+      "muets_visites": 46,
+      "pourcentage_muet_visites": 36.8,
+      "etablie_poses": 77,
+      "causes_poses": {
+        "liste-absente": 1,
+        "liste-courte": 0,
+        "cut-hors-liste": 2,
+        "voie-courante-insuffisante": 43,
+        "etablie": 77
+      },
+      "causes_visites": {
+        "liste-absente": 1,
+        "liste-courte": 0,
+        "cut-hors-liste": 2,
+        "voie-courante-insuffisante": 43,
+        "etablie": 79
+      },
+      "par_partie": {
+        "p1": {
+          "visites": 1,
+          "poses": 1,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 100,
+          "causes_poses": {
+            "liste-absente": 1,
+            "liste-courte": 0,
+            "cut-hors-liste": 0,
+            "voie-courante-insuffisante": 0,
+            "etablie": 0
+          }
+        },
+        "p2": {
+          "visites": 16,
+          "poses": 16,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 6.3,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 15
+          }
+        },
+        "p3": {
+          "visites": 108,
+          "poses": 106,
+          "muets_poses": 44,
+          "pourcentage_muet_poses": 41.5,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 43,
+            "etablie": 62
+          }
+        }
+      }
+    },
+    "V20": {
+      "parties": 10,
+      "visites": 808,
+      "poses": 791,
+      "acceptes_sans_ecriture": 15,
+      "muets_poses": 9,
+      "pourcentage_muet_poses": 1.1,
+      "muets_visites": 11,
+      "pourcentage_muet_visites": 1.4,
+      "etablie_poses": 782,
+      "causes_poses": {
+        "liste-absente": 0,
+        "liste-courte": 0,
+        "cut-hors-liste": 9,
+        "voie-courante-insuffisante": 0,
+        "etablie": 782
+      },
+      "causes_visites": {
+        "liste-absente": 0,
+        "liste-courte": 0,
+        "cut-hors-liste": 11,
+        "voie-courante-insuffisante": 0,
+        "etablie": 797
+      },
+      "par_partie": {
+        "p6": {
+          "visites": 1,
+          "poses": 0,
+          "muets_poses": 0,
+          "pourcentage_muet_poses": null,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 0,
+            "voie-courante-insuffisante": 0,
+            "etablie": 0
+          }
+        },
+        "p7": {
+          "visites": 113,
+          "poses": 108,
+          "muets_poses": 2,
+          "pourcentage_muet_poses": 1.9,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 2,
+            "voie-courante-insuffisante": 0,
+            "etablie": 106
+          }
+        },
+        "p8": {
+          "visites": 42,
+          "poses": 41,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 2.4,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 40
+          }
+        },
+        "p9": {
+          "visites": 159,
+          "poses": 158,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 0.6,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 157
+          }
+        },
+        "p10": {
+          "visites": 42,
+          "poses": 42,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 2.4,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 41
+          }
+        },
+        "p11": {
+          "visites": 34,
+          "poses": 34,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 2.9,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 33
+          }
+        },
+        "p12": {
+          "visites": 111,
+          "poses": 110,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 0.9,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 109
+          }
+        },
+        "p13": {
+          "visites": 22,
+          "poses": 20,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 5,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 19
+          }
+        },
+        "p14": {
+          "visites": 65,
+          "poses": 63,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 1.6,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 62
+          }
+        },
+        "p15": {
+          "visites": 219,
+          "poses": 215,
+          "muets_poses": 0,
+          "pourcentage_muet_poses": 0,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 0,
+            "voie-courante-insuffisante": 0,
+            "etablie": 215
+          }
+        }
+      }
+    },
+    "V15": {
+      "parties": 8,
+      "visites": 831,
+      "poses": 784,
+      "acceptes_sans_ecriture": 16,
+      "muets_poses": 10,
+      "pourcentage_muet_poses": 1.3,
+      "muets_visites": 17,
+      "pourcentage_muet_visites": 2,
+      "etablie_poses": 774,
+      "causes_poses": {
+        "liste-absente": 0,
+        "liste-courte": 0,
+        "cut-hors-liste": 10,
+        "voie-courante-insuffisante": 0,
+        "etablie": 774
+      },
+      "causes_visites": {
+        "liste-absente": 0,
+        "liste-courte": 0,
+        "cut-hors-liste": 17,
+        "voie-courante-insuffisante": 0,
+        "etablie": 814
+      },
+      "par_partie": {
+        "p0": {
+          "visites": 109,
+          "poses": 107,
+          "muets_poses": 2,
+          "pourcentage_muet_poses": 1.9,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 2,
+            "voie-courante-insuffisante": 0,
+            "etablie": 105
+          }
+        },
+        "p1": {
+          "visites": 42,
+          "poses": 42,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 2.4,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 41
+          }
+        },
+        "p2": {
+          "visites": 91,
+          "poses": 89,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 1.1,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 88
+          }
+        },
+        "p3": {
+          "visites": 59,
+          "poses": 59,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 1.7,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 58
+          }
+        },
+        "p4": {
+          "visites": 93,
+          "poses": 86,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 1.2,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 85
+          }
+        },
+        "p21": {
+          "visites": 66,
+          "poses": 65,
+          "muets_poses": 2,
+          "pourcentage_muet_poses": 3.1,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 2,
+            "voie-courante-insuffisante": 0,
+            "etablie": 63
+          }
+        },
+        "p22": {
+          "visites": 60,
+          "poses": 59,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 1.7,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 58
+          }
+        },
+        "p23": {
+          "visites": 311,
+          "poses": 277,
+          "muets_poses": 1,
+          "pourcentage_muet_poses": 0.4,
+          "causes_poses": {
+            "liste-absente": 0,
+            "liste-courte": 0,
+            "cut-hors-liste": 1,
+            "voie-courante-insuffisante": 0,
+            "etablie": 276
+          }
+        }
+      }
+    }
+  },
+  "total": {
+    "visites": 4018,
+    "poses": 3809,
+    "acceptes_sans_ecriture": 62,
+    "muets_poses": 96,
+    "pourcentage_muet_poses": 2.5,
+    "muets_visites": 109,
+    "pourcentage_muet_visites": 2.7,
+    "causes_poses": {
+      "liste-absente": 1,
+      "liste-courte": 0,
+      "cut-hors-liste": 45,
+      "voie-courante-insuffisante": 50,
+      "etablie": 3713
+    },
+    "causes_visites": {
+      "liste-absente": 1,
+      "liste-courte": 0,
+      "cut-hors-liste": 58,
+      "voie-courante-insuffisante": 50,
+      "etablie": 3909
+    }
+  },
+  "principal": {
+    "lots": [
+      "V18",
+      "V19.1",
+      "V19",
+      "V20"
+    ],
+    "lots_parties": 32,
+    "lots_parties_sans_liste": 1,
+    "part_lots_parties_sans_liste": 3.1,
+    "visites": 3187,
+    "poses": 3025,
+    "acceptes_sans_ecriture": 46,
+    "muets_poses": 86,
+    "pourcentage_muet_poses": 2.8,
+    "muets_visites": 92,
+    "pourcentage_muet_visites": 2.9,
+    "causes_poses": {
+      "liste-absente": 1,
+      "liste-courte": 0,
+      "cut-hors-liste": 35,
+      "voie-courante-insuffisante": 50,
+      "etablie": 2939
+    },
+    "causes_visites": {
+      "liste-absente": 1,
+      "liste-courte": 0,
+      "cut-hors-liste": 41,
+      "voie-courante-insuffisante": 50,
+      "etablie": 3095
+    }
+  },
+  "comparaison": {
+    "lot": "V15",
+    "hors_total_principal": true
+  },
+  "lots_parties": 40,
+  "lots_parties_sans_liste": 1,
+  "part_lots_parties_sans_liste": 2.5,
+  "anomalies": []
+}
