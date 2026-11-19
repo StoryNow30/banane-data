@@ -1,0 +1,93 @@
+partie,cut,label,statut,intents,decision,comparable,pairStatut,ecartMm,gauche,droite,lidar,echecs
+6,9223,VALIDATE_CORRECTED_BOTH,complete,2,Shift+Space,false,excluded,3,3,1,partial-resource-limit,paire non comparable ; 2 intentions
+7,3,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,3,0,3,complete-loaded-buffers,
+7,4,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,8,3,8,complete-loaded-buffers,
+7,5,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,5,5,5,partial-interrupted,
+7,42,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,9,9,0,complete-loaded-buffers,
+7,123,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,121,57,121,partial-resource-limit,
+7,124,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,121,57,121,partial-resource-limit,
+7,125,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,121,56,121,partial-resource-limit,
+7,126,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,115,53,115,partial-interrupted,
+7,166,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,19,0,19,partial-interrupted,
+7,167,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,6,5,6,complete-loaded-buffers,
+7,698,VALIDATE_CORRECTED_BOTH,complete,2,Shift+Space,false,excluded,5,5,4,complete-loaded-buffers,paire non comparable ; 2 intentions
+7,3963,VALIDATE_CORRECTED_BOTH,partial,1,Shift+Space,true,comparable-candidate,4,4,3,not-captured,statut partial
+8,4894,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,40,0,40,partial-resource-limit,
+8,4895,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,5,5,5,complete-loaded-buffers,
+8,4896,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,8,2,8,complete-loaded-buffers,
+8,4907,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,7,7,0,complete-loaded-buffers,
+9,1519,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,7,5,7,complete-loaded-buffers,
+9,1522,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,6,4,6,partial-resource-limit,
+9,1541,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,4,3,4,partial-interrupted,
+9,1542,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,false,excluded,5,4,5,partial-resource-limit,paire non comparable
+9,1543,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,6,6,6,partial-interrupted,
+9,1606,VALIDATE_CORRECTED_BOTH,complete,2,Shift+Space,true,comparable-candidate,6,6,0,partial-interrupted,2 intentions
+9,1645,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,5,5,0,partial-resource-limit,
+9,1646,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,7,7,0,partial-resource-limit,
+9,1647,VALIDATE_CORRECTED_BOTH,complete,2,Shift+Space,false,excluded,0,0,0,partial-resource-limit,paire non comparable ; 2 intentions ; déplacement < 1 mm
+9,1648,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,8,7,8,partial-interrupted,
+9,1650,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,6,6,6,partial-interrupted,
+9,1691,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,31,0,31,partial-resource-limit,
+9,1693,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,17,0,17,partial-interrupted,
+9,1694,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,false,excluded,10,4,10,partial-resource-limit,paire non comparable
+9,1695,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,11,0,11,partial-interrupted,
+9,1696,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,false,excluded,9,6,9,partial-resource-limit,paire non comparable
+9,1697,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,false,excluded,4,3,4,partial-resource-limit,paire non comparable
+9,1698,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,9,3,9,partial-interrupted,
+9,1699,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,false,excluded,4,0,4,partial-resource-limit,paire non comparable
+9,1711,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,7,4,7,partial-resource-limit,
+9,2560,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,5,0,5,complete-loaded-buffers,
+9,3341,VALIDATE_CORRECTED_BOTH,partial,1,Shift+Space,true,comparable-candidate,5,5,3,not-captured,statut partial
+9,3623,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,false,excluded,5,5,1,partial-resource-limit,paire non comparable
+9,4621,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,6,6,0,partial-resource-limit,
+10,617,VALIDATE_CORRECTED_RIGHT_ONLY,partial,1,Shift+Space,true,comparable-candidate,5,0,5,not-captured,statut partial
+10,791,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,3,3,0,complete-loaded-buffers,
+10,6201,VALIDATE_CORRECTED_BOTH,partial,1,Shift+Space,true,comparable-candidate,7,4,7,not-captured,statut partial
+10,6202,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,9,0,9,partial-resource-limit,
+10,7422,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,8,8,8,complete-loaded-buffers,
+10,8560,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,4,4,3,complete-loaded-buffers,
+10,9252,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,5,4,5,complete-loaded-buffers,
+10,9253,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,11,0,11,partial-resource-limit,
+11,927,VALIDATE_CORRECTED_BOTH,partial,1,Shift+Space,true,comparable-candidate,7,5,7,not-captured,statut partial
+11,932,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,15,4,15,partial-interrupted,
+11,1725,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,43,43,0,complete-loaded-buffers,
+11,1726,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,10,10,0,partial-interrupted,
+11,1727,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,4,0,4,complete-loaded-buffers,
+11,9628,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,6,6,0,partial-resource-limit,
+11,9629,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,5,5,0,partial-resource-limit,
+11,9630,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,false,excluded,3,3,0,complete-loaded-buffers,paire non comparable
+12,3438,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,8,7,8,complete-loaded-buffers,
+12,3480,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,7,0,7,complete-loaded-buffers,
+12,4546,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,5,3,5,complete-loaded-buffers,
+12,4547,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,7,7,7,complete-loaded-buffers,
+12,4550,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,6,6,0,complete-loaded-buffers,
+12,4669,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,6,6,0,complete-loaded-buffers,
+12,4826,VALIDATE_CORRECTED_BOTH,partial,1,Shift+Space,true,comparable-candidate,7,7,6,not-captured,statut partial
+13,4011,VALIDATE_CORRECTED_BOTH,partial,1,Shift+Space,true,comparable-candidate,115,115,50,not-captured,statut partial
+13,4672,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,7,0,7,complete-loaded-buffers,
+13,4785,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,103,103,40,partial-resource-limit,
+13,4786,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,5,0,5,complete-loaded-buffers,
+14,2176,VALIDATE_CORRECTED_RIGHT_ONLY,partial,1,Shift+Space,true,comparable-candidate,5,0,5,not-captured,statut partial
+14,2180,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,false,excluded,20,0,20,complete-loaded-buffers,paire non comparable
+14,2181,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,false,excluded,22,0,22,partial-interrupted,paire non comparable
+14,2182,VALIDATE_CORRECTED_RIGHT_ONLY,partial,1,Shift+Space,false,excluded,29,0,29,,statut partial ; paire non comparable
+14,2183,VALIDATE_CORRECTED_RIGHT_ONLY,partial,1,Shift+Space,false,excluded,33,0,33,,statut partial ; paire non comparable
+14,2184,VALIDATE_CORRECTED_RIGHT_ONLY,partial,1,Shift+Space,false,excluded,31,0,31,,statut partial ; paire non comparable
+14,2185,VALIDATE_CORRECTED_RIGHT_ONLY,partial,1,Shift+Space,false,excluded,5,0,5,,statut partial ; paire non comparable
+14,2187,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,5,0,5,partial-resource-limit,
+14,4418,VALIDATE_CORRECTED_BOTH,partial,1,Shift+Space,true,comparable-candidate,4,4,4,not-captured,statut partial
+14,4427,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,4,4,3,partial-resource-limit,
+14,5163,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,5,5,0,partial-resource-limit,
+14,7862,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,5,5,0,partial-interrupted,
+15,73,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,3,0,3,complete-loaded-buffers,
+15,74,VALIDATE_CORRECTED_RIGHT_ONLY,complete,2,Shift+Space,true,comparable-candidate,0,0,0,partial-resource-limit,2 intentions ; déplacement < 1 mm
+15,2202,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,false,excluded,6,6,0,complete-loaded-buffers,paire non comparable
+15,2214,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,33,33,0,partial-resource-limit,
+15,2216,VALIDATE_CORRECTED_RIGHT_ONLY,complete,2,Shift+Space,true,comparable-candidate,0,0,0,partial-resource-limit,2 intentions ; déplacement < 1 mm
+15,2217,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,false,excluded,5,0,5,partial-resource-limit,paire non comparable
+15,6400,VALIDATE_CORRECTED_BOTH,partial,3,Shift+Space,true,comparable-candidate,0,0,0,partial-resource-limit,statut partial ; 3 intentions ; déplacement < 1 mm
+15,6457,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,false,excluded,10,10,0,partial-resource-limit,paire non comparable
+15,6463,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,false,excluded,12,0,12,partial-interrupted,paire non comparable
+15,6474,VALIDATE_CORRECTED_RIGHT_ONLY,complete,1,Shift+Space,true,comparable-candidate,3,0,3,partial-resource-limit,
+15,6619,VALIDATE_CORRECTED_LEFT_ONLY,complete,1,Shift+Space,true,comparable-candidate,4,4,0,partial-resource-limit,
+15,9694,VALIDATE_CORRECTED_BOTH,complete,1,Shift+Space,true,comparable-candidate,56,56,20,partial-interrupted,
