@@ -155,6 +155,7 @@ function cumul(t, cause, pop) {
 const muetsPoses = t => t.poses - t.p.etablie;
 const muetsVisites = t => t.visites - t.v.etablie;
 const pct = (n, d) => d ? Math.round(1000 * n / d) / 10 : null;
+const pctTxt = (n, d) => d ? `${pct(n, d)} %` : '—';
 
 function main() {
   const o = args(process.argv.slice(2));
@@ -267,7 +268,7 @@ function main() {
   L.push('');
   L.push('| lot | parties | cuts visités | cuts posés | muets (posés) | % muet (posés) | % muet (visités) | établie (posés) | liste-absente | liste-courte | cut-hors-liste | voie-courante-insuffisante |');
   L.push('|---|---|---|---|---|---|---|---|---|---|---|---|');
-  const ligne = (nom, parties, t) => `| ${nom} | ${parties} | ${t.visites} | ${t.poses} | ${muetsPoses(t)} | ${pct(muetsPoses(t), t.poses)} % | ${pct(muetsVisites(t), t.visites)} % | ${t.p.etablie} | ${t.p['liste-absente']} | ${t.p['liste-courte']} | ${t.p['cut-hors-liste']} | ${t.p['voie-courante-insuffisante']} |`;
+  const ligne = (nom, parties, t) => `| ${nom} | ${parties} | ${t.visites} | ${t.poses} | ${muetsPoses(t)} | ${pctTxt(muetsPoses(t), t.poses)} | ${pctTxt(muetsVisites(t), t.visites)} | ${t.p.etablie} | ${t.p['liste-absente']} | ${t.p['liste-courte']} | ${t.p['cut-hors-liste']} | ${t.p['voie-courante-insuffisante']} |`;
   for (const x of parLot) L.push(ligne(x.lot, x.parties, x.t));
   L.push(ligne('**total principal (V18 à V20)**', nLotsPartiesPrincipal, totalPrincipal));
   if (parLot.some(x => x.lot === 'V15')) L.push(ligne('total avec V15 (comparaison)', nLotsParties, total));
@@ -278,7 +279,7 @@ function main() {
   L.push('|---|---|---|---|---|---|---|---|---|---|---|---|');
   for (const x of parLotPartie) {
     const nom = `${x.lot} p${x.partie}`;
-    L.push(`| ${nom} | ${x.liste_presente ? 'oui' : 'non'} | ${x.lignes_utilisables} | ${x.t.visites} | ${x.t.poses} | ${muetsPoses(x.t)} | ${pct(muetsPoses(x.t), x.t.poses)} % | ${x.t.p.etablie} | ${x.t.p['liste-absente']} | ${x.t.p['liste-courte']} | ${x.t.p['cut-hors-liste']} | ${x.t.p['voie-courante-insuffisante']} |`);
+    L.push(`| ${nom} | ${x.liste_presente ? 'oui' : 'non'} | ${x.lignes_utilisables} | ${x.t.visites} | ${x.t.poses} | ${muetsPoses(x.t)} | ${pctTxt(muetsPoses(x.t), x.t.poses)} | ${x.t.p.etablie} | ${x.t.p['liste-absente']} | ${x.t.p['liste-courte']} | ${x.t.p['cut-hors-liste']} | ${x.t.p['voie-courante-insuffisante']} |`);
   }
   L.push('');
   L.push('## Ce que la mesure compte');
@@ -358,7 +359,7 @@ function main() {
   process.stdout.write(`lots ${nLots} ; lots-parties ${nLotsParties} (sans liste ${nLotsPartiesSansListe}) ; cuts ${detail.length} ; visités ${total.visites} ; posés ${total.poses}\n`);
   process.stdout.write(`principal : muets posés ${muetsPoses(totalPrincipal)}/${totalPrincipal.poses} (${pct(muetsPoses(totalPrincipal), totalPrincipal.poses)} %) ; ` +
     CAUSES.map(c => `${c}=${totalPrincipal.p[c]}`).join(' ') + '\n');
-  for (const x of parLot) process.stdout.write(`  ${x.lot} : posés ${x.t.poses} ; muets ${muetsPoses(x.t)} (${pct(muetsPoses(x.t), x.t.poses)} %)\n`);
+  for (const x of parLot) process.stdout.write(`  ${x.lot} : posés ${x.t.poses} ; muets ${muetsPoses(x.t)} (${pctTxt(muetsPoses(x.t), x.t.poses)})\n`);
 }
 
 main();
