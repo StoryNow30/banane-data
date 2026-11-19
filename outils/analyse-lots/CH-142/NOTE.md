@@ -26,7 +26,9 @@ sont donnés à côté.
 - **posé sans écriture observée** : accepté sans écriture 2xx vue (compté à part, jamais fondu dans les posés).
 
 Contrôle de cohérence ÉTABLI : les posés ainsi comptés retombent exactement sur les « validés » des NOTES de
-lots — V18 1 361, V19.1 750, V15 784.
+lots — V18 1 361, V19.1 750, V15 784. V20 fait exception à ce contrôle : sa NOTE cite 211 « validés complets »
+(une autre mesure, confirmation serveur), alors que le journal porte 791 cuts acceptés ; c'est ce dernier
+chiffre qui est utilisé, comme pour les autres lots.
 
 ## Méthode
 
@@ -95,8 +97,9 @@ Lectures utiles :
 
 - Elle ne mesure pas les causes de mutisme **hors liste** : `calage-ligne`, `calage-lot` et `pose` du module
   (la pose de départ de la capture ne se cale pas). Elles demandent les captures et l'ordre du lot, pas seulement
-  la liste. Sur V18, la NOTE du lot compte 66 décisions non jugées ; les quatre causes ci-dessus n'en expliquent
-  que 14. L'écart (52) n'est pas ventilé ici.
+  la liste. Sur V18, la NOTE du lot compte 66 décisions non jugées sur 1 418 ; appliquées aux mêmes
+  1 418 cuts, les quatre causes ci-dessus en déclarent 14 muets. L'écart (52) relève d'autres motifs
+  (calage, pose, absence de décision) et n'est pas ventilé ici.
 - La liste de l'export est le **dernier instantané** de la partie, pas nécessairement celle chargée au moment du
   cut. Une liste absente de l'export ne prouve pas que la page ne l'avait pas (PROBABLE) ; elle prouve que
   l'export ne la porte pas.
